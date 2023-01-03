@@ -1,6 +1,15 @@
 /*
   Post-specific style
 */
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Hahmlet&family=Noto+Sans+KR:wght@400;500&display=swap); 
+
+* {
+  // font-family: 'NanumSquare',sans-serif;
+  // font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Hahmlet', serif;
+}
 
 @mixin btn-sharing-color($light-color, $important: false) {
   @if $important {
