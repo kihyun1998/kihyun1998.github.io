@@ -20,6 +20,7 @@ jobs:
 
       - name: Install dependencies and build 🔧 
         run: |
+          cd blogsaurus
           yarn install --frozen-lockfile 
           yarn build 
 
