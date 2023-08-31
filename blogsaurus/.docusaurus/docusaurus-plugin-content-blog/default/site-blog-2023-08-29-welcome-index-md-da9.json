@@ -39,11 +39,7 @@
     ]
   },
   "prevItem": {
-    "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-    "permalink": "/blog/design pattern rule"
-  },
-  "nextItem": {
-    "title": "Strategy pattern",
+    "title": "전략 패턴 - Strategy pattern",
     "permalink": "/blog/strategy pattern"
   }
 }

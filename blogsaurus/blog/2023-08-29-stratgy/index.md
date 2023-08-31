@@ -1,12 +1,10 @@
 ---
 slug: strategy pattern
-title: Strategy pattern
+title: 전략 패턴 - Strategy pattern
 authors: [kihyun]
 tags: [design pattern ,strategy pattern]
 ---
 
-# 전략 패턴 - Strategy Pattern
----
 
 ## 정의
 

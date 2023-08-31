@@ -5,9 +5,6 @@ authors: [kihyun]
 tags: [design pattern ,rule]
 ---
 
-# 객체지향 원칙 - SOLID
----
-
 ## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )
 
 ## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )

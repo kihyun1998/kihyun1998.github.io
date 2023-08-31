@@ -2,8 +2,8 @@
   "permalink": "/blog/strategy pattern",
   "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-stratgy/index.md",
   "source": "@site/blog/2023-08-29-stratgy/index.md",
-  "title": "Strategy pattern",
-  "description": "---",
+  "title": "전략 패턴 - Strategy pattern",
+  "description": "정의",
   "date": "2023-08-29T00:00:00.000Z",
   "formattedDate": "August 29, 2023",
   "tags": [
@@ -16,7 +16,7 @@
       "permalink": "/blog/tags/strategy-pattern"
     }
   ],
-  "readingTime": 1.47,
+  "readingTime": 1.465,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -29,7 +29,7 @@
   ],
   "frontMatter": {
     "slug": "strategy pattern",
-    "title": "Strategy pattern",
+    "title": "전략 패턴 - Strategy pattern",
     "authors": [
       "kihyun"
     ],
@@ -39,6 +39,10 @@
     ]
   },
   "prevItem": {
+    "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+    "permalink": "/blog/design pattern rule"
+  },
+  "nextItem": {
     "title": "Welcome",
     "permalink": "/blog/welcome"
   }
