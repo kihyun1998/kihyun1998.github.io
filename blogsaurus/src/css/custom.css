@@ -3,6 +3,26 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+ *{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url(../font/Noto_Sans_KR/static/NotoSansKR-Bold.ttf) format('truetype');
+  unicode-range: U+AC00-D7A3,U+0041-005A,U+0061-007A,U+0030-0039,U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+
+.hero__subtitle{
+  padding-top: 2em;
+}
+
+/* @font-face {
+  font-family: 'Josefin Sans';
+  src: url(../font/Josefin_Sans/static/JosefinSans-BoldItalic.ttf) format('truetype');
+  unicode-range:U+0041-005A,U+0061-007A,U+0030-0039,U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E ;
+} */
+
 
 /* You can override the default Infima variables here. */
 :root {

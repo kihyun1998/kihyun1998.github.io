@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "A Little \"Bit\"",
+  "tagline": "사소할지 몰라도 매일 매일🔥",
   "favicon": "img/favicon.ico",
   "url": "https://kihyun1998.github.io",
   "baseUrl": "/",
@@ -44,10 +44,10 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "A Little \"Bit\"",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/android-icon-48x48.png"
       },
       "items": [
         {
@@ -55,6 +55,18 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Tutorial"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "testSidebar",
+          "position": "left",
+          "label": "test"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "reactSidebar",
+          "position": "left",
+          "label": "React"
         },
         {
           "to": "/blog",

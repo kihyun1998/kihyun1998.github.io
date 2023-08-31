@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'R U Genius????',
-  tagline: 'Yes I am',
+  title: 'A Little \"Bit\"',
+  tagline: '사소할지 몰라도 매일 매일🔥',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -66,10 +66,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'A Little \"Bit\"',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/android-icon-48x48.png',
         },
         items: [
           {
@@ -77,6 +77,18 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
+          },
+          {
+            type:'docSidebar',
+            sidebarId:'testSidebar',
+            position:'left',
+            label:'test',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'reactSidebar',
+            position: 'left',
+            label: 'React'
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

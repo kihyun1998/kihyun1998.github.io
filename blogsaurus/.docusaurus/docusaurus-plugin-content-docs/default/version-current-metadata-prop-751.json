@@ -17,9 +17,7 @@
       },
       {
         "type": "category",
-        "label": "Tutorial - Basics",
-        "collapsible": true,
-        "collapsed": true,
+        "label": "Tutorials",
         "items": [
           {
             "type": "link",
@@ -56,16 +54,7 @@
             "label": "Congratulations!",
             "href": "/docs/tutorial-basics/congratulations",
             "docId": "tutorial-basics/congratulations"
-          }
-        ],
-        "href": "/docs/category/tutorial---basics"
-      },
-      {
-        "type": "category",
-        "label": "Tutorial - Extras",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
+          },
           {
             "type": "link",
             "label": "Manage Docs Versions",
@@ -79,7 +68,58 @@
             "docId": "tutorial-extras/translate-your-site"
           }
         ],
-        "href": "/docs/category/tutorial---extras"
+        "collapsed": true,
+        "collapsible": true
+      }
+    ],
+    "testSidebar": [
+      {
+        "type": "category",
+        "label": "Test",
+        "items": [
+          {
+            "type": "link",
+            "label": "Test 1",
+            "href": "/docs/test-first/test1",
+            "docId": "test-first/test1"
+          },
+          {
+            "type": "link",
+            "label": "Test 2",
+            "href": "/docs/test-first/test2",
+            "docId": "test-first/test2"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "link",
+        "label": "Test",
+        "href": "/docs/test",
+        "docId": "test"
+      }
+    ],
+    "reactSidebar": [
+      {
+        "type": "link",
+        "label": "React Intro",
+        "href": "/docs/react-intro",
+        "docId": "react-intro"
+      },
+      {
+        "type": "category",
+        "label": "React-Basic",
+        "items": [
+          {
+            "type": "link",
+            "label": "React 1",
+            "href": "/docs/react-basic/react1",
+            "docId": "react-basic/react1"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
       }
     ]
   },
@@ -89,6 +129,36 @@
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "tutorialSidebar"
+    },
+    "react-basic/react1": {
+      "id": "react-basic/react1",
+      "title": "React 1",
+      "description": "Now testing.",
+      "sidebar": "reactSidebar"
+    },
+    "react-intro": {
+      "id": "react-intro",
+      "title": "React Intro",
+      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "reactSidebar"
+    },
+    "test": {
+      "id": "test",
+      "title": "Test",
+      "description": "This is Test Page",
+      "sidebar": "testSidebar"
+    },
+    "test-first/test1": {
+      "id": "test-first/test1",
+      "title": "Test 1",
+      "description": "This is test one.",
+      "sidebar": "testSidebar"
+    },
+    "test-first/test2": {
+      "id": "test-first/test2",
+      "title": "Test 2",
+      "description": "This is test two.",
+      "sidebar": "testSidebar"
     },
     "tutorial-basics/congratulations": {
       "id": "tutorial-basics/congratulations",

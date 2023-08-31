@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/strategy pattern",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-stratgy/index.md",
+  "source": "@site/blog/2023-08-29-stratgy/index.md",
+  "title": "Strategy pattern",
+  "description": "---",
+  "date": "2023-08-29T00:00:00.000Z",
+  "formattedDate": "August 29, 2023",
+  "tags": [
+    {
+      "label": "design pattern",
+      "permalink": "/blog/tags/design-pattern"
+    },
+    {
+      "label": "strategy pattern",
+      "permalink": "/blog/tags/strategy-pattern"
+    }
+  ],
+  "readingTime": 1.47,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "strategy pattern",
+    "title": "Strategy pattern",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "design pattern",
+      "strategy pattern"
+    ]
+  },
+  "prevItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

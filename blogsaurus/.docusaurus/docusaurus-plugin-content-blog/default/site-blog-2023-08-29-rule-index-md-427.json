@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/design pattern rule",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-rule/index.md",
+  "source": "@site/blog/2023-08-29-rule/index.md",
+  "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+  "description": "---",
+  "date": "2023-08-29T00:00:00.000Z",
+  "formattedDate": "August 29, 2023",
+  "tags": [
+    {
+      "label": "design pattern",
+      "permalink": "/blog/tags/design-pattern"
+    },
+    {
+      "label": "rule",
+      "permalink": "/blog/tags/rule"
+    }
+  ],
+  "readingTime": 1.05,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "design pattern rule",
+    "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "design pattern",
+      "rule"
+    ]
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

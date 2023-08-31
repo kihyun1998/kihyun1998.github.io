@@ -1,0 +1,788 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
+          "contentPath": "C:\\kihyun1998.github.io\\blogsaurus\\docs",
+          "contentPathLocalized": "C:\\kihyun1998.github.io\\blogsaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Tutorial Intro",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
+              "unversionedId": "react-basic/react1",
+              "id": "react-basic/react1",
+              "title": "React 1",
+              "description": "Now testing.",
+              "source": "@site/docs/react-basic/react1.md",
+              "sourceDirName": "react-basic",
+              "slug": "/react-basic/react1",
+              "permalink": "/docs/react-basic/react1",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basic/react1.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "reactSidebar",
+              "previous": {
+                "title": "React Intro",
+                "permalink": "/docs/react-intro"
+              }
+            },
+            {
+              "unversionedId": "react-intro",
+              "id": "react-intro",
+              "title": "React Intro",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/react-intro.md",
+              "sourceDirName": ".",
+              "slug": "/react-intro",
+              "permalink": "/docs/react-intro",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "reactSidebar",
+              "next": {
+                "title": "React 1",
+                "permalink": "/docs/react-basic/react1"
+              }
+            },
+            {
+              "unversionedId": "test",
+              "id": "test",
+              "title": "Test",
+              "description": "This is Test Page",
+              "source": "@site/docs/test.md",
+              "sourceDirName": ".",
+              "slug": "/test",
+              "permalink": "/docs/test",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/test.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "description": "This is Test Page"
+              },
+              "sidebar": "testSidebar",
+              "previous": {
+                "title": "Test 2",
+                "permalink": "/docs/test-first/test2"
+              }
+            },
+            {
+              "unversionedId": "test-first/test1",
+              "id": "test-first/test1",
+              "title": "Test 1",
+              "description": "This is test one.",
+              "source": "@site/docs/test-first/test1.md",
+              "sourceDirName": "test-first",
+              "slug": "/test-first/test1",
+              "permalink": "/docs/test-first/test1",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/test-first/test1.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "testSidebar",
+              "next": {
+                "title": "Test 2",
+                "permalink": "/docs/test-first/test2"
+              }
+            },
+            {
+              "unversionedId": "test-first/test2",
+              "id": "test-first/test2",
+              "title": "Test 2",
+              "description": "This is test two.",
+              "source": "@site/docs/test-first/test2.md",
+              "sourceDirName": "test-first",
+              "slug": "/test-first/test2",
+              "permalink": "/docs/test-first/test2",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/test-first/test2.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "testSidebar",
+              "previous": {
+                "title": "Test 1",
+                "permalink": "/docs/test-first/test1"
+              },
+              "next": {
+                "title": "Test",
+                "permalink": "/docs/test"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/congratulations",
+              "id": "tutorial-basics/congratulations",
+              "title": "Congratulations!",
+              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+              "source": "@site/docs/tutorial-basics/congratulations.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/congratulations",
+              "permalink": "/docs/tutorial-basics/congratulations",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy your site",
+                "permalink": "/docs/tutorial-basics/deploy-your-site"
+              },
+              "next": {
+                "title": "Manage Docs Versions",
+                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-blog-post",
+              "id": "tutorial-basics/create-a-blog-post",
+              "title": "Create a Blog Post",
+              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-blog-post",
+              "permalink": "/docs/tutorial-basics/create-a-blog-post",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Document",
+                "permalink": "/docs/tutorial-basics/create-a-document"
+              },
+              "next": {
+                "title": "Markdown Features",
+                "permalink": "/docs/tutorial-basics/markdown-features"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-document",
+              "id": "tutorial-basics/create-a-document",
+              "title": "Create a Document",
+              "description": "Documents are groups of pages connected through:",
+              "source": "@site/docs/tutorial-basics/create-a-document.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-document",
+              "permalink": "/docs/tutorial-basics/create-a-document",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              },
+              "next": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-page",
+              "id": "tutorial-basics/create-a-page",
+              "title": "Create a Page",
+              "description": "Add Markdown or React files to src/pages to create a standalone page:",
+              "source": "@site/docs/tutorial-basics/create-a-page.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-page",
+              "permalink": "/docs/tutorial-basics/create-a-page",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial Intro",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Create a Document",
+                "permalink": "/docs/tutorial-basics/create-a-document"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/deploy-your-site",
+              "id": "tutorial-basics/deploy-your-site",
+              "title": "Deploy your site",
+              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/deploy-your-site",
+              "permalink": "/docs/tutorial-basics/deploy-your-site",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Markdown Features",
+                "permalink": "/docs/tutorial-basics/markdown-features"
+              },
+              "next": {
+                "title": "Congratulations!",
+                "permalink": "/docs/tutorial-basics/congratulations"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/markdown-features",
+              "id": "tutorial-basics/markdown-features",
+              "title": "Markdown Features",
+              "description": "Docusaurus supports Markdown and a few additional features.",
+              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/markdown-features",
+              "permalink": "/docs/tutorial-basics/markdown-features",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+              },
+              "next": {
+                "title": "Deploy your site",
+                "permalink": "/docs/tutorial-basics/deploy-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-extras/manage-docs-versions",
+              "id": "tutorial-extras/manage-docs-versions",
+              "title": "Manage Docs Versions",
+              "description": "Docusaurus can manage multiple versions of your docs.",
+              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/manage-docs-versions",
+              "permalink": "/docs/tutorial-extras/manage-docs-versions",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Congratulations!",
+                "permalink": "/docs/tutorial-basics/congratulations"
+              },
+              "next": {
+                "title": "Translate your site",
+                "permalink": "/docs/tutorial-extras/translate-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-extras/translate-your-site",
+              "id": "tutorial-extras/translate-your-site",
+              "title": "Translate your site",
+              "description": "Let's translate docs/intro.md to French.",
+              "source": "@site/docs/tutorial-extras/translate-your-site.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/translate-your-site",
+              "permalink": "/docs/tutorial-extras/translate-your-site",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Manage Docs Versions",
+                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Tutorials",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-page"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-document"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-blog-post"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/markdown-features"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/deploy-your-site"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/congratulations"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-extras/manage-docs-versions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-extras/translate-your-site"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
+            "testSidebar": [
+              {
+                "type": "category",
+                "label": "Test",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "test-first/test1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "test-first/test2"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "doc",
+                "id": "test"
+              }
+            ],
+            "reactSidebar": [
+              {
+                "type": "doc",
+                "id": "react-intro"
+              },
+              {
+                "type": "category",
+                "label": "React-Basic",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-basic/react1"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "design pattern rule",
+          "metadata": {
+            "permalink": "/blog/design pattern rule",
+            "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-rule/index.md",
+            "source": "@site/blog/2023-08-29-rule/index.md",
+            "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+            "description": "---",
+            "date": "2023-08-29T00:00:00.000Z",
+            "formattedDate": "August 29, 2023",
+            "tags": [
+              {
+                "label": "design pattern",
+                "permalink": "/blog/tags/design-pattern"
+              },
+              {
+                "label": "rule",
+                "permalink": "/blog/tags/rule"
+              }
+            ],
+            "readingTime": 1.05,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Park Ki Hyun",
+                "title": "Deveploper",
+                "url": "https://github.com/kihyun1998",
+                "imageURL": "https://github.com/kihyun1998.png",
+                "key": "kihyun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "design pattern rule",
+              "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+              "authors": [
+                "kihyun"
+              ],
+              "tags": [
+                "design pattern",
+                "rule"
+              ]
+            },
+            "nextItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          },
+          "content": "---\r\n\r\n## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )"
+        },
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-welcome/index.md",
+            "source": "@site/blog/2023-08-29-welcome/index.md",
+            "title": "Welcome",
+            "description": "Docusaurus 첫번째 글이다.",
+            "date": "2023-08-29T00:00:00.000Z",
+            "formattedDate": "August 29, 2023",
+            "tags": [
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              },
+              {
+                "label": "first post",
+                "permalink": "/blog/tags/first-post"
+              }
+            ],
+            "readingTime": 0.095,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Park Ki Hyun",
+                "title": "Deveploper",
+                "url": "https://github.com/kihyun1998",
+                "imageURL": "https://github.com/kihyun1998.png",
+                "key": "kihyun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome",
+              "authors": [
+                "kihyun"
+              ],
+              "tags": [
+                "docusaurus",
+                "first post"
+              ]
+            },
+            "prevItem": {
+              "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+              "permalink": "/blog/design pattern rule"
+            },
+            "nextItem": {
+              "title": "Strategy pattern",
+              "permalink": "/blog/strategy pattern"
+            }
+          },
+          "content": "Docusaurus 첫번째 글이다.\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\n귀여운 공룡 인형이 있다."
+        },
+        {
+          "id": "strategy pattern",
+          "metadata": {
+            "permalink": "/blog/strategy pattern",
+            "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-stratgy/index.md",
+            "source": "@site/blog/2023-08-29-stratgy/index.md",
+            "title": "Strategy pattern",
+            "description": "---",
+            "date": "2023-08-29T00:00:00.000Z",
+            "formattedDate": "August 29, 2023",
+            "tags": [
+              {
+                "label": "design pattern",
+                "permalink": "/blog/tags/design-pattern"
+              },
+              {
+                "label": "strategy pattern",
+                "permalink": "/blog/tags/strategy-pattern"
+              }
+            ],
+            "readingTime": 1.47,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Park Ki Hyun",
+                "title": "Deveploper",
+                "url": "https://github.com/kihyun1998",
+                "imageURL": "https://github.com/kihyun1998.png",
+                "key": "kihyun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "strategy pattern",
+              "title": "Strategy pattern",
+              "authors": [
+                "kihyun"
+              ],
+              "tags": [
+                "design pattern",
+                "strategy pattern"
+              ]
+            },
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          },
+          "content": "---\r\n\r\n## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "design pattern rule",
+            "welcome",
+            "strategy pattern"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 3,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/design-pattern": {
+          "label": "design pattern",
+          "items": [
+            "design pattern rule",
+            "strategy pattern"
+          ],
+          "permalink": "/blog/tags/design-pattern",
+          "pages": [
+            {
+              "items": [
+                "design pattern rule",
+                "strategy pattern"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/design-pattern",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/rule": {
+          "label": "rule",
+          "items": [
+            "design pattern rule"
+          ],
+          "permalink": "/blog/tags/rule",
+          "pages": [
+            {
+              "items": [
+                "design pattern rule"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/rule",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/docusaurus": {
+          "label": "docusaurus",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/first-post": {
+          "label": "first post",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/first-post",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/first-post",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/strategy-pattern": {
+          "label": "strategy pattern",
+          "items": [
+            "strategy pattern"
+          ],
+          "permalink": "/blog/tags/strategy-pattern",
+          "pages": [
+            {
+              "items": [
+                "strategy pattern"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/strategy-pattern",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

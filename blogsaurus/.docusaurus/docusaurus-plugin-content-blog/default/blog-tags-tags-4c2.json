@@ -1,22 +1,27 @@
 [
   {
-    "label": "facebook",
-    "permalink": "/blog/tags/facebook",
-    "count": 1
+    "label": "design pattern",
+    "permalink": "/blog/tags/design-pattern",
+    "count": 2
   },
   {
-    "label": "hello",
-    "permalink": "/blog/tags/hello",
-    "count": 2
+    "label": "rule",
+    "permalink": "/blog/tags/rule",
+    "count": 1
   },
   {
     "label": "docusaurus",
     "permalink": "/blog/tags/docusaurus",
-    "count": 4
+    "count": 1
   },
   {
-    "label": "hola",
-    "permalink": "/blog/tags/hola",
+    "label": "first post",
+    "permalink": "/blog/tags/first-post",
+    "count": 1
+  },
+  {
+    "label": "strategy pattern",
+    "permalink": "/blog/tags/strategy-pattern",
     "count": 1
   }
 ]

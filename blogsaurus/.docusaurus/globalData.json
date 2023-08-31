@@ -16,6 +16,31 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "react-basic/react1",
+              "path": "/docs/react-basic/react1",
+              "sidebar": "reactSidebar"
+            },
+            {
+              "id": "react-intro",
+              "path": "/docs/react-intro",
+              "sidebar": "reactSidebar"
+            },
+            {
+              "id": "test",
+              "path": "/docs/test",
+              "sidebar": "testSidebar"
+            },
+            {
+              "id": "test-first/test1",
+              "path": "/docs/test-first/test1",
+              "sidebar": "testSidebar"
+            },
+            {
+              "id": "test-first/test2",
+              "path": "/docs/test-first/test2",
+              "sidebar": "testSidebar"
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "path": "/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
@@ -54,16 +79,6 @@
               "id": "tutorial-extras/translate-your-site",
               "path": "/docs/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
-              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
@@ -72,6 +87,18 @@
               "link": {
                 "path": "/docs/intro",
                 "label": "intro"
+              }
+            },
+            "testSidebar": {
+              "link": {
+                "path": "/docs/test-first/test1",
+                "label": "test-first/test1"
+              }
+            },
+            "reactSidebar": {
+              "link": {
+                "path": "/docs/react-intro",
+                "label": "react-intro"
               }
             }
           }

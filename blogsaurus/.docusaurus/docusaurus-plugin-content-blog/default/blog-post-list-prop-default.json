@@ -2,20 +2,16 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+      "permalink": "/blog/design pattern rule"
+    },
+    {
       "title": "Welcome",
       "permalink": "/blog/welcome"
     },
     {
-      "title": "MDX Blog Post",
-      "permalink": "/blog/mdx-blog-post"
-    },
-    {
-      "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post"
-    },
-    {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post"
+      "title": "Strategy pattern",
+      "permalink": "/blog/strategy pattern"
     }
   ]
 }

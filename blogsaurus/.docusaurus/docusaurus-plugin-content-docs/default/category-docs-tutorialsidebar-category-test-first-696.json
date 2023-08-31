@@ -1,0 +1,16 @@
+{
+  "title": "Test - First",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/test---first",
+  "permalink": "/docs/category/test---first",
+  "navigation": {
+    "previous": {
+      "title": "Tutorial Intro",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Test 1",
+      "permalink": "/docs/test-first/test1"
+    }
+  }
+}

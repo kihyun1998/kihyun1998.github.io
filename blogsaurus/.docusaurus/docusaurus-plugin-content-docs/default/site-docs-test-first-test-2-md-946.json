@@ -1,0 +1,27 @@
+{
+  "unversionedId": "test-first/test2",
+  "id": "test-first/test2",
+  "title": "Test 2",
+  "description": "This is test two.",
+  "source": "@site/docs/test-first/test2.md",
+  "sourceDirName": "test-first",
+  "slug": "/test-first/test2",
+  "permalink": "/docs/test-first/test2",
+  "draft": false,
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/test-first/test2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "testSidebar",
+  "previous": {
+    "title": "Test 1",
+    "permalink": "/docs/test-first/test1"
+  },
+  "next": {
+    "title": "Test",
+    "permalink": "/docs/test"
+  }
+}
