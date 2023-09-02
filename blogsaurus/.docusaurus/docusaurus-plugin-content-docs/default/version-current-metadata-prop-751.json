@@ -121,9 +121,43 @@
         "collapsed": true,
         "collapsible": true
       }
+    ],
+    "blogSidebar": [
+      {
+        "type": "link",
+        "label": "Blog intro",
+        "href": "/docs/blog-intro",
+        "docId": "blog-intro"
+      },
+      {
+        "type": "category",
+        "label": "Blog - Config",
+        "items": [
+          {
+            "type": "link",
+            "label": "Set 1",
+            "href": "/docs/blog-configuration/react1",
+            "docId": "blog-configuration/react1"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
     ]
   },
   "docs": {
+    "blog-configuration/react1": {
+      "id": "blog-configuration/react1",
+      "title": "Set 1",
+      "description": "Now testing.",
+      "sidebar": "blogSidebar"
+    },
+    "blog-intro": {
+      "id": "blog-intro",
+      "title": "Blog intro",
+      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "blogSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "Tutorial Intro",

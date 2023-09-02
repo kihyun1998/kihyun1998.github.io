@@ -11,6 +11,16 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "blog-configuration/react1",
+              "path": "/docs/blog-configuration/react1",
+              "sidebar": "blogSidebar"
+            },
+            {
+              "id": "blog-intro",
+              "path": "/docs/blog-intro",
+              "sidebar": "blogSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -99,6 +109,12 @@
               "link": {
                 "path": "/docs/react-intro",
                 "label": "react-intro"
+              }
+            },
+            "blogSidebar": {
+              "link": {
+                "path": "/docs/blog-intro",
+                "label": "blog-intro"
               }
             }
           }

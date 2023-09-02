@@ -28,7 +28,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
+          "sidebarPath": "C:\\Users\\kihyu\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
           "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -36,7 +36,7 @@ export default {
           "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\kihyun1998.github.io\\blogsaurus\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\kihyu\\kihyun1998.github.io\\blogsaurus\\src\\css\\custom.css"
         }
       }
     ]
@@ -50,6 +50,12 @@ export default {
         "src": "img/android-icon-48x48.png"
       },
       "items": [
+        {
+          "type": "docSidebar",
+          "sidebarId": "blogSidebar",
+          "position": "left",
+          "label": "How to Deploy"
+        },
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",

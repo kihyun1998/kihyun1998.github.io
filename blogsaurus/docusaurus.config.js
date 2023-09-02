@@ -74,6 +74,12 @@ const config = {
         items: [
           {
             type: 'docSidebar',
+            sidebarId: 'blogSidebar',
+            position: 'left',
+            label:'How to Deploy'
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',

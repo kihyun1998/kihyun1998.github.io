@@ -1,0 +1,23 @@
+{
+  "unversionedId": "blog-intro",
+  "id": "blog-intro",
+  "title": "Blog intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/blog-intro.md",
+  "sourceDirName": ".",
+  "slug": "/blog-intro",
+  "permalink": "/docs/blog-intro",
+  "draft": false,
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "blogSidebar",
+  "next": {
+    "title": "Set 1",
+    "permalink": "/docs/blog-configuration/react1"
+  }
+}

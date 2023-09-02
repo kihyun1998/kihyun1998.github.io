@@ -15,10 +15,56 @@
           "editUrlLocalized": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
-          "contentPath": "C:\\kihyun1998.github.io\\blogsaurus\\docs",
-          "contentPathLocalized": "C:\\kihyun1998.github.io\\blogsaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\Users\\kihyu\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
+          "contentPath": "C:\\Users\\kihyu\\kihyun1998.github.io\\blogsaurus\\docs",
+          "contentPathLocalized": "C:\\Users\\kihyu\\kihyun1998.github.io\\blogsaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
+            {
+              "unversionedId": "blog-configuration/react1",
+              "id": "blog-configuration/react1",
+              "title": "Set 1",
+              "description": "Now testing.",
+              "source": "@site/docs/blog-configuration/react1.md",
+              "sourceDirName": "blog-configuration",
+              "slug": "/blog-configuration/react1",
+              "permalink": "/docs/blog-configuration/react1",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-configuration/react1.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "blogSidebar",
+              "previous": {
+                "title": "Blog intro",
+                "permalink": "/docs/blog-intro"
+              }
+            },
+            {
+              "unversionedId": "blog-intro",
+              "id": "blog-intro",
+              "title": "Blog intro",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/blog-intro.md",
+              "sourceDirName": ".",
+              "slug": "/blog-intro",
+              "permalink": "/docs/blog-intro",
+              "draft": false,
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "blogSidebar",
+              "next": {
+                "title": "Set 1",
+                "permalink": "/docs/blog-configuration/react1"
+              }
+            },
             {
               "unversionedId": "intro",
               "id": "intro",
@@ -455,6 +501,24 @@
                   {
                     "type": "doc",
                     "id": "react-basic/react1"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
+            "blogSidebar": [
+              {
+                "type": "doc",
+                "id": "blog-intro"
+              },
+              {
+                "type": "category",
+                "label": "Blog - Config",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "blog-configuration/react1"
                   }
                 ],
                 "collapsed": true,
