@@ -76,7 +76,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'blogSidebar',
             position: 'left',
-            label:'How to Deploy'
+            label:'블로그 배포하기'
           },
           {
             type: 'docSidebar',
@@ -150,6 +150,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
+        additionalLanguages:['java','csharp','go','python','powershell'],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
