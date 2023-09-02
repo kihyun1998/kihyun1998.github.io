@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'f1f'),
+    component: ComponentCreator('/blog', 'c0a'),
     exact: true
   },
   {
@@ -64,7 +64,7 @@ export default [
   },
   {
     path: '/blog/tags/design-pattern',
-    component: ComponentCreator('/blog/tags/design-pattern', '13d'),
+    component: ComponentCreator('/blog/tags/design-pattern', '58d'),
     exact: true
   },
   {
@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '36b'),
+    component: ComponentCreator('/docs', '751'),
     routes: [
       {
         path: '/docs/blog-configuration/install_node',
@@ -110,6 +110,12 @@ export default [
       {
         path: '/docs/blog-configuration/install_program',
         component: ComponentCreator('/docs/blog-configuration/install_program', 'c11'),
+        exact: true,
+        sidebar: "blogSidebar"
+      },
+      {
+        path: '/docs/blog-configuration/install_program copy',
+        component: ComponentCreator('/docs/blog-configuration/install_program copy', 'e7a'),
         exact: true,
         sidebar: "blogSidebar"
       },

@@ -144,6 +144,12 @@
             "label": "사용할 프로그램들 설치",
             "href": "/docs/blog-configuration/install_program",
             "docId": "blog-configuration/install_program"
+          },
+          {
+            "type": "link",
+            "label": "사용할 프로그램들 설치",
+            "href": "/docs/blog-configuration/install_program copy",
+            "docId": "blog-configuration/install_program copy"
           }
         ],
         "collapsed": true,
@@ -160,6 +166,12 @@
     },
     "blog-configuration/install_program": {
       "id": "blog-configuration/install_program",
+      "title": "사용할 프로그램들 설치",
+      "description": "ViSual Studio Code 설치",
+      "sidebar": "blogSidebar"
+    },
+    "blog-configuration/install_program copy": {
+      "id": "blog-configuration/install_program copy",
       "title": "사용할 프로그램들 설치",
       "description": "준비 중",
       "sidebar": "blogSidebar"

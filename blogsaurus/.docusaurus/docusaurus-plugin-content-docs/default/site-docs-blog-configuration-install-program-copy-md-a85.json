@@ -1,0 +1,23 @@
+{
+  "unversionedId": "blog-configuration/install_program copy",
+  "id": "blog-configuration/install_program copy",
+  "title": "사용할 프로그램들 설치",
+  "description": "준비 중",
+  "source": "@site/docs/blog-configuration/install_program copy.md",
+  "sourceDirName": "blog-configuration",
+  "slug": "/blog-configuration/install_program copy",
+  "permalink": "/docs/blog-configuration/install_program copy",
+  "draft": false,
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-configuration/install_program copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "blogSidebar",
+  "previous": {
+    "title": "사용할 프로그램들 설치",
+    "permalink": "/docs/blog-configuration/install_program"
+  }
+}

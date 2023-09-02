@@ -2,7 +2,7 @@
   "unversionedId": "blog-configuration/install_program",
   "id": "blog-configuration/install_program",
   "title": "사용할 프로그램들 설치",
-  "description": "준비 중",
+  "description": "ViSual Studio Code 설치",
   "source": "@site/docs/blog-configuration/install_program.md",
   "sourceDirName": "blog-configuration",
   "slug": "/blog-configuration/install_program",
@@ -19,5 +19,9 @@
   "previous": {
     "title": "Node JS + yarn 설치하기",
     "permalink": "/docs/blog-configuration/install_node"
+  },
+  "next": {
+    "title": "사용할 프로그램들 설치",
+    "permalink": "/docs/blog-configuration/install_program copy"
   }
 }

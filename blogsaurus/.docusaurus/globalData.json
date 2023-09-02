@@ -21,6 +21,11 @@
               "sidebar": "blogSidebar"
             },
             {
+              "id": "blog-configuration/install_program copy",
+              "path": "/docs/blog-configuration/install_program copy",
+              "sidebar": "blogSidebar"
+            },
+            {
               "id": "blog-intro",
               "path": "/docs/blog-intro",
               "sidebar": "blogSidebar"
