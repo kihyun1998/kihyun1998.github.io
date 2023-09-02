@@ -1,0 +1,23 @@
+{
+  "unversionedId": "blog-configuration/react1 copy",
+  "id": "blog-configuration/react1 copy",
+  "title": "Set 1",
+  "description": "Now testing.",
+  "source": "@site/docs/blog-configuration/react1 copy.md",
+  "sourceDirName": "blog-configuration",
+  "slug": "/blog-configuration/react1 copy",
+  "permalink": "/docs/blog-configuration/react1 copy",
+  "draft": false,
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-configuration/react1 copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "blogSidebar",
+  "previous": {
+    "title": "Node JS + yarn 설치하기",
+    "permalink": "/docs/blog-configuration/install_node"
+  }
+}

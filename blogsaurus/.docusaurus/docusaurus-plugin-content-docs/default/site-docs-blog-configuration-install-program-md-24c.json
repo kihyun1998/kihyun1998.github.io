@@ -1,0 +1,23 @@
+{
+  "unversionedId": "blog-configuration/install_program",
+  "id": "blog-configuration/install_program",
+  "title": "사용할 프로그램들 설치",
+  "description": "준비 중",
+  "source": "@site/docs/blog-configuration/install_program.md",
+  "sourceDirName": "blog-configuration",
+  "slug": "/blog-configuration/install_program",
+  "permalink": "/docs/blog-configuration/install_program",
+  "draft": false,
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-configuration/install_program.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "blogSidebar",
+  "previous": {
+    "title": "Node JS + yarn 설치하기",
+    "permalink": "/docs/blog-configuration/install_node"
+  }
+}

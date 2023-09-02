@@ -2,46 +2,37 @@
 sidebar_position: 1
 ---
 
-# Blog intro
+# 시작하기 전
 
-Let's discover **Docusaurus in less than 5 minutes**.
+이 카테고리의 글을 작성하는 간단한 저의 생각과 동기에 대한 글입니다.
 
-## Getting Started
+## 🚀 나만의 블로그를 갖는다는 것
+---
 
-Get started by **creating a new site**.
+제가 만든 블로그를 갖는다는 것은 정말 환상적입니다.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+내가 원하는 테마로 꾸미고 글을 작성해간다는 것은 멋진 일이죠 !
 
-### What you'll need
+그렇지만 블로그를 만들고 배포하는 과정은 처음하는 사람들에게는 불편할 수 있겠더라구요~
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+공식 문서는 존재했지만 영어로 되어있고 처음 접하는 사람에게는 어려울 수 있겠다고 느꼈습니다.
 
-## Generate a new site
+따로 정리해놓은 블로그도 없기에 내가 정리를 좀 해놓자고 생각하게 됐습니다.
 
-Generate a new Docusaurus site using the **classic template**.
 
-The classic template will automatically be added to your project after you run the command:
+## 🙅‍♂️ 절대 포기하지 마세요.
+---
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+어차피 이 블로그에서 제시하는 글이 가장 쉬운 방법입니다.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+전공자분들에게는 조금 지루한 내용일 수도 있습니다.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+프로그래밍을 아에 모른다는 관점에서 글을 작성할 예정입니다 !
 
-## Start your site
+그럼  
 
-Run the development server:
+.  
 
-```bash
-cd my-website
-npm run start
-```
+.  
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+이제 시작하겠습니다 !!

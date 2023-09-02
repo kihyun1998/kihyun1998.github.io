@@ -38,8 +38,12 @@
       "rule"
     ]
   },
-  "nextItem": {
+  "prevItem": {
     "title": "전략 패턴 - Strategy pattern",
     "permalink": "/blog/strategy pattern"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
   }
 }

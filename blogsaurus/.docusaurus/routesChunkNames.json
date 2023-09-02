@@ -42,7 +42,7 @@
       "plugin": "plugin---docusaurus-debug-7-d-8-4e4"
     }
   },
-  "/blog-c0a": {
+  "/blog-f1f": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---bloga-81-186"
@@ -50,10 +50,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogfc-6-7c4"
+        "content": "content---blogfef-ce9"
       },
       {
-        "content": "content---blogfef-ce9"
+        "content": "content---blogfc-6-7c4"
       },
       {
         "content": "content---blog-7-e-3-24e"
@@ -92,7 +92,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/design-pattern-58d": {
+  "/blog/tags/design-pattern-13d": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloga-81-186"
@@ -100,10 +100,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogfc-6-7c4"
+        "content": "content---blogfef-ce9"
       },
       {
-        "content": "content---blogfef-ce9"
+        "content": "content---blogfc-6-7c4"
       }
     ],
     "tag": "tag---blog-tags-design-pattern-3-d-6-001",
@@ -180,16 +180,20 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-992": {
+  "/docs-36b": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsdf-1-29c"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/blog-configuration/react1-5a7": {
+  "/docs/blog-configuration/install_node-58f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-blog-configuration-react-191-a-2ee"
+    "content": "content---docs-blog-configuration-install-node-66-b-531"
+  },
+  "/docs/blog-configuration/install_program-c11": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-blog-configuration-install-program-24-c-b9d"
   },
   "/docs/blog-intro-c9d": {
     "__comp": "__comp---theme-doc-item-178-a40",

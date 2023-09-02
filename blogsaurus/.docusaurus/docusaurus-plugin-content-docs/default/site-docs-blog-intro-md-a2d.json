@@ -1,8 +1,8 @@
 {
   "unversionedId": "blog-intro",
   "id": "blog-intro",
-  "title": "Blog intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "시작하기 전",
+  "description": "이 카테고리의 글을 작성하는 간단한 저의 생각과 동기에 대한 글입니다.",
   "source": "@site/docs/blog-intro.md",
   "sourceDirName": ".",
   "slug": "/blog-intro",
@@ -17,7 +17,7 @@
   },
   "sidebar": "blogSidebar",
   "next": {
-    "title": "Set 1",
-    "permalink": "/docs/blog-configuration/react1"
+    "title": "Node JS + yarn 설치하기",
+    "permalink": "/docs/blog-configuration/install_node"
   }
 }

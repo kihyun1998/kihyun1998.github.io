@@ -125,19 +125,25 @@
     "blogSidebar": [
       {
         "type": "link",
-        "label": "Blog intro",
+        "label": "시작하기 전",
         "href": "/docs/blog-intro",
         "docId": "blog-intro"
       },
       {
         "type": "category",
-        "label": "Blog - Config",
+        "label": "초기 환경 설정",
         "items": [
           {
             "type": "link",
-            "label": "Set 1",
-            "href": "/docs/blog-configuration/react1",
-            "docId": "blog-configuration/react1"
+            "label": "Node JS + yarn 설치하기",
+            "href": "/docs/blog-configuration/install_node",
+            "docId": "blog-configuration/install_node"
+          },
+          {
+            "type": "link",
+            "label": "사용할 프로그램들 설치",
+            "href": "/docs/blog-configuration/install_program",
+            "docId": "blog-configuration/install_program"
           }
         ],
         "collapsed": true,
@@ -146,16 +152,22 @@
     ]
   },
   "docs": {
-    "blog-configuration/react1": {
-      "id": "blog-configuration/react1",
-      "title": "Set 1",
-      "description": "Now testing.",
+    "blog-configuration/install_node": {
+      "id": "blog-configuration/install_node",
+      "title": "Node JS + yarn 설치하기",
+      "description": "Node JS 설치",
+      "sidebar": "blogSidebar"
+    },
+    "blog-configuration/install_program": {
+      "id": "blog-configuration/install_program",
+      "title": "사용할 프로그램들 설치",
+      "description": "준비 중",
       "sidebar": "blogSidebar"
     },
     "blog-intro": {
       "id": "blog-intro",
-      "title": "Blog intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "title": "시작하기 전",
+      "description": "이 카테고리의 글을 작성하는 간단한 저의 생각과 동기에 대한 글입니다.",
       "sidebar": "blogSidebar"
     },
     "intro": {

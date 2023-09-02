@@ -54,7 +54,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "blogSidebar",
           "position": "left",
-          "label": "How to Deploy"
+          "label": "블로그 배포하기"
         },
         {
           "type": "docSidebar",
@@ -133,6 +133,13 @@ export default {
       "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
     },
     "prism": {
+      "additionalLanguages": [
+        "java",
+        "csharp",
+        "go",
+        "python",
+        "powershell"
+      ],
       "theme": {
         "plain": {
           "color": "#393A34",
@@ -324,7 +331,6 @@ export default {
           }
         ]
       },
-      "additionalLanguages": [],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",

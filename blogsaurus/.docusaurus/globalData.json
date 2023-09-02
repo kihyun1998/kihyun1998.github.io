@@ -11,8 +11,13 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "blog-configuration/react1",
-              "path": "/docs/blog-configuration/react1",
+              "id": "blog-configuration/install_node",
+              "path": "/docs/blog-configuration/install_node",
+              "sidebar": "blogSidebar"
+            },
+            {
+              "id": "blog-configuration/install_program",
+              "path": "/docs/blog-configuration/install_program",
               "sidebar": "blogSidebar"
             },
             {
