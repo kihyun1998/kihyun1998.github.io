@@ -150,7 +150,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        additionalLanguages:['java','csharp','go','python','powershell'],
+        additionalLanguages:['java','csharp','go','python','bash','powershell'],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },

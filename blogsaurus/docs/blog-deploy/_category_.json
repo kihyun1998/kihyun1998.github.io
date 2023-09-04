@@ -1,0 +1,8 @@
+{
+    "label": "블로그 배포하기",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "description": "Blog Deploy"
+    }
+}

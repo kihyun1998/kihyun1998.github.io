@@ -19,5 +19,9 @@
   "previous": {
     "title": "사용할 프로그램들 설치",
     "permalink": "/docs/blog-configuration/install_program"
+  },
+  "next": {
+    "title": "Node JS + yarn 설치하기",
+    "permalink": "/docs/blog-configuration/install_node"
   }
 }

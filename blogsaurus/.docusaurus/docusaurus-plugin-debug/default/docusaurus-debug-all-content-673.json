@@ -15,14 +15,14 @@
           "editUrlLocalized": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\kihyu\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
-          "contentPath": "C:\\Users\\kihyu\\kihyun1998.github.io\\blogsaurus\\docs",
-          "contentPathLocalized": "C:\\Users\\kihyu\\kihyun1998.github.io\\blogsaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
+          "contentPath": "C:\\kihyun1998.github.io\\blogsaurus\\docs",
+          "contentPathLocalized": "C:\\kihyun1998.github.io\\blogsaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "blog-configuration/install_node",
               "id": "blog-configuration/install_node",
-              "title": "Node JS + yarn 설치하기",
+              "title": "🚀Node JS + yarn 설치하기",
               "description": "Node JS 설치",
               "source": "@site/docs/blog-configuration/install_node.md",
               "sourceDirName": "blog-configuration",
@@ -42,14 +42,14 @@
                 "permalink": "/docs/blog-intro"
               },
               "next": {
-                "title": "사용할 프로그램들 설치",
+                "title": "💻사용할 프로그램들 설치",
                 "permalink": "/docs/blog-configuration/install_program"
               }
             },
             {
               "unversionedId": "blog-configuration/install_program",
               "id": "blog-configuration/install_program",
-              "title": "사용할 프로그램들 설치",
+              "title": "💻사용할 프로그램들 설치",
               "description": "ViSual Studio Code 설치",
               "source": "@site/docs/blog-configuration/install_program.md",
               "sourceDirName": "blog-configuration",
@@ -65,34 +65,34 @@
               },
               "sidebar": "blogSidebar",
               "previous": {
-                "title": "Node JS + yarn 설치하기",
+                "title": "🚀Node JS + yarn 설치하기",
                 "permalink": "/docs/blog-configuration/install_node"
               },
               "next": {
-                "title": "사용할 프로그램들 설치",
-                "permalink": "/docs/blog-configuration/install_program copy"
+                "title": "🐊도큐사우루스 설치 및 실행",
+                "permalink": "/docs/blog-deploy/install_program copy"
               }
             },
             {
-              "unversionedId": "blog-configuration/install_program copy",
-              "id": "blog-configuration/install_program copy",
-              "title": "사용할 프로그램들 설치",
-              "description": "준비 중",
-              "source": "@site/docs/blog-configuration/install_program copy.md",
-              "sourceDirName": "blog-configuration",
-              "slug": "/blog-configuration/install_program copy",
-              "permalink": "/docs/blog-configuration/install_program copy",
+              "unversionedId": "blog-deploy/install_program copy",
+              "id": "blog-deploy/install_program copy",
+              "title": "🐊도큐사우루스 설치 및 실행",
+              "description": "도큐사우루스 설치하기",
+              "source": "@site/docs/blog-deploy/install_program copy.md",
+              "sourceDirName": "blog-deploy",
+              "slug": "/blog-deploy/install_program copy",
+              "permalink": "/docs/blog-deploy/install_program copy",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-configuration/install_program copy.md",
+              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-deploy/install_program copy.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 3
+                "sidebar_position": 1
               },
               "sidebar": "blogSidebar",
               "previous": {
-                "title": "사용할 프로그램들 설치",
+                "title": "💻사용할 프로그램들 설치",
                 "permalink": "/docs/blog-configuration/install_program"
               }
             },
@@ -115,7 +115,7 @@
               },
               "sidebar": "blogSidebar",
               "next": {
-                "title": "Node JS + yarn 설치하기",
+                "title": "🚀Node JS + yarn 설치하기",
                 "permalink": "/docs/blog-configuration/install_node"
               }
             },
@@ -577,10 +577,18 @@
                   {
                     "type": "doc",
                     "id": "blog-configuration/install_program"
-                  },
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "블로그 배포하기",
+                "items": [
                   {
                     "type": "doc",
-                    "id": "blog-configuration/install_program copy"
+                    "id": "blog-deploy/install_program copy"
                   }
                 ],
                 "collapsed": true,

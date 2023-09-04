@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Node JS + yarn 설치하기
+# 🚀Node JS + yarn 설치하기
 
 ## Node JS 설치
 ---

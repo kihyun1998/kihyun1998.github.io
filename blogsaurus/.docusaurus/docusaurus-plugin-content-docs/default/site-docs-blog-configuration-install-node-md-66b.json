@@ -1,7 +1,7 @@
 {
   "unversionedId": "blog-configuration/install_node",
   "id": "blog-configuration/install_node",
-  "title": "Node JS + yarn 설치하기",
+  "title": "🚀Node JS + yarn 설치하기",
   "description": "Node JS 설치",
   "source": "@site/docs/blog-configuration/install_node.md",
   "sourceDirName": "blog-configuration",
@@ -21,7 +21,7 @@
     "permalink": "/docs/blog-intro"
   },
   "next": {
-    "title": "사용할 프로그램들 설치",
+    "title": "💻사용할 프로그램들 설치",
     "permalink": "/docs/blog-configuration/install_program"
   }
 }

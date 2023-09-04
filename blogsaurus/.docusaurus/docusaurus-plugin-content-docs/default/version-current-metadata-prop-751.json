@@ -135,21 +135,29 @@
         "items": [
           {
             "type": "link",
-            "label": "Node JS + yarn 설치하기",
+            "label": "🚀Node JS + yarn 설치하기",
             "href": "/docs/blog-configuration/install_node",
             "docId": "blog-configuration/install_node"
           },
           {
             "type": "link",
-            "label": "사용할 프로그램들 설치",
+            "label": "💻사용할 프로그램들 설치",
             "href": "/docs/blog-configuration/install_program",
             "docId": "blog-configuration/install_program"
-          },
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "블로그 배포하기",
+        "items": [
           {
             "type": "link",
-            "label": "사용할 프로그램들 설치",
-            "href": "/docs/blog-configuration/install_program copy",
-            "docId": "blog-configuration/install_program copy"
+            "label": "🐊도큐사우루스 설치 및 실행",
+            "href": "/docs/blog-deploy/install_program copy",
+            "docId": "blog-deploy/install_program copy"
           }
         ],
         "collapsed": true,
@@ -160,20 +168,20 @@
   "docs": {
     "blog-configuration/install_node": {
       "id": "blog-configuration/install_node",
-      "title": "Node JS + yarn 설치하기",
+      "title": "🚀Node JS + yarn 설치하기",
       "description": "Node JS 설치",
       "sidebar": "blogSidebar"
     },
     "blog-configuration/install_program": {
       "id": "blog-configuration/install_program",
-      "title": "사용할 프로그램들 설치",
+      "title": "💻사용할 프로그램들 설치",
       "description": "ViSual Studio Code 설치",
       "sidebar": "blogSidebar"
     },
-    "blog-configuration/install_program copy": {
-      "id": "blog-configuration/install_program copy",
-      "title": "사용할 프로그램들 설치",
-      "description": "준비 중",
+    "blog-deploy/install_program copy": {
+      "id": "blog-deploy/install_program copy",
+      "title": "🐊도큐사우루스 설치 및 실행",
+      "description": "도큐사우루스 설치하기",
       "sidebar": "blogSidebar"
     },
     "blog-intro": {
