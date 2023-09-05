@@ -180,7 +180,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-b31": {
+  "/docs-a0d": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-7-b-3-bd0"
@@ -195,9 +195,13 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-blog-configuration-install-program-24-c-b9d"
   },
-  "/docs/blog-deploy/install_program copy-60c": {
+  "/docs/blog-deploy/depoly_docu-1e2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-blog-deploy-install-program-copy-395-5fa"
+    "content": "content---docs-blog-deploy-depoly-docu-9-f-9-7a4"
+  },
+  "/docs/blog-deploy/install_docu-e1a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-blog-deploy-install-docu-4-ca-bdd"
   },
   "/docs/blog-intro-c9d": {
     "__comp": "__comp---theme-doc-item-178-a40",

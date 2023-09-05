@@ -8,7 +8,6 @@
   "slug": "/blog-configuration/install_program",
   "permalink": "/docs/blog-configuration/install_program",
   "draft": false,
-  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-configuration/install_program.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -22,6 +21,6 @@
   },
   "next": {
     "title": "🐊도큐사우루스 설치 및 실행",
-    "permalink": "/docs/blog-deploy/install_program copy"
+    "permalink": "/docs/blog-deploy/install_docu"
   }
 }

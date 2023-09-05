@@ -43,8 +43,10 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
+          // kihyun : yeah remove it !
+          // editUrl:
+          //   'https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,

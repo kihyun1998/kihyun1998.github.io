@@ -1,0 +1,22 @@
+{
+  "unversionedId": "blog-deploy/depoly_docu",
+  "id": "blog-deploy/depoly_docu",
+  "title": "😺Git Hub로 배포하기 - 1",
+  "description": "배포가 뭔데요?",
+  "source": "@site/docs/blog-deploy/depoly_docu.md",
+  "sourceDirName": "blog-deploy",
+  "slug": "/blog-deploy/depoly_docu",
+  "permalink": "/docs/blog-deploy/depoly_docu",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "blogSidebar",
+  "previous": {
+    "title": "🐊도큐사우루스 설치 및 실행",
+    "permalink": "/docs/blog-deploy/install_docu"
+  }
+}

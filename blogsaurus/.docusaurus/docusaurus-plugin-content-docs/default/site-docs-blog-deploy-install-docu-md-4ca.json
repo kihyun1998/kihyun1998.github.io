@@ -1,0 +1,26 @@
+{
+  "unversionedId": "blog-deploy/install_docu",
+  "id": "blog-deploy/install_docu",
+  "title": "🐊도큐사우루스 설치 및 실행",
+  "description": "도큐사우루스 설치하기",
+  "source": "@site/docs/blog-deploy/install_docu.md",
+  "sourceDirName": "blog-deploy",
+  "slug": "/blog-deploy/install_docu",
+  "permalink": "/docs/blog-deploy/install_docu",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "blogSidebar",
+  "previous": {
+    "title": "💻사용할 프로그램들 설치",
+    "permalink": "/docs/blog-configuration/install_program"
+  },
+  "next": {
+    "title": "😺Git Hub로 배포하기 - 1",
+    "permalink": "/docs/blog-deploy/depoly_docu"
+  }
+}

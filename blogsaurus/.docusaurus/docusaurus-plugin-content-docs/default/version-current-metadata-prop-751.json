@@ -156,8 +156,14 @@
           {
             "type": "link",
             "label": "🐊도큐사우루스 설치 및 실행",
-            "href": "/docs/blog-deploy/install_program copy",
-            "docId": "blog-deploy/install_program copy"
+            "href": "/docs/blog-deploy/install_docu",
+            "docId": "blog-deploy/install_docu"
+          },
+          {
+            "type": "link",
+            "label": "😺Git Hub로 배포하기 - 1",
+            "href": "/docs/blog-deploy/depoly_docu",
+            "docId": "blog-deploy/depoly_docu"
           }
         ],
         "collapsed": true,
@@ -178,8 +184,14 @@
       "description": "ViSual Studio Code 설치",
       "sidebar": "blogSidebar"
     },
-    "blog-deploy/install_program copy": {
-      "id": "blog-deploy/install_program copy",
+    "blog-deploy/depoly_docu": {
+      "id": "blog-deploy/depoly_docu",
+      "title": "😺Git Hub로 배포하기 - 1",
+      "description": "배포가 뭔데요?",
+      "sidebar": "blogSidebar"
+    },
+    "blog-deploy/install_docu": {
+      "id": "blog-deploy/install_docu",
       "title": "🐊도큐사우루스 설치 및 실행",
       "description": "도큐사우루스 설치하기",
       "sidebar": "blogSidebar"

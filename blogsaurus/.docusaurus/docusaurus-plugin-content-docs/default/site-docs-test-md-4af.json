@@ -8,7 +8,6 @@
   "slug": "/test",
   "permalink": "/docs/test",
   "draft": false,
-  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/test.md",
   "tags": [],
   "version": "current",
   "frontMatter": {

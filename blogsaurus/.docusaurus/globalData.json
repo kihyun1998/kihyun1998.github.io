@@ -21,8 +21,13 @@
               "sidebar": "blogSidebar"
             },
             {
-              "id": "blog-deploy/install_program copy",
-              "path": "/docs/blog-deploy/install_program copy",
+              "id": "blog-deploy/depoly_docu",
+              "path": "/docs/blog-deploy/depoly_docu",
+              "sidebar": "blogSidebar"
+            },
+            {
+              "id": "blog-deploy/install_docu",
+              "path": "/docs/blog-deploy/install_docu",
               "sidebar": "blogSidebar"
             },
             {

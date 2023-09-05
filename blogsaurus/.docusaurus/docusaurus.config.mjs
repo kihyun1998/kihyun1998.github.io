@@ -28,8 +28,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
-          "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "C:\\kihyun1998.github.io\\blogsaurus\\sidebars.js"
         },
         "blog": {
           "showReadingTime": true,

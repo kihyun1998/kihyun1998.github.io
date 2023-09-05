@@ -11,8 +11,6 @@
           "className": "docs-version-current",
           "path": "/docs",
           "tagsPath": "/docs/tags",
-          "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "C:\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
@@ -29,7 +27,6 @@
               "slug": "/blog-configuration/install_node",
               "permalink": "/docs/blog-configuration/install_node",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-configuration/install_node.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -56,7 +53,6 @@
               "slug": "/blog-configuration/install_program",
               "permalink": "/docs/blog-configuration/install_program",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-configuration/install_program.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -70,20 +66,41 @@
               },
               "next": {
                 "title": "🐊도큐사우루스 설치 및 실행",
-                "permalink": "/docs/blog-deploy/install_program copy"
+                "permalink": "/docs/blog-deploy/install_docu"
               }
             },
             {
-              "unversionedId": "blog-deploy/install_program copy",
-              "id": "blog-deploy/install_program copy",
+              "unversionedId": "blog-deploy/depoly_docu",
+              "id": "blog-deploy/depoly_docu",
+              "title": "😺Git Hub로 배포하기 - 1",
+              "description": "배포가 뭔데요?",
+              "source": "@site/docs/blog-deploy/depoly_docu.md",
+              "sourceDirName": "blog-deploy",
+              "slug": "/blog-deploy/depoly_docu",
+              "permalink": "/docs/blog-deploy/depoly_docu",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "blogSidebar",
+              "previous": {
+                "title": "🐊도큐사우루스 설치 및 실행",
+                "permalink": "/docs/blog-deploy/install_docu"
+              }
+            },
+            {
+              "unversionedId": "blog-deploy/install_docu",
+              "id": "blog-deploy/install_docu",
               "title": "🐊도큐사우루스 설치 및 실행",
               "description": "도큐사우루스 설치하기",
-              "source": "@site/docs/blog-deploy/install_program copy.md",
+              "source": "@site/docs/blog-deploy/install_docu.md",
               "sourceDirName": "blog-deploy",
-              "slug": "/blog-deploy/install_program copy",
-              "permalink": "/docs/blog-deploy/install_program copy",
+              "slug": "/blog-deploy/install_docu",
+              "permalink": "/docs/blog-deploy/install_docu",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-deploy/install_program copy.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -94,6 +111,10 @@
               "previous": {
                 "title": "💻사용할 프로그램들 설치",
                 "permalink": "/docs/blog-configuration/install_program"
+              },
+              "next": {
+                "title": "😺Git Hub로 배포하기 - 1",
+                "permalink": "/docs/blog-deploy/depoly_docu"
               }
             },
             {
@@ -106,7 +127,6 @@
               "slug": "/blog-intro",
               "permalink": "/docs/blog-intro",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -129,7 +149,6 @@
               "slug": "/intro",
               "permalink": "/docs/intro",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -152,7 +171,6 @@
               "slug": "/react-basic/react1",
               "permalink": "/docs/react-basic/react1",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-basic/react1.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -175,7 +193,6 @@
               "slug": "/react-intro",
               "permalink": "/docs/react-intro",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -198,7 +215,6 @@
               "slug": "/test",
               "permalink": "/docs/test",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/test.md",
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -220,7 +236,6 @@
               "slug": "/test-first/test1",
               "permalink": "/docs/test-first/test1",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/test-first/test1.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -243,7 +258,6 @@
               "slug": "/test-first/test2",
               "permalink": "/docs/test-first/test2",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/test-first/test2.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -270,7 +284,6 @@
               "slug": "/tutorial-basics/congratulations",
               "permalink": "/docs/tutorial-basics/congratulations",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -297,7 +310,6 @@
               "slug": "/tutorial-basics/create-a-blog-post",
               "permalink": "/docs/tutorial-basics/create-a-blog-post",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -324,7 +336,6 @@
               "slug": "/tutorial-basics/create-a-document",
               "permalink": "/docs/tutorial-basics/create-a-document",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -351,7 +362,6 @@
               "slug": "/tutorial-basics/create-a-page",
               "permalink": "/docs/tutorial-basics/create-a-page",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -378,7 +388,6 @@
               "slug": "/tutorial-basics/deploy-your-site",
               "permalink": "/docs/tutorial-basics/deploy-your-site",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -405,7 +414,6 @@
               "slug": "/tutorial-basics/markdown-features",
               "permalink": "/docs/tutorial-basics/markdown-features",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -432,7 +440,6 @@
               "slug": "/tutorial-extras/manage-docs-versions",
               "permalink": "/docs/tutorial-extras/manage-docs-versions",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -459,7 +466,6 @@
               "slug": "/tutorial-extras/translate-your-site",
               "permalink": "/docs/tutorial-extras/translate-your-site",
               "draft": false,
-              "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -588,7 +594,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "blog-deploy/install_program copy"
+                    "id": "blog-deploy/install_docu"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "blog-deploy/depoly_docu"
                   }
                 ],
                 "collapsed": true,

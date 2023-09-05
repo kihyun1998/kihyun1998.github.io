@@ -1,0 +1,23 @@
+{
+  "unversionedId": "blog-deploy/install_program copy 2",
+  "id": "blog-deploy/install_program copy 2",
+  "title": "🐊도큐사우루스 설치 및 실행",
+  "description": "도큐사우루스 설치하기",
+  "source": "@site/docs/blog-deploy/install_program copy 2.md",
+  "sourceDirName": "blog-deploy",
+  "slug": "/blog-deploy/install_program copy 2",
+  "permalink": "/docs/blog-deploy/install_program copy 2",
+  "draft": false,
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog-deploy/install_program copy 2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "blogSidebar",
+  "previous": {
+    "title": "🐊도큐사우루스 설치 및 실행",
+    "permalink": "/docs/blog-deploy/install_docu"
+  }
+}
