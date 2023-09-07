@@ -230,7 +230,10 @@ Actions 탭을 클릭하면 `pagees build and deployment`가 주황색으로 실
 
 인생이 참 그래요~ 같은 글을 보고 따라 했는데 누구는 되고 누구는 안되고... 코딩도 인생과 같아요 !
 
-초록색이 되신 분들은 
+초록색이 되신 분들은 https://[username].github.io 로 들어가보시면 잘 나올겁니다 !
 <br/>
 
 ![Alt text](./img/image-14.png)
+
+
+++ 넣어야할 내용`[git-pages]`만드는 과정이 빠졌음
