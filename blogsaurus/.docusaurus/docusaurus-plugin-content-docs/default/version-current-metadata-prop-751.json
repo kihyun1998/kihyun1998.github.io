@@ -162,8 +162,14 @@
           {
             "type": "link",
             "label": "😺Git Hub로 배포하기 - 1",
-            "href": "/docs/blog-deploy/depoly_docu",
-            "docId": "blog-deploy/depoly_docu"
+            "href": "/docs/blog-deploy/depoly_docu1",
+            "docId": "blog-deploy/depoly_docu1"
+          },
+          {
+            "type": "link",
+            "label": "😸Git Hub로 배포하기 - 2",
+            "href": "/docs/blog-deploy/depoly_docu2",
+            "docId": "blog-deploy/depoly_docu2"
           }
         ],
         "collapsed": true,
@@ -184,10 +190,16 @@
       "description": "ViSual Studio Code 설치",
       "sidebar": "blogSidebar"
     },
-    "blog-deploy/depoly_docu": {
-      "id": "blog-deploy/depoly_docu",
+    "blog-deploy/depoly_docu1": {
+      "id": "blog-deploy/depoly_docu1",
       "title": "😺Git Hub로 배포하기 - 1",
       "description": "배포가 뭔데요?",
+      "sidebar": "blogSidebar"
+    },
+    "blog-deploy/depoly_docu2": {
+      "id": "blog-deploy/depoly_docu2",
+      "title": "😸Git Hub로 배포하기 - 2",
+      "description": "설정 파일 수정",
       "sidebar": "blogSidebar"
     },
     "blog-deploy/install_docu": {

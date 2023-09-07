@@ -180,7 +180,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-a0d": {
+  "/docs-8d6": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-7-b-3-bd0"
@@ -195,9 +195,13 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-blog-configuration-install-program-24-c-b9d"
   },
-  "/docs/blog-deploy/depoly_docu-1e2": {
+  "/docs/blog-deploy/depoly_docu1-61f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-blog-deploy-depoly-docu-9-f-9-7a4"
+    "content": "content---docs-blog-deploy-depoly-docu-1-d-10-9bb"
+  },
+  "/docs/blog-deploy/depoly_docu2-607": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-blog-deploy-depoly-docu-26-dc-74a"
   },
   "/docs/blog-deploy/install_docu-e1a": {
     "__comp": "__comp---theme-doc-item-178-a40",

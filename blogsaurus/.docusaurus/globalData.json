@@ -21,8 +21,13 @@
               "sidebar": "blogSidebar"
             },
             {
-              "id": "blog-deploy/depoly_docu",
-              "path": "/docs/blog-deploy/depoly_docu",
+              "id": "blog-deploy/depoly_docu1",
+              "path": "/docs/blog-deploy/depoly_docu1",
+              "sidebar": "blogSidebar"
+            },
+            {
+              "id": "blog-deploy/depoly_docu2",
+              "path": "/docs/blog-deploy/depoly_docu2",
               "sidebar": "blogSidebar"
             },
             {

@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'a0d'),
+    component: ComponentCreator('/docs', '8d6'),
     routes: [
       {
         path: '/docs/blog-configuration/install_node',
@@ -114,8 +114,14 @@ export default [
         sidebar: "blogSidebar"
       },
       {
-        path: '/docs/blog-deploy/depoly_docu',
-        component: ComponentCreator('/docs/blog-deploy/depoly_docu', '1e2'),
+        path: '/docs/blog-deploy/depoly_docu1',
+        component: ComponentCreator('/docs/blog-deploy/depoly_docu1', '61f'),
+        exact: true,
+        sidebar: "blogSidebar"
+      },
+      {
+        path: '/docs/blog-deploy/depoly_docu2',
+        component: ComponentCreator('/docs/blog-deploy/depoly_docu2', '607'),
         exact: true,
         sidebar: "blogSidebar"
       },
