@@ -57,15 +57,15 @@ export default {
         },
         {
           "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "sidebarId": "designPatternSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "디자인 패턴"
         },
         {
           "type": "docSidebar",
-          "sidebarId": "testSidebar",
+          "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "test"
+          "label": "Tutorial"
         },
         {
           "type": "docSidebar",

@@ -1,0 +1,8 @@
+{
+    "label": "행동 패턴",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "description": "Behavioral Patterns"
+    }
+}

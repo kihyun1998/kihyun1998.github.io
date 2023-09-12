@@ -1,0 +1,26 @@
+{
+  "unversionedId": "creational-patterns/factory-method",
+  "id": "creational-patterns/factory-method",
+  "title": "팩토리 메소드 패턴",
+  "description": "",
+  "source": "@site/docs/creational-patterns/factory-method.md",
+  "sourceDirName": "creational-patterns",
+  "slug": "/creational-patterns/factory-method",
+  "permalink": "/docs/creational-patterns/factory-method",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "designPatternSidebar",
+  "previous": {
+    "title": "디자인 패턴 인트로",
+    "permalink": "/docs/design-pattern-intro"
+  },
+  "next": {
+    "title": "데코레이터 패턴",
+    "permalink": "/docs/structural-patterns/decorator"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unversionedId": "struc/factory-method",
+  "id": "struc/factory-method",
+  "title": "팩토리 메소드 패턴",
+  "description": "",
+  "source": "@site/docs/struc/factory-method.md",
+  "sourceDirName": "struc",
+  "slug": "/struc/factory-method",
+  "permalink": "/docs/struc/factory-method",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}

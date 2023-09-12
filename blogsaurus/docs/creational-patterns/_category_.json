@@ -1,0 +1,8 @@
+{
+    "label": "생성 패턴",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "Creational Patterns"
+    }
+}

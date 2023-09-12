@@ -1,0 +1,26 @@
+{
+  "unversionedId": "structural-patterns/decorator",
+  "id": "structural-patterns/decorator",
+  "title": "데코레이터 패턴",
+  "description": "",
+  "source": "@site/docs/structural-patterns/decorator.md",
+  "sourceDirName": "structural-patterns",
+  "slug": "/structural-patterns/decorator",
+  "permalink": "/docs/structural-patterns/decorator",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "designPatternSidebar",
+  "previous": {
+    "title": "팩토리 메소드 패턴",
+    "permalink": "/docs/creational-patterns/factory-method"
+  },
+  "next": {
+    "title": "전략 패턴 ( Strategy Pattern )",
+    "permalink": "/docs/behavioral-patterns/strategy"
+  }
+}

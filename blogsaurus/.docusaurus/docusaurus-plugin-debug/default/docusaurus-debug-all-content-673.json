@@ -18,6 +18,28 @@
           "contentPathLocalized": "C:\\kihyun1998.github.io\\blogsaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
+              "unversionedId": "behavioral-patterns/strategy",
+              "id": "behavioral-patterns/strategy",
+              "title": "전략 패턴 ( Strategy Pattern )",
+              "description": "정의",
+              "source": "@site/docs/behavioral-patterns/strategy.md",
+              "sourceDirName": "behavioral-patterns",
+              "slug": "/behavioral-patterns/strategy",
+              "permalink": "/docs/behavioral-patterns/strategy",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "designPatternSidebar",
+              "previous": {
+                "title": "데코레이터 패턴",
+                "permalink": "/docs/structural-patterns/decorator"
+              }
+            },
+            {
               "unversionedId": "blog-configuration/install_node",
               "id": "blog-configuration/install_node",
               "title": "🚀Node JS + yarn 설치하기",
@@ -166,6 +188,54 @@
               }
             },
             {
+              "unversionedId": "creational-patterns/factory-method",
+              "id": "creational-patterns/factory-method",
+              "title": "팩토리 메소드 패턴",
+              "description": "",
+              "source": "@site/docs/creational-patterns/factory-method.md",
+              "sourceDirName": "creational-patterns",
+              "slug": "/creational-patterns/factory-method",
+              "permalink": "/docs/creational-patterns/factory-method",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "designPatternSidebar",
+              "previous": {
+                "title": "디자인 패턴 인트로",
+                "permalink": "/docs/design-pattern-intro"
+              },
+              "next": {
+                "title": "데코레이터 패턴",
+                "permalink": "/docs/structural-patterns/decorator"
+              }
+            },
+            {
+              "unversionedId": "design-pattern-intro",
+              "id": "design-pattern-intro",
+              "title": "디자인 패턴 인트로",
+              "description": "",
+              "source": "@site/docs/design-pattern-intro.md",
+              "sourceDirName": ".",
+              "slug": "/design-pattern-intro",
+              "permalink": "/docs/design-pattern-intro",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "designPatternSidebar",
+              "next": {
+                "title": "팩토리 메소드 패턴",
+                "permalink": "/docs/creational-patterns/factory-method"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "Tutorial Intro",
@@ -232,35 +302,14 @@
               }
             },
             {
-              "unversionedId": "test",
-              "id": "test",
-              "title": "Test",
-              "description": "This is Test Page",
-              "source": "@site/docs/test.md",
-              "sourceDirName": ".",
-              "slug": "/test",
-              "permalink": "/docs/test",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "description": "This is Test Page"
-              },
-              "sidebar": "testSidebar",
-              "previous": {
-                "title": "Test 2",
-                "permalink": "/docs/test-first/test2"
-              }
-            },
-            {
-              "unversionedId": "test-first/test1",
-              "id": "test-first/test1",
-              "title": "Test 1",
-              "description": "This is test one.",
-              "source": "@site/docs/test-first/test1.md",
-              "sourceDirName": "test-first",
-              "slug": "/test-first/test1",
-              "permalink": "/docs/test-first/test1",
+              "unversionedId": "structural-patterns/decorator",
+              "id": "structural-patterns/decorator",
+              "title": "데코레이터 패턴",
+              "description": "",
+              "source": "@site/docs/structural-patterns/decorator.md",
+              "sourceDirName": "structural-patterns",
+              "slug": "/structural-patterns/decorator",
+              "permalink": "/docs/structural-patterns/decorator",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -268,36 +317,14 @@
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "testSidebar",
-              "next": {
-                "title": "Test 2",
-                "permalink": "/docs/test-first/test2"
-              }
-            },
-            {
-              "unversionedId": "test-first/test2",
-              "id": "test-first/test2",
-              "title": "Test 2",
-              "description": "This is test two.",
-              "source": "@site/docs/test-first/test2.md",
-              "sourceDirName": "test-first",
-              "slug": "/test-first/test2",
-              "permalink": "/docs/test-first/test2",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "testSidebar",
+              "sidebar": "designPatternSidebar",
               "previous": {
-                "title": "Test 1",
-                "permalink": "/docs/test-first/test1"
+                "title": "팩토리 메소드 패턴",
+                "permalink": "/docs/creational-patterns/factory-method"
               },
               "next": {
-                "title": "Test",
-                "permalink": "/docs/test"
+                "title": "전략 패턴 ( Strategy Pattern )",
+                "permalink": "/docs/behavioral-patterns/strategy"
               }
             },
             {
@@ -553,28 +580,6 @@
                 "collapsible": true
               }
             ],
-            "testSidebar": [
-              {
-                "type": "category",
-                "label": "Test",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "test-first/test1"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "test-first/test2"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
-              },
-              {
-                "type": "doc",
-                "id": "test"
-              }
-            ],
             "reactSidebar": [
               {
                 "type": "doc",
@@ -629,6 +634,48 @@
                   {
                     "type": "doc",
                     "id": "blog-deploy/depoly_docu2"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
+            "designPatternSidebar": [
+              {
+                "type": "doc",
+                "id": "design-pattern-intro"
+              },
+              {
+                "type": "category",
+                "label": "생성 패턴",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "creational-patterns/factory-method"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "구조 패턴",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "structural-patterns/decorator"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "행동 패턴",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "behavioral-patterns/strategy"
                   }
                 ],
                 "collapsed": true,

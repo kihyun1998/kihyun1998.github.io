@@ -99,8 +99,14 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '8d6'),
+    component: ComponentCreator('/docs', 'c4b'),
     routes: [
+      {
+        path: '/docs/behavioral-patterns/strategy',
+        component: ComponentCreator('/docs/behavioral-patterns/strategy', 'aa2'),
+        exact: true,
+        sidebar: "designPatternSidebar"
+      },
       {
         path: '/docs/blog-configuration/install_node',
         component: ComponentCreator('/docs/blog-configuration/install_node', '58f'),
@@ -138,6 +144,18 @@ export default [
         sidebar: "blogSidebar"
       },
       {
+        path: '/docs/creational-patterns/factory-method',
+        component: ComponentCreator('/docs/creational-patterns/factory-method', 'b8e'),
+        exact: true,
+        sidebar: "designPatternSidebar"
+      },
+      {
+        path: '/docs/design-pattern-intro',
+        component: ComponentCreator('/docs/design-pattern-intro', '382'),
+        exact: true,
+        sidebar: "designPatternSidebar"
+      },
+      {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
         exact: true,
@@ -156,22 +174,10 @@ export default [
         sidebar: "reactSidebar"
       },
       {
-        path: '/docs/test',
-        component: ComponentCreator('/docs/test', '616'),
+        path: '/docs/structural-patterns/decorator',
+        component: ComponentCreator('/docs/structural-patterns/decorator', 'ade'),
         exact: true,
-        sidebar: "testSidebar"
-      },
-      {
-        path: '/docs/test-first/test1',
-        component: ComponentCreator('/docs/test-first/test1', '826'),
-        exact: true,
-        sidebar: "testSidebar"
-      },
-      {
-        path: '/docs/test-first/test2',
-        component: ComponentCreator('/docs/test-first/test2', 'c28'),
-        exact: true,
-        sidebar: "testSidebar"
+        sidebar: "designPatternSidebar"
       },
       {
         path: '/docs/tutorial-basics/congratulations',

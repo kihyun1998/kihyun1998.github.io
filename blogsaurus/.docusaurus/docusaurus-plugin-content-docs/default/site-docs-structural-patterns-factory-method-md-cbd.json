@@ -1,0 +1,17 @@
+{
+  "unversionedId": "structural-patterns/factory-method",
+  "id": "structural-patterns/factory-method",
+  "title": "팩토리 메소드 패턴",
+  "description": "",
+  "source": "@site/docs/structural-patterns/factory-method.md",
+  "sourceDirName": "structural-patterns",
+  "slug": "/structural-patterns/factory-method",
+  "permalink": "/docs/structural-patterns/factory-method",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}

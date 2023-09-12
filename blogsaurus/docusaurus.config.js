@@ -82,15 +82,15 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'designPatternSidebar',
+            position: 'left',
+            label: '디자인 패턴'
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
-          },
-          {
-            type:'docSidebar',
-            sidebarId:'testSidebar',
-            position:'left',
-            label:'test',
           },
           {
             type: 'docSidebar',

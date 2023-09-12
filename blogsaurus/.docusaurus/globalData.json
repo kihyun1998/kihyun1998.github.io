@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "behavioral-patterns/strategy",
+              "path": "/docs/behavioral-patterns/strategy",
+              "sidebar": "designPatternSidebar"
+            },
+            {
               "id": "blog-configuration/install_node",
               "path": "/docs/blog-configuration/install_node",
               "sidebar": "blogSidebar"
@@ -41,6 +46,16 @@
               "sidebar": "blogSidebar"
             },
             {
+              "id": "creational-patterns/factory-method",
+              "path": "/docs/creational-patterns/factory-method",
+              "sidebar": "designPatternSidebar"
+            },
+            {
+              "id": "design-pattern-intro",
+              "path": "/docs/design-pattern-intro",
+              "sidebar": "designPatternSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -56,19 +71,9 @@
               "sidebar": "reactSidebar"
             },
             {
-              "id": "test",
-              "path": "/docs/test",
-              "sidebar": "testSidebar"
-            },
-            {
-              "id": "test-first/test1",
-              "path": "/docs/test-first/test1",
-              "sidebar": "testSidebar"
-            },
-            {
-              "id": "test-first/test2",
-              "path": "/docs/test-first/test2",
-              "sidebar": "testSidebar"
+              "id": "structural-patterns/decorator",
+              "path": "/docs/structural-patterns/decorator",
+              "sidebar": "designPatternSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",
@@ -119,12 +124,6 @@
                 "label": "intro"
               }
             },
-            "testSidebar": {
-              "link": {
-                "path": "/docs/test-first/test1",
-                "label": "test-first/test1"
-              }
-            },
             "reactSidebar": {
               "link": {
                 "path": "/docs/react-intro",
@@ -135,6 +134,12 @@
               "link": {
                 "path": "/docs/blog-intro",
                 "label": "blog-intro"
+              }
+            },
+            "designPatternSidebar": {
+              "link": {
+                "path": "/docs/design-pattern-intro",
+                "label": "design-pattern-intro"
               }
             }
           }

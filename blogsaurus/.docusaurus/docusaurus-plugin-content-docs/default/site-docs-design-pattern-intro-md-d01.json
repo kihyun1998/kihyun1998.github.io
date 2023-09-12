@@ -1,0 +1,22 @@
+{
+  "unversionedId": "design-pattern-intro",
+  "id": "design-pattern-intro",
+  "title": "디자인 패턴 인트로",
+  "description": "",
+  "source": "@site/docs/design-pattern-intro.md",
+  "sourceDirName": ".",
+  "slug": "/design-pattern-intro",
+  "permalink": "/docs/design-pattern-intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "designPatternSidebar",
+  "next": {
+    "title": "팩토리 메소드 패턴",
+    "permalink": "/docs/creational-patterns/factory-method"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "behavioral-patterns/strategy",
+  "id": "behavioral-patterns/strategy",
+  "title": "전략 패턴 ( Strategy Pattern )",
+  "description": "정의",
+  "source": "@site/docs/behavioral-patterns/strategy.md",
+  "sourceDirName": "behavioral-patterns",
+  "slug": "/behavioral-patterns/strategy",
+  "permalink": "/docs/behavioral-patterns/strategy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "designPatternSidebar",
+  "previous": {
+    "title": "데코레이터 패턴",
+    "permalink": "/docs/structural-patterns/decorator"
+  }
+}
