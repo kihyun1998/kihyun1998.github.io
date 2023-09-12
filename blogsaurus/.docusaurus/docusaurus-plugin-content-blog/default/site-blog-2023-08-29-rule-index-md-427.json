@@ -16,7 +16,7 @@
       "permalink": "/blog/tags/rule"
     }
   ],
-  "readingTime": 1.56,
+  "readingTime": 1.925,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -37,6 +37,10 @@
       "design pattern",
       "rule"
     ]
+  },
+  "prevItem": {
+    "title": "전략 패턴 - Strategy pattern",
+    "permalink": "/blog/strategy pattern"
   },
   "nextItem": {
     "title": "Welcome",

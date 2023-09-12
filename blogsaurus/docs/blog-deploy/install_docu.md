@@ -26,19 +26,20 @@ cd /C
 이제 이곳에 도큐사우루스를 설치할 것입니다.
 
 ```bash title='bash'
-npx @docusaurus/init@latest init my-website classic
+npx create-docusaurus@latest my-website classic
 ```
 
 위의 명령어를 치면 되는데요~ 코드를 해석해보면
 
 ```bash title='bash'
-npx @docusaurus/init@latest init [폴더명] [테마명]
+npx create-docusaurus@latest [폴더명] [테마명]
 ```
 위와 같습니다!
 
 제가 소개해드린 명령어를 그대로 작성하셨다면 my-website 폴더에 classic테마 도큐사우루스를 설치한 것입니다.
 
 잘 하셨다면 밑에처럼 영어 쏼라쏼라 하다가 `Succesfully!` 할겁니다.
+
 
 ![npx](./img/npx.PNG)
 
@@ -50,7 +51,7 @@ npx @docusaurus/init@latest init [폴더명] [테마명]
 
 나오셨다면 설치를 잘 하신겁니다!
 
-이제 주목해야 할 부분은 저 초록색 박스입니다.
+이제 실행하는 방법에 대해서 알아보러 가겠습니다 !
 
 <br/>
 
@@ -117,6 +118,7 @@ yarn start
 
 위의 명령어를 입력하시면
 <br/>
+
 
 ![start](./img/start.PNG)
 이렇게 시작하는 것처럼 나오면서 자동으로 창이 띄어집니다 !
