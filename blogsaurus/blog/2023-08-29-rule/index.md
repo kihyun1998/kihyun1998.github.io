@@ -26,3 +26,8 @@ tags: [design pattern ,rule]
 ## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )
 
 ## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )
+
+1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.
+
+2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.
+`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소
