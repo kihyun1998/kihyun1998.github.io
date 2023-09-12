@@ -11,11 +11,6 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "behavioral-patterns/strategy",
-              "path": "/docs/behavioral-patterns/strategy",
-              "sidebar": "designPatternSidebar"
-            },
-            {
               "id": "blog-configuration/install_node",
               "path": "/docs/blog-configuration/install_node",
               "sidebar": "blogSidebar"
@@ -46,13 +41,28 @@
               "sidebar": "blogSidebar"
             },
             {
-              "id": "creational-patterns/factory-method",
-              "path": "/docs/creational-patterns/factory-method",
+              "id": "design-pattern-intro",
+              "path": "/docs/design-pattern-intro",
               "sidebar": "designPatternSidebar"
             },
             {
-              "id": "design-pattern-intro",
-              "path": "/docs/design-pattern-intro",
+              "id": "DP--behavioral-patterns/observer",
+              "path": "/docs/DP--behavioral-patterns/observer",
+              "sidebar": "designPatternSidebar"
+            },
+            {
+              "id": "DP--behavioral-patterns/strategy",
+              "path": "/docs/DP--behavioral-patterns/strategy",
+              "sidebar": "designPatternSidebar"
+            },
+            {
+              "id": "DP--creational-patterns/factory-method",
+              "path": "/docs/DP--creational-patterns/factory-method",
+              "sidebar": "designPatternSidebar"
+            },
+            {
+              "id": "DP--structural-patterns/decorator",
+              "path": "/docs/DP--structural-patterns/decorator",
               "sidebar": "designPatternSidebar"
             },
             {
@@ -69,11 +79,6 @@
               "id": "react-intro",
               "path": "/docs/react-intro",
               "sidebar": "reactSidebar"
-            },
-            {
-              "id": "structural-patterns/decorator",
-              "path": "/docs/structural-patterns/decorator",
-              "sidebar": "designPatternSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",

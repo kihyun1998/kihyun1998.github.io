@@ -18,28 +18,6 @@
           "contentPathLocalized": "C:\\kihyun1998.github.io\\blogsaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
-              "unversionedId": "behavioral-patterns/strategy",
-              "id": "behavioral-patterns/strategy",
-              "title": "전략 패턴 ( Strategy Pattern )",
-              "description": "정의",
-              "source": "@site/docs/behavioral-patterns/strategy.md",
-              "sourceDirName": "behavioral-patterns",
-              "slug": "/behavioral-patterns/strategy",
-              "permalink": "/docs/behavioral-patterns/strategy",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "designPatternSidebar",
-              "previous": {
-                "title": "데코레이터 패턴",
-                "permalink": "/docs/structural-patterns/decorator"
-              }
-            },
-            {
               "unversionedId": "blog-configuration/install_node",
               "id": "blog-configuration/install_node",
               "title": "🚀Node JS + yarn 설치하기",
@@ -188,32 +166,6 @@
               }
             },
             {
-              "unversionedId": "creational-patterns/factory-method",
-              "id": "creational-patterns/factory-method",
-              "title": "팩토리 메소드 패턴",
-              "description": "",
-              "source": "@site/docs/creational-patterns/factory-method.md",
-              "sourceDirName": "creational-patterns",
-              "slug": "/creational-patterns/factory-method",
-              "permalink": "/docs/creational-patterns/factory-method",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "designPatternSidebar",
-              "previous": {
-                "title": "디자인 패턴 인트로",
-                "permalink": "/docs/design-pattern-intro"
-              },
-              "next": {
-                "title": "데코레이터 패턴",
-                "permalink": "/docs/structural-patterns/decorator"
-              }
-            },
-            {
               "unversionedId": "design-pattern-intro",
               "id": "design-pattern-intro",
               "title": "디자인 패턴 인트로",
@@ -232,7 +184,107 @@
               "sidebar": "designPatternSidebar",
               "next": {
                 "title": "팩토리 메소드 패턴",
-                "permalink": "/docs/creational-patterns/factory-method"
+                "permalink": "/docs/DP--creational-patterns/factory-method"
+              }
+            },
+            {
+              "unversionedId": "DP--behavioral-patterns/observer",
+              "id": "DP--behavioral-patterns/observer",
+              "title": "옵저버 패턴 ( Observer Pattern )",
+              "description": "정의",
+              "source": "@site/docs/DP--behavioral-patterns/observer.md",
+              "sourceDirName": "DP--behavioral-patterns",
+              "slug": "/DP--behavioral-patterns/observer",
+              "permalink": "/docs/DP--behavioral-patterns/observer",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "designPatternSidebar",
+              "previous": {
+                "title": "데코레이터 패턴",
+                "permalink": "/docs/DP--structural-patterns/decorator"
+              },
+              "next": {
+                "title": "전략 패턴 ( Strategy Pattern )",
+                "permalink": "/docs/DP--behavioral-patterns/strategy"
+              }
+            },
+            {
+              "unversionedId": "DP--behavioral-patterns/strategy",
+              "id": "DP--behavioral-patterns/strategy",
+              "title": "전략 패턴 ( Strategy Pattern )",
+              "description": "정의",
+              "source": "@site/docs/DP--behavioral-patterns/strategy.md",
+              "sourceDirName": "DP--behavioral-patterns",
+              "slug": "/DP--behavioral-patterns/strategy",
+              "permalink": "/docs/DP--behavioral-patterns/strategy",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "designPatternSidebar",
+              "previous": {
+                "title": "옵저버 패턴 ( Observer Pattern )",
+                "permalink": "/docs/DP--behavioral-patterns/observer"
+              }
+            },
+            {
+              "unversionedId": "DP--creational-patterns/factory-method",
+              "id": "DP--creational-patterns/factory-method",
+              "title": "팩토리 메소드 패턴",
+              "description": "",
+              "source": "@site/docs/DP--creational-patterns/factory-method.md",
+              "sourceDirName": "DP--creational-patterns",
+              "slug": "/DP--creational-patterns/factory-method",
+              "permalink": "/docs/DP--creational-patterns/factory-method",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "designPatternSidebar",
+              "previous": {
+                "title": "디자인 패턴 인트로",
+                "permalink": "/docs/design-pattern-intro"
+              },
+              "next": {
+                "title": "데코레이터 패턴",
+                "permalink": "/docs/DP--structural-patterns/decorator"
+              }
+            },
+            {
+              "unversionedId": "DP--structural-patterns/decorator",
+              "id": "DP--structural-patterns/decorator",
+              "title": "데코레이터 패턴",
+              "description": "",
+              "source": "@site/docs/DP--structural-patterns/decorator.md",
+              "sourceDirName": "DP--structural-patterns",
+              "slug": "/DP--structural-patterns/decorator",
+              "permalink": "/docs/DP--structural-patterns/decorator",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "designPatternSidebar",
+              "previous": {
+                "title": "팩토리 메소드 패턴",
+                "permalink": "/docs/DP--creational-patterns/factory-method"
+              },
+              "next": {
+                "title": "옵저버 패턴 ( Observer Pattern )",
+                "permalink": "/docs/DP--behavioral-patterns/observer"
               }
             },
             {
@@ -299,32 +351,6 @@
               "next": {
                 "title": "React 1",
                 "permalink": "/docs/react-basic/react1"
-              }
-            },
-            {
-              "unversionedId": "structural-patterns/decorator",
-              "id": "structural-patterns/decorator",
-              "title": "데코레이터 패턴",
-              "description": "",
-              "source": "@site/docs/structural-patterns/decorator.md",
-              "sourceDirName": "structural-patterns",
-              "slug": "/structural-patterns/decorator",
-              "permalink": "/docs/structural-patterns/decorator",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "designPatternSidebar",
-              "previous": {
-                "title": "팩토리 메소드 패턴",
-                "permalink": "/docs/creational-patterns/factory-method"
-              },
-              "next": {
-                "title": "전략 패턴 ( Strategy Pattern )",
-                "permalink": "/docs/behavioral-patterns/strategy"
               }
             },
             {
@@ -651,7 +677,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "creational-patterns/factory-method"
+                    "id": "DP--creational-patterns/factory-method"
                   }
                 ],
                 "collapsed": true,
@@ -663,7 +689,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "structural-patterns/decorator"
+                    "id": "DP--structural-patterns/decorator"
                   }
                 ],
                 "collapsed": true,
@@ -675,7 +701,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "behavioral-patterns/strategy"
+                    "id": "DP--behavioral-patterns/observer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "DP--behavioral-patterns/strategy"
                   }
                 ],
                 "collapsed": true,
@@ -692,26 +722,26 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
-          "id": "design pattern rule",
+          "id": "welcome",
           "metadata": {
-            "permalink": "/blog/design pattern rule",
-            "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-rule/index.md",
-            "source": "@site/blog/2023-08-29-rule/index.md",
-            "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-            "description": "SRP ( 단일 책임의 원칙 : Single Responsibility Principle )",
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-welcome/index.md",
+            "source": "@site/blog/2023-08-29-welcome/index.md",
+            "title": "Welcome",
+            "description": "Docusaurus 첫번째 글이다.",
             "date": "2023-08-29T00:00:00.000Z",
             "formattedDate": "August 29, 2023",
             "tags": [
               {
-                "label": "design pattern",
-                "permalink": "/blog/tags/design-pattern"
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
               },
               {
-                "label": "rule",
-                "permalink": "/blog/tags/rule"
+                "label": "first post",
+                "permalink": "/blog/tags/first-post"
               }
             ],
-            "readingTime": 1.56,
+            "readingTime": 0.095,
             "hasTruncateMarker": false,
             "authors": [
               {
@@ -723,14 +753,14 @@
               }
             ],
             "frontMatter": {
-              "slug": "design pattern rule",
-              "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+              "slug": "welcome",
+              "title": "Welcome",
               "authors": [
                 "kihyun"
               ],
               "tags": [
-                "design pattern",
-                "rule"
+                "docusaurus",
+                "first post"
               ]
             },
             "nextItem": {
@@ -738,7 +768,7 @@
               "permalink": "/blog/strategy pattern"
             }
           },
-          "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소"
+          "content": "Docusaurus 첫번째 글이다.\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\n귀여운 공룡 인형이 있다."
         },
         {
           "id": "strategy pattern",
@@ -783,37 +813,37 @@
               ]
             },
             "prevItem": {
-              "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-              "permalink": "/blog/design pattern rule"
-            },
-            "nextItem": {
               "title": "Welcome",
               "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+              "permalink": "/blog/design pattern rule"
             }
           },
           "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
         },
         {
-          "id": "welcome",
+          "id": "design pattern rule",
           "metadata": {
-            "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-welcome/index.md",
-            "source": "@site/blog/2023-08-29-welcome/index.md",
-            "title": "Welcome",
-            "description": "Docusaurus 첫번째 글이다.",
+            "permalink": "/blog/design pattern rule",
+            "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-rule/index.md",
+            "source": "@site/blog/2023-08-29-rule/index.md",
+            "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+            "description": "SRP ( 단일 책임의 원칙 : Single Responsibility Principle )",
             "date": "2023-08-29T00:00:00.000Z",
             "formattedDate": "August 29, 2023",
             "tags": [
               {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "label": "design pattern",
+                "permalink": "/blog/tags/design-pattern"
               },
               {
-                "label": "first post",
-                "permalink": "/blog/tags/first-post"
+                "label": "rule",
+                "permalink": "/blog/tags/rule"
               }
             ],
-            "readingTime": 0.095,
+            "readingTime": 1.56,
             "hasTruncateMarker": false,
             "authors": [
               {
@@ -825,14 +855,14 @@
               }
             ],
             "frontMatter": {
-              "slug": "welcome",
-              "title": "Welcome",
+              "slug": "design pattern rule",
+              "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
               "authors": [
                 "kihyun"
               ],
               "tags": [
-                "docusaurus",
-                "first post"
+                "design pattern",
+                "rule"
               ]
             },
             "prevItem": {
@@ -840,15 +870,15 @@
               "permalink": "/blog/strategy pattern"
             }
           },
-          "content": "Docusaurus 첫번째 글이다.\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\n귀여운 공룡 인형이 있다."
+          "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소"
         }
       ],
       "blogListPaginated": [
         {
           "items": [
-            "design pattern rule",
+            "welcome",
             "strategy pattern",
-            "welcome"
+            "design pattern rule"
           ],
           "metadata": {
             "permalink": "/blog",
@@ -862,77 +892,6 @@
         }
       ],
       "blogTags": {
-        "/blog/tags/design-pattern": {
-          "label": "design pattern",
-          "items": [
-            "design pattern rule",
-            "strategy pattern"
-          ],
-          "permalink": "/blog/tags/design-pattern",
-          "pages": [
-            {
-              "items": [
-                "design pattern rule",
-                "strategy pattern"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/design-pattern",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/rule": {
-          "label": "rule",
-          "items": [
-            "design pattern rule"
-          ],
-          "permalink": "/blog/tags/rule",
-          "pages": [
-            {
-              "items": [
-                "design pattern rule"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/rule",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/strategy-pattern": {
-          "label": "strategy pattern",
-          "items": [
-            "strategy pattern"
-          ],
-          "permalink": "/blog/tags/strategy-pattern",
-          "pages": [
-            {
-              "items": [
-                "strategy pattern"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/strategy-pattern",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
         "/blog/tags/docusaurus": {
           "label": "docusaurus",
           "items": [
@@ -969,6 +928,77 @@
               ],
               "metadata": {
                 "permalink": "/blog/tags/first-post",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/design-pattern": {
+          "label": "design pattern",
+          "items": [
+            "strategy pattern",
+            "design pattern rule"
+          ],
+          "permalink": "/blog/tags/design-pattern",
+          "pages": [
+            {
+              "items": [
+                "strategy pattern",
+                "design pattern rule"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/design-pattern",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/strategy-pattern": {
+          "label": "strategy pattern",
+          "items": [
+            "strategy pattern"
+          ],
+          "permalink": "/blog/tags/strategy-pattern",
+          "pages": [
+            {
+              "items": [
+                "strategy pattern"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/strategy-pattern",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/rule": {
+          "label": "rule",
+          "items": [
+            "design pattern rule"
+          ],
+          "permalink": "/blog/tags/rule",
+          "pages": [
+            {
+              "items": [
+                "design pattern rule"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/rule",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,

@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '648'),
+    component: ComponentCreator('/blog', '834'),
     exact: true
   },
   {
@@ -64,7 +64,7 @@ export default [
   },
   {
     path: '/blog/tags/design-pattern',
-    component: ComponentCreator('/blog/tags/design-pattern', 'bce'),
+    component: ComponentCreator('/blog/tags/design-pattern', '39b'),
     exact: true
   },
   {
@@ -99,14 +99,8 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'c4b'),
+    component: ComponentCreator('/docs', 'aa8'),
     routes: [
-      {
-        path: '/docs/behavioral-patterns/strategy',
-        component: ComponentCreator('/docs/behavioral-patterns/strategy', 'aa2'),
-        exact: true,
-        sidebar: "designPatternSidebar"
-      },
       {
         path: '/docs/blog-configuration/install_node',
         component: ComponentCreator('/docs/blog-configuration/install_node', '58f'),
@@ -144,14 +138,32 @@ export default [
         sidebar: "blogSidebar"
       },
       {
-        path: '/docs/creational-patterns/factory-method',
-        component: ComponentCreator('/docs/creational-patterns/factory-method', 'b8e'),
+        path: '/docs/design-pattern-intro',
+        component: ComponentCreator('/docs/design-pattern-intro', '382'),
         exact: true,
         sidebar: "designPatternSidebar"
       },
       {
-        path: '/docs/design-pattern-intro',
-        component: ComponentCreator('/docs/design-pattern-intro', '382'),
+        path: '/docs/DP--behavioral-patterns/observer',
+        component: ComponentCreator('/docs/DP--behavioral-patterns/observer', '366'),
+        exact: true,
+        sidebar: "designPatternSidebar"
+      },
+      {
+        path: '/docs/DP--behavioral-patterns/strategy',
+        component: ComponentCreator('/docs/DP--behavioral-patterns/strategy', 'c0a'),
+        exact: true,
+        sidebar: "designPatternSidebar"
+      },
+      {
+        path: '/docs/DP--creational-patterns/factory-method',
+        component: ComponentCreator('/docs/DP--creational-patterns/factory-method', 'c6b'),
+        exact: true,
+        sidebar: "designPatternSidebar"
+      },
+      {
+        path: '/docs/DP--structural-patterns/decorator',
+        component: ComponentCreator('/docs/DP--structural-patterns/decorator', '93d'),
         exact: true,
         sidebar: "designPatternSidebar"
       },
@@ -172,12 +184,6 @@ export default [
         component: ComponentCreator('/docs/react-intro', '839'),
         exact: true,
         sidebar: "reactSidebar"
-      },
-      {
-        path: '/docs/structural-patterns/decorator',
-        component: ComponentCreator('/docs/structural-patterns/decorator', 'ade'),
-        exact: true,
-        sidebar: "designPatternSidebar"
       },
       {
         path: '/docs/tutorial-basics/congratulations',

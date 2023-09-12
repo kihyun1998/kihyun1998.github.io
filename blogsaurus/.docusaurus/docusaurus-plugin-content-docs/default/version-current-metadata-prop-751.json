@@ -162,8 +162,8 @@
           {
             "type": "link",
             "label": "팩토리 메소드 패턴",
-            "href": "/docs/creational-patterns/factory-method",
-            "docId": "creational-patterns/factory-method"
+            "href": "/docs/DP--creational-patterns/factory-method",
+            "docId": "DP--creational-patterns/factory-method"
           }
         ],
         "collapsed": true,
@@ -176,8 +176,8 @@
           {
             "type": "link",
             "label": "데코레이터 패턴",
-            "href": "/docs/structural-patterns/decorator",
-            "docId": "structural-patterns/decorator"
+            "href": "/docs/DP--structural-patterns/decorator",
+            "docId": "DP--structural-patterns/decorator"
           }
         ],
         "collapsed": true,
@@ -189,9 +189,15 @@
         "items": [
           {
             "type": "link",
+            "label": "옵저버 패턴 ( Observer Pattern )",
+            "href": "/docs/DP--behavioral-patterns/observer",
+            "docId": "DP--behavioral-patterns/observer"
+          },
+          {
+            "type": "link",
             "label": "전략 패턴 ( Strategy Pattern )",
-            "href": "/docs/behavioral-patterns/strategy",
-            "docId": "behavioral-patterns/strategy"
+            "href": "/docs/DP--behavioral-patterns/strategy",
+            "docId": "DP--behavioral-patterns/strategy"
           }
         ],
         "collapsed": true,
@@ -200,12 +206,6 @@
     ]
   },
   "docs": {
-    "behavioral-patterns/strategy": {
-      "id": "behavioral-patterns/strategy",
-      "title": "전략 패턴 ( Strategy Pattern )",
-      "description": "정의",
-      "sidebar": "designPatternSidebar"
-    },
     "blog-configuration/install_node": {
       "id": "blog-configuration/install_node",
       "title": "🚀Node JS + yarn 설치하기",
@@ -242,15 +242,33 @@
       "description": "이 카테고리의 글을 작성하는 간단한 저의 생각과 동기에 대한 글입니다.",
       "sidebar": "blogSidebar"
     },
-    "creational-patterns/factory-method": {
-      "id": "creational-patterns/factory-method",
+    "design-pattern-intro": {
+      "id": "design-pattern-intro",
+      "title": "디자인 패턴 인트로",
+      "description": "",
+      "sidebar": "designPatternSidebar"
+    },
+    "DP--behavioral-patterns/observer": {
+      "id": "DP--behavioral-patterns/observer",
+      "title": "옵저버 패턴 ( Observer Pattern )",
+      "description": "정의",
+      "sidebar": "designPatternSidebar"
+    },
+    "DP--behavioral-patterns/strategy": {
+      "id": "DP--behavioral-patterns/strategy",
+      "title": "전략 패턴 ( Strategy Pattern )",
+      "description": "정의",
+      "sidebar": "designPatternSidebar"
+    },
+    "DP--creational-patterns/factory-method": {
+      "id": "DP--creational-patterns/factory-method",
       "title": "팩토리 메소드 패턴",
       "description": "",
       "sidebar": "designPatternSidebar"
     },
-    "design-pattern-intro": {
-      "id": "design-pattern-intro",
-      "title": "디자인 패턴 인트로",
+    "DP--structural-patterns/decorator": {
+      "id": "DP--structural-patterns/decorator",
+      "title": "데코레이터 패턴",
       "description": "",
       "sidebar": "designPatternSidebar"
     },
@@ -271,12 +289,6 @@
       "title": "React Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "reactSidebar"
-    },
-    "structural-patterns/decorator": {
-      "id": "structural-patterns/decorator",
-      "title": "데코레이터 패턴",
-      "description": "",
-      "sidebar": "designPatternSidebar"
     },
     "tutorial-basics/congratulations": {
       "id": "tutorial-basics/congratulations",

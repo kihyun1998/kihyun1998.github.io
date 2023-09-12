@@ -38,7 +38,7 @@
       "first post"
     ]
   },
-  "prevItem": {
+  "nextItem": {
     "title": "전략 패턴 - Strategy pattern",
     "permalink": "/blog/strategy pattern"
   }

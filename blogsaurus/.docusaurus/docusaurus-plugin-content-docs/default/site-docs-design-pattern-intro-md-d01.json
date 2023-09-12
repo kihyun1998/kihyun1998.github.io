@@ -17,6 +17,6 @@
   "sidebar": "designPatternSidebar",
   "next": {
     "title": "팩토리 메소드 패턴",
-    "permalink": "/docs/creational-patterns/factory-method"
+    "permalink": "/docs/DP--creational-patterns/factory-method"
   }
 }

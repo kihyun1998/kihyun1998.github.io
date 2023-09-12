@@ -42,7 +42,7 @@
       "plugin": "plugin---docusaurus-debug-835-a73"
     }
   },
-  "/blog-648": {
+  "/blog-834": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blogc-2-e-de2"
@@ -50,13 +50,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogfc-6-7c4"
+        "content": "content---blog-7-e-3-24e"
       },
       {
         "content": "content---blogfef-ce9"
       },
       {
-        "content": "content---blog-7-e-3-24e"
+        "content": "content---blogfc-6-7c4"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -92,7 +92,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/design-pattern-bce": {
+  "/blog/tags/design-pattern-39b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blogc-2-e-de2"
@@ -100,10 +100,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogfc-6-7c4"
+        "content": "content---blogfef-ce9"
       },
       {
-        "content": "content---blogfef-ce9"
+        "content": "content---blogfc-6-7c4"
       }
     ],
     "tag": "tag---blog-tags-design-pattern-3-d-6-001",
@@ -180,16 +180,12 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-c4b": {
+  "/docs-aa8": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-7-b-3-bd0"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
-  },
-  "/docs/behavioral-patterns/strategy-aa2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-behavioral-patterns-strategy-089-d60"
   },
   "/docs/blog-configuration/install_node-58f": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -215,13 +211,25 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-blog-introa-2-d-e4d"
   },
-  "/docs/creational-patterns/factory-method-b8e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-creational-patterns-factory-methode-6-b-5b4"
-  },
   "/docs/design-pattern-intro-382": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-design-pattern-introd-01-cb2"
+  },
+  "/docs/DP--behavioral-patterns/observer-366": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dp-behavioral-patterns-observer-7-db-f7c"
+  },
+  "/docs/DP--behavioral-patterns/strategy-c0a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dp-behavioral-patterns-strategy-7-f-2-ddb"
+  },
+  "/docs/DP--creational-patterns/factory-method-c6b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dp-creational-patterns-factory-methodaf-0-446"
+  },
+  "/docs/DP--structural-patterns/decorator-93d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dp-structural-patterns-decorator-29-b-8b2"
   },
   "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -234,10 +242,6 @@
   "/docs/react-intro-839": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-react-intro-121-cd4"
-  },
-  "/docs/structural-patterns/decorator-ade": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-structural-patterns-decoratorb-60-6b1"
   },
   "/docs/tutorial-basics/congratulations-793": {
     "__comp": "__comp---theme-doc-item-178-a40",

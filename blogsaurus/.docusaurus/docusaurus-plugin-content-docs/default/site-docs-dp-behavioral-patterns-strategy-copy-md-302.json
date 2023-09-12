@@ -1,0 +1,26 @@
+{
+  "unversionedId": "DP--behavioral-patterns/strategy copy",
+  "id": "DP--behavioral-patterns/strategy copy",
+  "title": "전략 패턴 ( Strategy Pattern )",
+  "description": "정의",
+  "source": "@site/docs/DP--behavioral-patterns/strategy copy.md",
+  "sourceDirName": "DP--behavioral-patterns",
+  "slug": "/DP--behavioral-patterns/strategy copy",
+  "permalink": "/docs/DP--behavioral-patterns/strategy copy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "designPatternSidebar",
+  "previous": {
+    "title": "데코레이터 패턴",
+    "permalink": "/docs/DP--structural-patterns/decorator"
+  },
+  "next": {
+    "title": "전략 패턴 ( Strategy Pattern )",
+    "permalink": "/docs/DP--behavioral-patterns/strategy"
+  }
+}
