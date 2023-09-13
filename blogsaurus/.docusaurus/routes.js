@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '2a9'),
+    component: ComponentCreator('/blog', '648'),
     exact: true
   },
   {
@@ -64,7 +64,7 @@ export default [
   },
   {
     path: '/blog/tags/design-pattern',
-    component: ComponentCreator('/blog/tags/design-pattern', '39b'),
+    component: ComponentCreator('/blog/tags/design-pattern', 'bce'),
     exact: true
   },
   {
@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'aa8'),
+    component: ComponentCreator('/docs', '97c'),
     routes: [
       {
         path: '/docs/blog-configuration/install_node',
@@ -122,6 +122,12 @@ export default [
       {
         path: '/docs/blog-deploy/depoly_docu2',
         component: ComponentCreator('/docs/blog-deploy/depoly_docu2', '607'),
+        exact: true,
+        sidebar: "blogSidebar"
+      },
+      {
+        path: '/docs/blog-deploy/depoly_docu3',
+        component: ComponentCreator('/docs/blog-deploy/depoly_docu3', '21f'),
         exact: true,
         sidebar: "blogSidebar"
       },

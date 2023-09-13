@@ -142,6 +142,12 @@
             "label": "😸Git Hub로 배포하기 - 2",
             "href": "/docs/blog-deploy/depoly_docu2",
             "docId": "blog-deploy/depoly_docu2"
+          },
+          {
+            "type": "link",
+            "label": "😸Git Hub로 배포하기 - 3",
+            "href": "/docs/blog-deploy/depoly_docu3",
+            "docId": "blog-deploy/depoly_docu3"
           }
         ],
         "collapsed": true,
@@ -228,6 +234,12 @@
       "id": "blog-deploy/depoly_docu2",
       "title": "😸Git Hub로 배포하기 - 2",
       "description": "설정 파일 수정",
+      "sidebar": "blogSidebar"
+    },
+    "blog-deploy/depoly_docu3": {
+      "id": "blog-deploy/depoly_docu3",
+      "title": "😸Git Hub로 배포하기 - 3",
+      "description": "SSH Key 발급받기",
       "sidebar": "blogSidebar"
     },
     "blog-deploy/install_docu": {

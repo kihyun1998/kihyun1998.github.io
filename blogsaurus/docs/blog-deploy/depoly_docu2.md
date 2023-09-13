@@ -73,7 +73,6 @@ sidebar_position: 3
 
 잘 모르시겠으면 빨간 네모를 잘 보시면서 유추해보세요~
 
-
 ## 저장소에 Push 하기
 ---
 
@@ -92,148 +91,51 @@ Git Desktop으로 ~
 
 `push`는 한번 해보셨으니까 아시죠? 버튼 눌러서 `push` !
 
-## SSH Key 발급받기
+
+## gh-pages 브랜치 만들기
 ---
 
-거의 다 왔어요 진짜 !!!
+방금 우리가 설정한 파일 내용 보시면 deploymentBranch에 `gh-pages`라고 설정했잖아요 !
 
-이거랑 다음꺼만 하면 배포를 할 수 있답니다 !!!
+근데 우린 저게 없단 말이에요 !
 
-Git Bash를 빨리 열어보세요 !
-
-```bash title='bash'
-ssh-keygen -t ed25519 -C "당신의 Git Hub 계정 이메일"
-```
-
-그리고 위 명령어를 치시면 ssh-key가 생성됩니다!
-
-Git Hub 이메일을 모르시겠다고요?
-<br/>
-
-![Alt text](./img/image-4.png)
-가입할 때 했던 이메일이시구요 Git Dekstop 들어가보시면 위 사진처럼 확인하실 수도 있으세요 ! (아마도?)
-
-같이 따라해볼까요?
-<br/>
-
-![Alt text](./img/image-5.png)
-
-우선 여기가 어딘지 확인하기 위해서 `pwd`를 쳐서 어딘지 확인해줍니다 !
-
-저는 C드라이브 밑에 사용자 밑에 user 폴더에 들어있군요!
-<br/>
-
-![Alt text](./img/image-6.png)
-
-그리고 위에서 소개했던 밑에 명령어 !!!
-
-```bash title='bash'
-ssh-keygen -t ed25519 -C "당신의 Git Hub 계정 이메일"
-```
-
-입력하시구 빨간색 체크 표시에 엔터 빵!
-
-총 엔터 3번 치시면 완료입니다!
-
-보안을 위해서 키 부분은 가렸구요~ 
-
-저기 어디에 저장돼있는지 써있죠? 가볼까요?
-
-저는 저기 가로로 긴 초록색 네모 바로 위에 영어로
-**`Your public key has been saved in /c/Users/USER/.ssh/id_ed25519.pub`**이라고 돼있네요 가봅시다 !
+그래서 추가해줘야한단 말이에요 !
 
 <br/>
 
-![Alt text](./img/image-7.png)
+![Alt text](./img/image-18.png)
 
-잘 있네요 ! 만약 여러분들은 `.ssh` 폴더가 갔는데 안보이신다구요?
-
-숨김 폴더 보이기를 하셔야 보입니다~
-
-## Git Hub에 SSh Key 등록하기
-
-자자 거의 다 왔죠 등록하러 가요~
-
-어디서 하는지 빠르게 알려드릴게요 
-
-1. Git Hub 페이지에서 오른쪽 위 프로필 아이콘 누르고 `Settings`
+위 이미지처럼 우리 Repository로 와서 저기 연두색 테두리로 표시한 Branches 클릭해봅시다 !
 <br/>
 
-![Alt text](./img/image-8.png)
+![Alt text](./img/image-19.png)
 
-2. 좌측 사이드바에서 SSH and GPG keys 메뉴로 들어가주세요 !
+그러면 위 화면처럼 나올거에요 ! 우측 상단 `New branch` 클릭하고
+
 <br/>
 
-![Alt text](./img/image-9.png)
+![Alt text](./img/image-20.png)
 
-3. SSH keys 옆에 New SSH key 누르시면 되요 
-<br/>
+이름에 **gh-pages** 입력하고 `Create New branch` 클릭하면 됩니다 !
 
-![Alt text](./img/image-10.png)
+그리고 한 가지만 더 해주세요 !
 
-4. Title엔 아무거나 Key에는 써놓은대로 하시면 됩니다. 그리고 Add SSH Key !!!!
-<br/>
+말로 먼저 표현하자면 Settings > Pages > Build and deployment에서 Branch에서 main branch로 되어있는 것을 gh-pages로 변경하고 SAVE!!
 
-![Alt text](./img/image-11.png)
+밑에 사진으로 설명할게요~
 
+- Settings로 이동
 
-## 배포하기
----
+![Alt text](./img/image-21.png)
 
-자자 진짜 찐찐막
+- Pages로 이동
 
-Git Bash 틀었잖아요? 껏다면 다시 틀어봐요.
+![Alt text](./img/image-22.png)
 
-전에 폴더 이동하는 방법 알려드렸죠?
-<br/>
+- gh-pages로 설정하기
+ 
+![Alt text](./img/image-23.png)
 
-![Alt text](./img/image-12.png)
+다 하셨다면 반 이상은 오셨습니다 !....
 
-`cd` 하고 폴더 경로인데 언제 다 치고 있나요
-/c 까지 치고
-
-username 좀 치다가 키보드에서 `Tab`키 누르면 자동 완성돼요
-
-이 자동 완성 기능을 이용하시면 보다 빠르게 도달 할 수 있어요 !
-
-잘 하신 분들은 저처럼 폴더 경로 옆에 **(main)**이 나올거구요 !
-
-안 나오면 폴더 잘못들어오신거니까 다시 확인해보세요 !
-
-여러분은 이제 딱 3개 명령어만 치시면 됩니다 !
-
-1. 첫 번째
-```bash title='bash'
-yarn install
-```
-
-2. 두 번째
-```bash title='bash'
-yarn build
-```
-
-3. 마지막.. 은 좀 길어요
-```bash title='bash'
-GIT_USER=[USERNAME] USE_SSH=true yarn deploy
-```
-
-이제 아시죠?... 제발.. username = 유저 네임 !!!
-
-띄어쓰기 유의하시구 저 명령어를 입력하셨다면 여러분은 빨리 여러분 Git Hub 저장소로 가보세요 !!
-<br/>
-
-![Alt text](./img/image-13.png)
-
-Actions 탭을 클릭하면 `pagees build and deployment`가 주황색으로 실행되고 있을거에요 ! 벌써 초록색이 됐을 수도 있구요 !
-
-뭐 누군가는 빨간색이 됐을 수도 있겠죠...
-
-인생이 참 그래요~ 같은 글을 보고 따라 했는데 누구는 되고 누구는 안되고... 코딩도 인생과 같아요 !
-
-초록색이 되신 분들은 https://[username].github.io 로 들어가보시면 잘 나올겁니다 !
-<br/>
-
-![Alt text](./img/image-14.png)
-
-
-++ 넣어야할 내용`[git-pages]`만드는 과정이 빠졌음
+너무 글이 길어져서 다음 글에서 배포하도록 하겠습니다 !

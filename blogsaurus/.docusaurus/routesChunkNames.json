@@ -42,7 +42,7 @@
       "plugin": "plugin---docusaurus-debug-835-a73"
     }
   },
-  "/blog-2a9": {
+  "/blog-648": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blogc-2-e-de2"
@@ -50,10 +50,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogfef-ce9"
+        "content": "content---blogfc-6-7c4"
       },
       {
-        "content": "content---blogfc-6-7c4"
+        "content": "content---blogfef-ce9"
       },
       {
         "content": "content---blog-7-e-3-24e"
@@ -92,7 +92,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/design-pattern-39b": {
+  "/blog/tags/design-pattern-bce": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blogc-2-e-de2"
@@ -100,10 +100,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogfef-ce9"
+        "content": "content---blogfc-6-7c4"
       },
       {
-        "content": "content---blogfc-6-7c4"
+        "content": "content---blogfef-ce9"
       }
     ],
     "tag": "tag---blog-tags-design-pattern-3-d-6-001",
@@ -180,7 +180,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-aa8": {
+  "/docs-97c": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-7-b-3-bd0"
@@ -202,6 +202,10 @@
   "/docs/blog-deploy/depoly_docu2-607": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-blog-deploy-depoly-docu-26-dc-74a"
+  },
+  "/docs/blog-deploy/depoly_docu3-21f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-blog-deploy-depoly-docu-38-e-3-1d4"
   },
   "/docs/blog-deploy/install_docu-e1a": {
     "__comp": "__comp---theme-doc-item-178-a40",

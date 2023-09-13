@@ -1,12 +1,12 @@
 {
-  "unversionedId": "blog-deploy/depoly_docu2",
-  "id": "blog-deploy/depoly_docu2",
+  "unversionedId": "blog-deploy/depoly_docu2 copy",
+  "id": "blog-deploy/depoly_docu2 copy",
   "title": "😸Git Hub로 배포하기 - 2",
   "description": "설정 파일 수정",
-  "source": "@site/docs/blog-deploy/depoly_docu2.md",
+  "source": "@site/docs/blog-deploy/depoly_docu2 copy.md",
   "sourceDirName": "blog-deploy",
-  "slug": "/blog-deploy/depoly_docu2",
-  "permalink": "/docs/blog-deploy/depoly_docu2",
+  "slug": "/blog-deploy/depoly_docu2 copy",
+  "permalink": "/docs/blog-deploy/depoly_docu2 copy",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -20,7 +20,7 @@
     "permalink": "/docs/blog-deploy/depoly_docu1"
   },
   "next": {
-    "title": "😸Git Hub로 배포하기 - 3",
-    "permalink": "/docs/blog-deploy/depoly_docu3"
+    "title": "😸Git Hub로 배포하기 - 2",
+    "permalink": "/docs/blog-deploy/depoly_docu2"
   }
 }

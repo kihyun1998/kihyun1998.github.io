@@ -115,6 +115,32 @@
               "previous": {
                 "title": "😺Git Hub로 배포하기 - 1",
                 "permalink": "/docs/blog-deploy/depoly_docu1"
+              },
+              "next": {
+                "title": "😸Git Hub로 배포하기 - 3",
+                "permalink": "/docs/blog-deploy/depoly_docu3"
+              }
+            },
+            {
+              "unversionedId": "blog-deploy/depoly_docu3",
+              "id": "blog-deploy/depoly_docu3",
+              "title": "😸Git Hub로 배포하기 - 3",
+              "description": "SSH Key 발급받기",
+              "source": "@site/docs/blog-deploy/depoly_docu3.md",
+              "sourceDirName": "blog-deploy",
+              "slug": "/blog-deploy/depoly_docu3",
+              "permalink": "/docs/blog-deploy/depoly_docu3",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "blogSidebar",
+              "previous": {
+                "title": "😸Git Hub로 배포하기 - 2",
+                "permalink": "/docs/blog-deploy/depoly_docu2"
               }
             },
             {
@@ -660,6 +686,10 @@
                   {
                     "type": "doc",
                     "id": "blog-deploy/depoly_docu2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "blog-deploy/depoly_docu3"
                   }
                 ],
                 "collapsed": true,
@@ -722,55 +752,6 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
-          "id": "strategy pattern",
-          "metadata": {
-            "permalink": "/blog/strategy pattern",
-            "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-stratgy/index.md",
-            "source": "@site/blog/2023-08-29-stratgy/index.md",
-            "title": "전략 패턴 - Strategy pattern",
-            "description": "정의",
-            "date": "2023-08-29T00:00:00.000Z",
-            "formattedDate": "August 29, 2023",
-            "tags": [
-              {
-                "label": "design pattern",
-                "permalink": "/blog/tags/design-pattern"
-              },
-              {
-                "label": "strategy pattern",
-                "permalink": "/blog/tags/strategy-pattern"
-              }
-            ],
-            "readingTime": 1.465,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Park Ki Hyun",
-                "title": "Deveploper",
-                "url": "https://github.com/kihyun1998",
-                "imageURL": "https://github.com/kihyun1998.png",
-                "key": "kihyun"
-              }
-            ],
-            "frontMatter": {
-              "slug": "strategy pattern",
-              "title": "전략 패턴 - Strategy pattern",
-              "authors": [
-                "kihyun"
-              ],
-              "tags": [
-                "design pattern",
-                "strategy pattern"
-              ]
-            },
-            "nextItem": {
-              "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-              "permalink": "/blog/design pattern rule"
-            }
-          },
-          "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
-        },
-        {
           "id": "design pattern rule",
           "metadata": {
             "permalink": "/blog/design pattern rule",
@@ -812,16 +793,65 @@
                 "rule"
               ]
             },
-            "prevItem": {
+            "nextItem": {
               "title": "전략 패턴 - Strategy pattern",
               "permalink": "/blog/strategy pattern"
+            }
+          },
+          "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
+        },
+        {
+          "id": "strategy pattern",
+          "metadata": {
+            "permalink": "/blog/strategy pattern",
+            "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-stratgy/index.md",
+            "source": "@site/blog/2023-08-29-stratgy/index.md",
+            "title": "전략 패턴 - Strategy pattern",
+            "description": "정의",
+            "date": "2023-08-29T00:00:00.000Z",
+            "formattedDate": "August 29, 2023",
+            "tags": [
+              {
+                "label": "design pattern",
+                "permalink": "/blog/tags/design-pattern"
+              },
+              {
+                "label": "strategy pattern",
+                "permalink": "/blog/tags/strategy-pattern"
+              }
+            ],
+            "readingTime": 1.465,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Park Ki Hyun",
+                "title": "Deveploper",
+                "url": "https://github.com/kihyun1998",
+                "imageURL": "https://github.com/kihyun1998.png",
+                "key": "kihyun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "strategy pattern",
+              "title": "전략 패턴 - Strategy pattern",
+              "authors": [
+                "kihyun"
+              ],
+              "tags": [
+                "design pattern",
+                "strategy pattern"
+              ]
+            },
+            "prevItem": {
+              "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+              "permalink": "/blog/design pattern rule"
             },
             "nextItem": {
               "title": "Welcome",
               "permalink": "/blog/welcome"
             }
           },
-          "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
+          "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
         },
         {
           "id": "welcome",
@@ -866,8 +896,8 @@
               ]
             },
             "prevItem": {
-              "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-              "permalink": "/blog/design pattern rule"
+              "title": "전략 패턴 - Strategy pattern",
+              "permalink": "/blog/strategy pattern"
             }
           },
           "content": "Docusaurus 첫번째 글이다.\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\n귀여운 공룡 인형이 있다."
@@ -876,8 +906,8 @@
       "blogListPaginated": [
         {
           "items": [
-            "strategy pattern",
             "design pattern rule",
+            "strategy pattern",
             "welcome"
           ],
           "metadata": {
@@ -895,15 +925,15 @@
         "/blog/tags/design-pattern": {
           "label": "design pattern",
           "items": [
-            "strategy pattern",
-            "design pattern rule"
+            "design pattern rule",
+            "strategy pattern"
           ],
           "permalink": "/blog/tags/design-pattern",
           "pages": [
             {
               "items": [
-                "strategy pattern",
-                "design pattern rule"
+                "design pattern rule",
+                "strategy pattern"
               ],
               "metadata": {
                 "permalink": "/blog/tags/design-pattern",
@@ -911,29 +941,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/strategy-pattern": {
-          "label": "strategy pattern",
-          "items": [
-            "strategy pattern"
-          ],
-          "permalink": "/blog/tags/strategy-pattern",
-          "pages": [
-            {
-              "items": [
-                "strategy pattern"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/strategy-pattern",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -953,6 +960,29 @@
               ],
               "metadata": {
                 "permalink": "/blog/tags/rule",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/strategy-pattern": {
+          "label": "strategy pattern",
+          "items": [
+            "strategy pattern"
+          ],
+          "permalink": "/blog/tags/strategy-pattern",
+          "pages": [
+            {
+              "items": [
+                "strategy pattern"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/strategy-pattern",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
