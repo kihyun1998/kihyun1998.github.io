@@ -1,6 +1,65 @@
 {
   "blogPosts": [
     {
+      "id": "Overloading and Overriding",
+      "metadata": {
+        "permalink": "/blog/Overloading and Overriding",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-09-16-over/index.md",
+        "source": "@site/blog/2023-09-16-over/index.md",
+        "title": "Overloading & Overriding",
+        "description": "오버로딩과 오버라이딩에 대해서 알아보겠습니다.",
+        "date": "2023-09-16T00:00:00.000Z",
+        "formattedDate": "September 16, 2023",
+        "tags": [
+          {
+            "label": "Overriding",
+            "permalink": "/blog/tags/overriding"
+          },
+          {
+            "label": "Overloading",
+            "permalink": "/blog/tags/overloading"
+          },
+          {
+            "label": "오버로딩",
+            "permalink": "/blog/tags/오버로딩"
+          },
+          {
+            "label": "오버라이딩",
+            "permalink": "/blog/tags/오버라이딩"
+          }
+        ],
+        "readingTime": 3.87,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "Overloading and Overriding",
+          "title": "Overloading & Overriding",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "Overriding",
+            "Overloading",
+            "오버로딩",
+            "오버라이딩"
+          ]
+        },
+        "nextItem": {
+          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+          "permalink": "/blog/design pattern rule"
+        }
+      },
+      "content": "오버로딩과 오버라이딩에 대해서 알아보겠습니다.\r\n\r\n## 오버로딩 (Overloading)\r\n\r\n### 정의\r\n\r\n한 클래스 내에 이미 **사용하려는 이름**과 **같은 이름**을 가진 **`메소드`**가 있어도 매개 변수의 개수와 타입이 다르면 같은 이름을 사용해서 메소드를 재정의 할 수 있다.\r\n\r\n여기서 핵심은 2가지로 정리할 수 있습니다.\r\n\r\n1. 메소드의 이름이 같다.\r\n2. 매개변수의 개수나 타입이 달라야 한다.\r\n3. 리턴값과는 상관 없습니다.\r\n\r\n\r\n### 오버로딩 함수 코드\r\n\r\n```java title='오버로딩 함수'\r\npublic class OverringClass {\r\n    \r\n    // 오버로딩 1번 함수\r\n    public void OverloadMethod(){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 0개\");\r\n        System.out.println(\"매개변수 타입 : void\");\r\n        System.out.println(\"오버라이딩 1번 함수 입니다.\");\r\n        System.out.println(\"============================\");\r\n    }\r\n\r\n    // 오버로딩 2번 함수\r\n    public int OverloadMethod(int a, int b){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 2개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a+b;\r\n    }\r\n\r\n    // 오버로딩 3번 함수\r\n    public int OverloadMethod(int a, int b, int c){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 3개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a*b*c;\r\n    }\r\n\r\n\r\n    // 오버로딩 4번 함수\r\n    public boolean OverloadMethod(String str){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 1개\");\r\n        System.out.println(\"매개변수 타입 : String\");\r\n        System.out.println(\"오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        if(str.equals(\"park\")){\r\n            return true;\r\n        }else{\r\n            return false;\r\n        }\r\n    }\r\n}\r\n\r\n```\r\n\r\n위 함수들을 보시면 `OverloadMethod`로 이름들이 같지만 타입과 매개변수의 수가 다른 것들을 보실 수 있습니다. 함수들에 대한 설명은 코드에 작성돼 있으니 참고해주세요~ 😎\r\n\r\n코드를 실행하는 코드와 결과를 확인해보겠습니다.\r\n\r\n``` java title='결과 확인 코드'\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        OverringClass oc = new OverringClass();\r\n        \r\n        // 오버로딩 1번 함수\r\n        oc.OverloadMethod();\r\n\r\n        // 오버로딩 2번 함수\r\n        int a = oc.OverloadMethod(1,2);\r\n        System.out.println(\"오버로딩 2번 함수 반환값 : \"+a);\r\n\r\n        // 오버로딩 3번 함수\r\n        int b = oc.OverloadMethod(4,5,6);\r\n        System.out.println(\"오버로딩 3번 함수 반환값 : \"+b);\r\n\r\n        // 오버로딩 4번 함수\r\n        boolean c = oc.OverloadMethod(\"park\");\r\n        System.out.println(\"오버로딩 4번 함수 반환값 : \"+c);\r\n    }\r\n}\r\n```\r\n\r\n```text title='결과'\r\n============================\r\n매개변수 수 : 0개\r\n매개변수 타입 : void\r\n오버라이딩 1번 함수 입니다.\r\n============================\r\n============================\r\n매개변수 수 : 2개\r\n매개변수 타입 : int\r\n오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\r\n============================\r\n오버로딩 2번 함수 반환값 : 3\r\n============================\r\n매개변수 수 : 3개\r\n매개변수 타입 : int\r\n오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\r\n============================\r\n오버로딩 3번 함수 반환값 : 120\r\n============================\r\n매개변수 수 : 1개\r\n매개변수 타입 : String\r\n오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\r\n============================\r\n오버로딩 4번 함수 반환값 : true\r\n```"
+    },
+    {
       "id": "design pattern rule",
       "metadata": {
         "permalink": "/blog/design pattern rule",
@@ -41,6 +100,10 @@
             "design pattern",
             "rule"
           ]
+        },
+        "prevItem": {
+          "title": "Overloading & Overriding",
+          "permalink": "/blog/Overloading and Overriding"
         },
         "nextItem": {
           "title": "전략 패턴 - Strategy pattern",

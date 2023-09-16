@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/welcome",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-09-16-over/2023-08-29-welcome/index.md",
+  "source": "@site/blog/2023-09-16-over/2023-08-29-welcome/index.md",
+  "title": "Welcome",
+  "description": "Docusaurus 첫번째 글이다.",
+  "date": "2023-08-29T00:00:00.000Z",
+  "formattedDate": "August 29, 2023",
+  "tags": [
+    {
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    },
+    {
+      "label": "first post",
+      "permalink": "/blog/tags/first-post"
+    }
+  ],
+  "readingTime": 0.095,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "docusaurus",
+      "first post"
+    ]
+  },
+  "prevItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

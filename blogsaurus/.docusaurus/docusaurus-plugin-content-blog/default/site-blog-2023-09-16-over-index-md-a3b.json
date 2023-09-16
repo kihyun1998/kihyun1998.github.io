@@ -1,0 +1,55 @@
+{
+  "permalink": "/blog/Overloading and Overriding",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-09-16-over/index.md",
+  "source": "@site/blog/2023-09-16-over/index.md",
+  "title": "Overloading & Overriding",
+  "description": "오버로딩과 오버라이딩에 대해서 알아보겠습니다.",
+  "date": "2023-09-16T00:00:00.000Z",
+  "formattedDate": "September 16, 2023",
+  "tags": [
+    {
+      "label": "Overriding",
+      "permalink": "/blog/tags/overriding"
+    },
+    {
+      "label": "Overloading",
+      "permalink": "/blog/tags/overloading"
+    },
+    {
+      "label": "오버로딩",
+      "permalink": "/blog/tags/오버로딩"
+    },
+    {
+      "label": "오버라이딩",
+      "permalink": "/blog/tags/오버라이딩"
+    }
+  ],
+  "readingTime": 3.87,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Overloading and Overriding",
+    "title": "Overloading & Overriding",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "Overriding",
+      "Overloading",
+      "오버로딩",
+      "오버라이딩"
+    ]
+  },
+  "nextItem": {
+    "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+    "permalink": "/blog/design pattern rule"
+  }
+}
