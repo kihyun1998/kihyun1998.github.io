@@ -1,0 +1,17 @@
+{
+  "unversionedId": "blog-intro copy",
+  "id": "blog-intro copy",
+  "title": "시작하기 전",
+  "description": "이 카테고리의 글을 작성하는 간단한 저의 생각과 동기에 대한 글입니다.",
+  "source": "@site/docs/blog-intro copy.md",
+  "sourceDirName": ".",
+  "slug": "/blog-intro copy",
+  "permalink": "/docs/blog-intro copy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "dart/dart1",
+  "id": "dart/dart1",
+  "title": "Dart 언어의 변수 타입",
+  "description": "01. var",
+  "source": "@site/docs/dart/dart1.md",
+  "sourceDirName": "dart",
+  "slug": "/dart/dart1",
+  "permalink": "/docs/dart/dart1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "다트 공부 시작한다.",
+    "permalink": "/docs/dart-intro"
+  }
+}

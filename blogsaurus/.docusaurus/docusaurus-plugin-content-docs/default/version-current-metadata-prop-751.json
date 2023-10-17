@@ -209,6 +209,28 @@
         "collapsed": true,
         "collapsible": true
       }
+    ],
+    "dartSidebar": [
+      {
+        "type": "link",
+        "label": "다트 공부 시작한다.",
+        "href": "/docs/dart-intro",
+        "docId": "dart-intro"
+      },
+      {
+        "type": "category",
+        "label": "Dart",
+        "items": [
+          {
+            "type": "link",
+            "label": "Dart 언어의 변수 타입",
+            "href": "/docs/dart/dart1",
+            "docId": "dart/dart1"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
     ]
   },
   "docs": {
@@ -253,6 +275,18 @@
       "title": "시작하기 전",
       "description": "이 카테고리의 글을 작성하는 간단한 저의 생각과 동기에 대한 글입니다.",
       "sidebar": "blogSidebar"
+    },
+    "dart-intro": {
+      "id": "dart-intro",
+      "title": "다트 공부 시작한다.",
+      "description": "---",
+      "sidebar": "dartSidebar"
+    },
+    "dart/dart1": {
+      "id": "dart/dart1",
+      "title": "Dart 언어의 변수 타입",
+      "description": "01. var",
+      "sidebar": "dartSidebar"
     },
     "design-pattern-intro": {
       "id": "design-pattern-intro",

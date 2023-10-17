@@ -1,0 +1,22 @@
+{
+  "unversionedId": "dart-intro",
+  "id": "dart-intro",
+  "title": "다트 공부 시작한다.",
+  "description": "---",
+  "source": "@site/docs/dart-intro.md",
+  "sourceDirName": ".",
+  "slug": "/dart-intro",
+  "permalink": "/docs/dart-intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "dartSidebar",
+  "next": {
+    "title": "Dart 언어의 변수 타입",
+    "permalink": "/docs/dart/dart1"
+  }
+}

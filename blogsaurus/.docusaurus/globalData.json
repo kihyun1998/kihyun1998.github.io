@@ -46,6 +46,16 @@
               "sidebar": "blogSidebar"
             },
             {
+              "id": "dart-intro",
+              "path": "/docs/dart-intro",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "dart/dart1",
+              "path": "/docs/dart/dart1",
+              "sidebar": "dartSidebar"
+            },
+            {
               "id": "design-pattern-intro",
               "path": "/docs/design-pattern-intro",
               "sidebar": "designPatternSidebar"
@@ -150,6 +160,12 @@
               "link": {
                 "path": "/docs/design-pattern-intro",
                 "label": "design-pattern-intro"
+              }
+            },
+            "dartSidebar": {
+              "link": {
+                "path": "/docs/dart-intro",
+                "label": "dart-intro"
               }
             }
           }
