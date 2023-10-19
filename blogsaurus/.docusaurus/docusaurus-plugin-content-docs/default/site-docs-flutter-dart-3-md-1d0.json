@@ -1,0 +1,17 @@
+{
+  "unversionedId": "flutter/dart3",
+  "id": "flutter/dart3",
+  "title": "03. [Dart] 함수",
+  "description": "1. 함수 선언",
+  "source": "@site/docs/flutter/dart3.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/dart3",
+  "permalink": "/docs/flutter/dart3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  }
+}

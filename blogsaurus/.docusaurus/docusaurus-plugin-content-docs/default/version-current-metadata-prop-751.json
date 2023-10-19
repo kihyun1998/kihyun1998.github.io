@@ -248,6 +248,20 @@
         ],
         "collapsed": true,
         "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Flutter",
+        "items": [
+          {
+            "type": "link",
+            "label": "01. [Flutter] 설치하기",
+            "href": "/docs/flutter/flutter1",
+            "docId": "flutter/flutter1"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
       }
     ]
   },
@@ -353,6 +367,12 @@
       "title": "데코레이터 패턴",
       "description": "",
       "sidebar": "designPatternSidebar"
+    },
+    "flutter/flutter1": {
+      "id": "flutter/flutter1",
+      "title": "01. [Flutter] 설치하기",
+      "description": "1. 플러터 설치",
+      "sidebar": "dartSidebar"
     },
     "intro": {
       "id": "intro",

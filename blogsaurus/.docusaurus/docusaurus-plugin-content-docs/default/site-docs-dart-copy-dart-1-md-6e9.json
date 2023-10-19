@@ -1,0 +1,17 @@
+{
+  "unversionedId": "dart copy/dart1",
+  "id": "dart copy/dart1",
+  "title": "01. [Dart] 언어의 변수 타입",
+  "description": "01. var",
+  "source": "@site/docs/dart copy/dart1.md",
+  "sourceDirName": "dart copy",
+  "slug": "/dart copy/dart1",
+  "permalink": "/docs/dart copy/dart1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}

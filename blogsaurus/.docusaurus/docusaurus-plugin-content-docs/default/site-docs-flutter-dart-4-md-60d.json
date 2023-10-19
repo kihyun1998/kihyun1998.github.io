@@ -1,0 +1,17 @@
+{
+  "unversionedId": "flutter/dart4",
+  "id": "flutter/dart4",
+  "title": "04. [Dart] 클래스",
+  "description": "1. class",
+  "source": "@site/docs/flutter/dart4.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/dart4",
+  "permalink": "/docs/flutter/dart4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter/dart1",
+  "id": "flutter/dart1",
+  "title": "01. [Dart] 언어의 변수 타입",
+  "description": "01. var",
+  "source": "@site/docs/flutter/dart1.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/dart1",
+  "permalink": "/docs/flutter/dart1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "04. [Dart] 클래스",
+    "permalink": "/docs/dart/dart4"
+  }
+}

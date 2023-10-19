@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '6a6'),
+    component: ComponentCreator('/blog', 'b2a'),
     exact: true
   },
   {
@@ -79,7 +79,7 @@ export default [
   },
   {
     path: '/blog/tags/design-pattern',
-    component: ComponentCreator('/blog/tags/design-pattern', '39b'),
+    component: ComponentCreator('/blog/tags/design-pattern', 'bce'),
     exact: true
   },
   {
@@ -124,7 +124,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5f9'),
+    component: ComponentCreator('/docs', 'c58'),
     routes: [
       {
         path: '/docs/blog-configuration/install_node',
@@ -227,6 +227,12 @@ export default [
         component: ComponentCreator('/docs/DP--structural-patterns/decorator', '93d'),
         exact: true,
         sidebar: "designPatternSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter1',
+        component: ComponentCreator('/docs/flutter/flutter1', '6ee'),
+        exact: true,
+        sidebar: "dartSidebar"
       },
       {
         path: '/docs/intro',

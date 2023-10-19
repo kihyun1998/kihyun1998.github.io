@@ -1,0 +1,17 @@
+{
+  "unversionedId": "dart copy/dart2",
+  "id": "dart copy/dart2",
+  "title": "02. [Dart] 데이터 타입들",
+  "description": "01. basic data type",
+  "source": "@site/docs/dart copy/dart2.md",
+  "sourceDirName": "dart copy",
+  "slug": "/dart copy/dart2",
+  "permalink": "/docs/dart copy/dart2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  }
+}

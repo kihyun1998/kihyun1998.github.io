@@ -1,0 +1,17 @@
+{
+  "unversionedId": "dart copy/dart3",
+  "id": "dart copy/dart3",
+  "title": "03. [Dart] 함수",
+  "description": "1. 함수 선언",
+  "source": "@site/docs/dart copy/dart3.md",
+  "sourceDirName": "dart copy",
+  "slug": "/dart copy/dart3",
+  "permalink": "/docs/dart copy/dart3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  }
+}

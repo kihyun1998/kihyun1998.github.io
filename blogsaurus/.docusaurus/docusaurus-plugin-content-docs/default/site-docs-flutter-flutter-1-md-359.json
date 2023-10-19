@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter/flutter1",
+  "id": "flutter/flutter1",
+  "title": "01. [Flutter] 설치하기",
+  "description": "1. 플러터 설치",
+  "source": "@site/docs/flutter/flutter1.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter1",
+  "permalink": "/docs/flutter/flutter1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "04. [Dart] 클래스",
+    "permalink": "/docs/dart/dart4"
+  }
+}

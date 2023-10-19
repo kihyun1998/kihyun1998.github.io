@@ -1,0 +1,17 @@
+{
+  "unversionedId": "dart copy/dart4",
+  "id": "dart copy/dart4",
+  "title": "04. [Dart] 클래스",
+  "description": "1. class",
+  "source": "@site/docs/dart copy/dart4.md",
+  "sourceDirName": "dart copy",
+  "slug": "/dart copy/dart4",
+  "permalink": "/docs/dart copy/dart4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

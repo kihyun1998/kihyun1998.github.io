@@ -96,6 +96,11 @@
               "sidebar": "designPatternSidebar"
             },
             {
+              "id": "flutter/flutter1",
+              "path": "/docs/flutter/flutter1",
+              "sidebar": "dartSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"

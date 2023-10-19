@@ -1,0 +1,17 @@
+{
+  "unversionedId": "flutter/dart2",
+  "id": "flutter/dart2",
+  "title": "02. [Dart] 데이터 타입들",
+  "description": "01. basic data type",
+  "source": "@site/docs/flutter/dart2.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/dart2",
+  "permalink": "/docs/flutter/dart2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  }
+}
