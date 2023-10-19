@@ -66,6 +66,11 @@
               "sidebar": "dartSidebar"
             },
             {
+              "id": "dart/dart4",
+              "path": "/docs/dart/dart4",
+              "sidebar": "dartSidebar"
+            },
+            {
               "id": "design-pattern-intro",
               "path": "/docs/design-pattern-intro",
               "sidebar": "designPatternSidebar"

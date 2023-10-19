@@ -238,6 +238,12 @@
             "label": "03. [Dart] 함수",
             "href": "/docs/dart/dart3",
             "docId": "dart/dart3"
+          },
+          {
+            "type": "link",
+            "label": "04. [Dart] 클래스",
+            "href": "/docs/dart/dart4",
+            "docId": "dart/dart4"
           }
         ],
         "collapsed": true,
@@ -310,6 +316,12 @@
       "id": "dart/dart3",
       "title": "03. [Dart] 함수",
       "description": "1. 함수 선언",
+      "sidebar": "dartSidebar"
+    },
+    "dart/dart4": {
+      "id": "dart/dart4",
+      "title": "04. [Dart] 클래스",
+      "description": "1. class",
       "sidebar": "dartSidebar"
     },
     "design-pattern-intro": {

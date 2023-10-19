@@ -1,12 +1,12 @@
 {
-  "unversionedId": "dart/dart3",
-  "id": "dart/dart3",
+  "unversionedId": "dart/dart3 copy",
+  "id": "dart/dart3 copy",
   "title": "03. [Dart] 함수",
   "description": "1. 함수 선언",
-  "source": "@site/docs/dart/dart3.md",
+  "source": "@site/docs/dart/dart3 copy.md",
   "sourceDirName": "dart",
-  "slug": "/dart/dart3",
-  "permalink": "/docs/dart/dart3",
+  "slug": "/dart/dart3 copy",
+  "permalink": "/docs/dart/dart3 copy",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -20,7 +20,7 @@
     "permalink": "/docs/dart/dart2"
   },
   "next": {
-    "title": "04. [Dart] 클래스",
-    "permalink": "/docs/dart/dart4"
+    "title": "03. [Dart] 함수",
+    "permalink": "/docs/dart/dart3"
   }
 }
