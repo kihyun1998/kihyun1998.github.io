@@ -258,6 +258,12 @@
             "label": "01. [Flutter] 설치하기",
             "href": "/docs/flutter/flutter1",
             "docId": "flutter/flutter1"
+          },
+          {
+            "type": "link",
+            "label": "02. [Flutter] 시작하기",
+            "href": "/docs/flutter/flutter2",
+            "docId": "flutter/flutter2"
           }
         ],
         "collapsed": true,
@@ -372,6 +378,12 @@
       "id": "flutter/flutter1",
       "title": "01. [Flutter] 설치하기",
       "description": "1. 플러터 설치",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter2": {
+      "id": "flutter/flutter2",
+      "title": "02. [Flutter] 시작하기",
+      "description": "원하는 곳에",
       "sidebar": "dartSidebar"
     },
     "intro": {

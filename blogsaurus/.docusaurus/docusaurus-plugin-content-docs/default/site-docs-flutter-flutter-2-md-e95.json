@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter/flutter2",
+  "id": "flutter/flutter2",
+  "title": "02. [Flutter] 시작하기",
+  "description": "원하는 곳에",
+  "source": "@site/docs/flutter/flutter2.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter2",
+  "permalink": "/docs/flutter/flutter2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "01. [Flutter] 설치하기",
+    "permalink": "/docs/flutter/flutter1"
+  }
+}

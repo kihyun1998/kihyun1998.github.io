@@ -1,12 +1,12 @@
 {
-  "unversionedId": "flutter/flutter1",
-  "id": "flutter/flutter1",
+  "unversionedId": "flutter/flutter1 copy",
+  "id": "flutter/flutter1 copy",
   "title": "01. [Flutter] 설치하기",
   "description": "1. 플러터 설치",
-  "source": "@site/docs/flutter/flutter1.md",
+  "source": "@site/docs/flutter/flutter1 copy.md",
   "sourceDirName": "flutter",
-  "slug": "/flutter/flutter1",
-  "permalink": "/docs/flutter/flutter1",
+  "slug": "/flutter/flutter1 copy",
+  "permalink": "/docs/flutter/flutter1 copy",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -20,7 +20,7 @@
     "permalink": "/docs/dart/dart4"
   },
   "next": {
-    "title": "02. [Flutter] 시작하기",
-    "permalink": "/docs/flutter/flutter2"
+    "title": "01. [Flutter] 설치하기",
+    "permalink": "/docs/flutter/flutter1"
   }
 }

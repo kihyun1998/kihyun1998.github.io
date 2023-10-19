@@ -39,8 +39,8 @@
     ]
   },
   "prevItem": {
-    "title": "Overloading & Overriding",
-    "permalink": "/blog/Overloading and Overriding"
+    "title": "전략 패턴 - Strategy pattern",
+    "permalink": "/blog/strategy pattern"
   },
   "nextItem": {
     "title": "Welcome",

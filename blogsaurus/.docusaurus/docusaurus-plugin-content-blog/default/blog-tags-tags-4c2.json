@@ -25,6 +25,11 @@
     "count": 2
   },
   {
+    "label": "strategy pattern",
+    "permalink": "/blog/tags/strategy-pattern",
+    "count": 1
+  },
+  {
     "label": "rule",
     "permalink": "/blog/tags/rule",
     "count": 1
@@ -37,11 +42,6 @@
   {
     "label": "first post",
     "permalink": "/blog/tags/first-post",
-    "count": 1
-  },
-  {
-    "label": "strategy pattern",
-    "permalink": "/blog/tags/strategy-pattern",
     "count": 1
   }
 ]
