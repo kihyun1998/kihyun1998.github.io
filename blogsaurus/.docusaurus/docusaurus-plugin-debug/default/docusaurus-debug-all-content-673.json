@@ -209,14 +209,14 @@
               },
               "sidebar": "dartSidebar",
               "next": {
-                "title": "Dart 언어의 변수 타입",
+                "title": "01. Dart 언어의 변수 타입",
                 "permalink": "/docs/dart/dart1"
               }
             },
             {
               "unversionedId": "dart/dart1",
               "id": "dart/dart1",
-              "title": "Dart 언어의 변수 타입",
+              "title": "01. Dart 언어의 변수 타입",
               "description": "01. var",
               "source": "@site/docs/dart/dart1.md",
               "sourceDirName": "dart",
@@ -233,6 +233,32 @@
               "previous": {
                 "title": "다트 공부 시작한다.",
                 "permalink": "/docs/dart-intro"
+              },
+              "next": {
+                "title": "02. Dart 데이터 타입들",
+                "permalink": "/docs/dart/dart2"
+              }
+            },
+            {
+              "unversionedId": "dart/dart2",
+              "id": "dart/dart2",
+              "title": "02. Dart 데이터 타입들",
+              "description": "01. basic data type",
+              "source": "@site/docs/dart/dart2.md",
+              "sourceDirName": "dart",
+              "slug": "/dart/dart2",
+              "permalink": "/docs/dart/dart2",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "dartSidebar",
+              "previous": {
+                "title": "01. Dart 언어의 변수 타입",
+                "permalink": "/docs/dart/dart1"
               }
             },
             {
@@ -798,6 +824,10 @@
                   {
                     "type": "doc",
                     "id": "dart/dart1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "dart/dart2"
                   }
                 ],
                 "collapsed": true,

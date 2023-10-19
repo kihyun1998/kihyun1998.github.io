@@ -124,7 +124,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '233'),
+    component: ComponentCreator('/docs', 'dd1'),
     routes: [
       {
         path: '/docs/blog-configuration/install_node',
@@ -177,6 +177,12 @@ export default [
       {
         path: '/docs/dart/dart1',
         component: ComponentCreator('/docs/dart/dart1', 'e04'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/dart/dart2',
+        component: ComponentCreator('/docs/dart/dart2', '5f3'),
         exact: true,
         sidebar: "dartSidebar"
       },

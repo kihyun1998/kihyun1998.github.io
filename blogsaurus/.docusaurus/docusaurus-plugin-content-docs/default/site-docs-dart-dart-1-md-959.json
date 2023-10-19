@@ -1,7 +1,7 @@
 {
   "unversionedId": "dart/dart1",
   "id": "dart/dart1",
-  "title": "Dart 언어의 변수 타입",
+  "title": "01. Dart 언어의 변수 타입",
   "description": "01. var",
   "source": "@site/docs/dart/dart1.md",
   "sourceDirName": "dart",
@@ -18,5 +18,9 @@
   "previous": {
     "title": "다트 공부 시작한다.",
     "permalink": "/docs/dart-intro"
+  },
+  "next": {
+    "title": "02. Dart 데이터 타입들",
+    "permalink": "/docs/dart/dart2"
   }
 }

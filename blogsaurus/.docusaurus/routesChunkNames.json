@@ -247,7 +247,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-233": {
+  "/docs-dd1": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-7-b-3-bd0"
@@ -289,6 +289,10 @@
   "/docs/dart/dart1-e04": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-dart-dart-1959-027"
+  },
+  "/docs/dart/dart2-5f3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dart-dart-2866-5ca"
   },
   "/docs/design-pattern-intro-382": {
     "__comp": "__comp---theme-doc-item-178-a40",

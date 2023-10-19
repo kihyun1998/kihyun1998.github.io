@@ -1,0 +1,22 @@
+{
+  "unversionedId": "dart/dart2",
+  "id": "dart/dart2",
+  "title": "02. Dart 데이터 타입들",
+  "description": "01. basic data type",
+  "source": "@site/docs/dart/dart2.md",
+  "sourceDirName": "dart",
+  "slug": "/dart/dart2",
+  "permalink": "/docs/dart/dart2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "01. Dart 언어의 변수 타입",
+    "permalink": "/docs/dart/dart1"
+  }
+}

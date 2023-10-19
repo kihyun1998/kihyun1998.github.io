@@ -223,9 +223,15 @@
         "items": [
           {
             "type": "link",
-            "label": "Dart 언어의 변수 타입",
+            "label": "01. Dart 언어의 변수 타입",
             "href": "/docs/dart/dart1",
             "docId": "dart/dart1"
+          },
+          {
+            "type": "link",
+            "label": "02. Dart 데이터 타입들",
+            "href": "/docs/dart/dart2",
+            "docId": "dart/dart2"
           }
         ],
         "collapsed": true,
@@ -284,8 +290,14 @@
     },
     "dart/dart1": {
       "id": "dart/dart1",
-      "title": "Dart 언어의 변수 타입",
+      "title": "01. Dart 언어의 변수 타입",
       "description": "01. var",
+      "sidebar": "dartSidebar"
+    },
+    "dart/dart2": {
+      "id": "dart/dart2",
+      "title": "02. Dart 데이터 타입들",
+      "description": "01. basic data type",
       "sidebar": "dartSidebar"
     },
     "design-pattern-intro": {
