@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 01. Dart 언어의 변수 타입
+# 01. [Dart] 언어의 변수 타입
 
 ## 01. var
 ---

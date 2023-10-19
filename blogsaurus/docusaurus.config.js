@@ -96,7 +96,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'dartSidebar',
             position: 'left',
-            label: 'Dart'
+            label: 'Dart & Flutter'
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

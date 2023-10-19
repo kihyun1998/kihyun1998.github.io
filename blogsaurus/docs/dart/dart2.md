@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# 02. Dart 데이터 타입들
+# 02. [Dart] 데이터 타입들
 
 ## 01. basic data type
 ---

@@ -71,7 +71,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "dartSidebar",
           "position": "left",
-          "label": "Dart"
+          "label": "Dart & Flutter"
         },
         {
           "to": "/blog",

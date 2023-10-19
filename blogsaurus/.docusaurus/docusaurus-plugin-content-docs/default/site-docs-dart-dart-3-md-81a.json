@@ -1,0 +1,22 @@
+{
+  "unversionedId": "dart/dart3",
+  "id": "dart/dart3",
+  "title": "03. [Dart] 함수",
+  "description": "1. 함수 선언",
+  "source": "@site/docs/dart/dart3.md",
+  "sourceDirName": "dart",
+  "slug": "/dart/dart3",
+  "permalink": "/docs/dart/dart3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "02. [Dart] 데이터 타입들",
+    "permalink": "/docs/dart/dart2"
+  }
+}
