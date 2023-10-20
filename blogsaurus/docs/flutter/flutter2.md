@@ -19,3 +19,8 @@ code .
 을 하면 vs code에 들어갈 수 있습니다.
 
 들어가면 flutter extention 설치해야 한다.
+
+
+## 여기가 짱
+
+그냥 [여기](https://parkjh7764.tistory.com/171)가 짱이다.
