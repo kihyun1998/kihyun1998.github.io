@@ -276,6 +276,12 @@
             "label": "04. [Flutter] Hello World",
             "href": "/docs/flutter/flutter4",
             "docId": "flutter/flutter4"
+          },
+          {
+            "type": "link",
+            "label": "05. [Flutter] Container",
+            "href": "/docs/flutter/flutter5",
+            "docId": "flutter/flutter5"
           }
         ],
         "collapsed": true,
@@ -407,6 +413,12 @@
     "flutter/flutter4": {
       "id": "flutter/flutter4",
       "title": "04. [Flutter] Hello World",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter5": {
+      "id": "flutter/flutter5",
+      "title": "05. [Flutter] Container",
       "description": "1. 코드",
       "sidebar": "dartSidebar"
     },

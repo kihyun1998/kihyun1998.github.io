@@ -124,7 +124,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '7f0'),
+    component: ComponentCreator('/docs', '865'),
     routes: [
       {
         path: '/docs/blog-configuration/install_node',
@@ -249,6 +249,12 @@ export default [
       {
         path: '/docs/flutter/flutter4',
         component: ComponentCreator('/docs/flutter/flutter4', '1ba'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter5',
+        component: ComponentCreator('/docs/flutter/flutter5', '20f'),
         exact: true,
         sidebar: "dartSidebar"
       },

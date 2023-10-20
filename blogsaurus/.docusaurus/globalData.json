@@ -116,6 +116,11 @@
               "sidebar": "dartSidebar"
             },
             {
+              "id": "flutter/flutter5",
+              "path": "/docs/flutter/flutter5",
+              "sidebar": "dartSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"

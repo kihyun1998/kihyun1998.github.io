@@ -1,12 +1,12 @@
 {
-  "unversionedId": "flutter/flutter4",
-  "id": "flutter/flutter4",
+  "unversionedId": "flutter/flutter4 copy",
+  "id": "flutter/flutter4 copy",
   "title": "04. [Flutter] Hello World",
   "description": "1. 코드",
-  "source": "@site/docs/flutter/flutter4.md",
+  "source": "@site/docs/flutter/flutter4 copy.md",
   "sourceDirName": "flutter",
-  "slug": "/flutter/flutter4",
-  "permalink": "/docs/flutter/flutter4",
+  "slug": "/flutter/flutter4 copy",
+  "permalink": "/docs/flutter/flutter4 copy",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -20,7 +20,7 @@
     "permalink": "/docs/flutter/flutter3"
   },
   "next": {
-    "title": "05. [Flutter] Container",
-    "permalink": "/docs/flutter/flutter5"
+    "title": "04. [Flutter] Hello World",
+    "permalink": "/docs/flutter/flutter4"
   }
 }

@@ -537,6 +537,32 @@
               "previous": {
                 "title": "03. [Flutter] Hello World",
                 "permalink": "/docs/flutter/flutter3"
+              },
+              "next": {
+                "title": "05. [Flutter] Container",
+                "permalink": "/docs/flutter/flutter5"
+              }
+            },
+            {
+              "unversionedId": "flutter/flutter5",
+              "id": "flutter/flutter5",
+              "title": "05. [Flutter] Container",
+              "description": "1. 코드",
+              "source": "@site/docs/flutter/flutter5.md",
+              "sourceDirName": "flutter",
+              "slug": "/flutter/flutter5",
+              "permalink": "/docs/flutter/flutter5",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "dartSidebar",
+              "previous": {
+                "title": "04. [Flutter] Hello World",
+                "permalink": "/docs/flutter/flutter4"
               }
             },
             {
@@ -1016,6 +1042,10 @@
                   {
                     "type": "doc",
                     "id": "flutter/flutter4"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "flutter/flutter5"
                   }
                 ],
                 "collapsed": true,
