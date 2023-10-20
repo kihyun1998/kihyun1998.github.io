@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter/flutter7",
+  "id": "flutter/flutter7",
+  "title": "07. [Flutter] 위젯 재사용 만들기",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter7.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter7",
+  "permalink": "/docs/flutter/flutter7",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "06. [Flutter] Flutter를 위한 편리한 VS Code 설정",
+    "permalink": "/docs/flutter/flutter6"
+  }
+}

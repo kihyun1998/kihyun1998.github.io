@@ -288,6 +288,12 @@
             "label": "06. [Flutter] Flutter를 위한 편리한 VS Code 설정",
             "href": "/docs/flutter/flutter6",
             "docId": "flutter/flutter6"
+          },
+          {
+            "type": "link",
+            "label": "07. [Flutter] 위젯 재사용 만들기",
+            "href": "/docs/flutter/flutter7",
+            "docId": "flutter/flutter7"
           }
         ],
         "collapsed": true,
@@ -432,6 +438,12 @@
       "id": "flutter/flutter6",
       "title": "06. [Flutter] Flutter를 위한 편리한 VS Code 설정",
       "description": "옵션 설정을 위해서",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter7": {
+      "id": "flutter/flutter7",
+      "title": "07. [Flutter] 위젯 재사용 만들기",
+      "description": "1. 코드",
       "sidebar": "dartSidebar"
     },
     "intro": {

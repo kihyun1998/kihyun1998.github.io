@@ -1,12 +1,12 @@
 {
-  "unversionedId": "flutter/flutter6",
-  "id": "flutter/flutter6",
+  "unversionedId": "flutter/flutter6 copy",
+  "id": "flutter/flutter6 copy",
   "title": "06. [Flutter] Flutter를 위한 편리한 VS Code 설정",
   "description": "옵션 설정을 위해서",
-  "source": "@site/docs/flutter/flutter6.md",
+  "source": "@site/docs/flutter/flutter6 copy.md",
   "sourceDirName": "flutter",
-  "slug": "/flutter/flutter6",
-  "permalink": "/docs/flutter/flutter6",
+  "slug": "/flutter/flutter6 copy",
+  "permalink": "/docs/flutter/flutter6 copy",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -20,7 +20,7 @@
     "permalink": "/docs/flutter/flutter5"
   },
   "next": {
-    "title": "07. [Flutter] 위젯 재사용 만들기",
-    "permalink": "/docs/flutter/flutter7"
+    "title": "06. [Flutter] Flutter를 위한 편리한 VS Code 설정",
+    "permalink": "/docs/flutter/flutter6"
   }
 }
