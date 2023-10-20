@@ -107,3 +107,12 @@ fontWeight - 폰트 굵기를 변경한다.
 padding: 꼭 넣어줘야 하는데 `EdgeInsets.` 하면 패딩 위치, 값을 넣는 옵션들이 나온다.
 child: 패딩이 적용되는 대상
 :::
+
+### [Widget] SizeBox
+
+그냥 사이즈를 차지해주는 박스다. 좀더 정교한 패딩 느낌
+
+:::tip SizeBox 옵션
+height: 높이 조절
+width: 폭 조절
+::: 
