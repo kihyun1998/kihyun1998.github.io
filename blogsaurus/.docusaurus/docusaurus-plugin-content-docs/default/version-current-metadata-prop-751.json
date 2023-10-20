@@ -282,6 +282,12 @@
             "label": "05. [Flutter] Container",
             "href": "/docs/flutter/flutter5",
             "docId": "flutter/flutter5"
+          },
+          {
+            "type": "link",
+            "label": "06. [Flutter] Flutter를 위한 편리한 VS Code 설정",
+            "href": "/docs/flutter/flutter6",
+            "docId": "flutter/flutter6"
           }
         ],
         "collapsed": true,
@@ -420,6 +426,12 @@
       "id": "flutter/flutter5",
       "title": "05. [Flutter] Container",
       "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter6": {
+      "id": "flutter/flutter6",
+      "title": "06. [Flutter] Flutter를 위한 편리한 VS Code 설정",
+      "description": "옵션 설정을 위해서",
       "sidebar": "dartSidebar"
     },
     "intro": {

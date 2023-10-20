@@ -563,6 +563,32 @@
               "previous": {
                 "title": "04. [Flutter] Hello World",
                 "permalink": "/docs/flutter/flutter4"
+              },
+              "next": {
+                "title": "06. [Flutter] Flutter를 위한 편리한 VS Code 설정",
+                "permalink": "/docs/flutter/flutter6"
+              }
+            },
+            {
+              "unversionedId": "flutter/flutter6",
+              "id": "flutter/flutter6",
+              "title": "06. [Flutter] Flutter를 위한 편리한 VS Code 설정",
+              "description": "옵션 설정을 위해서",
+              "source": "@site/docs/flutter/flutter6.md",
+              "sourceDirName": "flutter",
+              "slug": "/flutter/flutter6",
+              "permalink": "/docs/flutter/flutter6",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "dartSidebar",
+              "previous": {
+                "title": "05. [Flutter] Container",
+                "permalink": "/docs/flutter/flutter5"
               }
             },
             {
@@ -1046,6 +1072,10 @@
                   {
                     "type": "doc",
                     "id": "flutter/flutter5"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "flutter/flutter6"
                   }
                 ],
                 "collapsed": true,

@@ -1,12 +1,12 @@
 {
-  "unversionedId": "flutter/flutter5",
-  "id": "flutter/flutter5",
+  "unversionedId": "flutter/flutter5 copy",
+  "id": "flutter/flutter5 copy",
   "title": "05. [Flutter] Container",
   "description": "1. 코드",
-  "source": "@site/docs/flutter/flutter5.md",
+  "source": "@site/docs/flutter/flutter5 copy.md",
   "sourceDirName": "flutter",
-  "slug": "/flutter/flutter5",
-  "permalink": "/docs/flutter/flutter5",
+  "slug": "/flutter/flutter5 copy",
+  "permalink": "/docs/flutter/flutter5 copy",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -20,7 +20,7 @@
     "permalink": "/docs/flutter/flutter4"
   },
   "next": {
-    "title": "06. [Flutter] Flutter를 위한 편리한 VS Code 설정",
-    "permalink": "/docs/flutter/flutter6"
+    "title": "05. [Flutter] Container",
+    "permalink": "/docs/flutter/flutter5"
   }
 }

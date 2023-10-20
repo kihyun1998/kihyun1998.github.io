@@ -247,7 +247,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-865": {
+  "/docs-6bc": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-7-b-3-bd0"
@@ -341,6 +341,10 @@
   "/docs/flutter/flutter5-20f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-flutter-flutter-58-b-3-e47"
+  },
+  "/docs/flutter/flutter6-4e4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-flutter-flutter-6884-ee9"
   },
   "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",
