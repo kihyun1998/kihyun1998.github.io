@@ -59,11 +59,14 @@ Widget은 레고다.
 :::
 
 ## 오늘 배운 내용
+---
 
-1. 플러터의 화면에는 scaffold가 필요하다.
+1. 모든 것은 Widget이고 StatelessWidget이나 StatefulWidget에는 build 메소드를 구현해야 한다. build 메소드 안에 모든 Widget이 들어간다.
 
-2. Scaffold 위젯 안에는 appBar와 body로 나눌 수 있다.
+2. 플러터의 화면에는 scaffold가 필요하다.
 
-3. 문자를 화면에 보이게 하고 싶으면 Text 위젯을 사용한다.
+3. Scaffold 위젯 안에는 appBar와 body로 나눌 수 있다.
 
-4. 문자를 가운데로 오게 하고 싶으면 Center 위젯을 사용한다.
+4. 문자를 화면에 보이게 하고 싶으면 Text 위젯을 사용한다.
+
+5. 문자를 가운데로 오게 하고 싶으면 Center 위젯을 사용한다.
