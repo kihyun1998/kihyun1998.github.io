@@ -34,4 +34,8 @@ like this
 
 ![Alt text](./img/flutter6/image1.png)
 
-Widget 누르고 전구를 통해서 쉽게 리팩토링 가능
+Widget 누르고 전구를 통해서 쉽게 리팩토링 가능 (ex. wrap, remove 등)
+
+## Error Lens Extension 설치
+
+![Alt text](./img/flutter6/image2.png)
