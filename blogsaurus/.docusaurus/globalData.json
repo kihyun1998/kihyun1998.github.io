@@ -111,6 +111,11 @@
               "sidebar": "dartSidebar"
             },
             {
+              "id": "flutter/flutter4",
+              "path": "/docs/flutter/flutter4",
+              "sidebar": "dartSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"

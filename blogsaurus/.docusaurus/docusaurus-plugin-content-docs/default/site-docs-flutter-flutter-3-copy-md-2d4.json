@@ -1,12 +1,12 @@
 {
-  "unversionedId": "flutter/flutter3",
-  "id": "flutter/flutter3",
+  "unversionedId": "flutter/flutter3 copy",
+  "id": "flutter/flutter3 copy",
   "title": "03. [Flutter] Hello World",
   "description": "Alt text",
-  "source": "@site/docs/flutter/flutter3.md",
+  "source": "@site/docs/flutter/flutter3 copy.md",
   "sourceDirName": "flutter",
-  "slug": "/flutter/flutter3",
-  "permalink": "/docs/flutter/flutter3",
+  "slug": "/flutter/flutter3 copy",
+  "permalink": "/docs/flutter/flutter3 copy",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -20,7 +20,7 @@
     "permalink": "/docs/flutter/flutter2"
   },
   "next": {
-    "title": "04. [Flutter] Hello World",
-    "permalink": "/docs/flutter/flutter4"
+    "title": "03. [Flutter] Hello World",
+    "permalink": "/docs/flutter/flutter3"
   }
 }

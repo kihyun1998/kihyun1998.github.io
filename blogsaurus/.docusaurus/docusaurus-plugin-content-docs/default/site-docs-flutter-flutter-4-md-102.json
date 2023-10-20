@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter/flutter4",
+  "id": "flutter/flutter4",
+  "title": "04. [Flutter] Hello World",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter4.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter4",
+  "permalink": "/docs/flutter/flutter4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "03. [Flutter] Hello World",
+    "permalink": "/docs/flutter/flutter3"
+  }
+}
