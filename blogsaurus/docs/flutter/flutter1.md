@@ -54,3 +54,8 @@ MAC 유저면 `homebrew`로 설치하기
 ![Alt text](./img/flutter1/image4.png)
 
 저기서 `Android setup` 또는 `Window setup` 하면 끝! 
+
+
+## 여기가 짱
+
+그냥 [여기](https://parkjh7764.tistory.com/171)가 짱이다.

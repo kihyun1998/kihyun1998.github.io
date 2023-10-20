@@ -18,5 +18,9 @@
   "previous": {
     "title": "01. [Flutter] 설치하기",
     "permalink": "/docs/flutter/flutter1"
+  },
+  "next": {
+    "title": "03. [Flutter] Hello World",
+    "permalink": "/docs/flutter/flutter3"
   }
 }

@@ -264,6 +264,12 @@
             "label": "02. [Flutter] 시작하기",
             "href": "/docs/flutter/flutter2",
             "docId": "flutter/flutter2"
+          },
+          {
+            "type": "link",
+            "label": "03. [Flutter] Hello World",
+            "href": "/docs/flutter/flutter3",
+            "docId": "flutter/flutter3"
           }
         ],
         "collapsed": true,
@@ -384,6 +390,12 @@
       "id": "flutter/flutter2",
       "title": "02. [Flutter] 시작하기",
       "description": "원하는 곳에",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter3": {
+      "id": "flutter/flutter3",
+      "title": "03. [Flutter] Hello World",
+      "description": "Alt text",
       "sidebar": "dartSidebar"
     },
     "intro": {
