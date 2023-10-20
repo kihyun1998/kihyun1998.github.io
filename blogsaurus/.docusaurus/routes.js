@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'b2a'),
+    component: ComponentCreator('/blog', '0b0'),
     exact: true
   },
   {

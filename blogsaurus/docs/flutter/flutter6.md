@@ -29,3 +29,9 @@ sidebar_position: 6
 like this
 
 ![Alt text](./img/flutter6/image.png)
+
+## 전구를 통한 리팩토링
+
+![Alt text](./img/flutter6/image1.png)
+
+Widget 누르고 전구를 통해서 쉽게 리팩토링 가능
