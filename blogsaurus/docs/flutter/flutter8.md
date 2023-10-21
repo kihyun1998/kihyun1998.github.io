@@ -91,7 +91,8 @@ textBaseline: TextBaseline.alphabetic,
 // 이거
 textBaseline: TextBaseline.ideographic,
 ```
-`alphabetic` : 알파벳을 기준선으로
+`alphabetic` : 알파벳을 기준선으로  
+
 `ideographic` : 텍스트 영역 최하단을 기준선으로
 
 근데 아직 둘의 큰 차이를 못 느끼겠다.
