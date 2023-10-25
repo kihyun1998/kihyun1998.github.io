@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '0b0'),
+    component: ComponentCreator('/blog', '027'),
     exact: true
   },
   {
@@ -55,6 +55,11 @@ export default [
   {
     path: '/blog/Overloading and Overriding',
     component: ComponentCreator('/blog/Overloading and Overriding', '578'),
+    exact: true
+  },
+  {
+    path: '/blog/PKI',
+    component: ComponentCreator('/blog/PKI', 'f6c'),
     exact: true
   },
   {
@@ -103,6 +108,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/pki',
+    component: ComponentCreator('/blog/tags/pki', '79e'),
+    exact: true
+  },
+  {
     path: '/blog/tags/rule',
     component: ComponentCreator('/blog/tags/rule', '7d2'),
     exact: true
@@ -124,7 +134,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5fb'),
+    component: ComponentCreator('/docs', '0ca'),
     routes: [
       {
         path: '/docs/blog-configuration/install_node',
@@ -235,6 +245,12 @@ export default [
         sidebar: "dartSidebar"
       },
       {
+        path: '/docs/flutter/flutter10',
+        component: ComponentCreator('/docs/flutter/flutter10', 'a0e'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
         path: '/docs/flutter/flutter2',
         component: ComponentCreator('/docs/flutter/flutter2', 'c2d'),
         exact: true,
@@ -267,6 +283,18 @@ export default [
       {
         path: '/docs/flutter/flutter7',
         component: ComponentCreator('/docs/flutter/flutter7', '718'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter8',
+        component: ComponentCreator('/docs/flutter/flutter8', 'd89'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter9',
+        component: ComponentCreator('/docs/flutter/flutter9', '95d'),
         exact: true,
         sidebar: "dartSidebar"
       },

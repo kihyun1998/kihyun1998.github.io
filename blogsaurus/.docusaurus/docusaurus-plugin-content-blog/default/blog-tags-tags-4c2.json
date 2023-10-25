@@ -1,5 +1,10 @@
 [
   {
+    "label": "pki",
+    "permalink": "/blog/tags/pki",
+    "count": 1
+  },
+  {
     "label": "Overriding",
     "permalink": "/blog/tags/overriding",
     "count": 1
@@ -30,11 +35,6 @@
     "count": 1
   },
   {
-    "label": "strategy pattern",
-    "permalink": "/blog/tags/strategy-pattern",
-    "count": 1
-  },
-  {
     "label": "docusaurus",
     "permalink": "/blog/tags/docusaurus",
     "count": 1
@@ -42,6 +42,11 @@
   {
     "label": "first post",
     "permalink": "/blog/tags/first-post",
+    "count": 1
+  },
+  {
+    "label": "strategy pattern",
+    "permalink": "/blog/tags/strategy-pattern",
     "count": 1
   }
 ]

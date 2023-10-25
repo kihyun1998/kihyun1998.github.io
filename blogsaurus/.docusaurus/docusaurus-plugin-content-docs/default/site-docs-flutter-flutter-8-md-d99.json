@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter8",
+  "id": "flutter/flutter8",
+  "title": "08. [Flutter] 카드 만들기",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter8.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter8",
+  "permalink": "/docs/flutter/flutter8",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "07. [Flutter] 위젯 재사용 만들기",
+    "permalink": "/docs/flutter/flutter7"
+  },
+  "next": {
+    "title": "09. [Flutter] 카드에 아이콘 넣기",
+    "permalink": "/docs/flutter/flutter9"
+  }
+}

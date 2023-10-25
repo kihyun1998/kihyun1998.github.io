@@ -101,6 +101,11 @@
               "sidebar": "dartSidebar"
             },
             {
+              "id": "flutter/flutter10",
+              "path": "/docs/flutter/flutter10",
+              "sidebar": "dartSidebar"
+            },
+            {
               "id": "flutter/flutter2",
               "path": "/docs/flutter/flutter2",
               "sidebar": "dartSidebar"
@@ -128,6 +133,16 @@
             {
               "id": "flutter/flutter7",
               "path": "/docs/flutter/flutter7",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter8",
+              "path": "/docs/flutter/flutter8",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter9",
+              "path": "/docs/flutter/flutter9",
               "sidebar": "dartSidebar"
             },
             {

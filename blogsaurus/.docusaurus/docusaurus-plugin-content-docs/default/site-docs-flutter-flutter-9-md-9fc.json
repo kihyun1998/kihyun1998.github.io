@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter9",
+  "id": "flutter/flutter9",
+  "title": "09. [Flutter] 카드에 아이콘 넣기",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter9.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter9",
+  "permalink": "/docs/flutter/flutter9",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "08. [Flutter] 카드 만들기",
+    "permalink": "/docs/flutter/flutter8"
+  },
+  "next": {
+    "title": "10. [Flutter] 카드 재사용",
+    "permalink": "/docs/flutter/flutter10"
+  }
+}

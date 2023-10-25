@@ -18,5 +18,9 @@
   "previous": {
     "title": "06. [Flutter] Flutter를 위한 편리한 VS Code 설정",
     "permalink": "/docs/flutter/flutter6"
+  },
+  "next": {
+    "title": "08. [Flutter] 카드 만들기",
+    "permalink": "/docs/flutter/flutter8"
   }
 }

@@ -1,0 +1,41 @@
+{
+  "permalink": "/blog/PKI",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-10-25-pki/index.md",
+  "source": "@site/blog/2023-10-25-pki/index.md",
+  "title": "PKI 개념",
+  "description": "PKI란 Public Key Infrastructure의 약자로 공개키 암호화와 전자서명을 사용할 수 있게 기반을 마련해둔 것이라고 합니다.",
+  "date": "2023-10-25T00:00:00.000Z",
+  "formattedDate": "October 25, 2023",
+  "tags": [
+    {
+      "label": "pki",
+      "permalink": "/blog/tags/pki"
+    }
+  ],
+  "readingTime": 2.46,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "PKI",
+    "title": "PKI 개념",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "pki",
+      "PKI"
+    ]
+  },
+  "nextItem": {
+    "title": "Overloading & Overriding",
+    "permalink": "/blog/Overloading and Overriding"
+  }
+}

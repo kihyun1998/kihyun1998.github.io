@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter/flutter10",
+  "id": "flutter/flutter10",
+  "title": "10. [Flutter] 카드 재사용",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter10.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter10",
+  "permalink": "/docs/flutter/flutter10",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "09. [Flutter] 카드에 아이콘 넣기",
+    "permalink": "/docs/flutter/flutter9"
+  }
+}

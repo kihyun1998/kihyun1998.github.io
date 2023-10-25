@@ -273,7 +273,7 @@
           },
           {
             "type": "link",
-            "label": "04. [Flutter] Hello World",
+            "label": "04. [Flutter] 위젯",
             "href": "/docs/flutter/flutter4",
             "docId": "flutter/flutter4"
           },
@@ -294,6 +294,24 @@
             "label": "07. [Flutter] 위젯 재사용 만들기",
             "href": "/docs/flutter/flutter7",
             "docId": "flutter/flutter7"
+          },
+          {
+            "type": "link",
+            "label": "08. [Flutter] 카드 만들기",
+            "href": "/docs/flutter/flutter8",
+            "docId": "flutter/flutter8"
+          },
+          {
+            "type": "link",
+            "label": "09. [Flutter] 카드에 아이콘 넣기",
+            "href": "/docs/flutter/flutter9",
+            "docId": "flutter/flutter9"
+          },
+          {
+            "type": "link",
+            "label": "10. [Flutter] 카드 재사용",
+            "href": "/docs/flutter/flutter10",
+            "docId": "flutter/flutter10"
           }
         ],
         "collapsed": true,
@@ -410,6 +428,12 @@
       "description": "1. 플러터 설치",
       "sidebar": "dartSidebar"
     },
+    "flutter/flutter10": {
+      "id": "flutter/flutter10",
+      "title": "10. [Flutter] 카드 재사용",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
     "flutter/flutter2": {
       "id": "flutter/flutter2",
       "title": "02. [Flutter] 시작하기",
@@ -424,7 +448,7 @@
     },
     "flutter/flutter4": {
       "id": "flutter/flutter4",
-      "title": "04. [Flutter] Hello World",
+      "title": "04. [Flutter] 위젯",
       "description": "1. 코드",
       "sidebar": "dartSidebar"
     },
@@ -443,6 +467,18 @@
     "flutter/flutter7": {
       "id": "flutter/flutter7",
       "title": "07. [Flutter] 위젯 재사용 만들기",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter8": {
+      "id": "flutter/flutter8",
+      "title": "08. [Flutter] 카드 만들기",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter9": {
+      "id": "flutter/flutter9",
+      "title": "09. [Flutter] 카드에 아이콘 넣기",
       "description": "1. 코드",
       "sidebar": "dartSidebar"
     },
