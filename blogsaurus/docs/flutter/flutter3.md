@@ -58,6 +58,12 @@ Widget은 레고다.
 `StatefulWidget` = react
 :::
 
+### Scaffold
+
+Scaffold 위젯을 통해서 일반적인 위젯을 쉽게 구현할 수 있음
+
+appBar나 body같은 속성을 통해서 쉽게 구성할 수 있다
+
 ## 오늘 배운 내용
 ---
 
