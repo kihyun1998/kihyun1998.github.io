@@ -330,6 +330,12 @@
             "label": "13. [Flutter] Build context & another",
             "href": "/docs/flutter/flutter13",
             "docId": "flutter/flutter13"
+          },
+          {
+            "type": "link",
+            "label": "14. [Flutter] ERROR: Target of URI doesn't exist 'package:flutter...'",
+            "href": "/docs/flutter/flutter14",
+            "docId": "flutter/flutter14"
           }
         ],
         "collapsed": true,
@@ -484,6 +490,12 @@
       "id": "flutter/flutter13",
       "title": "13. [Flutter] Build context & another",
       "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter14": {
+      "id": "flutter/flutter14",
+      "title": "14. [Flutter] ERROR: Target of URI doesn't exist 'package:flutter...'",
+      "description": "해결 방법",
       "sidebar": "dartSidebar"
     },
     "flutter/flutter2": {

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter/flutter14",
+  "id": "flutter/flutter14",
+  "title": "14. [Flutter] ERROR: Target of URI doesn't exist 'package:flutter...'",
+  "description": "해결 방법",
+  "source": "@site/docs/flutter/flutter14.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter14",
+  "permalink": "/docs/flutter/flutter14",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "13. [Flutter] Build context & another",
+    "permalink": "/docs/flutter/flutter13"
+  }
+}

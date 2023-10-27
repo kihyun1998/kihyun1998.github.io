@@ -1,12 +1,12 @@
 {
-  "unversionedId": "flutter/flutter13",
-  "id": "flutter/flutter13",
+  "unversionedId": "flutter/flutter13 copy",
+  "id": "flutter/flutter13 copy",
   "title": "13. [Flutter] Build context & another",
   "description": "1. 코드",
-  "source": "@site/docs/flutter/flutter13.md",
+  "source": "@site/docs/flutter/flutter13 copy.md",
   "sourceDirName": "flutter",
-  "slug": "/flutter/flutter13",
-  "permalink": "/docs/flutter/flutter13",
+  "slug": "/flutter/flutter13 copy",
+  "permalink": "/docs/flutter/flutter13 copy",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -20,7 +20,7 @@
     "permalink": "/docs/flutter/flutter12"
   },
   "next": {
-    "title": "14. [Flutter] ERROR: Target of URI doesn't exist 'package:flutter...'",
-    "permalink": "/docs/flutter/flutter14"
+    "title": "13. [Flutter] Build context & another",
+    "permalink": "/docs/flutter/flutter13"
   }
 }
