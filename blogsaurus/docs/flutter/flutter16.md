@@ -51,3 +51,10 @@ body: Column(
 ![Alt text](./img/flutter16/image.png)
 
 위와 같은 사진으로 나오게 된다 ! 이런 느낌
+
+
+![Alt text](./img/flutter16/image1.png)
+
+alignment 정리 사진
+
+조정 가능
