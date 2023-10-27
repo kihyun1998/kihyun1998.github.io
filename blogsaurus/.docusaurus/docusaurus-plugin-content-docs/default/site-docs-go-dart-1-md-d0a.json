@@ -1,0 +1,18 @@
+{
+  "unversionedId": "go/dart1",
+  "id": "go/dart1",
+  "title": "01. [Dart] 언어의 변수 타입",
+  "description": "01. var",
+  "source": "@site/docs/go/dart1.md",
+  "sourceDirName": "go",
+  "slug": "/go/dart1",
+  "permalink": "/docs/go/dart1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "goSidebar"
+}

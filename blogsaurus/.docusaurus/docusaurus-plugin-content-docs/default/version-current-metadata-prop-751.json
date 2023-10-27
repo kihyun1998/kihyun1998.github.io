@@ -312,6 +312,40 @@
             "label": "10. [Flutter] 카드 재사용",
             "href": "/docs/flutter/flutter10",
             "docId": "flutter/flutter10"
+          },
+          {
+            "type": "link",
+            "label": "11. [Flutter] 카드 클래스 구조 변경",
+            "href": "/docs/flutter/flutter11",
+            "docId": "flutter/flutter11"
+          },
+          {
+            "type": "link",
+            "label": "12. [Flutter] StatefulWidget",
+            "href": "/docs/flutter/flutter12",
+            "docId": "flutter/flutter12"
+          },
+          {
+            "type": "link",
+            "label": "13. [Flutter] Build context & another",
+            "href": "/docs/flutter/flutter13",
+            "docId": "flutter/flutter13"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ],
+    "goSidebar": [
+      {
+        "type": "category",
+        "label": "Go",
+        "items": [
+          {
+            "type": "link",
+            "label": "01. [Go] 윈도우에서 리눅스 빌드 하기",
+            "href": "/docs/go/go1",
+            "docId": "go/go1"
           }
         ],
         "collapsed": true,
@@ -434,6 +468,24 @@
       "description": "1. 코드",
       "sidebar": "dartSidebar"
     },
+    "flutter/flutter11": {
+      "id": "flutter/flutter11",
+      "title": "11. [Flutter] 카드 클래스 구조 변경",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter12": {
+      "id": "flutter/flutter12",
+      "title": "12. [Flutter] StatefulWidget",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter13": {
+      "id": "flutter/flutter13",
+      "title": "13. [Flutter] Build context & another",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
     "flutter/flutter2": {
       "id": "flutter/flutter2",
       "title": "02. [Flutter] 시작하기",
@@ -481,6 +533,12 @@
       "title": "09. [Flutter] 카드에 아이콘 넣기",
       "description": "1. 코드",
       "sidebar": "dartSidebar"
+    },
+    "go/go1": {
+      "id": "go/go1",
+      "title": "01. [Go] 윈도우에서 리눅스 빌드 하기",
+      "description": "1. Git Bash를 실행한다.",
+      "sidebar": "goSidebar"
     },
     "intro": {
       "id": "intro",

@@ -1,0 +1,18 @@
+{
+  "unversionedId": "go/go1",
+  "id": "go/go1",
+  "title": "01. [Go] 윈도우에서 리눅스 빌드 하기",
+  "description": "1. Git Bash를 실행한다.",
+  "source": "@site/docs/go/go1.md",
+  "sourceDirName": "go",
+  "slug": "/go/go1",
+  "permalink": "/docs/go/go1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "goSidebar"
+}

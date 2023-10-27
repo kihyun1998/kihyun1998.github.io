@@ -18,5 +18,9 @@
   "previous": {
     "title": "09. [Flutter] 카드에 아이콘 넣기",
     "permalink": "/docs/flutter/flutter9"
+  },
+  "next": {
+    "title": "11. [Flutter] 카드 클래스 구조 변경",
+    "permalink": "/docs/flutter/flutter11"
   }
 }

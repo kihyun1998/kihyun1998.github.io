@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter/flutter13",
+  "id": "flutter/flutter13",
+  "title": "13. [Flutter] Build context & another",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter13.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter13",
+  "permalink": "/docs/flutter/flutter13",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "12. [Flutter] StatefulWidget",
+    "permalink": "/docs/flutter/flutter12"
+  }
+}

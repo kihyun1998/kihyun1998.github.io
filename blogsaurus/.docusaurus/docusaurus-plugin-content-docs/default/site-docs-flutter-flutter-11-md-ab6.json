@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter11",
+  "id": "flutter/flutter11",
+  "title": "11. [Flutter] 카드 클래스 구조 변경",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter11.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter11",
+  "permalink": "/docs/flutter/flutter11",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "10. [Flutter] 카드 재사용",
+    "permalink": "/docs/flutter/flutter10"
+  },
+  "next": {
+    "title": "12. [Flutter] StatefulWidget",
+    "permalink": "/docs/flutter/flutter12"
+  }
+}

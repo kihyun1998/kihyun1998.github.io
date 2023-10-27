@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter12",
+  "id": "flutter/flutter12",
+  "title": "12. [Flutter] StatefulWidget",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter12.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter12",
+  "permalink": "/docs/flutter/flutter12",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "11. [Flutter] 카드 클래스 구조 변경",
+    "permalink": "/docs/flutter/flutter11"
+  },
+  "next": {
+    "title": "13. [Flutter] Build context & another",
+    "permalink": "/docs/flutter/flutter13"
+  }
+}

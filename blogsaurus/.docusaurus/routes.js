@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '027'),
+    component: ComponentCreator('/blog', '3dd'),
     exact: true
   },
   {
@@ -134,7 +134,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '0ca'),
+    component: ComponentCreator('/docs', 'cf6'),
     routes: [
       {
         path: '/docs/blog-configuration/install_node',
@@ -251,6 +251,24 @@ export default [
         sidebar: "dartSidebar"
       },
       {
+        path: '/docs/flutter/flutter11',
+        component: ComponentCreator('/docs/flutter/flutter11', '315'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter12',
+        component: ComponentCreator('/docs/flutter/flutter12', '09e'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter13',
+        component: ComponentCreator('/docs/flutter/flutter13', '13f'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
         path: '/docs/flutter/flutter2',
         component: ComponentCreator('/docs/flutter/flutter2', 'c2d'),
         exact: true,
@@ -297,6 +315,12 @@ export default [
         component: ComponentCreator('/docs/flutter/flutter9', '95d'),
         exact: true,
         sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/go/go1',
+        component: ComponentCreator('/docs/go/go1', '075'),
+        exact: true,
+        sidebar: "goSidebar"
       },
       {
         path: '/docs/intro',
