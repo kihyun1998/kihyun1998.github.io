@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter/flutter15",
+  "id": "flutter/flutter15",
+  "title": "15. [Flutter] initState & dispose",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter15.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter15",
+  "permalink": "/docs/flutter/flutter15",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "14. [Flutter] ERROR: Target of URI doesn't exist 'package:flutter...'",
+    "permalink": "/docs/flutter/flutter14"
+  }
+}

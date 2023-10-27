@@ -18,5 +18,9 @@
   "previous": {
     "title": "13. [Flutter] Build context & another",
     "permalink": "/docs/flutter/flutter13"
+  },
+  "next": {
+    "title": "15. [Flutter] initState & dispose",
+    "permalink": "/docs/flutter/flutter15"
   }
 }

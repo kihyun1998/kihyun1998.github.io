@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '3dd'),
+    component: ComponentCreator('/blog', '027'),
     exact: true
   },
   {
@@ -134,7 +134,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '0d9'),
+    component: ComponentCreator('/docs', '208'),
     routes: [
       {
         path: '/docs/blog-configuration/install_node',
@@ -271,6 +271,12 @@ export default [
       {
         path: '/docs/flutter/flutter14',
         component: ComponentCreator('/docs/flutter/flutter14', '2df'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter15',
+        component: ComponentCreator('/docs/flutter/flutter15', 'c28'),
         exact: true,
         sidebar: "dartSidebar"
       },

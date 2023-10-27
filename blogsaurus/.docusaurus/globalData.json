@@ -126,6 +126,11 @@
               "sidebar": "dartSidebar"
             },
             {
+              "id": "flutter/flutter15",
+              "path": "/docs/flutter/flutter15",
+              "sidebar": "dartSidebar"
+            },
+            {
               "id": "flutter/flutter2",
               "path": "/docs/flutter/flutter2",
               "sidebar": "dartSidebar"
