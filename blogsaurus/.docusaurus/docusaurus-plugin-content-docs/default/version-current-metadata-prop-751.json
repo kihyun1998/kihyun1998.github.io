@@ -342,6 +342,12 @@
             "label": "15. [Flutter] initState & dispose",
             "href": "/docs/flutter/flutter15",
             "docId": "flutter/flutter15"
+          },
+          {
+            "type": "link",
+            "label": "16. [Flutter] UI 구성",
+            "href": "/docs/flutter/flutter16",
+            "docId": "flutter/flutter16"
           }
         ],
         "collapsed": true,
@@ -508,6 +514,12 @@
       "id": "flutter/flutter15",
       "title": "15. [Flutter] initState & dispose",
       "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter16": {
+      "id": "flutter/flutter16",
+      "title": "16. [Flutter] UI 구성",
+      "description": "공부한 내용",
       "sidebar": "dartSidebar"
     },
     "flutter/flutter2": {

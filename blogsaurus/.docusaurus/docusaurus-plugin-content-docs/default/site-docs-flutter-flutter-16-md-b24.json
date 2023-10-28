@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter/flutter16",
+  "id": "flutter/flutter16",
+  "title": "16. [Flutter] UI 구성",
+  "description": "공부한 내용",
+  "source": "@site/docs/flutter/flutter16.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter16",
+  "permalink": "/docs/flutter/flutter16",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "15. [Flutter] initState & dispose",
+    "permalink": "/docs/flutter/flutter15"
+  }
+}

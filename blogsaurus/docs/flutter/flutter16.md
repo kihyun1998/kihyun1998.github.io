@@ -53,8 +53,61 @@ body: Column(
 위와 같은 사진으로 나오게 된다 ! 이런 느낌
 
 
+
+## Alignment
+---
+
+
 ![Alt text](./img/flutter16/image1.png)
 
-alignment 정리 사진
+alignment를 사용해서 위젯의 위치를 이동시킬 수 있다.
 
-조정 가능
+예시는 아래와 같다.
+
+```dart
+Flexible(
+  flex: 1,
+  child: Container(
+      alignment: Alignment.bottomCenter,
+      child: Text(
+        '25:00',
+        style: TextStyle(
+          color: Theme.of(context).cardColor,
+          fontSize: 100,
+          fontWeight: FontWeight.w600,
+        ),
+      )),
+),
+```
+
+
+## Expanded
+
+```dart
+Flexible(
+  flex: 1,
+  child: Row(
+    children: [
+      Expanded(
+        child: Container(
+          decoration:
+              BoxDecoration(color: Theme.of(context).cardColor),
+        ...
+        ),
+      ),
+    ],
+  ),
+),
+```
+
+위처럼 Expanded를 사용하면 화면이 확장된다.
+
+
+### Befor Expanded
+
+![Alt text](./img/flutter16/image2.png)
+
+
+### After Expanded
+
+![Alt text](./img/flutter16/image3.png)
