@@ -9,7 +9,7 @@ sidebar_position: 16
 ## 공부한 내용
 ---
 
-## Flexible
+### Flexible
 
 UI 비율을 기반으로 더 유연하게 만들어준다.
 
@@ -54,7 +54,7 @@ body: Column(
 
 
 
-## Alignment
+### Alignment
 ---
 
 
@@ -81,7 +81,7 @@ Flexible(
 ```
 
 
-## Expanded
+### Expanded
 
 ```dart
 Flexible(
@@ -103,11 +103,11 @@ Flexible(
 위처럼 Expanded를 사용하면 화면이 확장된다.
 
 
-### Befor Expanded
+- Before Expanded
 
 ![Alt text](./img/flutter16/image2.png)
 
 
-### After Expanded
+- After Expanded
 
 ![Alt text](./img/flutter16/image3.png)
