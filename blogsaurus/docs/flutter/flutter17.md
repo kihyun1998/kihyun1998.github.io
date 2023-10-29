@@ -94,10 +94,11 @@ class _HomeScreenState extends State<HomeScreen> {
 시간에 관한 동작을 제공해주는 class
 
 :::tip Timer.periodic
-
 Timer.periodic( 주기, 실행 함수) 형식이다.
 
 `실행 함수`에는 Timer class의 변수를 인자로 넣어줘야 한다.
+
+정지 동작을 위해서는 timer.cancel()을 사용한다.
 :::
 
 ### LateError (LateInitializationError: Field '변수명' has not been initialized.)
