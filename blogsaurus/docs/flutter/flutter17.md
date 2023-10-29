@@ -17,6 +17,7 @@ import 'dart:async';
 
 class _HomeScreenState extends State<HomeScreen> {
   int totalSeconds = 1500;
+  bool isRunning = false;
   late Timer timer;
 
   void onTick(Timer timer) {
@@ -25,11 +26,21 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
-  void onClicked() {
+  void onClickedStart() {
+    setState(() {
+      isRunning = true;
+    });
     timer = Timer.periodic(
       const Duration(seconds: 1),
       onTick,
     );
+  }
+
+  void onClickedPause() {
+    setState(() {
+      isRunning = false;
+    });
+    timer.cancel();
   }
 
   @override
@@ -50,6 +61,21 @@ class _HomeScreenState extends State<HomeScreen> {
                     fontWeight: FontWeight.w600,
                   ),
                 )),
+          ),
+          Flexible(
+            flex: 3,
+            child: Center(
+              child: IconButton(
+                iconSize: 100,
+                color: Theme.of(context).cardColor,
+                onPressed: isRunning ? onClickedPause : onClickedStart,
+                icon: Icon(
+                  isRunning
+                      ? Icons.pause_circle_outline
+                      : Icons.play_circle_outline,
+                ),
+              ),
+            ),
           ),
           ...
         ],
@@ -73,3 +99,9 @@ Timer.periodic( 주기, 실행 함수) 형식이다.
 
 `실행 함수`에는 Timer class의 변수를 인자로 넣어줘야 한다.
 :::
+
+### LateError (LateInitializationError: Field '변수명' has not been initialized.)
+
+변수를 late로 지정해서 초기화를 시키지 않은 상태에서 사용하면 나오는 에러다.
+
+변수를 사용하기 전에 꼭 초기화 시키기
