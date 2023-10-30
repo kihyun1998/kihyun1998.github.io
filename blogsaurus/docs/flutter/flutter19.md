@@ -59,6 +59,13 @@ class WebtoonModel {
 
 [dart or Flutter 패키지 찾는 사이트](https://pub.dev/)
 
+**적용 방법**
+
+1. terminal에 명령줄로 설치
+
+2. pubspec.yaml에 dependencies 밑에 추가하여 설치하기
+
+
 
 ### HTTP 요청 보내는 방법
 
