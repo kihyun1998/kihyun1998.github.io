@@ -53,6 +53,8 @@ initState에 데이터 불러오는 함수를 넣고
 ### 코드
 
 ```dart
+Future<List<WebtoonModel>> webtoons = ApiService.getToday();
+
 body: FutureBuilder(
   builder: (context, snapshot) {
     if (snapshot.hasData) {
@@ -72,7 +74,11 @@ statelessWidget을 사용하면서 어떤 변수나 setState없이 fetch할 수 
 
 `FutureBuilder`위젯을 사용하면 됩니다.
 
-넣어줘야할 값이 future와 builder가 있는데 future에는 future 자료형 즉 기다려야 얻을 수 있는 데이터(API 요청한 응답 데이터 등)가 들어가면 됩니다.
+먼저 Future 변수를 선언해줍니다.
+
+그리고 FutureBuilder를 사용할 텐데 넣어줘야할 값이 future와 builder가 있습니다.
+
+future에는 future 자료형 즉 기다려야 얻을 수 있는 데이터(API 요청한 응답 데이터 등)가 들어가면 됩니다.
 
 builder 부분에는 context와 snapshot을 주는데 context는 buildContext이고 snapshot을 통해서는 다양한 값을 얻을 수 있습니다.
 
@@ -83,3 +89,4 @@ error : 에러가 났는지
 hasData : 값을 갖고 있는지
 :::
 
+정리하자면 FutureBuilder 위젯이 알아서 Future값을 기다려줍니다. await를 하지 않더라도 !
