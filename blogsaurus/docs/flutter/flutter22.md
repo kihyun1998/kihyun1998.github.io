@@ -2,7 +2,7 @@
 sidebar_position: 22
 ---
 
-# 22. [Flutter] 
+# 22. [Flutter] Image network
 
 :::tip 목차
 1. [코드](#코드)
