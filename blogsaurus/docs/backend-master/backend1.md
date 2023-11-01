@@ -95,7 +95,7 @@ Table accounts as A{
 
 varchar는 문자열, bigint는 큰 정수다. int만 쓰지 않기에 이를 고려할 필요가 있다.
 
-4. **timestampz**
+4. **timestamptz**
 ---
 
 ```sql
@@ -104,7 +104,7 @@ Table accounts as A{
     owner varchar
     balance bigint
     currency varchar
-    created_at timestampz
+    created_at timestamptz
 }
 ```
 
@@ -120,7 +120,7 @@ Table accounts as A{
   owner varchar
   balance bigint
   currency varchar
-  created_at timestampz [default: `now()`]
+  created_at timestamptz [default: `now()`]
 }
 ```
 
@@ -150,7 +150,7 @@ Table entries{
   id bigserial [pk]
   accounts_id bigint 
   amount bigint
-  created_at timestampz [default: `now()`]
+  created_at timestamptz [default: `now()`]
 }
 
 Ref: entries.accounts_id > A.id
@@ -168,7 +168,7 @@ Table accounts as A{
     owner varchar [not null]
     balance bigint [not null]
     currency varchar [not null]
-    created_at timestampz [not null, default: `now()`]
+    created_at timestamptz [not null, default: `now()`]
 }
 ```
 
@@ -202,7 +202,7 @@ Table accounts as A{
     owner varchar [not null]
     balance bigint [not null]
     currency Currency [not null]
-    created_at timestampz [not null, default: `now()`]
+    created_at timestamptz [not null, default: `now()`]
 }
 ```
 
@@ -218,7 +218,7 @@ Table accounts as A{
     owner varchar [not null]
     balance bigint [not null]
     currency Currency [not null]
-    created_at timestampz [not null, default: `now()`]
+    created_at timestamptz [not null, default: `now()`]
 
     Indexes{
         owner
