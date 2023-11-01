@@ -49,6 +49,7 @@ make -version
 시작에서 `ubuntu` 검색해서 실행하면 된다.
 
 ## Golang 설치
+---
 
 [이거로 생략..](https://learn.microsoft.com/ko-kr/azure/developer/go/configure-visual-studio-code)
 
@@ -68,6 +69,7 @@ go version
 
 
 ## Sqlc 설치
+---
 
 쿼리문을 Golang CRUD code로 작성해준다.
 
@@ -78,6 +80,7 @@ sudo snap install sqlc
 ```
 
 ## VS Code 설치
+---
 
 1. VS Code 설치
 
@@ -87,6 +90,7 @@ Extensions에서 `wsl`,`go` 검색하고 설치
 
 
 ## Docker 설치
+---
 
 1. Docker 다운로드
 
