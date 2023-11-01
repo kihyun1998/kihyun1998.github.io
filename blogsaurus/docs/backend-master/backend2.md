@@ -88,6 +88,12 @@ sudo snap install sqlc
 
 Extensions에서 `wsl`,`go` 검색하고 설치
 
+3. settings.json에 한 줄 추가
+
+```json
+"terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)"
+```
+
 
 ## Docker 설치
 ---
