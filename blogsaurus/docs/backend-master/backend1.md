@@ -263,3 +263,5 @@ Table accounts as A{
 ![Alt text](./img/1/image4.png)
 
 SQL로 바꿔준다 !
+
+12로 다시설치해서 하기
