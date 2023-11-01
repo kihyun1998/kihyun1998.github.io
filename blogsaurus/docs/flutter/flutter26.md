@@ -1,8 +1,8 @@
 ---
-sidebar_position: 25
+sidebar_position: 26
 ---
 
-# 25. [Flutter] URL Launcher
+# 26. [Flutter] URL Launcher
 
 :::tip 목차
 1. [코드](#코드)
