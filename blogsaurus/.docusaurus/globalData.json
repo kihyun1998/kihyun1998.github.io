@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "backend-master/backend1",
+              "path": "/docs/backend-master/backend1",
+              "sidebar": "backSidebar"
+            },
+            {
               "id": "blog-configuration/install_node",
               "path": "/docs/blog-configuration/install_node",
               "sidebar": "blogSidebar"
@@ -136,8 +141,63 @@
               "sidebar": "dartSidebar"
             },
             {
+              "id": "flutter/flutter17",
+              "path": "/docs/flutter/flutter17",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter18",
+              "path": "/docs/flutter/flutter18",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter19",
+              "path": "/docs/flutter/flutter19",
+              "sidebar": "dartSidebar"
+            },
+            {
               "id": "flutter/flutter2",
               "path": "/docs/flutter/flutter2",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter20",
+              "path": "/docs/flutter/flutter20",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter21",
+              "path": "/docs/flutter/flutter21",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter22",
+              "path": "/docs/flutter/flutter22",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter23",
+              "path": "/docs/flutter/flutter23",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter24",
+              "path": "/docs/flutter/flutter24",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter25",
+              "path": "/docs/flutter/flutter25",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter26",
+              "path": "/docs/flutter/flutter26",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter27",
+              "path": "/docs/flutter/flutter27",
               "sidebar": "dartSidebar"
             },
             {
@@ -272,6 +332,12 @@
               "link": {
                 "path": "/docs/go/go1",
                 "label": "go/go1"
+              }
+            },
+            "backSidebar": {
+              "link": {
+                "path": "/docs/backend-master/backend1",
+                "label": "backend-master/backend1"
               }
             }
           }

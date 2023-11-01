@@ -104,6 +104,12 @@ const config = {
             position: 'left',
             label: 'Go'
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'backSidebar',
+            position: 'left',
+            label: 'BackEnd'
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -158,7 +164,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        additionalLanguages:['java','csharp','go','python','bash','powershell','dart'],
+        additionalLanguages:['java','csharp','go','python','bash','powershell','dart','xml-doc','sql'],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },

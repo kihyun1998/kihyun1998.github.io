@@ -348,6 +348,72 @@
             "label": "16. [Flutter] UI 구성",
             "href": "/docs/flutter/flutter16",
             "docId": "flutter/flutter16"
+          },
+          {
+            "type": "link",
+            "label": "17. [Flutter] Timer",
+            "href": "/docs/flutter/flutter17",
+            "docId": "flutter/flutter17"
+          },
+          {
+            "type": "link",
+            "label": "18. [Flutter] split & substring",
+            "href": "/docs/flutter/flutter18",
+            "docId": "flutter/flutter18"
+          },
+          {
+            "type": "link",
+            "label": "19. [Flutter] HTTP Request & Response",
+            "href": "/docs/flutter/flutter19",
+            "docId": "flutter/flutter19"
+          },
+          {
+            "type": "link",
+            "label": "19. [Flutter] fetch",
+            "href": "/docs/flutter/flutter20",
+            "docId": "flutter/flutter20"
+          },
+          {
+            "type": "link",
+            "label": "21. [Flutter] ListView",
+            "href": "/docs/flutter/flutter21",
+            "docId": "flutter/flutter21"
+          },
+          {
+            "type": "link",
+            "label": "22. [Flutter] Image network",
+            "href": "/docs/flutter/flutter22",
+            "docId": "flutter/flutter22"
+          },
+          {
+            "type": "link",
+            "label": "23. [Flutter] Route & Animation",
+            "href": "/docs/flutter/flutter23",
+            "docId": "flutter/flutter23"
+          },
+          {
+            "type": "link",
+            "label": "24. [Flutter] Hero",
+            "href": "/docs/flutter/flutter24",
+            "docId": "flutter/flutter24"
+          },
+          {
+            "type": "link",
+            "label": "25. [Flutter] 인자가 있는 API Service",
+            "href": "/docs/flutter/flutter25",
+            "docId": "flutter/flutter25"
+          },
+          {
+            "type": "link",
+            "label": "26. [Flutter] URL Launcher",
+            "href": "/docs/flutter/flutter26",
+            "docId": "flutter/flutter26"
+          },
+          {
+            "type": "link",
+            "label": "27. [Flutter] shared_preferences",
+            "href": "/docs/flutter/flutter27",
+            "docId": "flutter/flutter27"
           }
         ],
         "collapsed": true,
@@ -369,9 +435,31 @@
         "collapsed": true,
         "collapsible": true
       }
+    ],
+    "backSidebar": [
+      {
+        "type": "category",
+        "label": "BackEnd Master",
+        "items": [
+          {
+            "type": "link",
+            "label": "01. [BackEnd] 시작하기",
+            "href": "/docs/backend-master/backend1",
+            "docId": "backend-master/backend1"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
     ]
   },
   "docs": {
+    "backend-master/backend1": {
+      "id": "backend-master/backend1",
+      "title": "01. [BackEnd] 시작하기",
+      "description": "PostgreSQL, Golang, Docker를 이용해서 디자인, 개발, 배포에 관한 백엔드 학습을 진행한다.",
+      "sidebar": "backSidebar"
+    },
     "blog-configuration/install_node": {
       "id": "blog-configuration/install_node",
       "title": "🚀Node JS + yarn 설치하기",
@@ -522,10 +610,76 @@
       "description": "공부한 내용",
       "sidebar": "dartSidebar"
     },
+    "flutter/flutter17": {
+      "id": "flutter/flutter17",
+      "title": "17. [Flutter] Timer",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter18": {
+      "id": "flutter/flutter18",
+      "title": "18. [Flutter] split & substring",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter19": {
+      "id": "flutter/flutter19",
+      "title": "19. [Flutter] HTTP Request & Response",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
     "flutter/flutter2": {
       "id": "flutter/flutter2",
       "title": "02. [Flutter] 시작하기",
       "description": "원하는 곳에",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter20": {
+      "id": "flutter/flutter20",
+      "title": "19. [Flutter] fetch",
+      "description": "1. 고전적인 fetch",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter21": {
+      "id": "flutter/flutter21",
+      "title": "21. [Flutter] ListView",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter22": {
+      "id": "flutter/flutter22",
+      "title": "22. [Flutter] Image network",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter23": {
+      "id": "flutter/flutter23",
+      "title": "23. [Flutter] Route & Animation",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter24": {
+      "id": "flutter/flutter24",
+      "title": "24. [Flutter] Hero",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter25": {
+      "id": "flutter/flutter25",
+      "title": "25. [Flutter] 인자가 있는 API Service",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter26": {
+      "id": "flutter/flutter26",
+      "title": "26. [Flutter] URL Launcher",
+      "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter27": {
+      "id": "flutter/flutter27",
+      "title": "27. [Flutter] shared_preferences",
+      "description": "1. 코드",
       "sidebar": "dartSidebar"
     },
     "flutter/flutter3": {

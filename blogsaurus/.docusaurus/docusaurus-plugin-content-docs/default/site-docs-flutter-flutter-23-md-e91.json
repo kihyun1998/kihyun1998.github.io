@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter23",
+  "id": "flutter/flutter23",
+  "title": "23. [Flutter] Route & Animation",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter23.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter23",
+  "permalink": "/docs/flutter/flutter23",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 23,
+  "frontMatter": {
+    "sidebar_position": 23
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "22. [Flutter] Image network",
+    "permalink": "/docs/flutter/flutter22"
+  },
+  "next": {
+    "title": "24. [Flutter] Hero",
+    "permalink": "/docs/flutter/flutter24"
+  }
+}

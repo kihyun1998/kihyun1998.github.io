@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter24",
+  "id": "flutter/flutter24",
+  "title": "24. [Flutter] Hero",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter24.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter24",
+  "permalink": "/docs/flutter/flutter24",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 24,
+  "frontMatter": {
+    "sidebar_position": 24
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "23. [Flutter] Route & Animation",
+    "permalink": "/docs/flutter/flutter23"
+  },
+  "next": {
+    "title": "25. [Flutter] 인자가 있는 API Service",
+    "permalink": "/docs/flutter/flutter25"
+  }
+}

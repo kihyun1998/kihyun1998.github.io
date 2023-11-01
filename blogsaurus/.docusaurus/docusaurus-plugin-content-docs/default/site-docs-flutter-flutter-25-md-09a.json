@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter25",
+  "id": "flutter/flutter25",
+  "title": "25. [Flutter] 인자가 있는 API Service",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter25.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter25",
+  "permalink": "/docs/flutter/flutter25",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 25,
+  "frontMatter": {
+    "sidebar_position": 25
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "24. [Flutter] Hero",
+    "permalink": "/docs/flutter/flutter24"
+  },
+  "next": {
+    "title": "26. [Flutter] URL Launcher",
+    "permalink": "/docs/flutter/flutter26"
+  }
+}

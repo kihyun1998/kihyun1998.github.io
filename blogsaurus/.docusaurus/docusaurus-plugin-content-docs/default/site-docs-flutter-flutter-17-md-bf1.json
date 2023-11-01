@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter17",
+  "id": "flutter/flutter17",
+  "title": "17. [Flutter] Timer",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter17.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter17",
+  "permalink": "/docs/flutter/flutter17",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "16. [Flutter] UI 구성",
+    "permalink": "/docs/flutter/flutter16"
+  },
+  "next": {
+    "title": "18. [Flutter] split & substring",
+    "permalink": "/docs/flutter/flutter18"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter18",
+  "id": "flutter/flutter18",
+  "title": "18. [Flutter] split & substring",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter18.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter18",
+  "permalink": "/docs/flutter/flutter18",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "sidebar_position": 18
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "17. [Flutter] Timer",
+    "permalink": "/docs/flutter/flutter17"
+  },
+  "next": {
+    "title": "19. [Flutter] HTTP Request & Response",
+    "permalink": "/docs/flutter/flutter19"
+  }
+}

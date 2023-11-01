@@ -102,64 +102,11 @@
           "permalink": "/blog/PKI"
         },
         "nextItem": {
-          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-          "permalink": "/blog/design pattern rule"
-        }
-      },
-      "content": "오버로딩과 오버라이딩에 대해서 알아보겠습니다.\r\n\r\n## 오버로딩 (Overloading)\r\n\r\n### 정의\r\n\r\n한 클래스 내에 이미 **사용하려는 이름**과 **같은 이름**을 가진 **`메소드`**가 있어도 매개 변수의 개수와 타입이 다르면 같은 이름을 사용해서 메소드를 재정의 할 수 있다.\r\n\r\n여기서 핵심은 2가지로 정리할 수 있습니다.\r\n\r\n1. 메소드의 이름이 같다.\r\n2. 매개변수의 개수나 타입이 달라야 한다.\r\n3. 리턴값과는 상관 없습니다.\r\n\r\n\r\n### 오버로딩 함수 코드\r\n\r\n```java title='오버로딩 함수'\r\npublic class OverringClass {\r\n    \r\n    // 오버로딩 1번 함수\r\n    public void OverloadMethod(){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 0개\");\r\n        System.out.println(\"매개변수 타입 : void\");\r\n        System.out.println(\"오버라이딩 1번 함수 입니다.\");\r\n        System.out.println(\"============================\");\r\n    }\r\n\r\n    // 오버로딩 2번 함수\r\n    public int OverloadMethod(int a, int b){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 2개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a+b;\r\n    }\r\n\r\n    // 오버로딩 3번 함수\r\n    public int OverloadMethod(int a, int b, int c){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 3개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a*b*c;\r\n    }\r\n\r\n\r\n    // 오버로딩 4번 함수\r\n    public boolean OverloadMethod(String str){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 1개\");\r\n        System.out.println(\"매개변수 타입 : String\");\r\n        System.out.println(\"오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        if(str.equals(\"park\")){\r\n            return true;\r\n        }else{\r\n            return false;\r\n        }\r\n    }\r\n}\r\n\r\n```\r\n\r\n위 함수들을 보시면 `OverloadMethod`로 이름들이 같지만 타입과 매개변수의 수가 다른 것들을 보실 수 있습니다. 함수들에 대한 설명은 코드에 작성돼 있으니 참고해주세요~ 😎\r\n\r\n코드를 실행하는 코드와 결과를 확인해보겠습니다.\r\n\r\n``` java title='결과 확인 코드'\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        OverringClass oc = new OverringClass();\r\n        \r\n        // 오버로딩 1번 함수\r\n        oc.OverloadMethod();\r\n\r\n        // 오버로딩 2번 함수\r\n        int a = oc.OverloadMethod(1,2);\r\n        System.out.println(\"오버로딩 2번 함수 반환값 : \"+a);\r\n\r\n        // 오버로딩 3번 함수\r\n        int b = oc.OverloadMethod(4,5,6);\r\n        System.out.println(\"오버로딩 3번 함수 반환값 : \"+b);\r\n\r\n        // 오버로딩 4번 함수\r\n        boolean c = oc.OverloadMethod(\"park\");\r\n        System.out.println(\"오버로딩 4번 함수 반환값 : \"+c);\r\n    }\r\n}\r\n```\r\n\r\n```text title='결과'\r\n============================\r\n매개변수 수 : 0개\r\n매개변수 타입 : void\r\n오버라이딩 1번 함수 입니다.\r\n============================\r\n============================\r\n매개변수 수 : 2개\r\n매개변수 타입 : int\r\n오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\r\n============================\r\n오버로딩 2번 함수 반환값 : 3\r\n============================\r\n매개변수 수 : 3개\r\n매개변수 타입 : int\r\n오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\r\n============================\r\n오버로딩 3번 함수 반환값 : 120\r\n============================\r\n매개변수 수 : 1개\r\n매개변수 타입 : String\r\n오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\r\n============================\r\n오버로딩 4번 함수 반환값 : true\r\n```"
-    },
-    {
-      "id": "design pattern rule",
-      "metadata": {
-        "permalink": "/blog/design pattern rule",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-rule/index.md",
-        "source": "@site/blog/2023-08-29-rule/index.md",
-        "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-        "description": "SRP ( 단일 책임의 원칙 : Single Responsibility Principle )",
-        "date": "2023-08-29T00:00:00.000Z",
-        "formattedDate": "August 29, 2023",
-        "tags": [
-          {
-            "label": "design pattern",
-            "permalink": "/blog/tags/design-pattern"
-          },
-          {
-            "label": "rule",
-            "permalink": "/blog/tags/rule"
-          }
-        ],
-        "readingTime": 1.925,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "design pattern rule",
-          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "design pattern",
-            "rule"
-          ]
-        },
-        "prevItem": {
-          "title": "Overloading & Overriding",
-          "permalink": "/blog/Overloading and Overriding"
-        },
-        "nextItem": {
           "title": "전략 패턴 - Strategy pattern",
           "permalink": "/blog/strategy pattern"
         }
       },
-      "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
+      "content": "오버로딩과 오버라이딩에 대해서 알아보겠습니다.\r\n\r\n## 오버로딩 (Overloading)\r\n\r\n### 정의\r\n\r\n한 클래스 내에 이미 **사용하려는 이름**과 **같은 이름**을 가진 **`메소드`**가 있어도 매개 변수의 개수와 타입이 다르면 같은 이름을 사용해서 메소드를 재정의 할 수 있다.\r\n\r\n여기서 핵심은 2가지로 정리할 수 있습니다.\r\n\r\n1. 메소드의 이름이 같다.\r\n2. 매개변수의 개수나 타입이 달라야 한다.\r\n3. 리턴값과는 상관 없습니다.\r\n\r\n\r\n### 오버로딩 함수 코드\r\n\r\n```java title='오버로딩 함수'\r\npublic class OverringClass {\r\n    \r\n    // 오버로딩 1번 함수\r\n    public void OverloadMethod(){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 0개\");\r\n        System.out.println(\"매개변수 타입 : void\");\r\n        System.out.println(\"오버라이딩 1번 함수 입니다.\");\r\n        System.out.println(\"============================\");\r\n    }\r\n\r\n    // 오버로딩 2번 함수\r\n    public int OverloadMethod(int a, int b){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 2개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a+b;\r\n    }\r\n\r\n    // 오버로딩 3번 함수\r\n    public int OverloadMethod(int a, int b, int c){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 3개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a*b*c;\r\n    }\r\n\r\n\r\n    // 오버로딩 4번 함수\r\n    public boolean OverloadMethod(String str){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 1개\");\r\n        System.out.println(\"매개변수 타입 : String\");\r\n        System.out.println(\"오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        if(str.equals(\"park\")){\r\n            return true;\r\n        }else{\r\n            return false;\r\n        }\r\n    }\r\n}\r\n\r\n```\r\n\r\n위 함수들을 보시면 `OverloadMethod`로 이름들이 같지만 타입과 매개변수의 수가 다른 것들을 보실 수 있습니다. 함수들에 대한 설명은 코드에 작성돼 있으니 참고해주세요~ 😎\r\n\r\n코드를 실행하는 코드와 결과를 확인해보겠습니다.\r\n\r\n``` java title='결과 확인 코드'\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        OverringClass oc = new OverringClass();\r\n        \r\n        // 오버로딩 1번 함수\r\n        oc.OverloadMethod();\r\n\r\n        // 오버로딩 2번 함수\r\n        int a = oc.OverloadMethod(1,2);\r\n        System.out.println(\"오버로딩 2번 함수 반환값 : \"+a);\r\n\r\n        // 오버로딩 3번 함수\r\n        int b = oc.OverloadMethod(4,5,6);\r\n        System.out.println(\"오버로딩 3번 함수 반환값 : \"+b);\r\n\r\n        // 오버로딩 4번 함수\r\n        boolean c = oc.OverloadMethod(\"park\");\r\n        System.out.println(\"오버로딩 4번 함수 반환값 : \"+c);\r\n    }\r\n}\r\n```\r\n\r\n```text title='결과'\r\n============================\r\n매개변수 수 : 0개\r\n매개변수 타입 : void\r\n오버라이딩 1번 함수 입니다.\r\n============================\r\n============================\r\n매개변수 수 : 2개\r\n매개변수 타입 : int\r\n오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\r\n============================\r\n오버로딩 2번 함수 반환값 : 3\r\n============================\r\n매개변수 수 : 3개\r\n매개변수 타입 : int\r\n오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\r\n============================\r\n오버로딩 3번 함수 반환값 : 120\r\n============================\r\n매개변수 수 : 1개\r\n매개변수 타입 : String\r\n오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\r\n============================\r\n오버로딩 4번 함수 반환값 : true\r\n```"
     },
     {
       "id": "strategy pattern",
@@ -204,15 +151,68 @@
           ]
         },
         "prevItem": {
+          "title": "Overloading & Overriding",
+          "permalink": "/blog/Overloading and Overriding"
+        },
+        "nextItem": {
           "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
           "permalink": "/blog/design pattern rule"
+        }
+      },
+      "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
+    },
+    {
+      "id": "design pattern rule",
+      "metadata": {
+        "permalink": "/blog/design pattern rule",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-rule/index.md",
+        "source": "@site/blog/2023-08-29-rule/index.md",
+        "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+        "description": "SRP ( 단일 책임의 원칙 : Single Responsibility Principle )",
+        "date": "2023-08-29T00:00:00.000Z",
+        "formattedDate": "August 29, 2023",
+        "tags": [
+          {
+            "label": "design pattern",
+            "permalink": "/blog/tags/design-pattern"
+          },
+          {
+            "label": "rule",
+            "permalink": "/blog/tags/rule"
+          }
+        ],
+        "readingTime": 1.925,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "design pattern rule",
+          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "design pattern",
+            "rule"
+          ]
+        },
+        "prevItem": {
+          "title": "전략 패턴 - Strategy pattern",
+          "permalink": "/blog/strategy pattern"
         },
         "nextItem": {
           "title": "Welcome",
           "permalink": "/blog/welcome"
         }
       },
-      "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
+      "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
     },
     {
       "id": "welcome",
@@ -257,8 +257,8 @@
           ]
         },
         "prevItem": {
-          "title": "전략 패턴 - Strategy pattern",
-          "permalink": "/blog/strategy pattern"
+          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+          "permalink": "/blog/design pattern rule"
         }
       },
       "content": "Docusaurus 첫번째 글이다.\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\n귀여운 공룡 인형이 있다."

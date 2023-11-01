@@ -28,14 +28,14 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\kihyun1998.github.io\\blogsaurus\\sidebars.js"
+          "sidebarPath": "C:\\Users\\User\\kihyun1998.github.io\\blogsaurus\\sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
           "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\kihyun1998.github.io\\blogsaurus\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\User\\kihyun1998.github.io\\blogsaurus\\src\\css\\custom.css"
         }
       }
     ]
@@ -78,6 +78,12 @@ export default {
           "sidebarId": "goSidebar",
           "position": "left",
           "label": "Go"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "backSidebar",
+          "position": "left",
+          "label": "BackEnd"
         },
         {
           "to": "/blog",
@@ -145,7 +151,9 @@ export default {
         "python",
         "bash",
         "powershell",
-        "dart"
+        "dart",
+        "xml-doc",
+        "sql"
       ],
       "theme": {
         "plain": {

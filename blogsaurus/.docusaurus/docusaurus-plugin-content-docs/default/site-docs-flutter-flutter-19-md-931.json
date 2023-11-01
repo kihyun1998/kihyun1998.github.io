@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter19",
+  "id": "flutter/flutter19",
+  "title": "19. [Flutter] HTTP Request & Response",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter19.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter19",
+  "permalink": "/docs/flutter/flutter19",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 19,
+  "frontMatter": {
+    "sidebar_position": 19
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "18. [Flutter] split & substring",
+    "permalink": "/docs/flutter/flutter18"
+  },
+  "next": {
+    "title": "19. [Flutter] fetch",
+    "permalink": "/docs/flutter/flutter20"
+  }
+}

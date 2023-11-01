@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter26",
+  "id": "flutter/flutter26",
+  "title": "26. [Flutter] URL Launcher",
+  "description": "1. 코드",
+  "source": "@site/docs/flutter/flutter26.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter26",
+  "permalink": "/docs/flutter/flutter26",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 26,
+  "frontMatter": {
+    "sidebar_position": 26
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "25. [Flutter] 인자가 있는 API Service",
+    "permalink": "/docs/flutter/flutter25"
+  },
+  "next": {
+    "title": "27. [Flutter] shared_preferences",
+    "permalink": "/docs/flutter/flutter27"
+  }
+}
