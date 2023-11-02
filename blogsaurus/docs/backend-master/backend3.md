@@ -124,6 +124,14 @@ docker exec -it postgres15 psql -U root
 docker logs <컨테이너이름 또는 컨테이너아이디>
 ```
 
+## 도커를 멈추려면
+---
+
+```bash
+docker stop <컨테이너아이디 또는 이름>
+```
+
+
 ## TablePlus
 
 위는 어려운 방법이였다고 한다. TablePlus를 사용하면 쉬운 방법을 사용할 수 있다.
@@ -144,3 +152,5 @@ docker logs <컨테이너이름 또는 컨테이너아이디>
 ### SQL 실행
 
 SQL을 실행할 때 `ctrl+a`를 누르고 해야한다. 한 블럭씩 실행되기 때문이다.
+
+
