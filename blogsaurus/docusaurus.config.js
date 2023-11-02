@@ -164,7 +164,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        additionalLanguages:['java','csharp','go','python','bash','powershell','dart','xml-doc','sql'],
+        additionalLanguages:['java','yaml','csharp','go','python','bash','powershell','dart','xml-doc','sql'],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
