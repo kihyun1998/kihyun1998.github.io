@@ -96,11 +96,23 @@ docker exec -it <컨테이너이름 or 컨테이너아이디> <명령어> [args]
 ```bash
 docker exec -it postgres15 psql -U root
 ```
+
+:::tip 옵션 설명
 `psql`: postgres 들어가는 명령어
 
 `-U`: 로그인 아이디 옵션
 
 `root`: root로 로그인
+:::
+
+### shell을 사용해서 진입
+
+```bash
+docker exec -it postgres15 /bin/sh
+```
+
+위 명령어로 진입하면 /bin/sh을 사용해서 postgres 서버에 직접적으로 명령어를 사용할 수 있습니다.
+
 
 ### 진입 시 비밀번호를 물어보지 않는 이유
 
