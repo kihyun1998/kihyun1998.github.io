@@ -127,9 +127,20 @@ docker logs <컨테이너이름 또는 컨테이너아이디>
 ## 도커를 멈추려면
 ---
 
+### 멈추는 명령어
+
 ```bash
 docker stop <컨테이너아이디 또는 이름>
 ```
+
+### 멈춘거 확인
+
+```bash
+docker ps -a
+```
+
+`docker ps -a` 는 실행중이든 꺼져있든 모든 컨테이너 보여줌
+
 
 
 ## TablePlus
