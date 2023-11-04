@@ -37,7 +37,7 @@ Models > Migrations > Database
 
 ```powershell
 irm get.scoop.sh -outfile 'install.ps1'
-iex "& {$(irm get.scoop.sh)} -RunAsAdmin
+iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 ```
 
 
