@@ -13,6 +13,12 @@ type Dictionary map[string]string
 
 위와 같이 선언한다 
 
+참고로 변수 map은 아래와 같이 선언하지 않으면 초기화 에러가 난다.
+
+```go
+var results = make(map[string]string)
+```
+
 ```go
 map[키타입] 값타입
 ```
