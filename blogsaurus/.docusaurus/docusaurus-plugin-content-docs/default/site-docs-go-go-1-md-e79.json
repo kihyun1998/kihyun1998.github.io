@@ -14,5 +14,9 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "goSidebar"
+  "sidebar": "goSidebar",
+  "next": {
+    "title": "02. [Go] Context",
+    "permalink": "/docs/go/go2"
+  }
 }

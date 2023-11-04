@@ -430,6 +430,18 @@
             "label": "01. [Go] 윈도우에서 리눅스 빌드 하기",
             "href": "/docs/go/go1",
             "docId": "go/go1"
+          },
+          {
+            "type": "link",
+            "label": "02. [Go] Context",
+            "href": "/docs/go/go2",
+            "docId": "go/go2"
+          },
+          {
+            "type": "link",
+            "label": "[Go] Struct",
+            "href": "/docs/go/go3",
+            "docId": "go/go3"
           }
         ],
         "collapsed": true,
@@ -446,6 +458,36 @@
             "label": "01. [BackEnd] 시작하기",
             "href": "/docs/backend-master/backend1",
             "docId": "backend-master/backend1"
+          },
+          {
+            "type": "link",
+            "label": "02. [BackEnd] WSL2 + Go + VSCode + Docker + Make + Sqlc",
+            "href": "/docs/backend-master/backend2",
+            "docId": "backend-master/backend2"
+          },
+          {
+            "type": "link",
+            "label": "03. [BackEnd] Docker + Postgres + TablePlus",
+            "href": "/docs/backend-master/backend3",
+            "docId": "backend-master/backend3"
+          },
+          {
+            "type": "link",
+            "label": "04. [BackEnd] DB Migration in golang",
+            "href": "/docs/backend-master/backend4",
+            "docId": "backend-master/backend4"
+          },
+          {
+            "type": "link",
+            "label": "05. [BackEnd] Golang CRUD",
+            "href": "/docs/backend-master/backend5",
+            "docId": "backend-master/backend5"
+          },
+          {
+            "type": "link",
+            "label": "06. [BackEnd] Golang CRUD Unit test",
+            "href": "/docs/backend-master/backend6",
+            "docId": "backend-master/backend6"
           }
         ],
         "collapsed": true,
@@ -458,6 +500,36 @@
       "id": "backend-master/backend1",
       "title": "01. [BackEnd] 시작하기",
       "description": "PostgreSQL, Golang, Docker를 이용해서 디자인, 개발, 배포에 관한 백엔드 학습을 진행한다.",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend2": {
+      "id": "backend-master/backend2",
+      "title": "02. [BackEnd] WSL2 + Go + VSCode + Docker + Make + Sqlc",
+      "description": "WSL 설치",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend3": {
+      "id": "backend-master/backend3",
+      "title": "03. [BackEnd] Docker + Postgres + TablePlus",
+      "description": "Docker 설치",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend4": {
+      "id": "backend-master/backend4",
+      "title": "04. [BackEnd] DB Migration in golang",
+      "description": "DB Migration이란",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend5": {
+      "id": "backend-master/backend5",
+      "title": "05. [BackEnd] Golang CRUD",
+      "description": "CRUD란",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend6": {
+      "id": "backend-master/backend6",
+      "title": "06. [BackEnd] Golang CRUD Unit test",
+      "description": "오늘 공부할 내용",
       "sidebar": "backSidebar"
     },
     "blog-configuration/install_node": {
@@ -728,6 +800,18 @@
       "id": "go/go1",
       "title": "01. [Go] 윈도우에서 리눅스 빌드 하기",
       "description": "1. Git Bash를 실행한다.",
+      "sidebar": "goSidebar"
+    },
+    "go/go2": {
+      "id": "go/go2",
+      "title": "02. [Go] Context",
+      "description": "context의 뜻은 맥락이다.",
+      "sidebar": "goSidebar"
+    },
+    "go/go3": {
+      "id": "go/go3",
+      "title": "[Go] Struct",
+      "description": "기본",
       "sidebar": "goSidebar"
     },
     "intro": {

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend2",
+  "id": "backend-master/backend2",
+  "title": "02. [BackEnd] WSL2 + Go + VSCode + Docker + Make + Sqlc",
+  "description": "WSL 설치",
+  "source": "@site/docs/backend-master/backend2.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend2",
+  "permalink": "/docs/backend-master/backend2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "01. [BackEnd] 시작하기",
+    "permalink": "/docs/backend-master/backend1"
+  },
+  "next": {
+    "title": "03. [BackEnd] Docker + Postgres + TablePlus",
+    "permalink": "/docs/backend-master/backend3"
+  }
+}

@@ -39,11 +39,11 @@
     ]
   },
   "prevItem": {
-    "title": "Overloading & Overriding",
-    "permalink": "/blog/Overloading and Overriding"
-  },
-  "nextItem": {
     "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
     "permalink": "/blog/design pattern rule"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
   }
 }

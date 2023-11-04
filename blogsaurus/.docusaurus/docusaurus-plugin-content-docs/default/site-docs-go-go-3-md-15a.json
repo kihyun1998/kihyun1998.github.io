@@ -1,0 +1,22 @@
+{
+  "unversionedId": "go/go3",
+  "id": "go/go3",
+  "title": "[Go] Struct",
+  "description": "기본",
+  "source": "@site/docs/go/go3.md",
+  "sourceDirName": "go",
+  "slug": "/go/go3",
+  "permalink": "/docs/go/go3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "goSidebar",
+  "previous": {
+    "title": "02. [Go] Context",
+    "permalink": "/docs/go/go2"
+  }
+}

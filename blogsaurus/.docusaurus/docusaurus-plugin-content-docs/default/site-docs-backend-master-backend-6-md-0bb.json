@@ -1,0 +1,22 @@
+{
+  "unversionedId": "backend-master/backend6",
+  "id": "backend-master/backend6",
+  "title": "06. [BackEnd] Golang CRUD Unit test",
+  "description": "오늘 공부할 내용",
+  "source": "@site/docs/backend-master/backend6.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend6",
+  "permalink": "/docs/backend-master/backend6",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "05. [BackEnd] Golang CRUD",
+    "permalink": "/docs/backend-master/backend5"
+  }
+}

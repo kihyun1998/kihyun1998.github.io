@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend3",
+  "id": "backend-master/backend3",
+  "title": "03. [BackEnd] Docker + Postgres + TablePlus",
+  "description": "Docker 설치",
+  "source": "@site/docs/backend-master/backend3.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend3",
+  "permalink": "/docs/backend-master/backend3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "02. [BackEnd] WSL2 + Go + VSCode + Docker + Make + Sqlc",
+    "permalink": "/docs/backend-master/backend2"
+  },
+  "next": {
+    "title": "04. [BackEnd] DB Migration in golang",
+    "permalink": "/docs/backend-master/backend4"
+  }
+}

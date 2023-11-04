@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend4",
+  "id": "backend-master/backend4",
+  "title": "04. [BackEnd] DB Migration in golang",
+  "description": "DB Migration이란",
+  "source": "@site/docs/backend-master/backend4.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend4",
+  "permalink": "/docs/backend-master/backend4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "03. [BackEnd] Docker + Postgres + TablePlus",
+    "permalink": "/docs/backend-master/backend3"
+  },
+  "next": {
+    "title": "05. [BackEnd] Golang CRUD",
+    "permalink": "/docs/backend-master/backend5"
+  }
+}

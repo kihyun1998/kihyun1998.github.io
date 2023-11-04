@@ -1,0 +1,26 @@
+{
+  "unversionedId": "go/go2",
+  "id": "go/go2",
+  "title": "02. [Go] Context",
+  "description": "context의 뜻은 맥락이다.",
+  "source": "@site/docs/go/go2.md",
+  "sourceDirName": "go",
+  "slug": "/go/go2",
+  "permalink": "/docs/go/go2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "goSidebar",
+  "previous": {
+    "title": "01. [Go] 윈도우에서 리눅스 빌드 하기",
+    "permalink": "/docs/go/go1"
+  },
+  "next": {
+    "title": "[Go] Struct",
+    "permalink": "/docs/go/go3"
+  }
+}

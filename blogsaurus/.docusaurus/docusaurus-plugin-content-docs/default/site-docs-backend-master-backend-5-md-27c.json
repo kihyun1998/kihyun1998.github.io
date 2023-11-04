@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend5",
+  "id": "backend-master/backend5",
+  "title": "05. [BackEnd] Golang CRUD",
+  "description": "CRUD란",
+  "source": "@site/docs/backend-master/backend5.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend5",
+  "permalink": "/docs/backend-master/backend5",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "04. [BackEnd] DB Migration in golang",
+    "permalink": "/docs/backend-master/backend4"
+  },
+  "next": {
+    "title": "06. [BackEnd] Golang CRUD Unit test",
+    "permalink": "/docs/backend-master/backend6"
+  }
+}

@@ -16,6 +16,31 @@
               "sidebar": "backSidebar"
             },
             {
+              "id": "backend-master/backend2",
+              "path": "/docs/backend-master/backend2",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend3",
+              "path": "/docs/backend-master/backend3",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend4",
+              "path": "/docs/backend-master/backend4",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend5",
+              "path": "/docs/backend-master/backend5",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend6",
+              "path": "/docs/backend-master/backend6",
+              "sidebar": "backSidebar"
+            },
+            {
               "id": "blog-configuration/install_node",
               "path": "/docs/blog-configuration/install_node",
               "sidebar": "blogSidebar"
@@ -238,6 +263,16 @@
             {
               "id": "go/go1",
               "path": "/docs/go/go1",
+              "sidebar": "goSidebar"
+            },
+            {
+              "id": "go/go2",
+              "path": "/docs/go/go2",
+              "sidebar": "goSidebar"
+            },
+            {
+              "id": "go/go3",
+              "path": "/docs/go/go3",
               "sidebar": "goSidebar"
             },
             {
