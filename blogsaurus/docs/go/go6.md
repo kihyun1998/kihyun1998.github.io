@@ -102,3 +102,16 @@ func count(s string, c chan string) {
 ```
 
 채널 여러 개를 다룬다면 이렇게 하면 된다.
+
+
+## URL check
+
+### channel send-only
+
+```go
+func hitURL(url string, c chan<- result) {
+	fmt.Println("Check : ", url)
+}
+```
+
+위처럼 인자 받을 때 `chan<-` 처리해주면 send-only다.
