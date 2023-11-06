@@ -317,6 +317,8 @@ func TestTransferTx(t *testing.T) {
 
 store변수에 NewStore로 만들어서 넣어주면 Queries를 사용할 수 있습니다.
 
+중간부터 보면 for문을 통해서 트랜잭션을 5개 만드는데 이는 동시에 트랜잭션 쏠 때 교착상태에 빠지는지 확인하기 위해서이다.
+
 
 ## 숙제
 ---
