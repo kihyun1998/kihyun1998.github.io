@@ -5,11 +5,13 @@ sidebar_position: 14
 # 14. [BackEnd] HTTP API test in golang use Mock DB
 
 ## 학습 목표
+
 ---
 
 test를 위한 Mock DB 사용
 
 ## Mock DB
+
 ---
 
 ### 장점
@@ -22,20 +24,17 @@ test를 위한 Mock DB 사용
 
 4. 주의할 점은 실제 DB와도 테스트를 어느정도 마쳐야함
 
-
 ### 구현 방법
 
 1. 메모리에 데이터 저장하는 가짜 db 구현 ( 구현이 쉽지만 테스트 코드가 너무 길어진다. )
 
 2. stub을 사용하는 MOCK DB ( GoMock을 사용한다. )
 
-
 ## GoMock 사용
+
 ---
 
-
 ### GoMock 설치
-
 
 [여기](https://github.com/golang/mock)에서 다운로드 받을 수 있습니다.
 
@@ -71,7 +70,7 @@ which mockgen
 
 sqlc 설정 중 `emit_interface`를 true로 하여 queries 구조체의 모든 기능을 포함하여 인터페이스를 생성하도록 해줍니다.
 
-다시 sqlc하면 
+다시 sqlc하면
 
 ```go
 type Querier interface {
@@ -96,6 +95,7 @@ type Querier interface {
 
 var _ Querier = (*Queries)(nil)
 ```
+
 이전에 만든 query들이 다 모여있고
 
 이 인터페이스를 새로운 인터페이스에 입력한다.
@@ -107,7 +107,7 @@ type Store interface {
 }
 ```
 
-이게 새로운 mock을 위한 store고 기존 store는 
+이게 새로운 mock을 위한 store고 기존 store는
 
 ```go
 type SQLStore struct {
@@ -130,7 +130,6 @@ db 밑에 mock 폴더 생성한다.
 
 source 모드와 reflect 모드가 있다. source 모드는 단일 소스 파일에서 모의 인터페이스 생성하고 reflect는 이름과 인터페이스만 제공하고 mockgen이 리플렉션해서 자동으로 파악함
 
-
 ```bash
 mockgen <store 경로> <인터페이스 이름>
 ```
@@ -149,7 +148,6 @@ mockgen -package mockdb -destination db/mock/store.go simplebank/db/sqlc Store
 ![Alt text](./img/14/image1.png)
 
 이렇게 자동 코드 생성됩니다.
-
 
 ## API Test 코드 작성
 
@@ -178,7 +176,6 @@ store.EXPECT().
 ```
 
 account에 대한 stub을 생성합니다.
-
 
 3. 서버에 요청 보내기
 
@@ -396,6 +393,7 @@ store.EXPECT()로 만든 stub의 Return을 없는 계정을 반환한다던지 �
 지금까지 작성한 테스트코드는 이러한데 각각의 특징을 보면서 익혀야할 것 같다.
 
 ## main-test.go 작성
+
 ---
 
 ```go
@@ -408,9 +406,8 @@ func TestMain(m *testing.M) {
 
 디버깅을 위해서 gin을 test모드로 설정한다.
 
-
-
 ## 숙제
+
 ---
 
 ### createAccountAPI 테스트 코드
@@ -508,7 +505,6 @@ func TestCreateAccountAPI(t *testing.T) {
 ```
 
 따라해보면서 익히는 구간이였다.
-
 
 ### listAccountAPI 테스트 코드
 
@@ -631,7 +627,6 @@ func requireBodyMatchAccounts(t *testing.T, body *bytes.Buffer, accounts []db.Ac
 
 따라해보면서 익히는 구간
 
-
 ### updateAccountAPI 테스트 코드
 
 ```go
@@ -737,7 +732,6 @@ func TestUpdateAccountAPI(t *testing.T) {
 ```
 
 update account는 개선사항이 보인다. 수정한 account와 recoder 값을 비교해볼 필요가 있음
-
 
 ### deleteAccountAPI 테스트 코드
 
@@ -857,3 +851,110 @@ func TestDeleteAccountAPI(t *testing.T) {
 ```
 
 deleteAccountAPI 테스트 코드 작성할 때 특이했던 부분은 `GetAccount`함수와 `DeleteAccount` 함수 2개를 사용하기 때문에 약간 혼돈이 있었다.
+
+### deleteAccountAPI 테스트 코드 개선
+
+```go
+func TestDeleteAccountAPI(t *testing.T) {
+	account := randomAccount()
+	testCases := []struct {
+		name       string
+		accountID  int64
+		buildStubs func(store *mockdb.MockStore)
+		statusCode int
+	}{
+		{
+			name:      "OK",
+			accountID: account.ID,
+			buildStubs: func(store *mockdb.MockStore) {
+				store.EXPECT().
+					GetAccount(gomock.Any(), gomock.Eq(account.ID)).
+					Times(1).
+					Return(account, nil)
+				store.EXPECT().
+					DeleteAccount(gomock.Any(), gomock.Eq(account.ID)).
+					Times(1).
+					Return(nil)
+			},
+			statusCode: http.StatusOK,
+		}, {
+			name:      "InternalErrorInGET",
+			accountID: account.ID,
+			buildStubs: func(store *mockdb.MockStore) {
+				store.EXPECT().
+					GetAccount(gomock.Any(), gomock.Eq(account.ID)).
+					Times(1).
+					Return(db.Account{}, sql.ErrConnDone)
+				store.EXPECT().
+					DeleteAccount(gomock.Any(), gomock.Eq(account.ID)).
+					Times(0)
+			},
+			statusCode: http.StatusInternalServerError,
+		}, {
+			name:      "InternalErrorInDelete",
+			accountID: account.ID,
+			buildStubs: func(store *mockdb.MockStore) {
+				store.EXPECT().
+					GetAccount(gomock.Any(), gomock.Eq(account.ID)).
+					Times(1).
+					Return(account, nil)
+				store.EXPECT().
+					DeleteAccount(gomock.Any(), gomock.Eq(account.ID)).
+					Times(1).
+					Return(sql.ErrConnDone)
+			},
+			statusCode: http.StatusInternalServerError,
+		}, {
+			name:      "BadRequest",
+			accountID: 0,
+			buildStubs: func(store *mockdb.MockStore) {
+				store.EXPECT().
+					GetAccount(gomock.Any(), gomock.Any()).
+					Times(0)
+				store.EXPECT().
+					DeleteAccount(gomock.Any(), gomock.Eq(account.ID)).
+					Times(0)
+			},
+			statusCode: http.StatusBadRequest,
+		}, {
+			name:      "NotFound",
+			accountID: account.ID,
+			buildStubs: func(store *mockdb.MockStore) {
+				store.EXPECT().
+					GetAccount(gomock.Any(), gomock.Eq(account.ID)).
+					Times(1).
+					Return(db.Account{}, sql.ErrNoRows)
+				store.EXPECT().
+					DeleteAccount(gomock.Any(), gomock.Eq(account.ID)).
+					Times(0)
+			},
+			statusCode: http.StatusNotFound,
+		},
+	}
+
+	for i := range testCases {
+		// 테스트 케이스
+		tc := testCases[i]
+		t.Run(tc.name, func(t *testing.T) {
+			ctrl := gomock.NewController(t)
+			defer ctrl.Finish()
+
+			store := mockdb.NewMockStore(ctrl)
+			// build stub
+			tc.buildStubs(store)
+
+			server := NewServer(store)
+			recoder := httptest.NewRecorder()
+
+			url := fmt.Sprintf("/accounts/%d", tc.accountID)
+			request, err := http.NewRequest(http.MethodDelete, url, nil)
+			require.NoError(t, err)
+
+			server.router.ServeHTTP(recoder, request)
+			require.Equal(t, tc.statusCode, recoder.Code)
+		})
+	}
+}
+```
+
+stub을 하나에 하나만 가능한 줄 알았는데 여러개 할 수 있더라는 것을 알아서 개선했다.
