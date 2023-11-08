@@ -2,5 +2,5 @@
     "words": [  "WebToon","pubspec","webtoons","KHTML","prefs","Toons","kihyun",
                 "dbdiagram","bigserial","varchar","timestampz","Sqlc","psql","outfile",
                 "createdb","dropdb","sslmode","migrateup","migratedown","gorm","SQLX",
-                "struct","DBTX","stretchr","Intn","Errorf","usename","locktype","virtualxid","transactionid","objid","objsubid","datname","regclass","Println","isready","oneof","Fatalln","simplebank","talend"]
+                "struct","DBTX","stretchr","Intn","Errorf","usename","locktype","virtualxid","transactionid","objid","objsubid","datname","regclass","Println","isready","oneof","Fatalln","simplebank","talend","unmarshal","mapstructure"]
 }
