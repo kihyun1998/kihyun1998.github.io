@@ -333,3 +333,47 @@ emit_empty_slices: true
 ---
 
 계정 `delete api`와 `update api` 생성
+
+### Update API
+
+
+```go title='server.go'
+	// 계정 업데이트
+	router.PUT("/accounts/:id", server.updateAccount)
+```
+
+
+```go title='account.go'
+type updateAccountURIRequest struct {
+	ID int64 `uri:"id" binding:"required,min=1"`
+}
+type updateAccountJSONRequest struct {
+	Balance int64 `json:"balance" binding:"required,min=0"`
+}
+
+func (server *Server) updateAccount(ctx *gin.Context) {
+	var reqURI updateAccountURIRequest
+	var reqJSON updateAccountJSONRequest
+	if err := ctx.ShouldBindUri(&reqURI); err != nil {
+		ctx.JSON(http.StatusBadRequest, errorResponse(err))
+		return
+	}
+
+	if err := ctx.ShouldBindJSON(&reqJSON); err != nil {
+		ctx.JSON(http.StatusBadRequest, errorResponse(err))
+		return
+	}
+
+	arg := db.UpdateAccountParams{
+		ID:      reqURI.ID,
+		Balance: reqJSON.Balance,
+	}
+	account, err := server.store.UpdateAccount(ctx, arg)
+	if err != nil {
+		ctx.JSON(http.StatusInternalServerError, errorResponse(err))
+	}
+	ctx.JSON(http.StatusOK, account)
+}
+```
+
+하면서 한가지 깨달은 사실은 uri와 json을 하나의 구조체에 넣고 `ShouldBind`를 할 수 없다는 것이다. 그래서 나눠줬더니 잘 작동한다.
