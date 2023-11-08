@@ -338,8 +338,10 @@ emit_empty_slices: true
 
 
 ```go title='server.go'
+	...
 	// 계정 업데이트
 	router.PUT("/accounts/:id", server.updateAccount)
+	...
 ```
 
 
@@ -377,3 +379,89 @@ func (server *Server) updateAccount(ctx *gin.Context) {
 ```
 
 하면서 한가지 깨달은 사실은 uri와 json을 하나의 구조체에 넣고 `ShouldBind`를 할 수 없다는 것이다. 그래서 나눠줬더니 잘 작동한다.
+
+그리고 한가지 깨달은 것이
+
+```go
+type updateAccountJSONRequest struct {
+	Balance int64 `json:"balance" binding:"required,min=0"`
+}
+```
+
+위처럼 설정한다면 말이 안된다.
+
+애초에 `required` validator는 zero value가 오지 않아야 하는데 그래서 0이 들어가면 400을 반환한다.
+
+이를 해결하려면 `required`를 사용하지 않고 아래처럼 하는 방법이 있는데 온전한 해결법이 되지 못한다.
+
+```go
+type updateAccountJSONRequest struct {
+	Balance int64 `json:"balance" default:"0" binding:"min=0"`
+}
+```
+
+### delete account
+
+
+```go title='server.go'
+	...
+	// 계정 삭제
+	router.DELETE("/accounts/:id", server.deleteAccount)
+	...
+```
+
+
+```go title='account.go'
+type deleteAccountRequest struct {
+	ID int64 `uri:"id" binding:"required,min=1"`
+}
+
+func (server *Server) deleteAccount(ctx *gin.Context) {
+	var req deleteAccountRequest
+	if err := ctx.ShouldBindUri(&req); err != nil {
+		ctx.JSON(http.StatusBadRequest, errorResponse(err))
+		return
+	}
+
+	err := server.store.DeleteAccount(ctx, req.ID)
+	if err != nil {
+		ctx.JSON(http.StatusInternalServerError, errorResponse(err))
+		return
+	}
+	ctx.JSON(http.StatusOK, nil)
+}
+```
+
+별 문제는 없다. 다만 한 가지 개선하면 좋은 것이 해당 id가 없다면 404를 반환하는 것이다.
+
+그러려면 삭제 전에 탐색하는 동작을 하면 된다. 그런데 일단 내버려 두기로... 하려 했으나 간단하게 개선했다.
+
+```go title='account.go'
+func (server *Server) deleteAccount(ctx *gin.Context) {
+	var req deleteAccountRequest
+	if err := ctx.ShouldBindUri(&req); err != nil {
+		ctx.JSON(http.StatusBadRequest, errorResponse(err))
+		return
+	}
+
+	_, err := server.store.GetAccount(ctx, req.ID)
+	if err != nil {
+		if err == sql.ErrNoRows {
+			ctx.JSON(http.StatusNotFound, errorResponse(err)) //ID 없을 때 404
+			return
+		}
+
+		ctx.JSON(http.StatusInternalServerError, errorResponse(err)) // 데이터베이스 서버 에러
+		return
+	}
+
+	err = server.store.DeleteAccount(ctx, req.ID)
+	if err != nil {
+		ctx.JSON(http.StatusInternalServerError, errorResponse(err))
+		return
+	}
+	ctx.JSON(http.StatusOK, nil)
+}
+```
+
+그냥 중간에 getAccount 하는거 넣으면 된다.
