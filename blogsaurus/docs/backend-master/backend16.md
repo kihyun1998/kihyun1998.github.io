@@ -133,7 +133,7 @@ migration up이 잘 됐다면 down파일을 작성해야 합니다.
 users 테이블을 drop합니다.
 
 
-![Alt text](./img/16/image1.png)
+![Alt text](./img/1-30/16/image1.png)
 
 외래키 제약조건 이름은 위처럼 table plus에서 해당 테이블의 info에서 찾을 수 있습니다.
 

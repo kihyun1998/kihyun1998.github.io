@@ -145,7 +145,7 @@ mockgen -package mockdb -destination db/mock/store.go simplebank/db/sqlc Store
 `-destination` : mockgen 생성된 코드 경로 지정
 `-package` : package이름을 정할 수 있습니다.
 
-![Alt text](./img/14/image1.png)
+![Alt text](./img/1-30/14/image1.png)
 
 이렇게 자동 코드 생성됩니다.
 

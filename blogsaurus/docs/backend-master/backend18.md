@@ -20,7 +20,7 @@ sidebar_position: 18
 
 
 
-![Alt text](./img/18/image1.png)
+![Alt text](./img/1-30/18/image1.png)
 
 `ALG` : 알고리즘 식별자, bcrypt 알고리즘은 `2A`라고 하네요.
 
@@ -77,7 +77,7 @@ func createRandomUser(t *testing.T) User {
 
 만들어둔 함수를 사용해서 비밀번호를 적용합니다.
 
-![Alt text](./img/18/image2.png)
+![Alt text](./img/1-30/18/image2.png)
 
 잘 저장되는 모습
 
@@ -174,7 +174,7 @@ func (server *Server) createUser(ctx *gin.Context) {
 
 마지막으로 server.go에 api 등록만 하면 된다.
 
-![Alt text](./img/18/image3.png)
+![Alt text](./img/1-30/18/image3.png)
 
 등록하고 api 쏘면 잘된다! 근데 해시 비밀번호가 노출되니 이를 제거해야 할 필요가 있다.
 

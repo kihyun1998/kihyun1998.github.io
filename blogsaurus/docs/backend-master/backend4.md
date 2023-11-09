@@ -92,7 +92,7 @@ db/migration 폴더를 생성해줬었다. 그래서 위치할 폴더를 db/migr
 `init_schema` 마이그레이션 이름이다.  
 
 
-![Alt text](./img/4/image1.png)
+![Alt text](./img/1-30/4/image1.png)
 
 사진처럼 2개의 마이그레이션 파일이 생성된다. up파일과 down파일이 생성됐다.
 
@@ -194,7 +194,7 @@ docker exec -it postgres15 psql -U <유저이름>  <데이터베이스 이름>
 
 .PHONY를 사용함으로써 실제 파일이름과 충돌을 해결해줍니다.
 
-![Alt text](./img/4/image2.png)
+![Alt text](./img/1-30/4/image2.png)
 
 그리고 위처럼 설정한다면 서브루틴처럼 동작합니다.
 

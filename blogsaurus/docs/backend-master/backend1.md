@@ -30,12 +30,12 @@ DB 디자인에 대해서 배울 예정이다.
 
 ### 메인 페이지
 
-![Alt text](./img/1/image1.png)
+![Alt text](./img/1-30/1/image1.png)
 
 
 ### Go to app
 
-![Alt text](./img/1/image2.png)
+![Alt text](./img/1-30/1/image2.png)
 
 좌측은 간단한 문법으로 테이블이 작성되어 있고
 
@@ -255,12 +255,12 @@ Table accounts as A{
 `transfer` : 두 계좌의 이체를 기록
 - **amount** : 금액의 이동 ( 무조건 양수만 )
 
-![Alt text](./img/1/image3.png)
+![Alt text](./img/1-30/1/image3.png)
 
 
 ## Export SQL
 
-![Alt text](./img/1/image4.png)
+![Alt text](./img/1-30/1/image4.png)
 
 SQL로 바꿔준다 !
 

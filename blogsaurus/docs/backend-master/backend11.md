@@ -68,7 +68,7 @@ standalone 명령어다. 그리고 재사용이 가능하다.
 
 1. 이동 및 클릭
 
-![Alt text](./img/11/image1.png)
+![Alt text](./img/1-30/11/image1.png)
 
 Repository에서 Actions 탭으로 이동합니다.
 
@@ -76,7 +76,7 @@ Repository에서 Actions 탭으로 이동합니다.
 
 2. 편집하기
 
-![Alt text](./img/11/image2.png)
+![Alt text](./img/1-30/11/image2.png)
 
 이렇게 나오는데 편집하면 됩니다.
 

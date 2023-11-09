@@ -235,10 +235,10 @@ MySQL에서는 잠금 메커니즘을 통해서 위의 상황을 해결해줍니
 ## 정리
 ---
 
-![Alt text](./img/10/image1.png)
+![Alt text](./img/1-30/10/image1.png)
 
 
-![Alt text](./img/10/image2.png)
+![Alt text](./img/1-30/10/image2.png)
 
 
 

@@ -100,7 +100,7 @@ go test
 ```
 를 하니 
 
-![Alt text](./img/6/image1.png)
+![Alt text](./img/1-30/6/image1.png)
 
 위 처럼 테스트에 성공한 것을 알 수 있었다.
 
@@ -155,7 +155,7 @@ require.Equal(t, arg.Currency, account.Currency)
 
 테스트 해보면 아래와 같이 나온다.
 
-![Alt text](./img/6/image2.png)
+![Alt text](./img/1-30/6/image2.png)
 
 ### 전체 테스트 코드
 
@@ -267,7 +267,7 @@ arg := CreateAccountParams{
 
 테스트 해보면 Table Plus에서 추가된것을 볼 수 있다.
 
-![Alt text](./img/6/image3.png)
+![Alt text](./img/1-30/6/image3.png)
 
 
 ### Makefile에 명령어 추가

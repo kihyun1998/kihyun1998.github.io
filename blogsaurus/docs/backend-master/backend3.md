@@ -177,7 +177,7 @@ docker rm <컨테이너아이디 또는 이름>
 ### PostgreSQL로 설정
 
 
-![Alt text](./img/3/image1.png)
+![Alt text](./img/1-30/3/image1.png)
 
 위처럼 설정한다. test 버튼을 누르면 연결 테스트를 진행한다.
 

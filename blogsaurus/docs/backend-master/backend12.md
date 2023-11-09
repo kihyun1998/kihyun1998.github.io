@@ -205,12 +205,12 @@ Body는 raw데이터로 보냈습니다.
 
 아래 처럼 날리면
 
-![Alt text](./img/12/image1.png)
+![Alt text](./img/1-30/12/image1.png)
 
 
 아래 처럼 성공했다고 나옵니다 ! 신기하네요
 
-![Alt text](./img/12/image2.png)
+![Alt text](./img/1-30/12/image2.png)
 
 
 ## GET 만들기
@@ -265,7 +265,7 @@ func (server *Server) getAccount(ctx *gin.Context) {
 
 ### 요청
 
-![Alt text](./img/12/image3.png)
+![Alt text](./img/1-30/12/image3.png)
 
 위처럼 요청하면 됩니다.
 

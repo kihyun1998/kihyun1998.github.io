@@ -187,7 +187,7 @@ make sqlc
 
 하면 4개의 파일이 생긴다. 
 
-![Alt text](./img/5/image1.png)
+![Alt text](./img/1-30/5/image1.png)
 
 
 ### models.go
