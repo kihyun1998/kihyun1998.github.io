@@ -2,7 +2,7 @@
 sidebar_position: 18
 ---
 
-# 18. [BackEnd] password hash
+# 18. [BackEnd] password hash & implement request user api
 
 ## 학습 목표
 ---
