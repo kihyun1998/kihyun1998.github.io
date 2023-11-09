@@ -958,3 +958,35 @@ func TestDeleteAccountAPI(t *testing.T) {
 ```
 
 stub을 하나에 하나만 가능한 줄 알았는데 여러개 할 수 있더라는 것을 알아서 개선했다.
+
+
+## 리눅스 환경변수 설정
+---
+
+리눅스 환경 변수를 설정해야한다.
+
+~/go/bin에 mockgen이 있다.
+
+~/.bash_profile 이나 ~/.bashrc 파일을 수정해야 한다.
+
+vi, vim으로 들어가서 
+
+```bash
+export PATH=$PATH:~/go/bin
+```
+
+이걸 입력하고
+
+```bash
+source ~/.bashrc
+```
+
+를 해주면 끝
+
+확인방법은
+
+```bash
+which mockgen
+```
+
+해서 경로나오면 된다.
