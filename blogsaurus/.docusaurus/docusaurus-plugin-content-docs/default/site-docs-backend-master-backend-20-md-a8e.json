@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend20",
+  "id": "backend-master/backend20",
+  "title": "20. [BackEnd] PASETO",
+  "description": "요즘 JWT가 유행이다. 근데 보안 문제가 발견되어 JWT보다 PASETO를 사용하려 한다.",
+  "source": "@site/docs/backend-master/backend20.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend20",
+  "permalink": "/docs/backend-master/backend20",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "sidebar_position": 20
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "19. [BackEnd] golang Custom Matcher 구현",
+    "permalink": "/docs/backend-master/backend19"
+  },
+  "next": {
+    "title": "21. [BackEnd] PASETO & JWT in Golang",
+    "permalink": "/docs/backend-master/backend21"
+  }
+}

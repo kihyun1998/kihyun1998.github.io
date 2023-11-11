@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend7",
+  "id": "backend-master/backend7",
+  "title": "07. [BackEnd] golang transaction 구현",
+  "description": "transaction이란",
+  "source": "@site/docs/backend-master/backend7.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend7",
+  "permalink": "/docs/backend-master/backend7",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "06. [BackEnd] Golang CRUD Unit test",
+    "permalink": "/docs/backend-master/backend6"
+  },
+  "next": {
+    "title": "08. [BackEnd] golang db transaction deadlock",
+    "permalink": "/docs/backend-master/backend8"
+  }
+}

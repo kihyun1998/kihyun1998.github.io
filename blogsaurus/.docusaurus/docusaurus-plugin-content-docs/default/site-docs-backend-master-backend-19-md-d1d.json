@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend19",
+  "id": "backend-master/backend19",
+  "title": "19. [BackEnd] golang Custom Matcher 구현",
+  "description": "간단한 user api test code",
+  "source": "@site/docs/backend-master/backend19.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend19",
+  "permalink": "/docs/backend-master/backend19",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 19,
+  "frontMatter": {
+    "sidebar_position": 19
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "18. [BackEnd] password hash & implement request user api",
+    "permalink": "/docs/backend-master/backend18"
+  },
+  "next": {
+    "title": "20. [BackEnd] PASETO",
+    "permalink": "/docs/backend-master/backend20"
+  }
+}

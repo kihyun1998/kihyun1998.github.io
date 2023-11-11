@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend8",
+  "id": "backend-master/backend8",
+  "title": "08. [BackEnd] golang db transaction deadlock",
+  "description": "TDD",
+  "source": "@site/docs/backend-master/backend8.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend8",
+  "permalink": "/docs/backend-master/backend8",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "07. [BackEnd] golang transaction 구현",
+    "permalink": "/docs/backend-master/backend7"
+  },
+  "next": {
+    "title": "09. [BackEnd] avoid db deadlock",
+    "permalink": "/docs/backend-master/backend9"
+  }
+}

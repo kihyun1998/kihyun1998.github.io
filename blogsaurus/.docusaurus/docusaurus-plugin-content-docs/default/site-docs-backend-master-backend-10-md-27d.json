@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend10",
+  "id": "backend-master/backend10",
+  "title": "10. [BackEnd] transaction isolation level",
+  "description": "Read Phenomena",
+  "source": "@site/docs/backend-master/backend10.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend10",
+  "permalink": "/docs/backend-master/backend10",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "09. [BackEnd] avoid db deadlock",
+    "permalink": "/docs/backend-master/backend9"
+  },
+  "next": {
+    "title": "11. [BackEnd] Github Action + Go + Postgres to unit test",
+    "permalink": "/docs/backend-master/backend11"
+  }
+}

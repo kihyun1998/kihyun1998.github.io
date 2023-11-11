@@ -1,0 +1,26 @@
+{
+  "unversionedId": "go/go4",
+  "id": "go/go4",
+  "title": "[Go] Dictionary",
+  "description": "기본",
+  "source": "@site/docs/go/go4.md",
+  "sourceDirName": "go",
+  "slug": "/go/go4",
+  "permalink": "/docs/go/go4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "goSidebar",
+  "previous": {
+    "title": "[Go] Struct",
+    "permalink": "/docs/go/go3"
+  },
+  "next": {
+    "title": "[Go] go test -v",
+    "permalink": "/docs/go/go5"
+  }
+}

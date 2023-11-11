@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend11",
+  "id": "backend-master/backend11",
+  "title": "11. [BackEnd] Github Action + Go + Postgres to unit test",
+  "description": "학습 목표",
+  "source": "@site/docs/backend-master/backend11.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend11",
+  "permalink": "/docs/backend-master/backend11",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "10. [BackEnd] transaction isolation level",
+    "permalink": "/docs/backend-master/backend10"
+  },
+  "next": {
+    "title": "12. [BackEnd] Implement RESTful HTTP API in Go use Gin",
+    "permalink": "/docs/backend-master/backend12"
+  }
+}

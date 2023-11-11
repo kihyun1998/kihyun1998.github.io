@@ -11,13 +11,83 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "backend-basic/backend1",
+              "path": "/docs/backend-basic/backend1",
+              "sidebar": "backSidebar"
+            },
+            {
               "id": "backend-master/backend1",
               "path": "/docs/backend-master/backend1",
               "sidebar": "backSidebar"
             },
             {
+              "id": "backend-master/backend10",
+              "path": "/docs/backend-master/backend10",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend11",
+              "path": "/docs/backend-master/backend11",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend12",
+              "path": "/docs/backend-master/backend12",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend13",
+              "path": "/docs/backend-master/backend13",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend14",
+              "path": "/docs/backend-master/backend14",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend15",
+              "path": "/docs/backend-master/backend15",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend16",
+              "path": "/docs/backend-master/backend16",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend17",
+              "path": "/docs/backend-master/backend17",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend18",
+              "path": "/docs/backend-master/backend18",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend19",
+              "path": "/docs/backend-master/backend19",
+              "sidebar": "backSidebar"
+            },
+            {
               "id": "backend-master/backend2",
               "path": "/docs/backend-master/backend2",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend20",
+              "path": "/docs/backend-master/backend20",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend21",
+              "path": "/docs/backend-master/backend21",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend22",
+              "path": "/docs/backend-master/backend22",
               "sidebar": "backSidebar"
             },
             {
@@ -38,6 +108,21 @@
             {
               "id": "backend-master/backend6",
               "path": "/docs/backend-master/backend6",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend7",
+              "path": "/docs/backend-master/backend7",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend8",
+              "path": "/docs/backend-master/backend8",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend9",
+              "path": "/docs/backend-master/backend9",
               "sidebar": "backSidebar"
             },
             {
@@ -276,6 +361,21 @@
               "sidebar": "goSidebar"
             },
             {
+              "id": "go/go4",
+              "path": "/docs/go/go4",
+              "sidebar": "goSidebar"
+            },
+            {
+              "id": "go/go5",
+              "path": "/docs/go/go5",
+              "sidebar": "goSidebar"
+            },
+            {
+              "id": "go/go6",
+              "path": "/docs/go/go6",
+              "sidebar": "goSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -371,8 +471,8 @@
             },
             "backSidebar": {
               "link": {
-                "path": "/docs/backend-master/backend1",
-                "label": "backend-master/backend1"
+                "path": "/docs/backend-basic/backend1",
+                "label": "backend-basic/backend1"
               }
             }
           }

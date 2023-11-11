@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend16",
+  "id": "backend-master/backend16",
+  "title": "16. [BackEnd] simplebank + user",
+  "description": "학습 목표",
+  "source": "@site/docs/backend-master/backend16.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend16",
+  "permalink": "/docs/backend-master/backend16",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "15. [BackEnd] transfer api에 validator 활용",
+    "permalink": "/docs/backend-master/backend15"
+  },
+  "next": {
+    "title": "17. [BackEnd] db error handle",
+    "permalink": "/docs/backend-master/backend17"
+  }
+}

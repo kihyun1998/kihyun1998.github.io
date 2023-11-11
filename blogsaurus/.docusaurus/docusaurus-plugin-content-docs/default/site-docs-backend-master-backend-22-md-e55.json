@@ -1,0 +1,22 @@
+{
+  "unversionedId": "backend-master/backend22",
+  "id": "backend-master/backend22",
+  "title": "22. [BackEnd] PASETO & JWT 를 이용한 로그인",
+  "description": "서버에 토큰 메이커 추가",
+  "source": "@site/docs/backend-master/backend22.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend22",
+  "permalink": "/docs/backend-master/backend22",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 22,
+  "frontMatter": {
+    "sidebar_position": 22
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "21. [BackEnd] PASETO & JWT in Golang",
+    "permalink": "/docs/backend-master/backend21"
+  }
+}

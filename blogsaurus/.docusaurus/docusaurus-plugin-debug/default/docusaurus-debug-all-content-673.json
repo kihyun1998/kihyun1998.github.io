@@ -13,10 +13,32 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
-          "contentPath": "C:\\kihyun1998.github.io\\blogsaurus\\docs",
-          "contentPathLocalized": "C:\\kihyun1998.github.io\\blogsaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\Users\\kihyu\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
+          "contentPath": "C:\\Users\\kihyu\\kihyun1998.github.io\\blogsaurus\\docs",
+          "contentPathLocalized": "C:\\Users\\kihyu\\kihyun1998.github.io\\blogsaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
+            {
+              "unversionedId": "backend-basic/backend1",
+              "id": "backend-basic/backend1",
+              "title": "01. [백엔드 30일 완성] 1장",
+              "description": "요약",
+              "source": "@site/docs/backend-basic/backend1.md",
+              "sourceDirName": "backend-basic",
+              "slug": "/backend-basic/backend1",
+              "permalink": "/docs/backend-basic/backend1",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "backSidebar",
+              "next": {
+                "title": "01. [BackEnd] 시작하기",
+                "permalink": "/docs/backend-master/backend1"
+              }
+            },
             {
               "unversionedId": "backend-master/backend1",
               "id": "backend-master/backend1",
@@ -34,9 +56,273 @@
                 "sidebar_position": 1
               },
               "sidebar": "backSidebar",
+              "previous": {
+                "title": "01. [백엔드 30일 완성] 1장",
+                "permalink": "/docs/backend-basic/backend1"
+              },
               "next": {
                 "title": "02. [BackEnd] WSL2 + Go + VSCode + Docker + Make + Sqlc",
                 "permalink": "/docs/backend-master/backend2"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend10",
+              "id": "backend-master/backend10",
+              "title": "10. [BackEnd] transaction isolation level",
+              "description": "Read Phenomena",
+              "source": "@site/docs/backend-master/backend10.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend10",
+              "permalink": "/docs/backend-master/backend10",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "09. [BackEnd] avoid db deadlock",
+                "permalink": "/docs/backend-master/backend9"
+              },
+              "next": {
+                "title": "11. [BackEnd] Github Action + Go + Postgres to unit test",
+                "permalink": "/docs/backend-master/backend11"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend11",
+              "id": "backend-master/backend11",
+              "title": "11. [BackEnd] Github Action + Go + Postgres to unit test",
+              "description": "학습 목표",
+              "source": "@site/docs/backend-master/backend11.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend11",
+              "permalink": "/docs/backend-master/backend11",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "10. [BackEnd] transaction isolation level",
+                "permalink": "/docs/backend-master/backend10"
+              },
+              "next": {
+                "title": "12. [BackEnd] Implement RESTful HTTP API in Go use Gin",
+                "permalink": "/docs/backend-master/backend12"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend12",
+              "id": "backend-master/backend12",
+              "title": "12. [BackEnd] Implement RESTful HTTP API in Go use Gin",
+              "description": "Gin",
+              "source": "@site/docs/backend-master/backend12.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend12",
+              "permalink": "/docs/backend-master/backend12",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "11. [BackEnd] Github Action + Go + Postgres to unit test",
+                "permalink": "/docs/backend-master/backend11"
+              },
+              "next": {
+                "title": "13. [BackEnd] load config file & env vars use VIPER",
+                "permalink": "/docs/backend-master/backend13"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend13",
+              "id": "backend-master/backend13",
+              "title": "13. [BackEnd] load config file & env vars use VIPER",
+              "description": "오늘 학습 내용",
+              "source": "@site/docs/backend-master/backend13.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend13",
+              "permalink": "/docs/backend-master/backend13",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 13,
+              "frontMatter": {
+                "sidebar_position": 13
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "12. [BackEnd] Implement RESTful HTTP API in Go use Gin",
+                "permalink": "/docs/backend-master/backend12"
+              },
+              "next": {
+                "title": "14. [BackEnd] HTTP API test in golang use Mock DB",
+                "permalink": "/docs/backend-master/backend14"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend14",
+              "id": "backend-master/backend14",
+              "title": "14. [BackEnd] HTTP API test in golang use Mock DB",
+              "description": "학습 목표",
+              "source": "@site/docs/backend-master/backend14.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend14",
+              "permalink": "/docs/backend-master/backend14",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 14,
+              "frontMatter": {
+                "sidebar_position": 14
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "13. [BackEnd] load config file & env vars use VIPER",
+                "permalink": "/docs/backend-master/backend13"
+              },
+              "next": {
+                "title": "15. [BackEnd] transfer api에 validator 활용",
+                "permalink": "/docs/backend-master/backend15"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend15",
+              "id": "backend-master/backend15",
+              "title": "15. [BackEnd] transfer api에 validator 활용",
+              "description": "학습 목표",
+              "source": "@site/docs/backend-master/backend15.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend15",
+              "permalink": "/docs/backend-master/backend15",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 15,
+              "frontMatter": {
+                "sidebar_position": 15
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "14. [BackEnd] HTTP API test in golang use Mock DB",
+                "permalink": "/docs/backend-master/backend14"
+              },
+              "next": {
+                "title": "16. [BackEnd] simplebank + user",
+                "permalink": "/docs/backend-master/backend16"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend16",
+              "id": "backend-master/backend16",
+              "title": "16. [BackEnd] simplebank + user",
+              "description": "학습 목표",
+              "source": "@site/docs/backend-master/backend16.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend16",
+              "permalink": "/docs/backend-master/backend16",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 16,
+              "frontMatter": {
+                "sidebar_position": 16
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "15. [BackEnd] transfer api에 validator 활용",
+                "permalink": "/docs/backend-master/backend15"
+              },
+              "next": {
+                "title": "17. [BackEnd] db error handle",
+                "permalink": "/docs/backend-master/backend17"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend17",
+              "id": "backend-master/backend17",
+              "title": "17. [BackEnd] db error handle",
+              "description": "학습 목표",
+              "source": "@site/docs/backend-master/backend17.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend17",
+              "permalink": "/docs/backend-master/backend17",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 17,
+              "frontMatter": {
+                "sidebar_position": 17
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "16. [BackEnd] simplebank + user",
+                "permalink": "/docs/backend-master/backend16"
+              },
+              "next": {
+                "title": "18. [BackEnd] password hash & implement request user api",
+                "permalink": "/docs/backend-master/backend18"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend18",
+              "id": "backend-master/backend18",
+              "title": "18. [BackEnd] password hash & implement request user api",
+              "description": "학습 목표",
+              "source": "@site/docs/backend-master/backend18.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend18",
+              "permalink": "/docs/backend-master/backend18",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 18,
+              "frontMatter": {
+                "sidebar_position": 18
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "17. [BackEnd] db error handle",
+                "permalink": "/docs/backend-master/backend17"
+              },
+              "next": {
+                "title": "19. [BackEnd] golang Custom Matcher 구현",
+                "permalink": "/docs/backend-master/backend19"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend19",
+              "id": "backend-master/backend19",
+              "title": "19. [BackEnd] golang Custom Matcher 구현",
+              "description": "간단한 user api test code",
+              "source": "@site/docs/backend-master/backend19.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend19",
+              "permalink": "/docs/backend-master/backend19",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 19,
+              "frontMatter": {
+                "sidebar_position": 19
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "18. [BackEnd] password hash & implement request user api",
+                "permalink": "/docs/backend-master/backend18"
+              },
+              "next": {
+                "title": "20. [BackEnd] PASETO",
+                "permalink": "/docs/backend-master/backend20"
               }
             },
             {
@@ -63,6 +349,80 @@
               "next": {
                 "title": "03. [BackEnd] Docker + Postgres + TablePlus",
                 "permalink": "/docs/backend-master/backend3"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend20",
+              "id": "backend-master/backend20",
+              "title": "20. [BackEnd] PASETO",
+              "description": "요즘 JWT가 유행이다. 근데 보안 문제가 발견되어 JWT보다 PASETO를 사용하려 한다.",
+              "source": "@site/docs/backend-master/backend20.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend20",
+              "permalink": "/docs/backend-master/backend20",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 20,
+              "frontMatter": {
+                "sidebar_position": 20
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "19. [BackEnd] golang Custom Matcher 구현",
+                "permalink": "/docs/backend-master/backend19"
+              },
+              "next": {
+                "title": "21. [BackEnd] PASETO & JWT in Golang",
+                "permalink": "/docs/backend-master/backend21"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend21",
+              "id": "backend-master/backend21",
+              "title": "21. [BackEnd] PASETO & JWT in Golang",
+              "description": "사전 코드",
+              "source": "@site/docs/backend-master/backend21.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend21",
+              "permalink": "/docs/backend-master/backend21",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 21,
+              "frontMatter": {
+                "sidebar_position": 21
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "20. [BackEnd] PASETO",
+                "permalink": "/docs/backend-master/backend20"
+              },
+              "next": {
+                "title": "22. [BackEnd] PASETO & JWT 를 이용한 로그인",
+                "permalink": "/docs/backend-master/backend22"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend22",
+              "id": "backend-master/backend22",
+              "title": "22. [BackEnd] PASETO & JWT 를 이용한 로그인",
+              "description": "서버에 토큰 메이커 추가",
+              "source": "@site/docs/backend-master/backend22.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend22",
+              "permalink": "/docs/backend-master/backend22",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 22,
+              "frontMatter": {
+                "sidebar_position": 22
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "21. [BackEnd] PASETO & JWT in Golang",
+                "permalink": "/docs/backend-master/backend21"
               }
             },
             {
@@ -163,6 +523,88 @@
               "previous": {
                 "title": "05. [BackEnd] Golang CRUD",
                 "permalink": "/docs/backend-master/backend5"
+              },
+              "next": {
+                "title": "07. [BackEnd] golang transaction 구현",
+                "permalink": "/docs/backend-master/backend7"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend7",
+              "id": "backend-master/backend7",
+              "title": "07. [BackEnd] golang transaction 구현",
+              "description": "transaction이란",
+              "source": "@site/docs/backend-master/backend7.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend7",
+              "permalink": "/docs/backend-master/backend7",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "06. [BackEnd] Golang CRUD Unit test",
+                "permalink": "/docs/backend-master/backend6"
+              },
+              "next": {
+                "title": "08. [BackEnd] golang db transaction deadlock",
+                "permalink": "/docs/backend-master/backend8"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend8",
+              "id": "backend-master/backend8",
+              "title": "08. [BackEnd] golang db transaction deadlock",
+              "description": "TDD",
+              "source": "@site/docs/backend-master/backend8.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend8",
+              "permalink": "/docs/backend-master/backend8",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "07. [BackEnd] golang transaction 구현",
+                "permalink": "/docs/backend-master/backend7"
+              },
+              "next": {
+                "title": "09. [BackEnd] avoid db deadlock",
+                "permalink": "/docs/backend-master/backend9"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend9",
+              "id": "backend-master/backend9",
+              "title": "09. [BackEnd] avoid db deadlock",
+              "description": "추가적인 deadlock 상황",
+              "source": "@site/docs/backend-master/backend9.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend9",
+              "permalink": "/docs/backend-master/backend9",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "08. [BackEnd] golang db transaction deadlock",
+                "permalink": "/docs/backend-master/backend8"
+              },
+              "next": {
+                "title": "10. [BackEnd] transaction isolation level",
+                "permalink": "/docs/backend-master/backend10"
               }
             },
             {
@@ -1353,6 +1795,84 @@
               "previous": {
                 "title": "02. [Go] Context",
                 "permalink": "/docs/go/go2"
+              },
+              "next": {
+                "title": "[Go] Dictionary",
+                "permalink": "/docs/go/go4"
+              }
+            },
+            {
+              "unversionedId": "go/go4",
+              "id": "go/go4",
+              "title": "[Go] Dictionary",
+              "description": "기본",
+              "source": "@site/docs/go/go4.md",
+              "sourceDirName": "go",
+              "slug": "/go/go4",
+              "permalink": "/docs/go/go4",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "goSidebar",
+              "previous": {
+                "title": "[Go] Struct",
+                "permalink": "/docs/go/go3"
+              },
+              "next": {
+                "title": "[Go] go test -v",
+                "permalink": "/docs/go/go5"
+              }
+            },
+            {
+              "unversionedId": "go/go5",
+              "id": "go/go5",
+              "title": "[Go] go test -v",
+              "description": "run test에서",
+              "source": "@site/docs/go/go5.md",
+              "sourceDirName": "go",
+              "slug": "/go/go5",
+              "permalink": "/docs/go/go5",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "goSidebar",
+              "previous": {
+                "title": "[Go] Dictionary",
+                "permalink": "/docs/go/go4"
+              },
+              "next": {
+                "title": "[Go] go routines와 go channel",
+                "permalink": "/docs/go/go6"
+              }
+            },
+            {
+              "unversionedId": "go/go6",
+              "id": "go/go6",
+              "title": "[Go] go routines와 go channel",
+              "description": "Go routines",
+              "source": "@site/docs/go/go6.md",
+              "sourceDirName": "go",
+              "slug": "/go/go6",
+              "permalink": "/docs/go/go6",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "goSidebar",
+              "previous": {
+                "title": "[Go] go test -v",
+                "permalink": "/docs/go/go5"
               }
             },
             {
@@ -1946,6 +2466,18 @@
                   {
                     "type": "doc",
                     "id": "go/go3"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "go/go4"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "go/go5"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "go/go6"
                   }
                 ],
                 "collapsed": true,
@@ -1953,6 +2485,18 @@
               }
             ],
             "backSidebar": [
+              {
+                "type": "category",
+                "label": "BackEnd Basic",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "backend-basic/backend1"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
               {
                 "type": "category",
                 "label": "BackEnd Master",
@@ -1980,6 +2524,70 @@
                   {
                     "type": "doc",
                     "id": "backend-master/backend6"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend7"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend8"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend9"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend10"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend11"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend12"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend13"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend14"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend15"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend16"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend17"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend18"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend19"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend20"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend21"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend22"
                   }
                 ],
                 "collapsed": true,
@@ -2150,64 +2758,11 @@
               "permalink": "/blog/Overloading and Overriding"
             },
             "nextItem": {
-              "title": "전략 패턴 - Strategy pattern",
-              "permalink": "/blog/strategy pattern"
-            }
-          },
-          "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
-        },
-        {
-          "id": "strategy pattern",
-          "metadata": {
-            "permalink": "/blog/strategy pattern",
-            "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-stratgy/index.md",
-            "source": "@site/blog/2023-08-29-stratgy/index.md",
-            "title": "전략 패턴 - Strategy pattern",
-            "description": "정의",
-            "date": "2023-08-29T00:00:00.000Z",
-            "formattedDate": "August 29, 2023",
-            "tags": [
-              {
-                "label": "design pattern",
-                "permalink": "/blog/tags/design-pattern"
-              },
-              {
-                "label": "strategy pattern",
-                "permalink": "/blog/tags/strategy-pattern"
-              }
-            ],
-            "readingTime": 1.465,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Park Ki Hyun",
-                "title": "Deveploper",
-                "url": "https://github.com/kihyun1998",
-                "imageURL": "https://github.com/kihyun1998.png",
-                "key": "kihyun"
-              }
-            ],
-            "frontMatter": {
-              "slug": "strategy pattern",
-              "title": "전략 패턴 - Strategy pattern",
-              "authors": [
-                "kihyun"
-              ],
-              "tags": [
-                "design pattern",
-                "strategy pattern"
-              ]
-            },
-            "prevItem": {
-              "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-              "permalink": "/blog/design pattern rule"
-            },
-            "nextItem": {
               "title": "Welcome",
               "permalink": "/blog/welcome"
             }
           },
-          "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
+          "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
         },
         {
           "id": "welcome",
@@ -2252,11 +2807,64 @@
               ]
             },
             "prevItem": {
+              "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+              "permalink": "/blog/design pattern rule"
+            },
+            "nextItem": {
               "title": "전략 패턴 - Strategy pattern",
               "permalink": "/blog/strategy pattern"
             }
           },
           "content": "Docusaurus 첫번째 글이다.\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\n귀여운 공룡 인형이 있다."
+        },
+        {
+          "id": "strategy pattern",
+          "metadata": {
+            "permalink": "/blog/strategy pattern",
+            "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-stratgy/index.md",
+            "source": "@site/blog/2023-08-29-stratgy/index.md",
+            "title": "전략 패턴 - Strategy pattern",
+            "description": "정의",
+            "date": "2023-08-29T00:00:00.000Z",
+            "formattedDate": "August 29, 2023",
+            "tags": [
+              {
+                "label": "design pattern",
+                "permalink": "/blog/tags/design-pattern"
+              },
+              {
+                "label": "strategy pattern",
+                "permalink": "/blog/tags/strategy-pattern"
+              }
+            ],
+            "readingTime": 1.465,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Park Ki Hyun",
+                "title": "Deveploper",
+                "url": "https://github.com/kihyun1998",
+                "imageURL": "https://github.com/kihyun1998.png",
+                "key": "kihyun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "strategy pattern",
+              "title": "전략 패턴 - Strategy pattern",
+              "authors": [
+                "kihyun"
+              ],
+              "tags": [
+                "design pattern",
+                "strategy pattern"
+              ]
+            },
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          },
+          "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
         }
       ],
       "blogListPaginated": [
@@ -2265,8 +2873,8 @@
             "PKI",
             "Overloading and Overriding",
             "design pattern rule",
-            "strategy pattern",
-            "welcome"
+            "welcome",
+            "strategy pattern"
           ],
           "metadata": {
             "permalink": "/blog",
@@ -2443,29 +3051,6 @@
             }
           ]
         },
-        "/blog/tags/strategy-pattern": {
-          "label": "strategy pattern",
-          "items": [
-            "strategy pattern"
-          ],
-          "permalink": "/blog/tags/strategy-pattern",
-          "pages": [
-            {
-              "items": [
-                "strategy pattern"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/strategy-pattern",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
         "/blog/tags/docusaurus": {
           "label": "docusaurus",
           "items": [
@@ -2502,6 +3087,29 @@
               ],
               "metadata": {
                 "permalink": "/blog/tags/first-post",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/strategy-pattern": {
+          "label": "strategy pattern",
+          "items": [
+            "strategy pattern"
+          ],
+          "permalink": "/blog/tags/strategy-pattern",
+          "pages": [
+            {
+              "items": [
+                "strategy pattern"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/strategy-pattern",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,

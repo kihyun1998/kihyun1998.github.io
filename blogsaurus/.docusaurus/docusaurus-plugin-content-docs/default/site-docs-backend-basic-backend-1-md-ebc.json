@@ -1,0 +1,22 @@
+{
+  "unversionedId": "backend-basic/backend1",
+  "id": "backend-basic/backend1",
+  "title": "01. [백엔드 30일 완성] 1장",
+  "description": "요약",
+  "source": "@site/docs/backend-basic/backend1.md",
+  "sourceDirName": "backend-basic",
+  "slug": "/backend-basic/backend1",
+  "permalink": "/docs/backend-basic/backend1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "backSidebar",
+  "next": {
+    "title": "01. [BackEnd] 시작하기",
+    "permalink": "/docs/backend-master/backend1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend17",
+  "id": "backend-master/backend17",
+  "title": "17. [BackEnd] db error handle",
+  "description": "학습 목표",
+  "source": "@site/docs/backend-master/backend17.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend17",
+  "permalink": "/docs/backend-master/backend17",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "16. [BackEnd] simplebank + user",
+    "permalink": "/docs/backend-master/backend16"
+  },
+  "next": {
+    "title": "18. [BackEnd] password hash & implement request user api",
+    "permalink": "/docs/backend-master/backend18"
+  }
+}

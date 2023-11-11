@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend15",
+  "id": "backend-master/backend15",
+  "title": "15. [BackEnd] transfer api에 validator 활용",
+  "description": "학습 목표",
+  "source": "@site/docs/backend-master/backend15.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend15",
+  "permalink": "/docs/backend-master/backend15",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "14. [BackEnd] HTTP API test in golang use Mock DB",
+    "permalink": "/docs/backend-master/backend14"
+  },
+  "next": {
+    "title": "16. [BackEnd] simplebank + user",
+    "permalink": "/docs/backend-master/backend16"
+  }
+}

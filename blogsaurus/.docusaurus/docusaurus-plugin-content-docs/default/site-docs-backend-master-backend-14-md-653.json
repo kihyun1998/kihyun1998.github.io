@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend14",
+  "id": "backend-master/backend14",
+  "title": "14. [BackEnd] HTTP API test in golang use Mock DB",
+  "description": "학습 목표",
+  "source": "@site/docs/backend-master/backend14.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend14",
+  "permalink": "/docs/backend-master/backend14",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "13. [BackEnd] load config file & env vars use VIPER",
+    "permalink": "/docs/backend-master/backend13"
+  },
+  "next": {
+    "title": "15. [BackEnd] transfer api에 validator 활용",
+    "permalink": "/docs/backend-master/backend15"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend12",
+  "id": "backend-master/backend12",
+  "title": "12. [BackEnd] Implement RESTful HTTP API in Go use Gin",
+  "description": "Gin",
+  "source": "@site/docs/backend-master/backend12.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend12",
+  "permalink": "/docs/backend-master/backend12",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "11. [BackEnd] Github Action + Go + Postgres to unit test",
+    "permalink": "/docs/backend-master/backend11"
+  },
+  "next": {
+    "title": "13. [BackEnd] load config file & env vars use VIPER",
+    "permalink": "/docs/backend-master/backend13"
+  }
+}

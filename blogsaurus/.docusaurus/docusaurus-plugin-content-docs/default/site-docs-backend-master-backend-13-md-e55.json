@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend13",
+  "id": "backend-master/backend13",
+  "title": "13. [BackEnd] load config file & env vars use VIPER",
+  "description": "오늘 학습 내용",
+  "source": "@site/docs/backend-master/backend13.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend13",
+  "permalink": "/docs/backend-master/backend13",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "12. [BackEnd] Implement RESTful HTTP API in Go use Gin",
+    "permalink": "/docs/backend-master/backend12"
+  },
+  "next": {
+    "title": "14. [BackEnd] HTTP API test in golang use Mock DB",
+    "permalink": "/docs/backend-master/backend14"
+  }
+}

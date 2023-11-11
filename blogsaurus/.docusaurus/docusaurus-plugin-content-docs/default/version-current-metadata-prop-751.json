@@ -442,6 +442,24 @@
             "label": "[Go] Struct",
             "href": "/docs/go/go3",
             "docId": "go/go3"
+          },
+          {
+            "type": "link",
+            "label": "[Go] Dictionary",
+            "href": "/docs/go/go4",
+            "docId": "go/go4"
+          },
+          {
+            "type": "link",
+            "label": "[Go] go test -v",
+            "href": "/docs/go/go5",
+            "docId": "go/go5"
+          },
+          {
+            "type": "link",
+            "label": "[Go] go routines와 go channel",
+            "href": "/docs/go/go6",
+            "docId": "go/go6"
           }
         ],
         "collapsed": true,
@@ -449,6 +467,20 @@
       }
     ],
     "backSidebar": [
+      {
+        "type": "category",
+        "label": "BackEnd Basic",
+        "items": [
+          {
+            "type": "link",
+            "label": "01. [백엔드 30일 완성] 1장",
+            "href": "/docs/backend-basic/backend1",
+            "docId": "backend-basic/backend1"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
       {
         "type": "category",
         "label": "BackEnd Master",
@@ -488,6 +520,102 @@
             "label": "06. [BackEnd] Golang CRUD Unit test",
             "href": "/docs/backend-master/backend6",
             "docId": "backend-master/backend6"
+          },
+          {
+            "type": "link",
+            "label": "07. [BackEnd] golang transaction 구현",
+            "href": "/docs/backend-master/backend7",
+            "docId": "backend-master/backend7"
+          },
+          {
+            "type": "link",
+            "label": "08. [BackEnd] golang db transaction deadlock",
+            "href": "/docs/backend-master/backend8",
+            "docId": "backend-master/backend8"
+          },
+          {
+            "type": "link",
+            "label": "09. [BackEnd] avoid db deadlock",
+            "href": "/docs/backend-master/backend9",
+            "docId": "backend-master/backend9"
+          },
+          {
+            "type": "link",
+            "label": "10. [BackEnd] transaction isolation level",
+            "href": "/docs/backend-master/backend10",
+            "docId": "backend-master/backend10"
+          },
+          {
+            "type": "link",
+            "label": "11. [BackEnd] Github Action + Go + Postgres to unit test",
+            "href": "/docs/backend-master/backend11",
+            "docId": "backend-master/backend11"
+          },
+          {
+            "type": "link",
+            "label": "12. [BackEnd] Implement RESTful HTTP API in Go use Gin",
+            "href": "/docs/backend-master/backend12",
+            "docId": "backend-master/backend12"
+          },
+          {
+            "type": "link",
+            "label": "13. [BackEnd] load config file & env vars use VIPER",
+            "href": "/docs/backend-master/backend13",
+            "docId": "backend-master/backend13"
+          },
+          {
+            "type": "link",
+            "label": "14. [BackEnd] HTTP API test in golang use Mock DB",
+            "href": "/docs/backend-master/backend14",
+            "docId": "backend-master/backend14"
+          },
+          {
+            "type": "link",
+            "label": "15. [BackEnd] transfer api에 validator 활용",
+            "href": "/docs/backend-master/backend15",
+            "docId": "backend-master/backend15"
+          },
+          {
+            "type": "link",
+            "label": "16. [BackEnd] simplebank + user",
+            "href": "/docs/backend-master/backend16",
+            "docId": "backend-master/backend16"
+          },
+          {
+            "type": "link",
+            "label": "17. [BackEnd] db error handle",
+            "href": "/docs/backend-master/backend17",
+            "docId": "backend-master/backend17"
+          },
+          {
+            "type": "link",
+            "label": "18. [BackEnd] password hash & implement request user api",
+            "href": "/docs/backend-master/backend18",
+            "docId": "backend-master/backend18"
+          },
+          {
+            "type": "link",
+            "label": "19. [BackEnd] golang Custom Matcher 구현",
+            "href": "/docs/backend-master/backend19",
+            "docId": "backend-master/backend19"
+          },
+          {
+            "type": "link",
+            "label": "20. [BackEnd] PASETO",
+            "href": "/docs/backend-master/backend20",
+            "docId": "backend-master/backend20"
+          },
+          {
+            "type": "link",
+            "label": "21. [BackEnd] PASETO & JWT in Golang",
+            "href": "/docs/backend-master/backend21",
+            "docId": "backend-master/backend21"
+          },
+          {
+            "type": "link",
+            "label": "22. [BackEnd] PASETO & JWT 를 이용한 로그인",
+            "href": "/docs/backend-master/backend22",
+            "docId": "backend-master/backend22"
           }
         ],
         "collapsed": true,
@@ -496,16 +624,100 @@
     ]
   },
   "docs": {
+    "backend-basic/backend1": {
+      "id": "backend-basic/backend1",
+      "title": "01. [백엔드 30일 완성] 1장",
+      "description": "요약",
+      "sidebar": "backSidebar"
+    },
     "backend-master/backend1": {
       "id": "backend-master/backend1",
       "title": "01. [BackEnd] 시작하기",
       "description": "PostgreSQL, Golang, Docker를 이용해서 디자인, 개발, 배포에 관한 백엔드 학습을 진행한다.",
       "sidebar": "backSidebar"
     },
+    "backend-master/backend10": {
+      "id": "backend-master/backend10",
+      "title": "10. [BackEnd] transaction isolation level",
+      "description": "Read Phenomena",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend11": {
+      "id": "backend-master/backend11",
+      "title": "11. [BackEnd] Github Action + Go + Postgres to unit test",
+      "description": "학습 목표",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend12": {
+      "id": "backend-master/backend12",
+      "title": "12. [BackEnd] Implement RESTful HTTP API in Go use Gin",
+      "description": "Gin",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend13": {
+      "id": "backend-master/backend13",
+      "title": "13. [BackEnd] load config file & env vars use VIPER",
+      "description": "오늘 학습 내용",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend14": {
+      "id": "backend-master/backend14",
+      "title": "14. [BackEnd] HTTP API test in golang use Mock DB",
+      "description": "학습 목표",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend15": {
+      "id": "backend-master/backend15",
+      "title": "15. [BackEnd] transfer api에 validator 활용",
+      "description": "학습 목표",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend16": {
+      "id": "backend-master/backend16",
+      "title": "16. [BackEnd] simplebank + user",
+      "description": "학습 목표",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend17": {
+      "id": "backend-master/backend17",
+      "title": "17. [BackEnd] db error handle",
+      "description": "학습 목표",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend18": {
+      "id": "backend-master/backend18",
+      "title": "18. [BackEnd] password hash & implement request user api",
+      "description": "학습 목표",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend19": {
+      "id": "backend-master/backend19",
+      "title": "19. [BackEnd] golang Custom Matcher 구현",
+      "description": "간단한 user api test code",
+      "sidebar": "backSidebar"
+    },
     "backend-master/backend2": {
       "id": "backend-master/backend2",
       "title": "02. [BackEnd] WSL2 + Go + VSCode + Docker + Make + Sqlc",
       "description": "WSL 설치",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend20": {
+      "id": "backend-master/backend20",
+      "title": "20. [BackEnd] PASETO",
+      "description": "요즘 JWT가 유행이다. 근데 보안 문제가 발견되어 JWT보다 PASETO를 사용하려 한다.",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend21": {
+      "id": "backend-master/backend21",
+      "title": "21. [BackEnd] PASETO & JWT in Golang",
+      "description": "사전 코드",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend22": {
+      "id": "backend-master/backend22",
+      "title": "22. [BackEnd] PASETO & JWT 를 이용한 로그인",
+      "description": "서버에 토큰 메이커 추가",
       "sidebar": "backSidebar"
     },
     "backend-master/backend3": {
@@ -530,6 +742,24 @@
       "id": "backend-master/backend6",
       "title": "06. [BackEnd] Golang CRUD Unit test",
       "description": "오늘 공부할 내용",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend7": {
+      "id": "backend-master/backend7",
+      "title": "07. [BackEnd] golang transaction 구현",
+      "description": "transaction이란",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend8": {
+      "id": "backend-master/backend8",
+      "title": "08. [BackEnd] golang db transaction deadlock",
+      "description": "TDD",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend9": {
+      "id": "backend-master/backend9",
+      "title": "09. [BackEnd] avoid db deadlock",
+      "description": "추가적인 deadlock 상황",
       "sidebar": "backSidebar"
     },
     "blog-configuration/install_node": {
@@ -812,6 +1042,24 @@
       "id": "go/go3",
       "title": "[Go] Struct",
       "description": "기본",
+      "sidebar": "goSidebar"
+    },
+    "go/go4": {
+      "id": "go/go4",
+      "title": "[Go] Dictionary",
+      "description": "기본",
+      "sidebar": "goSidebar"
+    },
+    "go/go5": {
+      "id": "go/go5",
+      "title": "[Go] go test -v",
+      "description": "run test에서",
+      "sidebar": "goSidebar"
+    },
+    "go/go6": {
+      "id": "go/go6",
+      "title": "[Go] go routines와 go channel",
+      "description": "Go routines",
       "sidebar": "goSidebar"
     },
     "intro": {

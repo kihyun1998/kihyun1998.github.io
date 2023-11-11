@@ -1,0 +1,26 @@
+{
+  "unversionedId": "go/go5",
+  "id": "go/go5",
+  "title": "[Go] go test -v",
+  "description": "run test에서",
+  "source": "@site/docs/go/go5.md",
+  "sourceDirName": "go",
+  "slug": "/go/go5",
+  "permalink": "/docs/go/go5",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "goSidebar",
+  "previous": {
+    "title": "[Go] Dictionary",
+    "permalink": "/docs/go/go4"
+  },
+  "next": {
+    "title": "[Go] go routines와 go channel",
+    "permalink": "/docs/go/go6"
+  }
+}

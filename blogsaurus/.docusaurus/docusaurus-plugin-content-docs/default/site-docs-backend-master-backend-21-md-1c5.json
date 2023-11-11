@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend21",
+  "id": "backend-master/backend21",
+  "title": "21. [BackEnd] PASETO & JWT in Golang",
+  "description": "사전 코드",
+  "source": "@site/docs/backend-master/backend21.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend21",
+  "permalink": "/docs/backend-master/backend21",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 21,
+  "frontMatter": {
+    "sidebar_position": 21
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "20. [BackEnd] PASETO",
+    "permalink": "/docs/backend-master/backend20"
+  },
+  "next": {
+    "title": "22. [BackEnd] PASETO & JWT 를 이용한 로그인",
+    "permalink": "/docs/backend-master/backend22"
+  }
+}

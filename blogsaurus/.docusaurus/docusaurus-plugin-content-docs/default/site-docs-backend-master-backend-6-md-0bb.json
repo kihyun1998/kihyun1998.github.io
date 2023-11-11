@@ -18,5 +18,9 @@
   "previous": {
     "title": "05. [BackEnd] Golang CRUD",
     "permalink": "/docs/backend-master/backend5"
+  },
+  "next": {
+    "title": "07. [BackEnd] golang transaction 구현",
+    "permalink": "/docs/backend-master/backend7"
   }
 }

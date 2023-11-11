@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend9",
+  "id": "backend-master/backend9",
+  "title": "09. [BackEnd] avoid db deadlock",
+  "description": "추가적인 deadlock 상황",
+  "source": "@site/docs/backend-master/backend9.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend9",
+  "permalink": "/docs/backend-master/backend9",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "08. [BackEnd] golang db transaction deadlock",
+    "permalink": "/docs/backend-master/backend8"
+  },
+  "next": {
+    "title": "10. [BackEnd] transaction isolation level",
+    "permalink": "/docs/backend-master/backend10"
+  }
+}

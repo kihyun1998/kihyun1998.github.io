@@ -1,51 +1,51 @@
 {
-  "/__docusaurus/debug-eb4": {
+  "/__docusaurus/debug-74f": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-835-a73"
+      "plugin": "plugin---docusaurus-debug-7-d-8-4e4"
     }
   },
-  "/__docusaurus/debug/config-a71": {
+  "/__docusaurus/debug/config-905": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-835-a73"
+      "plugin": "plugin---docusaurus-debug-7-d-8-4e4"
     }
   },
-  "/__docusaurus/debug/content-9e4": {
+  "/__docusaurus/debug/content-ad9": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-835-a73"
+      "plugin": "plugin---docusaurus-debug-7-d-8-4e4"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-18e": {
+  "/__docusaurus/debug/globalData-473": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-835-a73"
+      "plugin": "plugin---docusaurus-debug-7-d-8-4e4"
     }
   },
-  "/__docusaurus/debug/metadata-001": {
+  "/__docusaurus/debug/metadata-ece": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-835-a73"
+      "plugin": "plugin---docusaurus-debug-7-d-8-4e4"
     }
   },
-  "/__docusaurus/debug/registry-e2b": {
+  "/__docusaurus/debug/registry-cd3": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-835-a73"
+      "plugin": "plugin---docusaurus-debug-7-d-8-4e4"
     }
   },
-  "/__docusaurus/debug/routes-9e3": {
+  "/__docusaurus/debug/routes-013": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-835-a73"
+      "plugin": "plugin---docusaurus-debug-7-d-8-4e4"
     }
   },
-  "/blog-3dd": {
+  "/blog-6eb": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -59,65 +59,65 @@
         "content": "content---blogfc-6-7c4"
       },
       {
-        "content": "content---blogfef-ce9"
+        "content": "content---blog-7-e-3-24e"
       },
       {
-        "content": "content---blog-7-e-3-24e"
+        "content": "content---blogfef-ce9"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
   },
-  "/blog/archive-2c1": {
+  "/blog/archive-a38": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "archive": "archive---blog-archiveb-2-f-393"
   },
-  "/blog/design pattern rule-8c8": {
+  "/blog/design pattern rule-948": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-design-pattern-rule-427-49a"
   },
-  "/blog/Overloading and Overriding-578": {
+  "/blog/Overloading and Overriding-117": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-overloading-and-overridinga-3-b-a6a"
   },
-  "/blog/PKI-f6c": {
+  "/blog/PKI-567": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-pk-ice-6-ef1"
   },
-  "/blog/strategy pattern-ef9": {
+  "/blog/strategy pattern-b5c": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-strategy-pattern-121-c05"
   },
-  "/blog/tags-581": {
+  "/blog/tags-e29": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/오버라이딩-4ef": {
+  "/blog/tags/오버라이딩-8e4": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -128,10 +128,10 @@
     "tag": "tag---blog-tags-오버라이딩-978-168",
     "listMetadata": "listMetadata---blog-tags-오버라이딩-0-e-2-e5a"
   },
-  "/blog/tags/오버로딩-5c1": {
+  "/blog/tags/오버로딩-b6d": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -142,10 +142,10 @@
     "tag": "tag---blog-tags-오버로딩-641-14e",
     "listMetadata": "listMetadata---blog-tags-오버로딩-6-d-7-b0c"
   },
-  "/blog/tags/design-pattern-bce": {
+  "/blog/tags/design-pattern-58d": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -159,10 +159,10 @@
     "tag": "tag---blog-tags-design-pattern-3-d-6-001",
     "listMetadata": "listMetadata---blog-tags-design-patternc-2-b-175"
   },
-  "/blog/tags/docusaurus-374": {
+  "/blog/tags/docusaurus-d69": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -173,10 +173,10 @@
     "tag": "tag---blog-tags-docusaurusa-80-728",
     "listMetadata": "listMetadata---blog-tags-docusaurus-608-c09"
   },
-  "/blog/tags/first-post-15d": {
+  "/blog/tags/first-post-31f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -187,10 +187,10 @@
     "tag": "tag---blog-tags-first-post-56-f-183",
     "listMetadata": "listMetadata---blog-tags-first-post-296-a1f"
   },
-  "/blog/tags/overloading-d9f": {
+  "/blog/tags/overloading-15b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -201,10 +201,10 @@
     "tag": "tag---blog-tags-overloading-04-c-3c1",
     "listMetadata": "listMetadata---blog-tags-overloadingc-93-12f"
   },
-  "/blog/tags/overriding-c99": {
+  "/blog/tags/overriding-d7b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -215,10 +215,10 @@
     "tag": "tag---blog-tags-overriding-9-ad-b48",
     "listMetadata": "listMetadata---blog-tags-overridingecc-ac6"
   },
-  "/blog/tags/pki-79e": {
+  "/blog/tags/pki-0a8": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -229,10 +229,10 @@
     "tag": "tag---blog-tags-pki-970-ee0",
     "listMetadata": "listMetadata---blog-tags-pki-992-102"
   },
-  "/blog/tags/rule-7d2": {
+  "/blog/tags/rule-27f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -243,10 +243,10 @@
     "tag": "tag---blog-tags-rule-070-7f7",
     "listMetadata": "listMetadata---blog-tags-ruleba-6-396"
   },
-  "/blog/tags/strategy-pattern-b33": {
+  "/blog/tags/strategy-pattern-ab8": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -257,35 +257,91 @@
     "tag": "tag---blog-tags-strategy-patterndb-4-bb4",
     "listMetadata": "listMetadata---blog-tags-strategy-patterned-7-336"
   },
-  "/blog/welcome-e0f": {
+  "/blog/welcome-7d8": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blogc-2-e-de2"
+      "plugin": "plugin---bloga-81-186"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcomeda-9-73f"
   },
-  "/markdown-page-925": {
+  "/markdown-page-76d": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-page-543-e98"
+      "plugin": "plugin---markdown-page-3-bd-a4a"
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-4d0": {
+  "/docs-9ca": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---docs-7-b-3-bd0"
+      "plugin": "plugin---docsdf-1-29c"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/backend-basic/backend1-11a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-basic-backend-1-ebc-112"
   },
   "/docs/backend-master/backend1-86f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-backend-master-backend-11-b-3-458"
   },
+  "/docs/backend-master/backend10-79d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-1027-d-591"
+  },
+  "/docs/backend-master/backend11-c44": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-1177-f-f64"
+  },
+  "/docs/backend-master/backend12-e30": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-12591-2f8"
+  },
+  "/docs/backend-master/backend13-369": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-13-e-55-527"
+  },
+  "/docs/backend-master/backend14-96d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-14653-ab2"
+  },
+  "/docs/backend-master/backend15-dfe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-15-ad-3-486"
+  },
+  "/docs/backend-master/backend16-24c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-164-d-7-993"
+  },
+  "/docs/backend-master/backend17-b68": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-172-ed-387"
+  },
+  "/docs/backend-master/backend18-7b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-185-c-5-ac0"
+  },
+  "/docs/backend-master/backend19-5c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-19-d-1-d-14c"
+  },
   "/docs/backend-master/backend2-5f5": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-backend-master-backend-2644-91b"
+  },
+  "/docs/backend-master/backend20-e48": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-20-a-8-e-485"
+  },
+  "/docs/backend-master/backend21-056": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-211-c-5-a4b"
+  },
+  "/docs/backend-master/backend22-2c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-22-e-55-f93"
   },
   "/docs/backend-master/backend3-0c5": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -302,6 +358,18 @@
   "/docs/backend-master/backend6-98d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-backend-master-backend-60-bb-152"
+  },
+  "/docs/backend-master/backend7-aa9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-75-f-0-b01"
+  },
+  "/docs/backend-master/backend8-73c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-8-d-90-158"
+  },
+  "/docs/backend-master/backend9-cf1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-backend-master-backend-9136-e1a"
   },
   "/docs/blog-configuration/install_node-58f": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -491,6 +559,18 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-go-go-315-a-ec0"
   },
+  "/docs/go/go4-0b3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-go-go-460-c-8fc"
+  },
+  "/docs/go/go5-2ed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-go-go-503-c-326"
+  },
+  "/docs/go/go6-024": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-go-go-6-f-4-a-5d4"
+  },
   "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
@@ -535,10 +615,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
   },
-  "/-ddf": {
+  "/-4c5": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---markdown-page-543-e98"
+      "plugin": "plugin---markdown-page-3-bd-a4a"
     },
     "config": "config---5-e-9-4f3"
   }

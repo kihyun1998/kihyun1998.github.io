@@ -18,5 +18,9 @@
   "previous": {
     "title": "02. [Go] Context",
     "permalink": "/docs/go/go2"
+  },
+  "next": {
+    "title": "[Go] Dictionary",
+    "permalink": "/docs/go/go4"
   }
 }
