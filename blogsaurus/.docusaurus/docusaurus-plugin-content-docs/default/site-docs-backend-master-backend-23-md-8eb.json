@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend23",
+  "id": "backend-master/backend23",
+  "title": "23. [BackEnd] 인증 미들웨어와 인가 규칙",
+  "description": "목표",
+  "source": "@site/docs/backend-master/backend23.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend23",
+  "permalink": "/docs/backend-master/backend23",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 23,
+  "frontMatter": {
+    "sidebar_position": 23
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "22. [BackEnd] PASETO & JWT 를 이용한 로그인",
+    "permalink": "/docs/backend-master/backend22"
+  },
+  "next": {
+    "title": "24. [BackEnd] 도커와 AWS 배포 - 1 ( Dockerfile 작성 및 실행 )",
+    "permalink": "/docs/backend-master/backend24"
+  }
+}

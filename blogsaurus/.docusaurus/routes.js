@@ -4,137 +4,137 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '74f'),
+    component: ComponentCreator('/__docusaurus/debug', '71d'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '905'),
+    component: ComponentCreator('/__docusaurus/debug/config', 'aa4'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'ad9'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'b1b'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '473'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'b04'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'ece'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '7c2'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'cd3'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '1f0'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '013'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '58b'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '6eb'),
+    component: ComponentCreator('/blog', '456'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'a38'),
+    component: ComponentCreator('/blog/archive', '96f'),
     exact: true
   },
   {
     path: '/blog/design pattern rule',
-    component: ComponentCreator('/blog/design pattern rule', '948'),
+    component: ComponentCreator('/blog/design pattern rule', '3e2'),
     exact: true
   },
   {
     path: '/blog/Overloading and Overriding',
-    component: ComponentCreator('/blog/Overloading and Overriding', '117'),
+    component: ComponentCreator('/blog/Overloading and Overriding', 'f31'),
     exact: true
   },
   {
     path: '/blog/PKI',
-    component: ComponentCreator('/blog/PKI', '567'),
+    component: ComponentCreator('/blog/PKI', 'b25'),
     exact: true
   },
   {
     path: '/blog/strategy pattern',
-    component: ComponentCreator('/blog/strategy pattern', 'b5c'),
+    component: ComponentCreator('/blog/strategy pattern', '89d'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'e29'),
+    component: ComponentCreator('/blog/tags', '5ac'),
     exact: true
   },
   {
     path: '/blog/tags/오버라이딩',
-    component: ComponentCreator('/blog/tags/오버라이딩', '8e4'),
+    component: ComponentCreator('/blog/tags/오버라이딩', '6a3'),
     exact: true
   },
   {
     path: '/blog/tags/오버로딩',
-    component: ComponentCreator('/blog/tags/오버로딩', 'b6d'),
+    component: ComponentCreator('/blog/tags/오버로딩', '6e1'),
     exact: true
   },
   {
     path: '/blog/tags/design-pattern',
-    component: ComponentCreator('/blog/tags/design-pattern', '58d'),
+    component: ComponentCreator('/blog/tags/design-pattern', '829'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'd69'),
+    component: ComponentCreator('/blog/tags/docusaurus', '956'),
     exact: true
   },
   {
     path: '/blog/tags/first-post',
-    component: ComponentCreator('/blog/tags/first-post', '31f'),
+    component: ComponentCreator('/blog/tags/first-post', '160'),
     exact: true
   },
   {
     path: '/blog/tags/overloading',
-    component: ComponentCreator('/blog/tags/overloading', '15b'),
+    component: ComponentCreator('/blog/tags/overloading', 'f66'),
     exact: true
   },
   {
     path: '/blog/tags/overriding',
-    component: ComponentCreator('/blog/tags/overriding', 'd7b'),
+    component: ComponentCreator('/blog/tags/overriding', '092'),
     exact: true
   },
   {
     path: '/blog/tags/pki',
-    component: ComponentCreator('/blog/tags/pki', '0a8'),
+    component: ComponentCreator('/blog/tags/pki', '623'),
     exact: true
   },
   {
     path: '/blog/tags/rule',
-    component: ComponentCreator('/blog/tags/rule', '27f'),
+    component: ComponentCreator('/blog/tags/rule', '430'),
     exact: true
   },
   {
     path: '/blog/tags/strategy-pattern',
-    component: ComponentCreator('/blog/tags/strategy-pattern', 'ab8'),
+    component: ComponentCreator('/blog/tags/strategy-pattern', '621'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '7d8'),
+    component: ComponentCreator('/blog/welcome', '631'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '76d'),
+    component: ComponentCreator('/markdown-page', 'cf8'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '9ca'),
+    component: ComponentCreator('/docs', 'b77'),
     routes: [
       {
         path: '/docs/backend-basic/backend1',
@@ -229,6 +229,30 @@ export default [
       {
         path: '/docs/backend-master/backend22',
         component: ComponentCreator('/docs/backend-master/backend22', '2c1'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/backend-master/backend23',
+        component: ComponentCreator('/docs/backend-master/backend23', '8f0'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/backend-master/backend24',
+        component: ComponentCreator('/docs/backend-master/backend24', '578'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/backend-master/backend25',
+        component: ComponentCreator('/docs/backend-master/backend25', 'e71'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/backend-master/backend26',
+        component: ComponentCreator('/docs/backend-master/backend26', 'e76'),
         exact: true,
         sidebar: "backSidebar"
       },
@@ -644,7 +668,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '4c5'),
+    component: ComponentCreator('/', 'b12'),
     exact: true
   },
   {

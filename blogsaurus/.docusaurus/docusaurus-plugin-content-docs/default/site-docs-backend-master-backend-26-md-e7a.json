@@ -1,0 +1,22 @@
+{
+  "unversionedId": "backend-master/backend26",
+  "id": "backend-master/backend26",
+  "title": "26. [BackEnd] docker compose 사용",
+  "description": "docker compose는 단일 서버에서 여러 개의 컨테이너를 하나의 서비스로 정의해 컨테이너 묶음으로 관리할 수 있는 도구입니다.",
+  "source": "@site/docs/backend-master/backend26.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend26",
+  "permalink": "/docs/backend-master/backend26",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 26,
+  "frontMatter": {
+    "sidebar_position": 26
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "25. [BackEnd] 도커와 AWS 배포 - 2 ( go 컨테이너와 DB 컨테이너 통신하기 )",
+    "permalink": "/docs/backend-master/backend25"
+  }
+}

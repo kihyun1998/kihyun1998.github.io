@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend25",
+  "id": "backend-master/backend25",
+  "title": "25. [BackEnd] 도커와 AWS 배포 - 2 ( go 컨테이너와 DB 컨테이너 통신하기 )",
+  "description": "go 컨테이너와 DB 컨테이너 통신하기",
+  "source": "@site/docs/backend-master/backend25.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend25",
+  "permalink": "/docs/backend-master/backend25",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 25,
+  "frontMatter": {
+    "sidebar_position": 25
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "24. [BackEnd] 도커와 AWS 배포 - 1 ( Dockerfile 작성 및 실행 )",
+    "permalink": "/docs/backend-master/backend24"
+  },
+  "next": {
+    "title": "26. [BackEnd] docker compose 사용",
+    "permalink": "/docs/backend-master/backend26"
+  }
+}

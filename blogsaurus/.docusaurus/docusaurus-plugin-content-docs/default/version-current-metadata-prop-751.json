@@ -616,6 +616,30 @@
             "label": "22. [BackEnd] PASETO & JWT 를 이용한 로그인",
             "href": "/docs/backend-master/backend22",
             "docId": "backend-master/backend22"
+          },
+          {
+            "type": "link",
+            "label": "23. [BackEnd] 인증 미들웨어와 인가 규칙",
+            "href": "/docs/backend-master/backend23",
+            "docId": "backend-master/backend23"
+          },
+          {
+            "type": "link",
+            "label": "24. [BackEnd] 도커와 AWS 배포 - 1 ( Dockerfile 작성 및 실행 )",
+            "href": "/docs/backend-master/backend24",
+            "docId": "backend-master/backend24"
+          },
+          {
+            "type": "link",
+            "label": "25. [BackEnd] 도커와 AWS 배포 - 2 ( go 컨테이너와 DB 컨테이너 통신하기 )",
+            "href": "/docs/backend-master/backend25",
+            "docId": "backend-master/backend25"
+          },
+          {
+            "type": "link",
+            "label": "26. [BackEnd] docker compose 사용",
+            "href": "/docs/backend-master/backend26",
+            "docId": "backend-master/backend26"
           }
         ],
         "collapsed": true,
@@ -718,6 +742,30 @@
       "id": "backend-master/backend22",
       "title": "22. [BackEnd] PASETO & JWT 를 이용한 로그인",
       "description": "서버에 토큰 메이커 추가",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend23": {
+      "id": "backend-master/backend23",
+      "title": "23. [BackEnd] 인증 미들웨어와 인가 규칙",
+      "description": "목표",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend24": {
+      "id": "backend-master/backend24",
+      "title": "24. [BackEnd] 도커와 AWS 배포 - 1 ( Dockerfile 작성 및 실행 )",
+      "description": "Git 브랜치 사용",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend25": {
+      "id": "backend-master/backend25",
+      "title": "25. [BackEnd] 도커와 AWS 배포 - 2 ( go 컨테이너와 DB 컨테이너 통신하기 )",
+      "description": "go 컨테이너와 DB 컨테이너 통신하기",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend26": {
+      "id": "backend-master/backend26",
+      "title": "26. [BackEnd] docker compose 사용",
+      "description": "docker compose는 단일 서버에서 여러 개의 컨테이너를 하나의 서비스로 정의해 컨테이너 묶음으로 관리할 수 있는 도구입니다.",
       "sidebar": "backSidebar"
     },
     "backend-master/backend3": {

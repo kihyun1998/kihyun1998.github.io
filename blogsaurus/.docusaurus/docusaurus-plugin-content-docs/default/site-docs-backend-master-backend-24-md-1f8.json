@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend24",
+  "id": "backend-master/backend24",
+  "title": "24. [BackEnd] 도커와 AWS 배포 - 1 ( Dockerfile 작성 및 실행 )",
+  "description": "Git 브랜치 사용",
+  "source": "@site/docs/backend-master/backend24.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend24",
+  "permalink": "/docs/backend-master/backend24",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 24,
+  "frontMatter": {
+    "sidebar_position": 24
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "23. [BackEnd] 인증 미들웨어와 인가 규칙",
+    "permalink": "/docs/backend-master/backend23"
+  },
+  "next": {
+    "title": "25. [BackEnd] 도커와 AWS 배포 - 2 ( go 컨테이너와 DB 컨테이너 통신하기 )",
+    "permalink": "/docs/backend-master/backend25"
+  }
+}

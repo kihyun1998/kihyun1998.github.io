@@ -18,5 +18,9 @@
   "previous": {
     "title": "21. [BackEnd] PASETO & JWT in Golang",
     "permalink": "/docs/backend-master/backend21"
+  },
+  "next": {
+    "title": "23. [BackEnd] 인증 미들웨어와 인가 규칙",
+    "permalink": "/docs/backend-master/backend23"
   }
 }
