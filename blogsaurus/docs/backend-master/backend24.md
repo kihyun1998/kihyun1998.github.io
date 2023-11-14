@@ -2,7 +2,7 @@
 sidebar_position: 24
 ---
 
-# 24. [BackEnd] 도커와 AWS 배포 - 1
+# 24. [BackEnd] 도커와 AWS 배포 - 1 ( Dockerfile 작성 및 실행 )
 
 ## Git 브랜치 사용
 ---
