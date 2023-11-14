@@ -1,8 +1,8 @@
 ---
-sidebar_position: 22
+sidebar_position: 23
 ---
 
-# 22. [BackEnd] 인증 미들웨어와 인가 규칙
+# 23. [BackEnd] 인증 미들웨어와 인가 규칙
 
 ## 목표
 ---
