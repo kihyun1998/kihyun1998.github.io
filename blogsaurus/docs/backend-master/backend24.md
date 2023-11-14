@@ -75,6 +75,9 @@ CMD ["/app/main"]
 
 `COPY` 명령어를 사용해서 필요한 모든 파일을 복사합니다. 첫 번째 값은 현재 폴더에 대한 값이고 `.`을 입력한다면 현재 root에서 시작하기 때문에 모든 하위 항목들을 복사합니다. 두 번째 값은 파일과 폴더가 복사되는 이미지 내부의 현재 작업 디렉토리 입니다. WORKDIR에서 설정한 값입니다.
 
+다시 정리하면 COPT `복사대상` `복사위치` 입니다.
+
+
 `RUN`은 뒤에 작성한 명령어를 실행하는건데 지금 예시는 golang 파일을 바이너리로 만들어주는 명령어 입니다.
 
 `EXPOSE` 포트 번호 지정할 수 있습니다. 근데 기능적인 지정은 아니고 그냥 이렇게 열린다는 알림만 하는 문서적인 역할만 합니다.
@@ -115,6 +118,7 @@ RUN go build -o main main.go
 FROM alpine:3.18
 WORKDIR /app
 COPY --from=builder /app/main .
+COPY app.env .
 
 EXPOSE 8080
 CMD ["/app/main"]
@@ -128,10 +132,46 @@ Run stage를 만드는데 이 때 FROM은 build stage에서 사용한 리눅스 
 
 다시 위에서 했던 docker build하면 잘 생성이 됩니다.
 
-### 지우는 방법
+그리고 `COPY app.env .`를 하는 이유는 환경변수를 가져오기 위해서 입니다.
+
+### 이미지 지우는 방법
 
 ```bash
 docker rmi <이미지 아이디>
 ```
 
 같은 이름으로 또 생성하면 기존에 있던 이미지는 `<none>`으로 바뀝니다 그래서 지울 필요가 있습니다
+
+
+## 도커 실행하기
+---
+
+```bash
+docker run --name simplebank -p 8080:8080 simplebank:latest
+```
+
+위 명령어로 실행했습니다.
+
+```bash
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+	- using env:   export GIN_MODE=release
+	- using code:  gin.SetMode(gin.ReleaseMode)
+```
+
+실행하면 위와 같은 경고가 나오는데 수정하면 잘 될것입니다.
+
+방법은
+
+1. 기존 컨테이너 rm
+
+```bash
+docker rm 컨테이너
+```
+
+2. docker run 할 때 환경변수 추가
+
+```bash
+docker run --name simplebank -p 8080:8080 -e GIN_MODE=release simplebank:latest
+```
+
+이렇게 릴리즈 모드로 실행하면 아무런 디버그 로그가 안나옵니다.
