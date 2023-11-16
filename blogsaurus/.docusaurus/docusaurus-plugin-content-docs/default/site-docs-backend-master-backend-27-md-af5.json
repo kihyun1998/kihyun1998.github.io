@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend27",
+  "id": "backend-master/backend27",
+  "title": "27. [BackEnd] GitHub Action으로 도커 이미지 AWS에 자동 빌드",
+  "description": "Elastic Container Registry",
+  "source": "@site/docs/backend-master/backend27.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend27",
+  "permalink": "/docs/backend-master/backend27",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 27,
+  "frontMatter": {
+    "sidebar_position": 27
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "26. [BackEnd] docker compose 사용",
+    "permalink": "/docs/backend-master/backend26"
+  },
+  "next": {
+    "title": "28. [BackEnd] AWS RDS",
+    "permalink": "/docs/backend-master/backend28"
+  }
+}

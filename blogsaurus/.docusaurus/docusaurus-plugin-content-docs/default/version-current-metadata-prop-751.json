@@ -418,6 +418,20 @@
         ],
         "collapsed": true,
         "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Flutter-KOSTA",
+        "items": [
+          {
+            "type": "link",
+            "label": "01. [KOSTA] 플러터 교육 - 1회차",
+            "href": "/docs/flutter-kosta/kosta1",
+            "docId": "flutter-kosta/kosta1"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
       }
     ],
     "goSidebar": [
@@ -640,6 +654,18 @@
             "label": "26. [BackEnd] docker compose 사용",
             "href": "/docs/backend-master/backend26",
             "docId": "backend-master/backend26"
+          },
+          {
+            "type": "link",
+            "label": "27. [BackEnd] GitHub Action으로 도커 이미지 AWS에 자동 빌드",
+            "href": "/docs/backend-master/backend27",
+            "docId": "backend-master/backend27"
+          },
+          {
+            "type": "link",
+            "label": "28. [BackEnd] AWS RDS",
+            "href": "/docs/backend-master/backend28",
+            "docId": "backend-master/backend28"
           }
         ],
         "collapsed": true,
@@ -766,6 +792,18 @@
       "id": "backend-master/backend26",
       "title": "26. [BackEnd] docker compose 사용",
       "description": "docker compose는 단일 서버에서 여러 개의 컨테이너를 하나의 서비스로 정의해 컨테이너 묶음으로 관리할 수 있는 도구입니다.",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend27": {
+      "id": "backend-master/backend27",
+      "title": "27. [BackEnd] GitHub Action으로 도커 이미지 AWS에 자동 빌드",
+      "description": "Elastic Container Registry",
+      "sidebar": "backSidebar"
+    },
+    "backend-master/backend28": {
+      "id": "backend-master/backend28",
+      "title": "28. [BackEnd] AWS RDS",
+      "description": "RDS 사용하기",
       "sidebar": "backSidebar"
     },
     "backend-master/backend3": {
@@ -911,6 +949,12 @@
       "title": "데코레이터 패턴",
       "description": "",
       "sidebar": "designPatternSidebar"
+    },
+    "flutter-kosta/kosta1": {
+      "id": "flutter-kosta/kosta1",
+      "title": "01. [KOSTA] 플러터 교육 - 1회차",
+      "description": "뭐했나",
+      "sidebar": "dartSidebar"
     },
     "flutter/flutter1": {
       "id": "flutter/flutter1",

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter-kosta/kosta1",
+  "id": "flutter-kosta/kosta1",
+  "title": "01. [KOSTA] 플러터 교육 - 1회차",
+  "description": "뭐했나",
+  "source": "@site/docs/flutter-kosta/kosta1.md",
+  "sourceDirName": "flutter-kosta",
+  "slug": "/flutter-kosta/kosta1",
+  "permalink": "/docs/flutter-kosta/kosta1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "27. [Flutter] shared_preferences",
+    "permalink": "/docs/flutter/flutter27"
+  }
+}

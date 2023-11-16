@@ -1,0 +1,22 @@
+{
+  "unversionedId": "backend-master/backend28",
+  "id": "backend-master/backend28",
+  "title": "28. [BackEnd] AWS RDS",
+  "description": "RDS 사용하기",
+  "source": "@site/docs/backend-master/backend28.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend28",
+  "permalink": "/docs/backend-master/backend28",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 28,
+  "frontMatter": {
+    "sidebar_position": 28
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "27. [BackEnd] GitHub Action으로 도커 이미지 AWS에 자동 빌드",
+    "permalink": "/docs/backend-master/backend27"
+  }
+}

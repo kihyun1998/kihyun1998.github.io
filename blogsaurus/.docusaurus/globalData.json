@@ -111,6 +111,16 @@
               "sidebar": "backSidebar"
             },
             {
+              "id": "backend-master/backend27",
+              "path": "/docs/backend-master/backend27",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master/backend28",
+              "path": "/docs/backend-master/backend28",
+              "sidebar": "backSidebar"
+            },
+            {
               "id": "backend-master/backend3",
               "path": "/docs/backend-master/backend3",
               "sidebar": "backSidebar"
@@ -229,6 +239,11 @@
               "id": "DP--structural-patterns/decorator",
               "path": "/docs/DP--structural-patterns/decorator",
               "sidebar": "designPatternSidebar"
+            },
+            {
+              "id": "flutter-kosta/kosta1",
+              "path": "/docs/flutter-kosta/kosta1",
+              "sidebar": "dartSidebar"
             },
             {
               "id": "flutter/flutter1",

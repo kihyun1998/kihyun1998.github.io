@@ -13,9 +13,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\User\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
-          "contentPath": "C:\\Users\\User\\kihyun1998.github.io\\blogsaurus\\docs",
-          "contentPathLocalized": "C:\\Users\\User\\kihyun1998.github.io\\blogsaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\kihyun1998.github.io\\blogsaurus\\sidebars.js",
+          "contentPath": "C:\\kihyun1998.github.io\\blogsaurus\\docs",
+          "contentPathLocalized": "C:\\kihyun1998.github.io\\blogsaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "backend-basic/backend1",
@@ -527,6 +527,58 @@
               "previous": {
                 "title": "25. [BackEnd] 도커와 AWS 배포 - 2 ( go 컨테이너와 DB 컨테이너 통신하기 )",
                 "permalink": "/docs/backend-master/backend25"
+              },
+              "next": {
+                "title": "27. [BackEnd] GitHub Action으로 도커 이미지 AWS에 자동 빌드",
+                "permalink": "/docs/backend-master/backend27"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend27",
+              "id": "backend-master/backend27",
+              "title": "27. [BackEnd] GitHub Action으로 도커 이미지 AWS에 자동 빌드",
+              "description": "Elastic Container Registry",
+              "source": "@site/docs/backend-master/backend27.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend27",
+              "permalink": "/docs/backend-master/backend27",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 27,
+              "frontMatter": {
+                "sidebar_position": 27
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "26. [BackEnd] docker compose 사용",
+                "permalink": "/docs/backend-master/backend26"
+              },
+              "next": {
+                "title": "28. [BackEnd] AWS RDS",
+                "permalink": "/docs/backend-master/backend28"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend28",
+              "id": "backend-master/backend28",
+              "title": "28. [BackEnd] AWS RDS",
+              "description": "RDS 사용하기",
+              "source": "@site/docs/backend-master/backend28.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend28",
+              "permalink": "/docs/backend-master/backend28",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 28,
+              "frontMatter": {
+                "sidebar_position": 28
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "27. [BackEnd] GitHub Action으로 도커 이미지 AWS에 자동 빌드",
+                "permalink": "/docs/backend-master/backend27"
               }
             },
             {
@@ -1134,6 +1186,28 @@
               }
             },
             {
+              "unversionedId": "flutter-kosta/kosta1",
+              "id": "flutter-kosta/kosta1",
+              "title": "01. [KOSTA] 플러터 교육 - 1회차",
+              "description": "뭐했나",
+              "source": "@site/docs/flutter-kosta/kosta1.md",
+              "sourceDirName": "flutter-kosta",
+              "slug": "/flutter-kosta/kosta1",
+              "permalink": "/docs/flutter-kosta/kosta1",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "dartSidebar",
+              "previous": {
+                "title": "27. [Flutter] shared_preferences",
+                "permalink": "/docs/flutter/flutter27"
+              }
+            },
+            {
               "unversionedId": "flutter/flutter1",
               "id": "flutter/flutter1",
               "title": "01. [Flutter] 설치하기",
@@ -1647,6 +1721,10 @@
               "previous": {
                 "title": "26. [Flutter] URL Launcher",
                 "permalink": "/docs/flutter/flutter26"
+              },
+              "next": {
+                "title": "01. [KOSTA] 플러터 교육 - 1회차",
+                "permalink": "/docs/flutter-kosta/kosta1"
               }
             },
             {
@@ -2552,6 +2630,18 @@
                 ],
                 "collapsed": true,
                 "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Flutter-KOSTA",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "flutter-kosta/kosta1"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
               }
             ],
             "goSidebar": [
@@ -2708,6 +2798,14 @@
                   {
                     "type": "doc",
                     "id": "backend-master/backend26"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend27"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend28"
                   }
                 ],
                 "collapsed": true,

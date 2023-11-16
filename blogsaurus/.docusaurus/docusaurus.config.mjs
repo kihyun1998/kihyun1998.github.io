@@ -28,14 +28,14 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\User\\kihyun1998.github.io\\blogsaurus\\sidebars.js"
+          "sidebarPath": "C:\\kihyun1998.github.io\\blogsaurus\\sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
           "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\Users\\User\\kihyun1998.github.io\\blogsaurus\\src\\css\\custom.css"
+          "customCss": "C:\\kihyun1998.github.io\\blogsaurus\\src\\css\\custom.css"
         }
       }
     ]
