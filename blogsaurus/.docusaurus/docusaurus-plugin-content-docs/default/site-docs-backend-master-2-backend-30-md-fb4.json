@@ -1,0 +1,22 @@
+{
+  "unversionedId": "backend-master2/backend30",
+  "id": "backend-master2/backend30",
+  "title": "30. [BackEnd]",
+  "description": "",
+  "source": "@site/docs/backend-master2/backend30.md",
+  "sourceDirName": "backend-master2",
+  "slug": "/backend-master2/backend30",
+  "permalink": "/docs/backend-master2/backend30",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "29. [BackEnd] AWS Secret Manager",
+    "permalink": "/docs/backend-master/backend29"
+  }
+}

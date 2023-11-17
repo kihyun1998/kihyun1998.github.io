@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master/backend29",
+  "id": "backend-master/backend29",
+  "title": "29. [BackEnd] AWS Secret Manager",
+  "description": "AWS Secret Manager",
+  "source": "@site/docs/backend-master/backend29.md",
+  "sourceDirName": "backend-master",
+  "slug": "/backend-master/backend29",
+  "permalink": "/docs/backend-master/backend29",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 29,
+  "frontMatter": {
+    "sidebar_position": 29
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "28. [BackEnd] AWS RDS",
+    "permalink": "/docs/backend-master/backend28"
+  },
+  "next": {
+    "title": "30. [BackEnd]",
+    "permalink": "/docs/backend-master2/backend30"
+  }
+}

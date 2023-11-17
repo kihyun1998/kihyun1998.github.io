@@ -579,6 +579,36 @@
               "previous": {
                 "title": "27. [BackEnd] GitHub Action으로 도커 이미지 AWS에 자동 빌드",
                 "permalink": "/docs/backend-master/backend27"
+              },
+              "next": {
+                "title": "29. [BackEnd] AWS Secret Manager",
+                "permalink": "/docs/backend-master/backend29"
+              }
+            },
+            {
+              "unversionedId": "backend-master/backend29",
+              "id": "backend-master/backend29",
+              "title": "29. [BackEnd] AWS Secret Manager",
+              "description": "AWS Secret Manager",
+              "source": "@site/docs/backend-master/backend29.md",
+              "sourceDirName": "backend-master",
+              "slug": "/backend-master/backend29",
+              "permalink": "/docs/backend-master/backend29",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 29,
+              "frontMatter": {
+                "sidebar_position": 29
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "28. [BackEnd] AWS RDS",
+                "permalink": "/docs/backend-master/backend28"
+              },
+              "next": {
+                "title": "30. [BackEnd]",
+                "permalink": "/docs/backend-master2/backend30"
               }
             },
             {
@@ -761,6 +791,28 @@
               "next": {
                 "title": "10. [BackEnd] transaction isolation level",
                 "permalink": "/docs/backend-master/backend10"
+              }
+            },
+            {
+              "unversionedId": "backend-master2/backend30",
+              "id": "backend-master2/backend30",
+              "title": "30. [BackEnd]",
+              "description": "",
+              "source": "@site/docs/backend-master2/backend30.md",
+              "sourceDirName": "backend-master2",
+              "slug": "/backend-master2/backend30",
+              "permalink": "/docs/backend-master2/backend30",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 30,
+              "frontMatter": {
+                "sidebar_position": 30
+              },
+              "sidebar": "backSidebar",
+              "previous": {
+                "title": "29. [BackEnd] AWS Secret Manager",
+                "permalink": "/docs/backend-master/backend29"
               }
             },
             {
@@ -2806,6 +2858,14 @@
                   {
                     "type": "doc",
                     "id": "backend-master/backend28"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master/backend29"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend-master2/backend30"
                   }
                 ],
                 "collapsed": true,

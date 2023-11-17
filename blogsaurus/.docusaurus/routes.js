@@ -134,7 +134,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '56e'),
+    component: ComponentCreator('/docs', '8e4'),
     routes: [
       {
         path: '/docs/backend-basic/backend1',
@@ -269,6 +269,12 @@ export default [
         sidebar: "backSidebar"
       },
       {
+        path: '/docs/backend-master/backend29',
+        component: ComponentCreator('/docs/backend-master/backend29', 'd5b'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
         path: '/docs/backend-master/backend3',
         component: ComponentCreator('/docs/backend-master/backend3', '0c5'),
         exact: true,
@@ -307,6 +313,12 @@ export default [
       {
         path: '/docs/backend-master/backend9',
         component: ComponentCreator('/docs/backend-master/backend9', 'cf1'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/backend-master2/backend30',
+        component: ComponentCreator('/docs/backend-master2/backend30', 'd8b'),
         exact: true,
         sidebar: "backSidebar"
       },

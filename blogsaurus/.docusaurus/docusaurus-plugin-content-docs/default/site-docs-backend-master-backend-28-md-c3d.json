@@ -18,5 +18,9 @@
   "previous": {
     "title": "27. [BackEnd] GitHub Action으로 도커 이미지 AWS에 자동 빌드",
     "permalink": "/docs/backend-master/backend27"
+  },
+  "next": {
+    "title": "29. [BackEnd] AWS Secret Manager",
+    "permalink": "/docs/backend-master/backend29"
   }
 }

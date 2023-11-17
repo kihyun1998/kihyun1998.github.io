@@ -10,15 +10,30 @@ sidebar_position: 1
 
 provider > 상태관리
 
-Consumer보다 쉬운 방법 > context.watch<BucketService>(); 이걸로 상위 객체 가져올 수 있음
+Consumer보다 쉬운 방법 > 
+
+```dart
+context.watch<BucketService>();
+```
+
+ 이걸로 상위 객체 가져올 수 있음
+
+```dart
+context.read<BucketService>();
+```
+1회성 접근
 
 
-context.read<BucketService>(); 1회성 접근
+```dart
+context.watch<BucketService>();
+```
+이거는 항상 추적
+```dart
+context.read<BucketService>(); 
+```
 
 
-context.watch<BucketService>(); 이거는 항상 추적
-
-context.read<BucketService>(); 이거는 1회 ( 이벤트에 사용 )
+이거는 1회 ( 이벤트에 사용 )
 
 
 집에서 다시 해봐야겠다.

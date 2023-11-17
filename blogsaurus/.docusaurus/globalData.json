@@ -121,6 +121,11 @@
               "sidebar": "backSidebar"
             },
             {
+              "id": "backend-master/backend29",
+              "path": "/docs/backend-master/backend29",
+              "sidebar": "backSidebar"
+            },
+            {
               "id": "backend-master/backend3",
               "path": "/docs/backend-master/backend3",
               "sidebar": "backSidebar"
@@ -153,6 +158,11 @@
             {
               "id": "backend-master/backend9",
               "path": "/docs/backend-master/backend9",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master2/backend30",
+              "path": "/docs/backend-master2/backend30",
               "sidebar": "backSidebar"
             },
             {

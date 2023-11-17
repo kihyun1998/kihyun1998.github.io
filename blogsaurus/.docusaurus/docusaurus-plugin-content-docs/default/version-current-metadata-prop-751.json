@@ -666,6 +666,18 @@
             "label": "28. [BackEnd] AWS RDS",
             "href": "/docs/backend-master/backend28",
             "docId": "backend-master/backend28"
+          },
+          {
+            "type": "link",
+            "label": "29. [BackEnd] AWS Secret Manager",
+            "href": "/docs/backend-master/backend29",
+            "docId": "backend-master/backend29"
+          },
+          {
+            "type": "link",
+            "label": "30. [BackEnd]",
+            "href": "/docs/backend-master2/backend30",
+            "docId": "backend-master2/backend30"
           }
         ],
         "collapsed": true,
@@ -806,6 +818,12 @@
       "description": "RDS 사용하기",
       "sidebar": "backSidebar"
     },
+    "backend-master/backend29": {
+      "id": "backend-master/backend29",
+      "title": "29. [BackEnd] AWS Secret Manager",
+      "description": "AWS Secret Manager",
+      "sidebar": "backSidebar"
+    },
     "backend-master/backend3": {
       "id": "backend-master/backend3",
       "title": "03. [BackEnd] Docker + Postgres + TablePlus",
@@ -846,6 +864,12 @@
       "id": "backend-master/backend9",
       "title": "09. [BackEnd] avoid db deadlock",
       "description": "추가적인 deadlock 상황",
+      "sidebar": "backSidebar"
+    },
+    "backend-master2/backend30": {
+      "id": "backend-master2/backend30",
+      "title": "30. [BackEnd]",
+      "description": "",
       "sidebar": "backSidebar"
     },
     "blog-configuration/install_node": {
