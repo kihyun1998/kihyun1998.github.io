@@ -110,6 +110,12 @@ const config = {
             position: 'left',
             label: 'BackEnd'
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'algorithmSidebar',
+            position: 'left',
+            label: 'Algorithm'
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
