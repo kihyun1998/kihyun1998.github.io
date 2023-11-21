@@ -116,6 +116,15 @@ protoc --go_out=../pb --go_opt=paths=source_relative --go-grpc_out=../pb --go-gr
 
 요로케하면 된다.
 
+여담으로 
+
+```bash
+protoc --go_out=../pb --go_opt=paths=source_relative --go-grpc_out=../pb --go-grpc_opt=paths=source_relative *
+```
+
+*을 주면 모든 파일 다 하게 된다.
+
+
 여기서 궁금한거
 
 `--go_out` 옵션은 pb파일 출력하는 곳인건 알겠다.
