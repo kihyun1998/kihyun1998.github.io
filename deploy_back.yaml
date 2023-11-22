@@ -2,8 +2,8 @@ name: Deploy
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - 'V*'
 
 jobs:
   deploy:
@@ -25,7 +25,17 @@ jobs:
           yarn build 
 
       - name: Deploy 🚀
+        if: 
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: blogsaurus/build/
+      
+      - name: Extract Tag name
+        id: extract_tag
+        run:  echo "::set-output name=tag_name::$(echo ${{ github.ref }} | sed 's|refs/tags/||')"
+      
+      - name: Use Tag Name
+        run:  echo "Tag Name is ${{ steps.extract_tag.outputs.tag_name }}"
+
+
