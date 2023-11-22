@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# [gRPC] 2. gRPC - Serialize protobuf message
+# [gRPC] 4. gRPC - Serialize protobuf message
 
 ## 학습 목표
 ---

@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# [gRPC] 2. gRPC 실습 - 2
+# [gRPC] 3. gRPC 실습 - 2
 
 ## 학습 목표
 ---
