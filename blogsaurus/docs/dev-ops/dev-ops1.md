@@ -63,19 +63,6 @@ go version
 하면 golang 버전이 나옵니다.
 
 
-### Persnal Access Token 키 발급
-
-`우측 상단 사용자 프로필 사진` > `Settings` > `Developer Settings` > `Personal access tokens` > `Tokens(classic)`에서 발급 받을 수 있습니다.
-
-![Alt text](./img/1-30/1/image3.png)
-
-
-`Generate new token`을 클릭
-
-Note와 Expiration 그리고 권한들 설정합니다.
-
-나온 키 값은 복사해서 보관해두어야 합니다.
-
 ### Runner 다운로드
 
 사용하려는 저장소에서 `Settings` > `Actions` > `Runners`로 이동합니다.
