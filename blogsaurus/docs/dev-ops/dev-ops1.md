@@ -276,3 +276,41 @@ rm -rf /home/user/runner1/_work/test/test/*
 ```
 
 위와같이 해야한다.
+
+
+
+## 추가정리
+---
+
+### 1. workspace
+
+```yaml
+${{ github.workspace }}
+```
+
+위와 같이 사용한다면 /home/../runner/repo/repo 경로를 사용할 수 있다.
+
+### 2. 환경변수 사용
+
+```yaml
+${{ env.TEST_VAL }}
+```
+
+환경변수를 등록했다면위처럼 활용할 수 있다.
+
+### 3. appleboy/scp-action의 기능
+
+```yaml
+    - name: 🚚 Transfer files use SFTP
+      uses: appleboy/scp-action@master
+      with:
+        host: IP
+        username: root
+        key: ${{ secrets.SSH_KEY }}
+        source: "${{ github.workspace }}/*
+        target: "~/build/${{ 없는 폴더 }}"
+```
+
+없는 폴더를 넣으면 알아서 만들어준다.
+
+단점은 만들어줘도 github.workspace 경로는 자동 추가라 어쩔 수 없음
