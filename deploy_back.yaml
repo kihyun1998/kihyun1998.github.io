@@ -1,10 +1,8 @@
 name: Deploy
-
 on:
   push:
-    branches:
-      - main
-
+    tags:
+      - 'V*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -12,20 +10,24 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
-
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '16.14.0'
-
       - name: Install dependencies and build 🔧 
         run: |
           cd blogsaurus
           yarn install --frozen-lockfile 
           yarn build 
-
       - name: Deploy 🚀
+        if: 
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: blogsaurus/build/
+
+      - name: Extract Tag name
+        run:  echo "TAG_NAME=$(echo ${{ github.ref }} | sed 's|refs/tags/||')" >> $GITHUB_ENV
+
+      - name: Use Tag Name
+        run:  echo "Tag Name is $TAG_NAME"
