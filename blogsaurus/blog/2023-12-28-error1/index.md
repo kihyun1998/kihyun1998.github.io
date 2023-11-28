@@ -2,7 +2,7 @@
 slug: Flutter
 title: Git - LF will be replaced by CRLF the next time Git touches it
 authors: [kihyun]
-tags: [TIL, 플러터, flutter, dart, future_wait]
+tags: [git]
 ---
 
 # [Git] LF will be replaced by CRLF the next time Git touches it
