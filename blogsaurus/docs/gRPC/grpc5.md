@@ -60,3 +60,9 @@ message User{
 ```
 
 이런식으로 작성하는데 `message User`에서 숫자는 1~15까지는 1byte 16이상부터는 2byte가 사용된다.
+
+user.proto는 user에 대한 구조를 정의하는 것입니다.
+
+추가로 `CreateUserRequest`, `CreateUserResponse`를 만들 수 있는데 이도 API 요청과 응답 데이터 구조를 정의하는 것입니다.
+
+실제적인 서비스 코드는 다른 파일에 작성합니다.
