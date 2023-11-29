@@ -66,3 +66,39 @@ user.proto는 user에 대한 구조를 정의하는 것입니다.
 추가로 `CreateUserRequest`, `CreateUserResponse`를 만들 수 있는데 이도 API 요청과 응답 데이터 구조를 정의하는 것입니다.
 
 실제적인 서비스 코드는 다른 파일에 작성합니다.
+
+
+```protobuf
+service Simplebank{
+    rpc CreateUser (CreateUserRequest) returns (CreateUserResponse){}
+    rpc LoginUser (LoginUserRequest) returns (LoginUserResponse){}
+} 
+```
+
+서비스는 위와 같이 정의할 수 있습니다.
+
+## go 언어로 생성
+
+protoc를 사용해서 go언어로 변환합니다.
+
+```bash
+protoc --proto_path=proto --go_out=pb --go_opt=paths=source_relative --go-grpc_out=pb --go-grpc_opt=paths=source_relative proto/*.proto
+```
+
+공식 문서에 나오면 나오긴 하는데요 자세히 설명해보겠습니다.
+
+
+`--proto_path`는 proto 경로에 대한 정의입니다.
+
+`--go_out`와 `--go-grpc_out`은 go 파일이 나올 경로 입니다.
+
+`--go_opt=paths=source_relative`와 `--go-grpc_opt=paths=source_relative`는 상대경로를 사용하겠다는 뜻입니다. 이 설정을 하지 않으면 모든 경로를 절대경로를 입력해야 합니다.
+
+마지막 `proto/*.proto`는 어떤 파일들을 go로 만들지 정하는 것입니다.
+
+```bash
+del /s ./pb/*.go
+```
+
+make 파일에 파일 삭제 기능까지 넣으면 잘 작동할 것입니다.
+
