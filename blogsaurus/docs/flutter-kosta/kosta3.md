@@ -56,14 +56,17 @@ inheritedWidget을 wrap
 :::
 
 
-ChnageNotifierProvider{create: }로 등록하면 부모에서 dispose()
+ChnageNotifierProvider{create: }로 등록하면 부모에서 dispose() 
 
-ChnageNotifierProvider.value()로 등록하면 부모에서 dispose() 안함
+ChnageNotifierProvider.value()로 등록하면 부모에서 dispose() 안함 그래서 여기서는 생성자 사용하면 안된다.
 
-그래서 여기서는 생성자 사용하면 안된다.
+특징: 상태를 별도 클래스로 분리하므로 StatefulWidget보다 유지 관리 용이하다. 그리고 작성 코드 감소, 원하는 위젯 선택적 갱신 가능
+
 
 ## Riverpod
 ---
+
+WidgetRef를 사용한다.
 
 ## Cubit
 ---
