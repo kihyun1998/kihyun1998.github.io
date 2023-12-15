@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al8",
+  "id": "algorithm/al8",
+  "title": "[백준] 2566 최댓값",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al8.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al8",
+  "permalink": "/docs/algorithm/al8",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 25206 너의 평점은",
+    "permalink": "/docs/algorithm/al7"
+  },
+  "next": {
+    "title": "[백준] 2609 최대공약수와 최소공배수",
+    "permalink": "/docs/algorithm/al9"
+  }
+}

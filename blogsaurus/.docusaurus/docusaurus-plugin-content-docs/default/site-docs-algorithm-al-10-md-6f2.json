@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al10",
+  "id": "algorithm/al10",
+  "title": "[백준] 11050 이항 계수 1",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al10.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al10",
+  "permalink": "/docs/algorithm/al10",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 2609 최대공약수와 최소공배수",
+    "permalink": "/docs/algorithm/al9"
+  },
+  "next": {
+    "title": "[백준] 11866 요세푸스 문제 0",
+    "permalink": "/docs/algorithm/al11"
+  }
+}

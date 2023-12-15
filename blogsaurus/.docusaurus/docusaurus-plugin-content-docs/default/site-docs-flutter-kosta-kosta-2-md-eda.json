@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter-kosta/kosta2",
+  "id": "flutter-kosta/kosta2",
+  "title": "02. [KOSTA] 플러터 심화 교육",
+  "description": "Dart 학습",
+  "source": "@site/docs/flutter-kosta/kosta2.md",
+  "sourceDirName": "flutter-kosta",
+  "slug": "/flutter-kosta/kosta2",
+  "permalink": "/docs/flutter-kosta/kosta2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "01. [KOSTA] 플러터 교육 - 1회차",
+    "permalink": "/docs/flutter-kosta/kosta1"
+  },
+  "next": {
+    "title": "03. [KOSTA] 플러터 상태관리",
+    "permalink": "/docs/flutter-kosta/kosta3"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master2/backend35",
+  "id": "backend-master2/backend35",
+  "title": "34. [BackEnd] dbdocs 사용",
+  "description": "dbdocs는 어마어마합니다.",
+  "source": "@site/docs/backend-master2/backend35.md",
+  "sourceDirName": "backend-master2",
+  "slug": "/backend-master2/backend35",
+  "permalink": "/docs/backend-master2/backend35",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 34,
+  "frontMatter": {
+    "sidebar_position": 34
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "34. [BackEnd] 세션을 위한 refresh token",
+    "permalink": "/docs/backend-master2/backend34"
+  },
+  "next": {
+    "title": "[gRPC] 1. gRPC 개념",
+    "permalink": "/docs/gRPC/grpc1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al20",
+  "id": "algorithm/al20",
+  "title": "[백준] 4949 균현잡힌 세상",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al20.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al20",
+  "permalink": "/docs/algorithm/al20",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "sidebar_position": 20
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 18110 solved.ac",
+    "permalink": "/docs/algorithm/al19"
+  },
+  "next": {
+    "title": "[백준] 1966 프린터 큐",
+    "permalink": "/docs/algorithm/al21"
+  }
+}

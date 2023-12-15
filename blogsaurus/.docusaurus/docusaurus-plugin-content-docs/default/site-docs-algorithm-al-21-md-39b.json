@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al21",
+  "id": "algorithm/al21",
+  "title": "[백준] 1966 프린터 큐",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al21.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al21",
+  "permalink": "/docs/algorithm/al21",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 21,
+  "frontMatter": {
+    "sidebar_position": 21
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 4949 균현잡힌 세상",
+    "permalink": "/docs/algorithm/al20"
+  },
+  "next": {
+    "title": "[백준] 1966 프린터 큐",
+    "permalink": "/docs/algorithm/al22"
+  }
+}

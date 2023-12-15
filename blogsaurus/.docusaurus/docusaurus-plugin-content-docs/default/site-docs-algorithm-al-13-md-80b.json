@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al13",
+  "id": "algorithm/al13",
+  "title": "[백준] 1920 수 찾기",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al13.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al13",
+  "permalink": "/docs/algorithm/al13",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 10816 숫자 카드 2",
+    "permalink": "/docs/algorithm/al12"
+  },
+  "next": {
+    "title": "[백준] 2164 카드2",
+    "permalink": "/docs/algorithm/al14"
+  }
+}

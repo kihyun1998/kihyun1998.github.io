@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al27",
+  "id": "algorithm/al27",
+  "title": "[백준] 2606 바이러스",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al27.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al27",
+  "permalink": "/docs/algorithm/al27",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 27,
+  "frontMatter": {
+    "sidebar_position": 27
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 2178 미로 탐색",
+    "permalink": "/docs/algorithm/al26"
+  },
+  "next": {
+    "title": "[백준] 1003 피보나치 함수",
+    "permalink": "/docs/algorithm/al28"
+  }
+}

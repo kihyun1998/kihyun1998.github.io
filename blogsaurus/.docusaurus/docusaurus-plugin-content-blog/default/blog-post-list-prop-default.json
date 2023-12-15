@@ -2,24 +2,24 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "MVVM 아키텍처",
+      "permalink": "/blog/mvvm"
+    },
+    {
+      "title": "와이어샤크",
+      "permalink": "/blog/와이어샤크"
+    },
+    {
+      "title": "와이어샤크",
+      "permalink": "/blog/와이어샤크"
+    },
+    {
+      "title": "와이어샤크",
+      "permalink": "/blog/와이어샤크"
+    },
+    {
       "title": "PKI 개념",
       "permalink": "/blog/PKI"
-    },
-    {
-      "title": "Overloading & Overriding",
-      "permalink": "/blog/Overloading and Overriding"
-    },
-    {
-      "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-      "permalink": "/blog/design pattern rule"
-    },
-    {
-      "title": "전략 패턴 - Strategy pattern",
-      "permalink": "/blog/strategy pattern"
-    },
-    {
-      "title": "Welcome",
-      "permalink": "/blog/welcome"
     }
   ]
 }

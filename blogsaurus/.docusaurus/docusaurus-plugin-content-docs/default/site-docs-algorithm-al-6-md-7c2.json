@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al6",
+  "id": "algorithm/al6",
+  "title": "[백준] 10988 팰린드롬인지 확인하기",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al6.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al6",
+  "permalink": "/docs/algorithm/al6",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 2444 별 찍기 - 7",
+    "permalink": "/docs/algorithm/al5"
+  },
+  "next": {
+    "title": "[백준] 25206 너의 평점은",
+    "permalink": "/docs/algorithm/al7"
+  }
+}

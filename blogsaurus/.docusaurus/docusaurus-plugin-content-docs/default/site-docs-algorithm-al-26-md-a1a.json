@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al26",
+  "id": "algorithm/al26",
+  "title": "[백준] 2178 미로 탐색",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al26.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al26",
+  "permalink": "/docs/algorithm/al26",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 26,
+  "frontMatter": {
+    "sidebar_position": 26
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 11047 동전 0",
+    "permalink": "/docs/algorithm/al25"
+  },
+  "next": {
+    "title": "[백준] 2606 바이러스",
+    "permalink": "/docs/algorithm/al27"
+  }
+}

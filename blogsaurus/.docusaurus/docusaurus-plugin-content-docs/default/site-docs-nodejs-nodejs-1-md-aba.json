@@ -1,0 +1,22 @@
+{
+  "unversionedId": "nodejs/nodejs1",
+  "id": "nodejs/nodejs1",
+  "title": "[NodeJS] ✳️ 1. gRPC 개념",
+  "description": "",
+  "source": "@site/docs/nodejs/nodejs1.md",
+  "sourceDirName": "nodejs",
+  "slug": "/nodejs/nodejs1",
+  "permalink": "/docs/nodejs/nodejs1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[GitHub Actions] self-host runner 사용하기 in Ubuntu",
+    "permalink": "/docs/dev-ops/dev-ops1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "gRPC/grpc3",
+  "id": "gRPC/grpc3",
+  "title": "[gRPC] 3. gRPC 실습 - 2",
+  "description": "학습 목표",
+  "source": "@site/docs/gRPC/grpc3.md",
+  "sourceDirName": "gRPC",
+  "slug": "/gRPC/grpc3",
+  "permalink": "/docs/gRPC/grpc3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[gRPC] 2. gRPC 실습",
+    "permalink": "/docs/gRPC/grpc2"
+  },
+  "next": {
+    "title": "[gRPC] 4. gRPC - Serialize protobuf message",
+    "permalink": "/docs/gRPC/grpc4"
+  }
+}

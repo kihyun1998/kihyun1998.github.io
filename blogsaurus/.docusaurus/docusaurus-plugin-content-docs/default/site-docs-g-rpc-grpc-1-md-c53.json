@@ -1,0 +1,26 @@
+{
+  "unversionedId": "gRPC/grpc1",
+  "id": "gRPC/grpc1",
+  "title": "[gRPC] 1. gRPC 개념",
+  "description": "Q. gRPC가 해결하려는 문제",
+  "source": "@site/docs/gRPC/grpc1.md",
+  "sourceDirName": "gRPC",
+  "slug": "/gRPC/grpc1",
+  "permalink": "/docs/gRPC/grpc1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "34. [BackEnd] dbdocs 사용",
+    "permalink": "/docs/backend-master2/backend35"
+  },
+  "next": {
+    "title": "[gRPC] 2. gRPC 실습",
+    "permalink": "/docs/gRPC/grpc2"
+  }
+}

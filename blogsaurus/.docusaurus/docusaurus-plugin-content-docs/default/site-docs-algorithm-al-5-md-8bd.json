@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al5",
+  "id": "algorithm/al5",
+  "title": "[백준] 2444 별 찍기 - 7",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al5.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al5",
+  "permalink": "/docs/algorithm/al5",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 27866 문자와 문자열",
+    "permalink": "/docs/algorithm/al4"
+  },
+  "next": {
+    "title": "[백준] 10988 팰린드롬인지 확인하기",
+    "permalink": "/docs/algorithm/al6"
+  }
+}

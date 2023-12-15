@@ -428,6 +428,30 @@
             "label": "01. [KOSTA] 플러터 교육 - 1회차",
             "href": "/docs/flutter-kosta/kosta1",
             "docId": "flutter-kosta/kosta1"
+          },
+          {
+            "type": "link",
+            "label": "02. [KOSTA] 플러터 심화 교육",
+            "href": "/docs/flutter-kosta/kosta2",
+            "docId": "flutter-kosta/kosta2"
+          },
+          {
+            "type": "link",
+            "label": "03. [KOSTA] 플러터 상태관리",
+            "href": "/docs/flutter-kosta/kosta3",
+            "docId": "flutter-kosta/kosta3"
+          },
+          {
+            "type": "link",
+            "label": "04. [KOSTA] 디자인 시스템 및 반응형 UI",
+            "href": "/docs/flutter-kosta/kosta4",
+            "docId": "flutter-kosta/kosta4"
+          },
+          {
+            "type": "link",
+            "label": "04. [KOSTA] 플러터 아키텍처",
+            "href": "/docs/flutter-kosta/kosta5",
+            "docId": "flutter-kosta/kosta5"
           }
         ],
         "collapsed": true,
@@ -474,6 +498,12 @@
             "label": "[Go] go routines와 go channel",
             "href": "/docs/go/go6",
             "docId": "go/go6"
+          },
+          {
+            "type": "link",
+            "label": "[Go] 문자열",
+            "href": "/docs/go/go7",
+            "docId": "go/go7"
           }
         ],
         "collapsed": true,
@@ -675,9 +705,289 @@
           },
           {
             "type": "link",
-            "label": "30. [BackEnd]",
+            "label": "30. [BackEnd] 쿠버네티스 + EKS",
             "href": "/docs/backend-master2/backend30",
             "docId": "backend-master2/backend30"
+          },
+          {
+            "type": "link",
+            "label": "31. [BackEnd] kubectl & k9s",
+            "href": "/docs/backend-master2/backend31",
+            "docId": "backend-master2/backend31"
+          },
+          {
+            "type": "link",
+            "label": "32. [BackEnd] EKS 쿠버네티스 클러스터에 배포",
+            "href": "/docs/backend-master2/backend32",
+            "docId": "backend-master2/backend32"
+          },
+          {
+            "type": "link",
+            "label": "33. [BackEnd] 무료 도메인 Route53 사용",
+            "href": "/docs/backend-master2/backend33",
+            "docId": "backend-master2/backend33"
+          },
+          {
+            "type": "link",
+            "label": "34. [BackEnd] 세션을 위한 refresh token",
+            "href": "/docs/backend-master2/backend34",
+            "docId": "backend-master2/backend34"
+          },
+          {
+            "type": "link",
+            "label": "34. [BackEnd] dbdocs 사용",
+            "href": "/docs/backend-master2/backend35",
+            "docId": "backend-master2/backend35"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "gRPC",
+        "items": [
+          {
+            "type": "link",
+            "label": "[gRPC] 1. gRPC 개념",
+            "href": "/docs/gRPC/grpc1",
+            "docId": "gRPC/grpc1"
+          },
+          {
+            "type": "link",
+            "label": "[gRPC] 2. gRPC 실습",
+            "href": "/docs/gRPC/grpc2",
+            "docId": "gRPC/grpc2"
+          },
+          {
+            "type": "link",
+            "label": "[gRPC] 3. gRPC 실습 - 2",
+            "href": "/docs/gRPC/grpc3",
+            "docId": "gRPC/grpc3"
+          },
+          {
+            "type": "link",
+            "label": "[gRPC] 4. gRPC - Serialize protobuf message",
+            "href": "/docs/gRPC/grpc4",
+            "docId": "gRPC/grpc4"
+          },
+          {
+            "type": "link",
+            "label": "[gRPC] 5. 다시 gRPC에 대하여",
+            "href": "/docs/gRPC/grpc5",
+            "docId": "gRPC/grpc5"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Dev-Ops",
+        "items": [
+          {
+            "type": "link",
+            "label": "[GitHub Actions] self-host runner 사용하기 in Ubuntu",
+            "href": "/docs/dev-ops/dev-ops1",
+            "docId": "dev-ops/dev-ops1"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "NodeJS",
+        "items": [
+          {
+            "type": "link",
+            "label": "[NodeJS] ✳️ 1. gRPC 개념",
+            "href": "/docs/nodejs/nodejs1",
+            "docId": "nodejs/nodejs1"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ],
+    "algorithmSidebar": [
+      {
+        "type": "category",
+        "label": "Algorithm",
+        "items": [
+          {
+            "type": "link",
+            "label": "[백준] 10810 공 넣기",
+            "href": "/docs/algorithm/al1",
+            "docId": "algorithm/al1"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 10813 공 바꾸기",
+            "href": "/docs/algorithm/al2",
+            "docId": "algorithm/al2"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 10811 바구니 뒤집기",
+            "href": "/docs/algorithm/al3",
+            "docId": "algorithm/al3"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 27866 문자와 문자열",
+            "href": "/docs/algorithm/al4",
+            "docId": "algorithm/al4"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 2444 별 찍기 - 7",
+            "href": "/docs/algorithm/al5",
+            "docId": "algorithm/al5"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 10988 팰린드롬인지 확인하기",
+            "href": "/docs/algorithm/al6",
+            "docId": "algorithm/al6"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 25206 너의 평점은",
+            "href": "/docs/algorithm/al7",
+            "docId": "algorithm/al7"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 2566 최댓값",
+            "href": "/docs/algorithm/al8",
+            "docId": "algorithm/al8"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 2609 최대공약수와 최소공배수",
+            "href": "/docs/algorithm/al9",
+            "docId": "algorithm/al9"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 11050 이항 계수 1",
+            "href": "/docs/algorithm/al10",
+            "docId": "algorithm/al10"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 11866 요세푸스 문제 0",
+            "href": "/docs/algorithm/al11",
+            "docId": "algorithm/al11"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 10816 숫자 카드 2",
+            "href": "/docs/algorithm/al12",
+            "docId": "algorithm/al12"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 1920 수 찾기",
+            "href": "/docs/algorithm/al13",
+            "docId": "algorithm/al13"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 2164 카드2",
+            "href": "/docs/algorithm/al14",
+            "docId": "algorithm/al14"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 2164 카드2",
+            "href": "/docs/algorithm/al15",
+            "docId": "algorithm/al15"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 1676 팩토리얼 0의 개수",
+            "href": "/docs/algorithm/al16",
+            "docId": "algorithm/al16"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 15829 Hashing",
+            "href": "/docs/algorithm/al17",
+            "docId": "algorithm/al17"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 10773 제로",
+            "href": "/docs/algorithm/al18",
+            "docId": "algorithm/al18"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 18110 solved.ac",
+            "href": "/docs/algorithm/al19",
+            "docId": "algorithm/al19"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 4949 균현잡힌 세상",
+            "href": "/docs/algorithm/al20",
+            "docId": "algorithm/al20"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 1966 프린터 큐",
+            "href": "/docs/algorithm/al21",
+            "docId": "algorithm/al21"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 1966 프린터 큐",
+            "href": "/docs/algorithm/al22",
+            "docId": "algorithm/al22"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 11399 ATM",
+            "href": "/docs/algorithm/al23",
+            "docId": "algorithm/al23"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 1260 DFS와 BFS",
+            "href": "/docs/algorithm/al24",
+            "docId": "algorithm/al24"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 11047 동전 0",
+            "href": "/docs/algorithm/al25",
+            "docId": "algorithm/al25"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 2178 미로 탐색",
+            "href": "/docs/algorithm/al26",
+            "docId": "algorithm/al26"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 2606 바이러스",
+            "href": "/docs/algorithm/al27",
+            "docId": "algorithm/al27"
+          },
+          {
+            "type": "link",
+            "label": "[백준] 1003 피보나치 함수",
+            "href": "/docs/algorithm/al28",
+            "docId": "algorithm/al28"
+          },
+          {
+            "type": "link",
+            "label": "[백준]",
+            "href": "/docs/algorithm/al29",
+            "docId": "algorithm/al29"
           }
         ],
         "collapsed": true,
@@ -686,6 +996,180 @@
     ]
   },
   "docs": {
+    "algorithm/al1": {
+      "id": "algorithm/al1",
+      "title": "[백준] 10810 공 넣기",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al10": {
+      "id": "algorithm/al10",
+      "title": "[백준] 11050 이항 계수 1",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al11": {
+      "id": "algorithm/al11",
+      "title": "[백준] 11866 요세푸스 문제 0",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al12": {
+      "id": "algorithm/al12",
+      "title": "[백준] 10816 숫자 카드 2",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al13": {
+      "id": "algorithm/al13",
+      "title": "[백준] 1920 수 찾기",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al14": {
+      "id": "algorithm/al14",
+      "title": "[백준] 2164 카드2",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al15": {
+      "id": "algorithm/al15",
+      "title": "[백준] 2164 카드2",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al16": {
+      "id": "algorithm/al16",
+      "title": "[백준] 1676 팩토리얼 0의 개수",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al17": {
+      "id": "algorithm/al17",
+      "title": "[백준] 15829 Hashing",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al18": {
+      "id": "algorithm/al18",
+      "title": "[백준] 10773 제로",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al19": {
+      "id": "algorithm/al19",
+      "title": "[백준] 18110 solved.ac",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al2": {
+      "id": "algorithm/al2",
+      "title": "[백준] 10813 공 바꾸기",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al20": {
+      "id": "algorithm/al20",
+      "title": "[백준] 4949 균현잡힌 세상",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al21": {
+      "id": "algorithm/al21",
+      "title": "[백준] 1966 프린터 큐",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al22": {
+      "id": "algorithm/al22",
+      "title": "[백준] 1966 프린터 큐",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al23": {
+      "id": "algorithm/al23",
+      "title": "[백준] 11399 ATM",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al24": {
+      "id": "algorithm/al24",
+      "title": "[백준] 1260 DFS와 BFS",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al25": {
+      "id": "algorithm/al25",
+      "title": "[백준] 11047 동전 0",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al26": {
+      "id": "algorithm/al26",
+      "title": "[백준] 2178 미로 탐색",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al27": {
+      "id": "algorithm/al27",
+      "title": "[백준] 2606 바이러스",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al28": {
+      "id": "algorithm/al28",
+      "title": "[백준] 1003 피보나치 함수",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al29": {
+      "id": "algorithm/al29",
+      "title": "[백준]",
+      "description": "문제 1463 1로 만들기",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al3": {
+      "id": "algorithm/al3",
+      "title": "[백준] 10811 바구니 뒤집기",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al4": {
+      "id": "algorithm/al4",
+      "title": "[백준] 27866 문자와 문자열",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al5": {
+      "id": "algorithm/al5",
+      "title": "[백준] 2444 별 찍기 - 7",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al6": {
+      "id": "algorithm/al6",
+      "title": "[백준] 10988 팰린드롬인지 확인하기",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al7": {
+      "id": "algorithm/al7",
+      "title": "[백준] 25206 너의 평점은",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al8": {
+      "id": "algorithm/al8",
+      "title": "[백준] 2566 최댓값",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
+    "algorithm/al9": {
+      "id": "algorithm/al9",
+      "title": "[백준] 2609 최대공약수와 최소공배수",
+      "description": "문제",
+      "sidebar": "algorithmSidebar"
+    },
     "backend-basic/backend1": {
       "id": "backend-basic/backend1",
       "title": "01. [백엔드 30일 완성] 1장",
@@ -868,8 +1352,38 @@
     },
     "backend-master2/backend30": {
       "id": "backend-master2/backend30",
-      "title": "30. [BackEnd]",
-      "description": "",
+      "title": "30. [BackEnd] 쿠버네티스 + EKS",
+      "description": "쿠버네티스란",
+      "sidebar": "backSidebar"
+    },
+    "backend-master2/backend31": {
+      "id": "backend-master2/backend31",
+      "title": "31. [BackEnd] kubectl & k9s",
+      "description": "위 두 도구들은 kubernates 클러스터에 접속하는 2개 cli 툴이다.",
+      "sidebar": "backSidebar"
+    },
+    "backend-master2/backend32": {
+      "id": "backend-master2/backend32",
+      "title": "32. [BackEnd] EKS 쿠버네티스 클러스터에 배포",
+      "description": "배포 파일 예시",
+      "sidebar": "backSidebar"
+    },
+    "backend-master2/backend33": {
+      "id": "backend-master2/backend33",
+      "title": "33. [BackEnd] 무료 도메인 Route53 사용",
+      "description": "aws에 route53이 있습니다.",
+      "sidebar": "backSidebar"
+    },
+    "backend-master2/backend34": {
+      "id": "backend-master2/backend34",
+      "title": "34. [BackEnd] 세션을 위한 refresh token",
+      "description": "현재 Access 토큰의 문제점",
+      "sidebar": "backSidebar"
+    },
+    "backend-master2/backend35": {
+      "id": "backend-master2/backend35",
+      "title": "34. [BackEnd] dbdocs 사용",
+      "description": "dbdocs는 어마어마합니다.",
       "sidebar": "backSidebar"
     },
     "blog-configuration/install_node": {
@@ -950,6 +1464,12 @@
       "description": "",
       "sidebar": "designPatternSidebar"
     },
+    "dev-ops/dev-ops1": {
+      "id": "dev-ops/dev-ops1",
+      "title": "[GitHub Actions] self-host runner 사용하기 in Ubuntu",
+      "description": "사용하기 전에 먼저 환경 설정을 합니다.",
+      "sidebar": "backSidebar"
+    },
     "DP--behavioral-patterns/observer": {
       "id": "DP--behavioral-patterns/observer",
       "title": "옵저버 패턴 ( Observer Pattern )",
@@ -978,6 +1498,30 @@
       "id": "flutter-kosta/kosta1",
       "title": "01. [KOSTA] 플러터 교육 - 1회차",
       "description": "뭐했나",
+      "sidebar": "dartSidebar"
+    },
+    "flutter-kosta/kosta2": {
+      "id": "flutter-kosta/kosta2",
+      "title": "02. [KOSTA] 플러터 심화 교육",
+      "description": "Dart 학습",
+      "sidebar": "dartSidebar"
+    },
+    "flutter-kosta/kosta3": {
+      "id": "flutter-kosta/kosta3",
+      "title": "03. [KOSTA] 플러터 상태관리",
+      "description": "상태란",
+      "sidebar": "dartSidebar"
+    },
+    "flutter-kosta/kosta4": {
+      "id": "flutter-kosta/kosta4",
+      "title": "04. [KOSTA] 디자인 시스템 및 반응형 UI",
+      "description": "디자인 시스템",
+      "sidebar": "dartSidebar"
+    },
+    "flutter-kosta/kosta5": {
+      "id": "flutter-kosta/kosta5",
+      "title": "04. [KOSTA] 플러터 아키텍처",
+      "description": "---",
       "sidebar": "dartSidebar"
     },
     "flutter/flutter1": {
@@ -1178,11 +1722,53 @@
       "description": "Go routines",
       "sidebar": "goSidebar"
     },
+    "go/go7": {
+      "id": "go/go7",
+      "title": "[Go] 문자열",
+      "description": "큰따옴표와 백틱",
+      "sidebar": "goSidebar"
+    },
+    "gRPC/grpc1": {
+      "id": "gRPC/grpc1",
+      "title": "[gRPC] 1. gRPC 개념",
+      "description": "Q. gRPC가 해결하려는 문제",
+      "sidebar": "backSidebar"
+    },
+    "gRPC/grpc2": {
+      "id": "gRPC/grpc2",
+      "title": "[gRPC] 2. gRPC 실습",
+      "description": "학습 목표",
+      "sidebar": "backSidebar"
+    },
+    "gRPC/grpc3": {
+      "id": "gRPC/grpc3",
+      "title": "[gRPC] 3. gRPC 실습 - 2",
+      "description": "학습 목표",
+      "sidebar": "backSidebar"
+    },
+    "gRPC/grpc4": {
+      "id": "gRPC/grpc4",
+      "title": "[gRPC] 4. gRPC - Serialize protobuf message",
+      "description": "학습 목표",
+      "sidebar": "backSidebar"
+    },
+    "gRPC/grpc5": {
+      "id": "gRPC/grpc5",
+      "title": "[gRPC] 5. 다시 gRPC에 대하여",
+      "description": "작동 방식",
+      "sidebar": "backSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "tutorialSidebar"
+    },
+    "nodejs/nodejs1": {
+      "id": "nodejs/nodejs1",
+      "title": "[NodeJS] ✳️ 1. gRPC 개념",
+      "description": "",
+      "sidebar": "backSidebar"
     },
     "react-basic/react1": {
       "id": "react-basic/react1",

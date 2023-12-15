@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al18",
+  "id": "algorithm/al18",
+  "title": "[백준] 10773 제로",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al18.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al18",
+  "permalink": "/docs/algorithm/al18",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "sidebar_position": 18
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 15829 Hashing",
+    "permalink": "/docs/algorithm/al17"
+  },
+  "next": {
+    "title": "[백준] 18110 solved.ac",
+    "permalink": "/docs/algorithm/al19"
+  }
+}

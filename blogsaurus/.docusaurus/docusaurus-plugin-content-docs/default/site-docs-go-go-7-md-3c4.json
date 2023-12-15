@@ -1,0 +1,22 @@
+{
+  "unversionedId": "go/go7",
+  "id": "go/go7",
+  "title": "[Go] 문자열",
+  "description": "큰따옴표와 백틱",
+  "source": "@site/docs/go/go7.md",
+  "sourceDirName": "go",
+  "slug": "/go/go7",
+  "permalink": "/docs/go/go7",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "goSidebar",
+  "previous": {
+    "title": "[Go] go routines와 go channel",
+    "permalink": "/docs/go/go6"
+  }
+}

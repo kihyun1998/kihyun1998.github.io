@@ -1,0 +1,22 @@
+{
+  "unversionedId": "flutter-kosta/kosta5",
+  "id": "flutter-kosta/kosta5",
+  "title": "04. [KOSTA] 플러터 아키텍처",
+  "description": "---",
+  "source": "@site/docs/flutter-kosta/kosta5.md",
+  "sourceDirName": "flutter-kosta",
+  "slug": "/flutter-kosta/kosta5",
+  "permalink": "/docs/flutter-kosta/kosta5",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "04. [KOSTA] 디자인 시스템 및 반응형 UI",
+    "permalink": "/docs/flutter-kosta/kosta4"
+  }
+}

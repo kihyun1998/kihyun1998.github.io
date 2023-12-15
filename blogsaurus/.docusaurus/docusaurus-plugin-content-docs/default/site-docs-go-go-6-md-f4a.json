@@ -18,5 +18,9 @@
   "previous": {
     "title": "[Go] go test -v",
     "permalink": "/docs/go/go5"
+  },
+  "next": {
+    "title": "[Go] 문자열",
+    "permalink": "/docs/go/go7"
   }
 }

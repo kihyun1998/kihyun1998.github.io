@@ -1,0 +1,26 @@
+{
+  "unversionedId": "gRPC/grpc2",
+  "id": "gRPC/grpc2",
+  "title": "[gRPC] 2. gRPC 실습",
+  "description": "학습 목표",
+  "source": "@site/docs/gRPC/grpc2.md",
+  "sourceDirName": "gRPC",
+  "slug": "/gRPC/grpc2",
+  "permalink": "/docs/gRPC/grpc2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[gRPC] 1. gRPC 개념",
+    "permalink": "/docs/gRPC/grpc1"
+  },
+  "next": {
+    "title": "[gRPC] 3. gRPC 실습 - 2",
+    "permalink": "/docs/gRPC/grpc3"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "gRPC/grpc5",
+  "id": "gRPC/grpc5",
+  "title": "[gRPC] 5. 다시 gRPC에 대하여",
+  "description": "작동 방식",
+  "source": "@site/docs/gRPC/grpc5.md",
+  "sourceDirName": "gRPC",
+  "slug": "/gRPC/grpc5",
+  "permalink": "/docs/gRPC/grpc5",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[gRPC] 4. gRPC - Serialize protobuf message",
+    "permalink": "/docs/gRPC/grpc4"
+  },
+  "next": {
+    "title": "[GitHub Actions] self-host runner 사용하기 in Ubuntu",
+    "permalink": "/docs/dev-ops/dev-ops1"
+  }
+}

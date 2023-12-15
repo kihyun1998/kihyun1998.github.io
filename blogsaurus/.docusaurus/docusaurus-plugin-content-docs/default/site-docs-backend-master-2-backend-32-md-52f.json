@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master2/backend32",
+  "id": "backend-master2/backend32",
+  "title": "32. [BackEnd] EKS 쿠버네티스 클러스터에 배포",
+  "description": "배포 파일 예시",
+  "source": "@site/docs/backend-master2/backend32.md",
+  "sourceDirName": "backend-master2",
+  "slug": "/backend-master2/backend32",
+  "permalink": "/docs/backend-master2/backend32",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 32,
+  "frontMatter": {
+    "sidebar_position": 32
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "31. [BackEnd] kubectl & k9s",
+    "permalink": "/docs/backend-master2/backend31"
+  },
+  "next": {
+    "title": "33. [BackEnd] 무료 도메인 Route53 사용",
+    "permalink": "/docs/backend-master2/backend33"
+  }
+}

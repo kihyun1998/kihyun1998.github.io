@@ -1,8 +1,8 @@
 {
   "unversionedId": "backend-master2/backend30",
   "id": "backend-master2/backend30",
-  "title": "30. [BackEnd]",
-  "description": "",
+  "title": "30. [BackEnd] 쿠버네티스 + EKS",
+  "description": "쿠버네티스란",
   "source": "@site/docs/backend-master2/backend30.md",
   "sourceDirName": "backend-master2",
   "slug": "/backend-master2/backend30",
@@ -18,5 +18,9 @@
   "previous": {
     "title": "29. [BackEnd] AWS Secret Manager",
     "permalink": "/docs/backend-master/backend29"
+  },
+  "next": {
+    "title": "31. [BackEnd] kubectl & k9s",
+    "permalink": "/docs/backend-master2/backend31"
   }
 }

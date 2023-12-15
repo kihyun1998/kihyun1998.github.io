@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al23",
+  "id": "algorithm/al23",
+  "title": "[백준] 11399 ATM",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al23.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al23",
+  "permalink": "/docs/algorithm/al23",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 23,
+  "frontMatter": {
+    "sidebar_position": 23
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 1966 프린터 큐",
+    "permalink": "/docs/algorithm/al22"
+  },
+  "next": {
+    "title": "[백준] 1260 DFS와 BFS",
+    "permalink": "/docs/algorithm/al24"
+  }
+}

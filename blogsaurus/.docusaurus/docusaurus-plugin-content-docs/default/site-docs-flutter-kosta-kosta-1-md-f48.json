@@ -18,5 +18,9 @@
   "previous": {
     "title": "27. [Flutter] shared_preferences",
     "permalink": "/docs/flutter/flutter27"
+  },
+  "next": {
+    "title": "02. [KOSTA] 플러터 심화 교육",
+    "permalink": "/docs/flutter-kosta/kosta2"
   }
 }

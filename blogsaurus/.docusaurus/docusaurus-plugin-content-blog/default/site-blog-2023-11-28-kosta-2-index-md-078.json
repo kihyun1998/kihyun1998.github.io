@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/와이어샤크",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-11-28-KOSTA2/index.md",
+  "source": "@site/blog/2023-11-28-KOSTA2/index.md",
+  "title": "와이어샤크",
+  "description": "---",
+  "date": "2023-11-28T00:00:00.000Z",
+  "formattedDate": "November 28, 2023",
+  "tags": [
+    {
+      "label": "KOSTA",
+      "permalink": "/blog/tags/kosta"
+    },
+    {
+      "label": "와이어샤크",
+      "permalink": "/blog/tags/와이어샤크"
+    }
+  ],
+  "readingTime": 3.365,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "와이어샤크",
+    "title": "와이어샤크",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "KOSTA",
+      "와이어샤크"
+    ]
+  },
+  "prevItem": {
+    "title": "와이어샤크",
+    "permalink": "/blog/와이어샤크"
+  },
+  "nextItem": {
+    "title": "와이어샤크",
+    "permalink": "/blog/와이어샤크"
+  }
+}

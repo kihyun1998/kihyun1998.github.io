@@ -86,6 +86,12 @@ export default {
           "label": "BackEnd"
         },
         {
+          "type": "docSidebar",
+          "sidebarId": "algorithmSidebar",
+          "position": "left",
+          "label": "Algorithm"
+        },
+        {
           "to": "/blog",
           "label": "Blog",
           "position": "left"
@@ -154,7 +160,8 @@ export default {
         "powershell",
         "dart",
         "xml-doc",
-        "sql"
+        "sql",
+        "protobuf"
       ],
       "theme": {
         "plain": {

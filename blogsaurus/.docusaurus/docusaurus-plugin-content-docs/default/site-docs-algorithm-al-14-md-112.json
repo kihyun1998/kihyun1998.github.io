@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al14",
+  "id": "algorithm/al14",
+  "title": "[백준] 2164 카드2",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al14.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al14",
+  "permalink": "/docs/algorithm/al14",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 1920 수 찾기",
+    "permalink": "/docs/algorithm/al13"
+  },
+  "next": {
+    "title": "[백준] 2164 카드2",
+    "permalink": "/docs/algorithm/al15"
+  }
+}

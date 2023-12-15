@@ -1,6 +1,224 @@
 {
   "blogPosts": [
     {
+      "id": "mvvm",
+      "metadata": {
+        "permalink": "/blog/mvvm",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-15-til1/index.md",
+        "source": "@site/blog/2023-12-15-til1/index.md",
+        "title": "MVVM 아키텍처",
+        "description": "---",
+        "date": "2023-12-15T00:00:00.000Z",
+        "formattedDate": "December 15, 2023",
+        "tags": [
+          {
+            "label": "KOSTA",
+            "permalink": "/blog/tags/kosta"
+          },
+          {
+            "label": "플러터",
+            "permalink": "/blog/tags/플러터"
+          },
+          {
+            "label": "flutter",
+            "permalink": "/blog/tags/flutter"
+          },
+          {
+            "label": "mvvm",
+            "permalink": "/blog/tags/mvvm"
+          }
+        ],
+        "readingTime": 1.345,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "mvvm",
+          "title": "MVVM 아키텍처",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "KOSTA",
+            "플러터",
+            "flutter",
+            "mvvm"
+          ]
+        },
+        "nextItem": {
+          "title": "와이어샤크",
+          "permalink": "/blog/와이어샤크"
+        }
+      },
+      "content": "---\r\n\r\n## 관심사 분리\r\n---\r\n\r\n모듈 별 경계를 나누고 모듈간 약속을 정하는 것 like a 전기 콘센트와 플러그의 관계라고 한다.\r\n\r\n\r\n## MVVM 이론\r\n---\r\n\r\n`View`와 `ViewModel` 그리고 `Model`을 나누어 View를 쉽게 변경할 수 있는 목적을 갖고 있는 아키텍처 패턴\r\n\r\n:::tip 역할\r\n`View` : UI  \r\n`ViewModel`: View 상태 및 로직 담당  \r\n`Model`: 비지니스 로직과 데이터 입출력 담당\r\n:::\r\n\r\n핵심은 `데이터 바인딩`이다.\r\n\r\n`데이터 바인딩`이란 간단히 말하면 ViewModel과 View가 서로를 의존하지 않는 것 `Provider` 패키지를 사용해서 데이터 바인딩 이용한다는데 나는 Bloc를 사용해서 하고 싶다.. 당장은 Provider로 구현해보기\r\n\r\n페이지 마다 하나의 ViewModel이 있어야 하고 ViewModel은 View의 상태와 로직을 관리한다.\r\n\r\nModel은 `Service`, `Model`, `Repository`가 있는데 `Service`는 전역 상태와 비지니스 로직을 관리하고 `Model`은 데이터 `Repository`는 데이터 요청 로직을 담당한다."
+    },
+    {
+      "id": "와이어샤크",
+      "metadata": {
+        "permalink": "/blog/와이어샤크",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-11-29-KOSTA3/index.md",
+        "source": "@site/blog/2023-11-29-KOSTA3/index.md",
+        "title": "와이어샤크",
+        "description": "---",
+        "date": "2023-11-29T00:00:00.000Z",
+        "formattedDate": "November 29, 2023",
+        "tags": [
+          {
+            "label": "KOSTA",
+            "permalink": "/blog/tags/kosta"
+          },
+          {
+            "label": "와이어샤크",
+            "permalink": "/blog/tags/와이어샤크"
+          }
+        ],
+        "readingTime": 2.065,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "와이어샤크",
+          "title": "와이어샤크",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "KOSTA",
+            "와이어샤크"
+          ]
+        },
+        "prevItem": {
+          "title": "MVVM 아키텍처",
+          "permalink": "/blog/mvvm"
+        },
+        "nextItem": {
+          "title": "와이어샤크",
+          "permalink": "/blog/와이어샤크"
+        }
+      },
+      "content": "---\r\n\r\n### 이름 풀이 기능 참조 파일\r\n\r\n- mac address 사용자 정의 C:\\Program Files\\Wireshark\\ethers\r\n- port number 정보 C:\\Program Files\\Wireshark\\services\r\n- 호스트 이름 정보 C:\\Program Files\\Wireshark\\hosts\r\n\r\n### 와이어샤크는 포트번호가 인식되지 않을때 data로 해석됩니다. 비표준 포트 번호를 사용하는 FTP 서비스를 수동으로 분석기를 설정하는 메뉴는 어디인가요?\r\n\r\nAnalyze>Decode as\r\n\r\n### WLAN 프로파일을 생성시 환경설정 저장 경로는 어디인가요?\r\n\r\nC:\\Users\\user1\\AppData\\Roaming\\Wireshark\\Profile\r\n\r\n### 원격지 트래픽 캡쳐를 수행하려고 합니다. 캡쳐하고자 하는 컴퓨터에 winpcap을 설치한 후 원격지에 실행해야하는 데몬 실행파일은 무엇인가요?\r\n\r\nrpcapd.exe\r\n\r\n### 기존 추적파일에는 적용할 수 없고 실시간 캡쳐하는 작업에만 적용되는 필터로 TCPDUMP 구문의 BPF형식을 따르는 필터는 무엇인가요?\r\n\r\n캡쳐필터\r\n\r\n### 실시간 캡쳐 필터구문을 작성하세요. \r\n\r\n- http와 dns 패킷을 동시 캡쳐 `tcp port 80 or udp port 53`\r\n- 목적지 IP주소가 10.10.10.10 이면서 telnet 패킷만 캡쳐 `ip dst 10.10.10.10 and tcp port 23`\r\n- icmp ttl 에러만 캡쳐 `icmp[0]=11 and icmp[1]=0`\r\n\r\n### 전역환경설정 위치에 존재하는 파일로 업그레이드시 복사본을 만들어야 하는 파일을 쓰세요.\r\n\r\n- 실시간 캡쳐 필터 cfilters\r\n- 디스플레이 필터 dfilters\r\n- 컬러링 필터 colorfilter\r\n\r\n### 실시간 캡쳐시 파일집합으로 최근 10개 파일만 생성을 유지할 수 있는 설정은 무엇인가요?\r\n\r\n링버퍼"
+    },
+    {
+      "id": "와이어샤크",
+      "metadata": {
+        "permalink": "/blog/와이어샤크",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-11-28-KOSTA2/index.md",
+        "source": "@site/blog/2023-11-28-KOSTA2/index.md",
+        "title": "와이어샤크",
+        "description": "---",
+        "date": "2023-11-28T00:00:00.000Z",
+        "formattedDate": "November 28, 2023",
+        "tags": [
+          {
+            "label": "KOSTA",
+            "permalink": "/blog/tags/kosta"
+          },
+          {
+            "label": "와이어샤크",
+            "permalink": "/blog/tags/와이어샤크"
+          }
+        ],
+        "readingTime": 3.365,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "와이어샤크",
+          "title": "와이어샤크",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "KOSTA",
+            "와이어샤크"
+          ]
+        },
+        "prevItem": {
+          "title": "와이어샤크",
+          "permalink": "/blog/와이어샤크"
+        },
+        "nextItem": {
+          "title": "와이어샤크",
+          "permalink": "/blog/와이어샤크"
+        }
+      },
+      "content": "---\r\n\r\n## 문제\r\n---\r\n\r\n### PDU\r\n\r\n- L1> bits\r\n- L2> frame\r\n- L3> packet\r\n- L4> segement\r\n- L5~L7> message, data stream\r\n\r\n### 캐시 확인 및 삭제\r\n\r\n- MAC\r\n\r\n```bash title='추가'\r\narp -a\r\n```\r\n\r\n```bash title='삭제'\r\narp -d\r\n```\r\n\r\n- DNS\r\n\r\n```bash title='추가'\r\nipconfig/displaydns\r\n```\r\n\r\n```bash title='삭제'\r\nipconfig/flushdns\r\n```\r\n\r\n- NetBIOS\r\n\r\n```bash title='추가'\r\nnbtstat -c\r\n```\r\n\r\n```bash title='삭제'\r\nnbtstat -R\r\n```\r\n\r\n### OSI \r\n\r\nMAC주소 포함 : L2 - datalink layer\r\nIP주소 포함 : L3 - network layer\r\n\r\n### 기본 최대 크기\r\nEthernet Frame : 1518 Byte\r\nMTU : 1500 byte 크기변경 가능\r\nMSS : 1460 byte\r\n\r\n\r\n## 목적지 IP주소에 대한 MAC주소를 찾아오는 프로토콜\r\n\r\narp\r\n\r\n### TCP 헤더에서 Flag 6개\r\n\r\nsyn,ack,fin,rst,psh,urg\r\n\r\n###  TCP/IP에서 연결상태를 확인하고 에러메세지를 전달하는 프로토콜\r\n\r\nicmp\r\n\r\n### 스위치 기본 기능\r\n\r\nflooding, learning, fowarding, filtering\r\n\r\n\r\n\r\n## 와이어샤크\r\n---\r\n\r\n### 병합\r\n\r\n와이어샤크에 일시중지 기능은 없다 정지 이후 다시 캡쳐해서 병합하는 방법밖에 없다.\r\n\r\n병합은 파일 > 병합에서 가능\r\n\r\n와이어샤크는 두개의 파일을 동시에 열 수 없어서 병합을 사용한다.\r\n\r\n병합에는 3가지 옵션이 있는데 기본값은 시간 기준으로 병합하는 것이고 전에 이어붙이기 후에 이어붙이기가 있습니다.\r\n\r\n### 캡처 파일\r\n\r\n열기 폴더 버튼으로 파일을 연다면 캡처 시간과 사이즈 등을 추가로 확인할 수 있다.\r\n\r\n\r\n### 새로고침 버튼\r\n\r\n와이어샤크는 time 칼럼의 작동방식이 지연 시간 작동방식을 채택한다.\r\n\r\n\r\n그래서 1번 패킷이 0.00초이고 그다음 부터는 1번 패킷 이후 캡쳐된 지연 시간이다.\r\n\r\n그런데 10번 패킷을 0초로 설정하는 방법이 있는데 `시간 참조 설정`을 하면 할 수 있다.\r\n\r\n`시간 참조 설정`은 하나에만 할 수 있는 것이 아닌데 그래서 나중에 풀어주려고 하면 너무 어렵다.\r\n\r\n이 때 `파일 다시 불러오기` 버튼이 이를 모두 해제해준다.\r\n\r\n그래서 `파일 다시 불러오기` 버튼을 자주 사용한다고 한다.\r\n\r\n\r\n### 이름 해석\r\n\r\n보기 > 이름해석 > 네트워크 주소 해석을 키면 패킷의 IPv4에서 dns 주소로 확인할 수 있다.\r\n\r\n근데 이러면 쓸데없는 UDP 패킷이 생기기 때문에 실시간 패킷을 캡쳐할 때 이름 해석을 해제하고 하는 것이 좋다.\r\n\r\n보기 > 이름해석 > 전송주소 해석을 키면 포트 번호에 이름을 붙여줌\r\n\r\n\r\n:::tip 이름 해석 커스텀\r\n`MAC addr`  c:\\program files\\wireshark\\ethers\r\n`IP addr`   c:\\program files\\wireshark\\hosts\r\n`port name` c:\\program files\\wireshark\\services\r\n:::"
+    },
+    {
+      "id": "와이어샤크",
+      "metadata": {
+        "permalink": "/blog/와이어샤크",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-11-27-KOSTA1/index.md",
+        "source": "@site/blog/2023-11-27-KOSTA1/index.md",
+        "title": "와이어샤크",
+        "description": "---",
+        "date": "2023-11-27T00:00:00.000Z",
+        "formattedDate": "November 27, 2023",
+        "tags": [
+          {
+            "label": "KOSTA",
+            "permalink": "/blog/tags/kosta"
+          },
+          {
+            "label": "와이어샤크",
+            "permalink": "/blog/tags/와이어샤크"
+          }
+        ],
+        "readingTime": 5.6,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "와이어샤크",
+          "title": "와이어샤크",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "KOSTA",
+            "와이어샤크"
+          ]
+        },
+        "prevItem": {
+          "title": "와이어샤크",
+          "permalink": "/blog/와이어샤크"
+        },
+        "nextItem": {
+          "title": "PKI 개념",
+          "permalink": "/blog/PKI"
+        }
+      },
+      "content": "---\r\n\r\n## 와이어샤크 설치\r\n---\r\n\r\n[이곳](https://www.wireshark.org/)에서 진행할 수 있습니다.\r\n\r\n## 컴퓨터 네트워크\r\n---\r\n\r\n데이터 통신은 MAC주소가 꼭 필요함. 이걸 논리적으로 바꾼 주소가 IP주소\r\n\r\n### 물리주소 확인\r\n\r\n```bash\r\narp -a\r\n```\r\n\r\n캐시 데이터다. 5분뒤에 지어짐 근데 지우려면\r\n\r\n```bash\r\napr -d\r\n```\r\n\r\n캐시가 남는경우는 내가 상대방과 연결을 할 때도 있지만 상대방이 나와 연결할 때도 캐시가 남음.\r\n\r\n그래서 패킷 분석할 때 캐시를 지워야 한다.\r\n\r\n\r\n### dns가 알려준 ip 캐시 정보 확인\r\n---\r\n\r\n```bash\r\nipconfig/displaydns\r\n```\r\n\r\n지우기\r\n\r\n```bash\r\nipconfig/flushdns\r\n```\r\n\r\n### 컴퓨터 이름으로 통신\r\n---\r\n\r\n```bash\r\nnbtstat -n\r\n```\r\n\r\n캐시 확인\r\n\r\n```bash\r\nnbtstat -c\r\n```\r\n\r\n캐시 삭제\r\n\r\n```bash\r\nnbtstat -R\r\n```\r\n\r\n분석할 때 arp, dns, nbtstat 캐시 지워주고 하는게 좋다.\r\n\r\n\r\n\r\n### OSI 7 계층\r\n\r\n계층을 통과할 때는 관련 헤더가 추가된다. PDU가 있다.\r\n\r\nPDU는 아래 정리..\r\n\r\n`Presentation` : Message\r\n\r\n`Transport` : Segment\r\n\r\n`Network` : packet\r\n\r\n`Datalink` : frame\r\n\r\n---\r\n\r\n`Application` : 통신 software\r\n\r\n`Presentation` : 데이터 포맷 정의 (jpg,png 등)\r\n\r\n`Session` : App 연결 유지 or 해제\r\n\r\n`Transport` : 패킷 분리, 재전송, 에러 검출 (Segment가 전송 최소단위여서)\r\n\r\n`Network` : Segment앞에 논리적 주소(IP)를 추가해서 목적 전달 가능하게 해줌 > Packet\r\n\r\n`Datalink` : 물리 주소를 추가해서 전달(MAC,DLCI) > Frame\r\n\r\n`Pyhsical` : bit를 전기신호로 변환, 전기적, 기능적 특성, 절차적 특성, 기계적 특성에 대한 약속\r\n\r\n\r\n### TCP/IP 4 계층\r\n\r\n`Application` : osi의 application, presentation, session을 합친 계층, http, telnet, dns, dhcp 프로토콜이 있음\r\n\r\n`Transport` : TCP,UDP 프로토콜이 있음\r\n\r\n    + 포트번호를 통해서 Application 어디로 보낼지 담겨있음\r\n\r\n\r\n`Internet` : OSI의 network 계층, ICMP, IP, ARP RARP 있다. \r\n    \r\n    + protocol Number 를 통해서 TCP,UDP.. 등 어디로 넘기지 담겨있음\r\n\r\n`network access` : OSI의 datalink, physical 계층 ethernet2(MAC) \r\n    \r\n    + Type(IPv4, IPv6)이 인터넷 계층 프로토콜 어디로 보낼지 구분해줌 \r\n\r\n![Alt text](image.png)\r\n\r\n\r\n### 포트번호\r\n\r\n`0 ~ 1023` : 잘 알려진 서비스 예약 포트\r\n\r\n`1024 ~ 49151` : 추가 표준 상용 tool 예약 포트\r\n\r\n`49152 ~ 65535` : 개인용 포트\r\n\r\n\r\n:::tip\r\n[도움이 되는 다양한 정보들이 담긴 url 1](https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml)  \r\n[도움이 되는 다양한 정보들이 담긴 url 2](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)\r\n:::\r\n\r\n\r\n### 네트워크 연결 장치\r\n\r\n1. HUB\r\n\r\n허브는 다 확인해보고 해당 목적지인지 검사하고 아니면 다음 목적지로.. 반복\r\n\r\n2. Switch\r\n\r\n스위치는 목적지 주소가 포함되어 있어서 해당 목적지에만 방문 근데 FFFF가 목적지 주소이면 브로드캐스트 인데 모든 스위치에 전달(Flooding)하기 때문에 네트워크 부하가 옴 > 차단의 필요성이 있다.\r\n\r\n:::tip 스위치 동작\r\n1. Flooding\r\n\r\n들어온 포트를 제외하고 모든 포트에 뿌림\r\n\r\n2. Learning\r\n\r\n맥주소를 학습해서 맥 테이블에 작성\r\n\r\n3. Forwarding\r\n\r\n목적지 맥주소에 그대로 프레임 보내는 것\r\n\r\n4. Filtering\r\n\r\n목적지 주소를 알고 있을 때 프레임 전송을 막는 것\r\n\r\n:::\r\n\r\n\r\n3. Router\r\n\r\n라우터는 네트워크 별로 전송 차단할 수 있음. 브로드캐스트로 인한 네트워크 부하 방지\r\n\r\n### TCP와 UDP\r\n\r\n`TCP` : 헤더(20 ~ 60byte)\r\n\r\nA >> 확인신호 >> B\r\n\r\nB >> 응답 >> A\r\n\r\nA >> 연결 확정 >> B\r\n\r\nA >> 데이터 전달 >> B\r\n\r\nB >> 응답 >> A\r\n\r\n`UDP` : 헤더 (8byte)\r\n\r\nA >> 데이터 전달 >> B\r\n\r\n## wireshark\r\n---\r\n\r\n와이어샤크는 마지막 상태 설정이 저장된다.\r\n\r\n\r\n\r\n캡처 옵션에서 모두 무작위를 끄면 나한테 들어오는 패킷만 확인할 수 있다.\r\n\r\n### 숨김\r\n\r\n캡처 > 옵션 > 인터페이스관리에서 표시를 체크 해제하면 인터페이스를 숨길 수 있다.\r\n\r\n아니면 네트워크 설정에서 어댑터 사용안하면 안보임\r\n\r\n아니면 라이브러리(npcap)가 삭제됐을 수도 있음.\r\n\r\n아니면 가상 인터페이스를 추가하고 재부팅해야 보임\r\n\r\n\r\n### 통계\r\n\r\n필터에 `tcp.stream == 1` 등으로 필터링 후\r\n\r\n통계 > 플로 그래프 > 표시 필터로 제한\r\n\r\n![Alt text](image-1.png)\r\n\r\n\r\n### 스트림 확인\r\n\r\n패킷에 우클릭 > 따라가기 > TCP 스트림 등..\r\n\r\n한 눈에 보인다.\r\n\r\nTCP는 최대 길이가 1514여서 잘려서 분석하기 어려울 수 있는데 한 눈에 확인 가능"
+    },
+    {
       "id": "PKI",
       "metadata": {
         "permalink": "/blog/PKI",
@@ -37,6 +255,10 @@
             "pki",
             "PKI"
           ]
+        },
+        "prevItem": {
+          "title": "와이어샤크",
+          "permalink": "/blog/와이어샤크"
         },
         "nextItem": {
           "title": "Overloading & Overriding",
@@ -102,64 +324,11 @@
           "permalink": "/blog/PKI"
         },
         "nextItem": {
-          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-          "permalink": "/blog/design pattern rule"
-        }
-      },
-      "content": "오버로딩과 오버라이딩에 대해서 알아보겠습니다.\r\n\r\n## 오버로딩 (Overloading)\r\n\r\n### 정의\r\n\r\n한 클래스 내에 이미 **사용하려는 이름**과 **같은 이름**을 가진 **`메소드`**가 있어도 매개 변수의 개수와 타입이 다르면 같은 이름을 사용해서 메소드를 재정의 할 수 있다.\r\n\r\n여기서 핵심은 2가지로 정리할 수 있습니다.\r\n\r\n1. 메소드의 이름이 같다.\r\n2. 매개변수의 개수나 타입이 달라야 한다.\r\n3. 리턴값과는 상관 없습니다.\r\n\r\n\r\n### 오버로딩 함수 코드\r\n\r\n```java title='오버로딩 함수'\r\npublic class OverringClass {\r\n    \r\n    // 오버로딩 1번 함수\r\n    public void OverloadMethod(){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 0개\");\r\n        System.out.println(\"매개변수 타입 : void\");\r\n        System.out.println(\"오버라이딩 1번 함수 입니다.\");\r\n        System.out.println(\"============================\");\r\n    }\r\n\r\n    // 오버로딩 2번 함수\r\n    public int OverloadMethod(int a, int b){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 2개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a+b;\r\n    }\r\n\r\n    // 오버로딩 3번 함수\r\n    public int OverloadMethod(int a, int b, int c){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 3개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a*b*c;\r\n    }\r\n\r\n\r\n    // 오버로딩 4번 함수\r\n    public boolean OverloadMethod(String str){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 1개\");\r\n        System.out.println(\"매개변수 타입 : String\");\r\n        System.out.println(\"오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        if(str.equals(\"park\")){\r\n            return true;\r\n        }else{\r\n            return false;\r\n        }\r\n    }\r\n}\r\n\r\n```\r\n\r\n위 함수들을 보시면 `OverloadMethod`로 이름들이 같지만 타입과 매개변수의 수가 다른 것들을 보실 수 있습니다. 함수들에 대한 설명은 코드에 작성돼 있으니 참고해주세요~ 😎\r\n\r\n코드를 실행하는 코드와 결과를 확인해보겠습니다.\r\n\r\n``` java title='결과 확인 코드'\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        OverringClass oc = new OverringClass();\r\n        \r\n        // 오버로딩 1번 함수\r\n        oc.OverloadMethod();\r\n\r\n        // 오버로딩 2번 함수\r\n        int a = oc.OverloadMethod(1,2);\r\n        System.out.println(\"오버로딩 2번 함수 반환값 : \"+a);\r\n\r\n        // 오버로딩 3번 함수\r\n        int b = oc.OverloadMethod(4,5,6);\r\n        System.out.println(\"오버로딩 3번 함수 반환값 : \"+b);\r\n\r\n        // 오버로딩 4번 함수\r\n        boolean c = oc.OverloadMethod(\"park\");\r\n        System.out.println(\"오버로딩 4번 함수 반환값 : \"+c);\r\n    }\r\n}\r\n```\r\n\r\n```text title='결과'\r\n============================\r\n매개변수 수 : 0개\r\n매개변수 타입 : void\r\n오버라이딩 1번 함수 입니다.\r\n============================\r\n============================\r\n매개변수 수 : 2개\r\n매개변수 타입 : int\r\n오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\r\n============================\r\n오버로딩 2번 함수 반환값 : 3\r\n============================\r\n매개변수 수 : 3개\r\n매개변수 타입 : int\r\n오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\r\n============================\r\n오버로딩 3번 함수 반환값 : 120\r\n============================\r\n매개변수 수 : 1개\r\n매개변수 타입 : String\r\n오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\r\n============================\r\n오버로딩 4번 함수 반환값 : true\r\n```"
-    },
-    {
-      "id": "design pattern rule",
-      "metadata": {
-        "permalink": "/blog/design pattern rule",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-rule/index.md",
-        "source": "@site/blog/2023-08-29-rule/index.md",
-        "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-        "description": "SRP ( 단일 책임의 원칙 : Single Responsibility Principle )",
-        "date": "2023-08-29T00:00:00.000Z",
-        "formattedDate": "August 29, 2023",
-        "tags": [
-          {
-            "label": "design pattern",
-            "permalink": "/blog/tags/design-pattern"
-          },
-          {
-            "label": "rule",
-            "permalink": "/blog/tags/rule"
-          }
-        ],
-        "readingTime": 1.925,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "design pattern rule",
-          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "design pattern",
-            "rule"
-          ]
-        },
-        "prevItem": {
-          "title": "Overloading & Overriding",
-          "permalink": "/blog/Overloading and Overriding"
-        },
-        "nextItem": {
           "title": "전략 패턴 - Strategy pattern",
           "permalink": "/blog/strategy pattern"
         }
       },
-      "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
+      "content": "오버로딩과 오버라이딩에 대해서 알아보겠습니다.\r\n\r\n## 오버로딩 (Overloading)\r\n\r\n### 정의\r\n\r\n한 클래스 내에 이미 **사용하려는 이름**과 **같은 이름**을 가진 **`메소드`**가 있어도 매개 변수의 개수와 타입이 다르면 같은 이름을 사용해서 메소드를 재정의 할 수 있다.\r\n\r\n여기서 핵심은 2가지로 정리할 수 있습니다.\r\n\r\n1. 메소드의 이름이 같다.\r\n2. 매개변수의 개수나 타입이 달라야 한다.\r\n3. 리턴값과는 상관 없습니다.\r\n\r\n\r\n### 오버로딩 함수 코드\r\n\r\n```java title='오버로딩 함수'\r\npublic class OverringClass {\r\n    \r\n    // 오버로딩 1번 함수\r\n    public void OverloadMethod(){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 0개\");\r\n        System.out.println(\"매개변수 타입 : void\");\r\n        System.out.println(\"오버라이딩 1번 함수 입니다.\");\r\n        System.out.println(\"============================\");\r\n    }\r\n\r\n    // 오버로딩 2번 함수\r\n    public int OverloadMethod(int a, int b){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 2개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a+b;\r\n    }\r\n\r\n    // 오버로딩 3번 함수\r\n    public int OverloadMethod(int a, int b, int c){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 3개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a*b*c;\r\n    }\r\n\r\n\r\n    // 오버로딩 4번 함수\r\n    public boolean OverloadMethod(String str){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 1개\");\r\n        System.out.println(\"매개변수 타입 : String\");\r\n        System.out.println(\"오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        if(str.equals(\"park\")){\r\n            return true;\r\n        }else{\r\n            return false;\r\n        }\r\n    }\r\n}\r\n\r\n```\r\n\r\n위 함수들을 보시면 `OverloadMethod`로 이름들이 같지만 타입과 매개변수의 수가 다른 것들을 보실 수 있습니다. 함수들에 대한 설명은 코드에 작성돼 있으니 참고해주세요~ 😎\r\n\r\n코드를 실행하는 코드와 결과를 확인해보겠습니다.\r\n\r\n``` java title='결과 확인 코드'\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        OverringClass oc = new OverringClass();\r\n        \r\n        // 오버로딩 1번 함수\r\n        oc.OverloadMethod();\r\n\r\n        // 오버로딩 2번 함수\r\n        int a = oc.OverloadMethod(1,2);\r\n        System.out.println(\"오버로딩 2번 함수 반환값 : \"+a);\r\n\r\n        // 오버로딩 3번 함수\r\n        int b = oc.OverloadMethod(4,5,6);\r\n        System.out.println(\"오버로딩 3번 함수 반환값 : \"+b);\r\n\r\n        // 오버로딩 4번 함수\r\n        boolean c = oc.OverloadMethod(\"park\");\r\n        System.out.println(\"오버로딩 4번 함수 반환값 : \"+c);\r\n    }\r\n}\r\n```\r\n\r\n```text title='결과'\r\n============================\r\n매개변수 수 : 0개\r\n매개변수 타입 : void\r\n오버라이딩 1번 함수 입니다.\r\n============================\r\n============================\r\n매개변수 수 : 2개\r\n매개변수 타입 : int\r\n오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\r\n============================\r\n오버로딩 2번 함수 반환값 : 3\r\n============================\r\n매개변수 수 : 3개\r\n매개변수 타입 : int\r\n오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\r\n============================\r\n오버로딩 3번 함수 반환값 : 120\r\n============================\r\n매개변수 수 : 1개\r\n매개변수 타입 : String\r\n오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\r\n============================\r\n오버로딩 4번 함수 반환값 : true\r\n```"
     },
     {
       "id": "strategy pattern",
@@ -204,15 +373,68 @@
           ]
         },
         "prevItem": {
+          "title": "Overloading & Overriding",
+          "permalink": "/blog/Overloading and Overriding"
+        },
+        "nextItem": {
           "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
           "permalink": "/blog/design pattern rule"
+        }
+      },
+      "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
+    },
+    {
+      "id": "design pattern rule",
+      "metadata": {
+        "permalink": "/blog/design pattern rule",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-rule/index.md",
+        "source": "@site/blog/2023-08-29-rule/index.md",
+        "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+        "description": "SRP ( 단일 책임의 원칙 : Single Responsibility Principle )",
+        "date": "2023-08-29T00:00:00.000Z",
+        "formattedDate": "August 29, 2023",
+        "tags": [
+          {
+            "label": "design pattern",
+            "permalink": "/blog/tags/design-pattern"
+          },
+          {
+            "label": "rule",
+            "permalink": "/blog/tags/rule"
+          }
+        ],
+        "readingTime": 1.925,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "design pattern rule",
+          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "design pattern",
+            "rule"
+          ]
+        },
+        "prevItem": {
+          "title": "전략 패턴 - Strategy pattern",
+          "permalink": "/blog/strategy pattern"
         },
         "nextItem": {
           "title": "Welcome",
           "permalink": "/blog/welcome"
         }
       },
-      "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
+      "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
     },
     {
       "id": "welcome",
@@ -257,8 +479,8 @@
           ]
         },
         "prevItem": {
-          "title": "전략 패턴 - Strategy pattern",
-          "permalink": "/blog/strategy pattern"
+          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+          "permalink": "/blog/design pattern rule"
         }
       },
       "content": "Docusaurus 첫번째 글이다.\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\n귀여운 공룡 인형이 있다."

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master2/backend31",
+  "id": "backend-master2/backend31",
+  "title": "31. [BackEnd] kubectl & k9s",
+  "description": "위 두 도구들은 kubernates 클러스터에 접속하는 2개 cli 툴이다.",
+  "source": "@site/docs/backend-master2/backend31.md",
+  "sourceDirName": "backend-master2",
+  "slug": "/backend-master2/backend31",
+  "permalink": "/docs/backend-master2/backend31",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 31,
+  "frontMatter": {
+    "sidebar_position": 31
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "30. [BackEnd] 쿠버네티스 + EKS",
+    "permalink": "/docs/backend-master2/backend30"
+  },
+  "next": {
+    "title": "32. [BackEnd] EKS 쿠버네티스 클러스터에 배포",
+    "permalink": "/docs/backend-master2/backend32"
+  }
+}

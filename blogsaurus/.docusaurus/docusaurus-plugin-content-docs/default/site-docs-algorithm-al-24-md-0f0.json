@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al24",
+  "id": "algorithm/al24",
+  "title": "[백준] 1260 DFS와 BFS",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al24.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al24",
+  "permalink": "/docs/algorithm/al24",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 24,
+  "frontMatter": {
+    "sidebar_position": 24
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 11399 ATM",
+    "permalink": "/docs/algorithm/al23"
+  },
+  "next": {
+    "title": "[백준] 11047 동전 0",
+    "permalink": "/docs/algorithm/al25"
+  }
+}

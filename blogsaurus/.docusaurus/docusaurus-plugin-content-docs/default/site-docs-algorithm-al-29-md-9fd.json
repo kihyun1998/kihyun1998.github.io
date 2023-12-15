@@ -1,0 +1,22 @@
+{
+  "unversionedId": "algorithm/al29",
+  "id": "algorithm/al29",
+  "title": "[백준]",
+  "description": "문제 1463 1로 만들기",
+  "source": "@site/docs/algorithm/al29.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al29",
+  "permalink": "/docs/algorithm/al29",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 29,
+  "frontMatter": {
+    "sidebar_position": 29
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 1003 피보나치 함수",
+    "permalink": "/docs/algorithm/al28"
+  }
+}

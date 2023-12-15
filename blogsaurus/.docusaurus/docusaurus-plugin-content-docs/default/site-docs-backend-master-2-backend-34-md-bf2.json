@@ -1,0 +1,26 @@
+{
+  "unversionedId": "backend-master2/backend34",
+  "id": "backend-master2/backend34",
+  "title": "34. [BackEnd] 세션을 위한 refresh token",
+  "description": "현재 Access 토큰의 문제점",
+  "source": "@site/docs/backend-master2/backend34.md",
+  "sourceDirName": "backend-master2",
+  "slug": "/backend-master2/backend34",
+  "permalink": "/docs/backend-master2/backend34",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 34,
+  "frontMatter": {
+    "sidebar_position": 34
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "33. [BackEnd] 무료 도메인 Route53 사용",
+    "permalink": "/docs/backend-master2/backend33"
+  },
+  "next": {
+    "title": "34. [BackEnd] dbdocs 사용",
+    "permalink": "/docs/backend-master2/backend35"
+  }
+}

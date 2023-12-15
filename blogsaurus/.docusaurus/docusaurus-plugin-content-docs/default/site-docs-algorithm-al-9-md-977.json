@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al9",
+  "id": "algorithm/al9",
+  "title": "[백준] 2609 최대공약수와 최소공배수",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al9.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al9",
+  "permalink": "/docs/algorithm/al9",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 2566 최댓값",
+    "permalink": "/docs/algorithm/al8"
+  },
+  "next": {
+    "title": "[백준] 11050 이항 계수 1",
+    "permalink": "/docs/algorithm/al10"
+  }
+}

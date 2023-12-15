@@ -11,6 +11,151 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "algorithm/al1",
+              "path": "/docs/algorithm/al1",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al10",
+              "path": "/docs/algorithm/al10",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al11",
+              "path": "/docs/algorithm/al11",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al12",
+              "path": "/docs/algorithm/al12",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al13",
+              "path": "/docs/algorithm/al13",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al14",
+              "path": "/docs/algorithm/al14",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al15",
+              "path": "/docs/algorithm/al15",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al16",
+              "path": "/docs/algorithm/al16",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al17",
+              "path": "/docs/algorithm/al17",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al18",
+              "path": "/docs/algorithm/al18",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al19",
+              "path": "/docs/algorithm/al19",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al2",
+              "path": "/docs/algorithm/al2",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al20",
+              "path": "/docs/algorithm/al20",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al21",
+              "path": "/docs/algorithm/al21",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al22",
+              "path": "/docs/algorithm/al22",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al23",
+              "path": "/docs/algorithm/al23",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al24",
+              "path": "/docs/algorithm/al24",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al25",
+              "path": "/docs/algorithm/al25",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al26",
+              "path": "/docs/algorithm/al26",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al27",
+              "path": "/docs/algorithm/al27",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al28",
+              "path": "/docs/algorithm/al28",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al29",
+              "path": "/docs/algorithm/al29",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al3",
+              "path": "/docs/algorithm/al3",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al4",
+              "path": "/docs/algorithm/al4",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al5",
+              "path": "/docs/algorithm/al5",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al6",
+              "path": "/docs/algorithm/al6",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al7",
+              "path": "/docs/algorithm/al7",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al8",
+              "path": "/docs/algorithm/al8",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al9",
+              "path": "/docs/algorithm/al9",
+              "sidebar": "algorithmSidebar"
+            },
+            {
               "id": "backend-basic/backend1",
               "path": "/docs/backend-basic/backend1",
               "sidebar": "backSidebar"
@@ -166,6 +311,31 @@
               "sidebar": "backSidebar"
             },
             {
+              "id": "backend-master2/backend31",
+              "path": "/docs/backend-master2/backend31",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master2/backend32",
+              "path": "/docs/backend-master2/backend32",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master2/backend33",
+              "path": "/docs/backend-master2/backend33",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master2/backend34",
+              "path": "/docs/backend-master2/backend34",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "backend-master2/backend35",
+              "path": "/docs/backend-master2/backend35",
+              "sidebar": "backSidebar"
+            },
+            {
               "id": "blog-configuration/install_node",
               "path": "/docs/blog-configuration/install_node",
               "sidebar": "blogSidebar"
@@ -231,6 +401,11 @@
               "sidebar": "designPatternSidebar"
             },
             {
+              "id": "dev-ops/dev-ops1",
+              "path": "/docs/dev-ops/dev-ops1",
+              "sidebar": "backSidebar"
+            },
+            {
               "id": "DP--behavioral-patterns/observer",
               "path": "/docs/DP--behavioral-patterns/observer",
               "sidebar": "designPatternSidebar"
@@ -253,6 +428,26 @@
             {
               "id": "flutter-kosta/kosta1",
               "path": "/docs/flutter-kosta/kosta1",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter-kosta/kosta2",
+              "path": "/docs/flutter-kosta/kosta2",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter-kosta/kosta3",
+              "path": "/docs/flutter-kosta/kosta3",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter-kosta/kosta4",
+              "path": "/docs/flutter-kosta/kosta4",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter-kosta/kosta5",
+              "path": "/docs/flutter-kosta/kosta5",
               "sidebar": "dartSidebar"
             },
             {
@@ -421,9 +616,44 @@
               "sidebar": "goSidebar"
             },
             {
+              "id": "go/go7",
+              "path": "/docs/go/go7",
+              "sidebar": "goSidebar"
+            },
+            {
+              "id": "gRPC/grpc1",
+              "path": "/docs/gRPC/grpc1",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "gRPC/grpc2",
+              "path": "/docs/gRPC/grpc2",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "gRPC/grpc3",
+              "path": "/docs/gRPC/grpc3",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "gRPC/grpc4",
+              "path": "/docs/gRPC/grpc4",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "gRPC/grpc5",
+              "path": "/docs/gRPC/grpc5",
+              "sidebar": "backSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/nodejs1",
+              "path": "/docs/nodejs/nodejs1",
+              "sidebar": "backSidebar"
             },
             {
               "id": "react-basic/react1",
@@ -518,6 +748,12 @@
               "link": {
                 "path": "/docs/backend-basic/backend1",
                 "label": "backend-basic/backend1"
+              }
+            },
+            "algorithmSidebar": {
+              "link": {
+                "path": "/docs/algorithm/al1",
+                "label": "algorithm/al1"
               }
             }
           }

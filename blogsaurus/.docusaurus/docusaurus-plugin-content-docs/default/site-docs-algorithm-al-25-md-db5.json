@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al25",
+  "id": "algorithm/al25",
+  "title": "[백준] 11047 동전 0",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al25.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al25",
+  "permalink": "/docs/algorithm/al25",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 25,
+  "frontMatter": {
+    "sidebar_position": 25
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 1260 DFS와 BFS",
+    "permalink": "/docs/algorithm/al24"
+  },
+  "next": {
+    "title": "[백준] 2178 미로 탐색",
+    "permalink": "/docs/algorithm/al26"
+  }
+}

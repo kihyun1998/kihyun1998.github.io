@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al2",
+  "id": "algorithm/al2",
+  "title": "[백준] 10813 공 바꾸기",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al2.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al2",
+  "permalink": "/docs/algorithm/al2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 10810 공 넣기",
+    "permalink": "/docs/algorithm/al1"
+  },
+  "next": {
+    "title": "[백준] 10811 바구니 뒤집기",
+    "permalink": "/docs/algorithm/al3"
+  }
+}

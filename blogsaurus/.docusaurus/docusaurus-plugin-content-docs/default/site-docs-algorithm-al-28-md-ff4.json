@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al28",
+  "id": "algorithm/al28",
+  "title": "[백준] 1003 피보나치 함수",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al28.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al28",
+  "permalink": "/docs/algorithm/al28",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 28,
+  "frontMatter": {
+    "sidebar_position": 28
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 2606 바이러스",
+    "permalink": "/docs/algorithm/al27"
+  },
+  "next": {
+    "title": "[백준]",
+    "permalink": "/docs/algorithm/al29"
+  }
+}

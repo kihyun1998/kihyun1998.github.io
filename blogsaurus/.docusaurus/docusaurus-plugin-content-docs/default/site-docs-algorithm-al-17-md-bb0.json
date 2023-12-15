@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al17",
+  "id": "algorithm/al17",
+  "title": "[백준] 15829 Hashing",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al17.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al17",
+  "permalink": "/docs/algorithm/al17",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 1676 팩토리얼 0의 개수",
+    "permalink": "/docs/algorithm/al16"
+  },
+  "next": {
+    "title": "[백준] 10773 제로",
+    "permalink": "/docs/algorithm/al18"
+  }
+}

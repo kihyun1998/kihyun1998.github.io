@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter-kosta/kosta3",
+  "id": "flutter-kosta/kosta3",
+  "title": "03. [KOSTA] 플러터 상태관리",
+  "description": "상태란",
+  "source": "@site/docs/flutter-kosta/kosta3.md",
+  "sourceDirName": "flutter-kosta",
+  "slug": "/flutter-kosta/kosta3",
+  "permalink": "/docs/flutter-kosta/kosta3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "02. [KOSTA] 플러터 심화 교육",
+    "permalink": "/docs/flutter-kosta/kosta2"
+  },
+  "next": {
+    "title": "04. [KOSTA] 디자인 시스템 및 반응형 UI",
+    "permalink": "/docs/flutter-kosta/kosta4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al19",
+  "id": "algorithm/al19",
+  "title": "[백준] 18110 solved.ac",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al19.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al19",
+  "permalink": "/docs/algorithm/al19",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 19,
+  "frontMatter": {
+    "sidebar_position": 19
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 10773 제로",
+    "permalink": "/docs/algorithm/al18"
+  },
+  "next": {
+    "title": "[백준] 4949 균현잡힌 세상",
+    "permalink": "/docs/algorithm/al20"
+  }
+}

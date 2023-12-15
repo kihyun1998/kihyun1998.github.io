@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al4",
+  "id": "algorithm/al4",
+  "title": "[백준] 27866 문자와 문자열",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al4.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al4",
+  "permalink": "/docs/algorithm/al4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 10811 바구니 뒤집기",
+    "permalink": "/docs/algorithm/al3"
+  },
+  "next": {
+    "title": "[백준] 2444 별 찍기 - 7",
+    "permalink": "/docs/algorithm/al5"
+  }
+}

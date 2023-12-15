@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al15",
+  "id": "algorithm/al15",
+  "title": "[백준] 2164 카드2",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al15.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al15",
+  "permalink": "/docs/algorithm/al15",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 2164 카드2",
+    "permalink": "/docs/algorithm/al14"
+  },
+  "next": {
+    "title": "[백준] 1676 팩토리얼 0의 개수",
+    "permalink": "/docs/algorithm/al16"
+  }
+}

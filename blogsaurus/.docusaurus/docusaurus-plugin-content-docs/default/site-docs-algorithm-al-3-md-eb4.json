@@ -1,0 +1,26 @@
+{
+  "unversionedId": "algorithm/al3",
+  "id": "algorithm/al3",
+  "title": "[백준] 10811 바구니 뒤집기",
+  "description": "문제",
+  "source": "@site/docs/algorithm/al3.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al3",
+  "permalink": "/docs/algorithm/al3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준] 10813 공 바꾸기",
+    "permalink": "/docs/algorithm/al2"
+  },
+  "next": {
+    "title": "[백준] 27866 문자와 문자열",
+    "permalink": "/docs/algorithm/al4"
+  }
+}

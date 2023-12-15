@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter-kosta/kosta4",
+  "id": "flutter-kosta/kosta4",
+  "title": "04. [KOSTA] 디자인 시스템 및 반응형 UI",
+  "description": "디자인 시스템",
+  "source": "@site/docs/flutter-kosta/kosta4.md",
+  "sourceDirName": "flutter-kosta",
+  "slug": "/flutter-kosta/kosta4",
+  "permalink": "/docs/flutter-kosta/kosta4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "03. [KOSTA] 플러터 상태관리",
+    "permalink": "/docs/flutter-kosta/kosta3"
+  },
+  "next": {
+    "title": "04. [KOSTA] 플러터 아키텍처",
+    "permalink": "/docs/flutter-kosta/kosta5"
+  }
+}
