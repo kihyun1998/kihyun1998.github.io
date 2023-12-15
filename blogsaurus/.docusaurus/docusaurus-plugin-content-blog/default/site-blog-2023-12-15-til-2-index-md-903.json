@@ -1,8 +1,8 @@
 {
-  "permalink": "/blog/mvvm",
-  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-15-til1/index.md",
-  "source": "@site/blog/2023-12-15-til1/index.md",
-  "title": "MVVM 아키텍처",
+  "permalink": "/blog/test code",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-15-til2/index.md",
+  "source": "@site/blog/2023-12-15-til2/index.md",
+  "title": "테스트 코드",
   "description": "---",
   "date": "2023-12-15T00:00:00.000Z",
   "formattedDate": "December 15, 2023",
@@ -20,11 +20,15 @@
       "permalink": "/blog/tags/flutter"
     },
     {
-      "label": "mvvm",
-      "permalink": "/blog/tags/mvvm"
+      "label": "테스트 코드",
+      "permalink": "/blog/tags/테스트-코드"
+    },
+    {
+      "label": "test code",
+      "permalink": "/blog/tags/test-code"
     }
   ],
-  "readingTime": 1.42,
+  "readingTime": 1.21,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -36,8 +40,8 @@
     }
   ],
   "frontMatter": {
-    "slug": "mvvm",
-    "title": "MVVM 아키텍처",
+    "slug": "test code",
+    "title": "테스트 코드",
     "authors": [
       "kihyun"
     ],
@@ -45,11 +49,16 @@
       "KOSTA",
       "플러터",
       "flutter",
-      "mvvm"
+      "테스트 코드",
+      "test code"
     ]
   },
+  "prevItem": {
+    "title": "MVVM 아키텍처",
+    "permalink": "/blog/mvvm"
+  },
   "nextItem": {
-    "title": "테스트 코드",
-    "permalink": "/blog/test code"
+    "title": "와이어샤크",
+    "permalink": "/blog/와이어샤크"
   }
 }

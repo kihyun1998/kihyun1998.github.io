@@ -1,7 +1,7 @@
 {
   "permalink": "/blog/mvvm",
-  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-15-til1/index.md",
-  "source": "@site/blog/2023-12-15-til1/index.md",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-15-til1 copy/index.md",
+  "source": "@site/blog/2023-12-15-til1 copy/index.md",
   "title": "MVVM 아키텍처",
   "description": "---",
   "date": "2023-12-15T00:00:00.000Z",
@@ -48,8 +48,12 @@
       "mvvm"
     ]
   },
+  "prevItem": {
+    "title": "MVVM 아키텍처",
+    "permalink": "/blog/mvvm"
+  },
   "nextItem": {
-    "title": "테스트 코드",
-    "permalink": "/blog/test code"
+    "title": "와이어샤크",
+    "permalink": "/blog/와이어샤크"
   }
 }

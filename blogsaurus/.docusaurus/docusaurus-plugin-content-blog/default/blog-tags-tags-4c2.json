@@ -2,21 +2,31 @@
   {
     "label": "KOSTA",
     "permalink": "/blog/tags/kosta",
-    "count": 4
+    "count": 5
   },
   {
     "label": "플러터",
     "permalink": "/blog/tags/플러터",
-    "count": 1
+    "count": 2
   },
   {
     "label": "flutter",
     "permalink": "/blog/tags/flutter",
-    "count": 1
+    "count": 2
   },
   {
     "label": "mvvm",
     "permalink": "/blog/tags/mvvm",
+    "count": 1
+  },
+  {
+    "label": "테스트 코드",
+    "permalink": "/blog/tags/테스트-코드",
+    "count": 1
+  },
+  {
+    "label": "test code",
+    "permalink": "/blog/tags/test-code",
     "count": 1
   },
   {
@@ -55,11 +65,6 @@
     "count": 2
   },
   {
-    "label": "strategy pattern",
-    "permalink": "/blog/tags/strategy-pattern",
-    "count": 1
-  },
-  {
     "label": "rule",
     "permalink": "/blog/tags/rule",
     "count": 1
@@ -72,6 +77,11 @@
   {
     "label": "first post",
     "permalink": "/blog/tags/first-post",
+    "count": 1
+  },
+  {
+    "label": "strategy pattern",
+    "permalink": "/blog/tags/strategy-pattern",
     "count": 1
   }
 ]

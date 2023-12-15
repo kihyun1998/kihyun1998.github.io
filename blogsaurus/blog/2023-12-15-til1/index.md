@@ -32,3 +32,5 @@ tags: [KOSTA, 플러터, flutter,mvvm ]
 페이지 마다 하나의 ViewModel이 있어야 하고 ViewModel은 View의 상태와 로직을 관리한다.
 
 Model은 `Service`, `Model`, `Repository`가 있는데 `Service`는 전역 상태와 비지니스 로직을 관리하고 `Model`은 데이터 `Repository`는 데이터 요청 로직을 담당한다.
+
+걍 뭔가 어려움 많이 연습해봐야겠다.

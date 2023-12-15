@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '4b4'),
+    component: ComponentCreator('/blog', '05b'),
     exact: true
   },
   {
@@ -108,13 +108,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/테스트-코드',
+    component: ComponentCreator('/blog/tags/테스트-코드', 'dda'),
+    exact: true
+  },
+  {
     path: '/blog/tags/플러터',
-    component: ComponentCreator('/blog/tags/플러터', 'e9d'),
+    component: ComponentCreator('/blog/tags/플러터', 'ecb'),
     exact: true
   },
   {
     path: '/blog/tags/design-pattern',
-    component: ComponentCreator('/blog/tags/design-pattern', '39b'),
+    component: ComponentCreator('/blog/tags/design-pattern', 'bce'),
     exact: true
   },
   {
@@ -129,12 +134,12 @@ export default [
   },
   {
     path: '/blog/tags/flutter',
-    component: ComponentCreator('/blog/tags/flutter', '952'),
+    component: ComponentCreator('/blog/tags/flutter', 'ec6'),
     exact: true
   },
   {
     path: '/blog/tags/kosta',
-    component: ComponentCreator('/blog/tags/kosta', 'd02'),
+    component: ComponentCreator('/blog/tags/kosta', '9d0'),
     exact: true
   },
   {
@@ -165,6 +170,16 @@ export default [
   {
     path: '/blog/tags/strategy-pattern',
     component: ComponentCreator('/blog/tags/strategy-pattern', 'b33'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/test-code',
+    component: ComponentCreator('/blog/tags/test-code', '45f'),
+    exact: true
+  },
+  {
+    path: '/blog/test code',
+    component: ComponentCreator('/blog/test code', '548'),
     exact: true
   },
   {
