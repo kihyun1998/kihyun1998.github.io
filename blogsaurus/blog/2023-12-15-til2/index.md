@@ -114,3 +114,6 @@ integration_test라는 폴더를 root에 만들어주고 하면 된다.
 [커버리지 거터스](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)
 
 이거는 특정 파일에서 좌측 하단 watch를 눌러보면 어디가 테스트가 안됐는지와 커버리지 % 알려준다.
+
+
+hydrated bloc을 사용해보거나 다른 서드파티들 검색해서 찾아보자
