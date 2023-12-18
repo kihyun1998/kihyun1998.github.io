@@ -1,11 +1,11 @@
 ---
 slug: Bloc
-title: Flutter Bloc 1
+title: Flutter TIL - 1
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, Bloc ]
 ---
 
-# Flutter Bloc 1
+# Flutter TIL - 1
 ---
 
 일단 vs code 확장은 `bloc`, `dart data class generator`, `dart-import`, `pubspec assist`
