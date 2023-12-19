@@ -209,3 +209,19 @@ provider 등록을 MultiProvider에 등록하는 것이 아닌 그냥 전역 변
 2. `family` : `NotifierProvider`뒤에 `family`를 추가해서 사용하면 되느데 매개변수 타입을 추가해주면 `build()`에 매개변수 추가해서 사용할 수 있습니다.
 
 3. `AutoDisposeFamilyNotifier` : 1,2번을 합친 것.
+
+
+## Error: Unable to find git in your PATH.
+---
+
+간혹 flutter를 처음할 때 아래와 같은 에러가 괴롭힌다.
+
+```bash
+Error: Unable to find git in your PATH. 
+```
+
+```bash
+git config --global --add safe.directory '*'
+```
+
+위 명령어로 해결할 수 있음 저장소 권한 문제인 것같다. 관리자 powershell은 flutter 됐었음
