@@ -169,3 +169,43 @@ final count = context.select<Counter,int>((counter) => counter.count);
 `context.read()`: 구독안하고 현재 상태 그냥 가져오기
 
 드디어 context 3형제는 이해한듯
+
+## Riverpod
+---
+
+provider 만든 사람이 만든거라고 해서 provider랑 비슷할 줄 알았는데 다르다.
+
+provider 등록을 MultiProvider에 등록하는 것이 아닌 그냥 전역 변수로 등록한다. 별도 변수에 할당하기 때문에 같은 Provider를 다른 변수에 할당할 수 있다. 그리고 BuildContex를 사용하지 않고 별도의 WidgetRef라는 것을 사용한다.
+
+
+:::tip 변경점 정리
+1. provider를 전역 변수로 선언해서 사용
+2. BuildContext 대신 WidgetRef 사용
+:::
+
+나머지는 차차 알아가보는걸로
+
+
+`StatelessWidget`은 `ConsumerWidget`으로 바꿔야한다.
+그리고 `build()`메소드 파라미터에 `WidgetRef ref`를 추가해야 ref사용할 수 있다.
+
+`StatefulWidget`은 `ConsumerStatefulWidget`으로 바꿔야 한다.
+
+바꾸기 싫으면 `Consumer` 위젯으로 감싸서 사용할 수 있다.
+
+
+### provider 종류
+
+1. `StateProvider` : 별로 클래스 선언 없이 가볍게 사용할 수 있다.
+
+2. `NotifierProvider` : 클래스를 만들어서 사용할 수 있습니다.
+
+3. `Provider` : 기존 Provider의 Provider와 같음 즉 상태가 없는 Provider들
+
+### 잡기술
+
+1. `AutoDispose` : `NotifierProvider`뒤에 `.autoDispose`를 붙이고 `Notifier` extends한 것을 `AutoDisposeNotifier`로 수정하면 됩니다. 자동으로 dispose 해줍니다.
+
+2. `family` : `NotifierProvider`뒤에 `family`를 추가해서 사용하면 되느데 매개변수 타입을 추가해주면 `build()`에 매개변수 추가해서 사용할 수 있습니다.
+
+3. `AutoDisposeFamilyNotifier` : 1,2번을 합친 것.
