@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[1287],{6617:s=>{s.exports=JSON.parse('{"label":"riverpod","permalink":"/blog/tags/riverpod","allTagsPath":"/blog/tags","count":1}')}}]);
