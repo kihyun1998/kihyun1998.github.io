@@ -2,7 +2,7 @@
 slug: Bloc
 title: Flutter TIL - 3
 authors: [kihyun]
-tags: [TIL, 플러터, flutter, riverpod,notifier ]
+tags: [TIL, 플러터, flutter, riverpod,notifier, dart 생성자 ]
 ---
 
 # Flutter TIL - 3
@@ -35,3 +35,12 @@ return ProductTile(
 `.notifier`를 붙이지 않으면 이 provider의 상태로 접근하는 것이다.
 
 즉 `List<Product>`에 접근한다. 그래서 contians 메소드를 사용할 수 있었다.
+
+## dart 생성자
+---
+
+### named parameter
+
+생성자 안에 `{}` 중괄호로 파라미터를 묶으면 named parameter 가능
+
+named parameter하면 required 할 수도 있다.
