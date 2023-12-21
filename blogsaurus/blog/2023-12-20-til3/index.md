@@ -1,14 +1,16 @@
 ---
-slug: Bloc
+slug: Flutter
 title: Flutter TIL - 3
 authors: [kihyun]
-tags: [TIL, 플러터, flutter, riverpod,notifier, dart 생성자 ]
+tags: [TIL, 플러터, flutter, riverpod, notifier, dart 생성자]
 ---
 
 # Flutter TIL - 3
+
 ---
 
 ## NotifierProvider의 notifier 메소드
+
 ---
 
 ```dart
@@ -26,6 +28,7 @@ return ProductTile(
   onPressed: ref.read(cartProvider.notifier).onProductPressed,
 );
 ```
+
 신기한 것이 있었다. 이렇게 전역변수로 선언한 것을 watch하고 read하는 것은 이해를 했는데 갑자기 `.notifier`.. 이건 뭐지
 
 실험해보고 찾아보니 `.notifier`를 붙이면 해당 provider의 class로 접근해서 그 class의 메소드 등을 사용할 수 있다는 것.
@@ -37,6 +40,7 @@ return ProductTile(
 즉 `List<Product>`에 접근한다. 그래서 contians 메소드를 사용할 수 있었다.
 
 ## dart 생성자
+
 ---
 
 ### named parameter

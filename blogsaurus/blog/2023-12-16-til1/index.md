@@ -1,11 +1,12 @@
 ---
-slug: Bloc
+slug: Flutter
 title: Flutter TIL - 1
 authors: [kihyun]
-tags: [TIL, 플러터, flutter, Bloc ]
+tags: [TIL, 플러터, flutter, Bloc]
 ---
 
 # Flutter TIL - 1
+
 ---
 
 일단 vs code 확장은 `bloc`, `dart data class generator`, `dart-import`, `pubspec assist`
@@ -14,8 +15,8 @@ tags: [TIL, 플러터, flutter, Bloc ]
 
 `pubspec assist`가 있으면 패키지를 쉽게 넣을 수 있음
 
-
 ## Bloc에 대해서
+
 ---
 
 영상을 보며 따라하면서 저번주에 KOSTA에서 배운 Bloc 사용법에 대해 익히고 있었다.
@@ -87,7 +88,6 @@ class DeleteTask extends TasksEvent {
 
 이렇게 서비스들 만들 수 있다. 현재 전부 구현된건 아닌.. 거같은데 일단 이따 수정
 
-
 ### bloc
 
 하다가 깨달았다.
@@ -106,7 +106,7 @@ class TasksBloc extends Bloc<TasksEvent, TasksState> {
 }
 ```
 
-Bloc을 extends 할 때 `Bloc<event, state>`로 하라고 배웠다. 근데 할 때 state를 `int`나 `bool`같은 타입으로만 지정해줘서 그냥 state로 사용하면 됐었는데 class로 state 타입 지정해주니 state.allTasks로 해야 하더라.. 
+Bloc을 extends 할 때 `Bloc<event, state>`로 하라고 배웠다. 근데 할 때 state를 `int`나 `bool`같은 타입으로만 지정해줘서 그냥 state로 사용하면 됐었는데 class로 state 타입 지정해주니 state.allTasks로 해야 하더라..
 
 ### 깨달음
 
