@@ -6,11 +6,9 @@ tags: [TIL, 플러터, flutter, riverpod, notifier, dart 생성자]
 ---
 
 # Flutter TIL - 3
-
 ---
 
 ## NotifierProvider의 notifier 메소드
-
 ---
 
 ```dart

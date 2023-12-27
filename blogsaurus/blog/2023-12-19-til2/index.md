@@ -6,11 +6,9 @@ tags: [TIL, 플러터, flutter, const, provider, riverpod]
 ---
 
 # Flutter TIL - 2
-
 ---
 
 ## const에 대해
-
 ---
 
 class에서 생성자를 `const`로 만들지 않았을 때

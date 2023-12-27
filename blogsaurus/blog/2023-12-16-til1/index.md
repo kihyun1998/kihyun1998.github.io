@@ -6,7 +6,6 @@ tags: [TIL, 플러터, flutter, Bloc]
 ---
 
 # Flutter TIL - 1
-
 ---
 
 일단 vs code 확장은 `bloc`, `dart data class generator`, `dart-import`, `pubspec assist`
