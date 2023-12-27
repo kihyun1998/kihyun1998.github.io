@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[5835],{21573:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/\uc624\ubc84\ub85c\ub529","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

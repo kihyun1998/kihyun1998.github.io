@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[4585],{63887:a=>{a.exports=JSON.parse('{"label":"strategy pattern","permalink":"/blog/tags/strategy-pattern","allTagsPath":"/blog/tags","count":1}')}}]);
