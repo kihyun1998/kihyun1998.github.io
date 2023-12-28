@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[7775],{78754:a=>{a.exports=JSON.parse('{"label":"future_wait","permalink":"/blog/tags/future-wait","allTagsPath":"/blog/tags","count":1}')}}]);
