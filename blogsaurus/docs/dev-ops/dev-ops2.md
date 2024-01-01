@@ -198,3 +198,33 @@ EXPOSE 5000
 CMD ["gunicorn", "-b", "0.0.0.0:5000", "run:app"]
 
 ```
+
+
+## stage
+---
+
+위에 test ci와 build ci를 작성해봤는데 이렇게 작성하면 병렬로 실행됩니다.
+
+test 먼저 후 build를 하고 싶다면 `stage`라는 것을 사용해야 합니다.
+
+```yaml
+stages:
+  - test
+  - build
+```
+
+먼저 이렇게 stage 종류를 선언합니다.
+
+```yaml
+run_tests:
+  stage: test
+  ...
+
+build_image:
+  stage: build
+  ...
+```
+
+이런 식으로 각 작업이 어떤 스테이지에 해당하는지 정의하여 사용할 수 있습니다.
+
+`CD` 즉 배포 자동화는 다음 글에 정리할게요
