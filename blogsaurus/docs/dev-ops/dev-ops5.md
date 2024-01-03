@@ -133,3 +133,38 @@ build할 때 `$(CI_COMMIT_TAG)`가 반영이 안될 줄 알았는데 반영이 �
 
 
 `$CI_PROJECT_DIR` : 프로젝트 폴더 경로
+
+
+## 지금 상황
+---
+
+기존에는 여러 repository당 각각 ci를 했다.
+
+이제는 여러 repository를 한 project안에 두어서 각각 build 된다.
+
+근데 문제점이 하나있는게 job 하나가 끝나면 그곳의 환경이 초기화된다.
+
+그래서 build하고 좀 옮겨 놓을 필요성이 있다. (build할 때도 job별로 나누는 것이 아닌 build할 땐 하나의 job에 할당해야 한다.)
+
+
+### 해결방법
+
+`artifacts`라는 것을 사용하면 된다.
+
+```yaml
+  artifacts:
+    paths:
+      - $CI_PROJECT_DIR
+```
+
+이렇게 사용하면 Gitlab의 `Build` > `Pipelines` > 해당 파이프라인에서 다운로드 받을 수 있다.
+
+```yaml
+  artifacts:
+    paths:
+      - $CI_PROJECT_DIR
+    expire_in: 1 week
+```
+
+만료 시간 제한도 걸 수 있음
+
