@@ -168,3 +168,98 @@ build할 때 `$(CI_COMMIT_TAG)`가 반영이 안될 줄 알았는데 반영이 �
 
 만료 시간 제한도 걸 수 있음
 
+
+## 해결
+---
+
+```yaml
+variables:
+  REPO_DIR: /tmp/deploy
+  DEPLOY_APP: CAL_$CI_COMMIT_TAG.tar
+  DEPLOY_DIR: /opt/deploy
+
+stages:
+  - test
+  - build
+  - deploy
+
+🔥 Test for mr-add:
+  stage: test
+  tags:
+    - linux
+  script:
+    - make test-add
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+
+
+🔥 Test for mr-sub:
+  stage: test
+  tags:
+    - linux
+  script:
+    - make test-sub
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+
+🔥 Test-add:
+  stage: test
+  tags:
+    - linux
+  script:
+    - make test-add
+  rules:
+    - if: '$CI_COMMIT_TAG =~ /^V3/'
+
+🔥 Test-sub:
+  stage: test
+  tags:
+    - linux
+  script:
+    - make test-sub
+  rules:
+    - if: '$CI_COMMIT_TAG =~ /^V3/'
+
+🛠️ Build:
+  stage: build
+  tags:
+    - linux
+  script:
+    - make build-add
+    - make build-sub
+    - tar -cvf $DEPLOY_APP $CI_COMMIT_TAG*
+    - echo $DEPLOY_APP
+  after_script:
+    - find . ! -name $DEPLOY_APP -mindepth 1 -delete
+  artifacts:
+    paths:
+      - $CI_PROJECT_DIR
+  rules:
+    - if: '$CI_COMMIT_TAG =~ /^V3/'
+
+🚀 Deploy:
+  stage: deploy
+  tags:
+    - linux
+  before_script:
+    - chmod 400 $SSH_KEY
+  script:
+    - scp -i $SSH_KEY $DEPLOY_APP root@아이피:$REPO_DIR
+    - ssh -i $SSH_KEY root@아이피 "
+      cd $REPO_DIR &&
+      mkdir -p $DEPLOY_DIR &&
+      tar xvf $DEPLOY_APP -C $DEPLOY_DIR &&
+      cd $DEPLOY_DIR &&
+      ls -al"
+  dependencies:
+    - 🛠️ Build
+  rules:
+    - if: '$CI_COMMIT_TAG =~ /^V3/'
+```
+
+```yaml
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+```
+
+이건 mr할 때만 발동한다는 뜻
