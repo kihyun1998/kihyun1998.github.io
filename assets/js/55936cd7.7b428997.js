@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[615],{58674:a=>{a.exports=JSON.parse('{"label":"data class generator","permalink":"/blog/tags/data-class-generator","allTagsPath":"/blog/tags","count":1}')}}]);
