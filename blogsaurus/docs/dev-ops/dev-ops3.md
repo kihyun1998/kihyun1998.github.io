@@ -55,8 +55,7 @@ deploy:
   script: ssh -o StrictHostKeyChecking=no -i $SSH_KEY root@192.168.135.85 "
     docker login -u $LOGIN_USER -p $LOGIN_PASS &&
     docker ps -aq | xargs docker stop | xargs docker rm &&
-    docker run -d -p 5000:5000 $IMAGE_NAME:$IMAGE_TAG
-  "
+    docker run -d -p 5000:5000 $IMAGE_NAME:$IMAGE_TAG"
 ```
 
 deploy stage를 만들고 stage를 deploy로 할당합니다.
