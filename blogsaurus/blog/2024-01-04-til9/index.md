@@ -35,6 +35,3 @@ json object로 자동 data class가 생성되는 마법이 있다고 합니다.
 그럼 data class 자동 생성 해준다.
 
 fromMap, toMap만 잘 확인해보면 된다. (beta 단계임)
-
-## dio
----
