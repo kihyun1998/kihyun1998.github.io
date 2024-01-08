@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[668],{60921:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/riverpod","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
