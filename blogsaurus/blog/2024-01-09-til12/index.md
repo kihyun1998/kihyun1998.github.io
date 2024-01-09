@@ -85,5 +85,62 @@ final autoDisposeFamilyHelloProvider =
   return 'Hello $name';
 });
 ```
-
 autoDispose와 family를 모두 사용할 수 있다.
+
+만약 둘의 인자값이 `A`라면 dispose는 한번만 일어납니다. (그냥 autoDispose도 한번만 일어남)
+
+
+## 객체 넘기기 
+---
+
+```dart
+class Counter {
+  final int count;
+  Counter({
+    required this.count,
+  });
+
+  @override
+  String toString() => 'Counter()(count: $count)';
+}
+
+final counterProvider = Provider.autoDispose.family<int, Counter>((ref, c) {
+  ref.onDispose(() {
+    print('[countProvider($c)] disposed');
+  });
+  return c.count;
+});
+```
+
+만약 위처럼 객체를 넘겨서
+
+```dart
+    ref.watch(counterProvider(Counter(count: 0)));
+    ref.watch(counterProvider(Counter(count: 0)));
+```
+
+이렇게 watch를 조지면 dispose가 두번 일어납니다. 둘 다 다른 객체로 판단합니다.
+
+
+```dart
+class Counter extends Equatable {
+  final int count;
+  const Counter({
+    required this.count,
+  });
+
+  @override
+  String toString() => 'Counter()(count: $count)';
+
+  @override
+  List<Object> get props => [count];
+}
+```
+
+Counter 객체를 Equatable해야 dispose 한번만 일어난다.
+
+
+## 정리
+---
+
+autoDispose 조심히 사용해야 한다. 계속 dispose 하기 때문에
