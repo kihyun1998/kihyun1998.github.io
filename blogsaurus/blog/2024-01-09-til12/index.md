@@ -52,5 +52,23 @@ final autoDisposeHelloProvider = Provider.autoDispose<String>((ref) {
 });
 ```
 
-페이지 나오면 autodispose해준다.
+페이지에서 나오면 autodispose해준다.
 
+## family
+---
+
+```dart
+final familyHelloProvider = Provider.family<String, String>((ref, name) {
+  ref.onDispose(() {
+    print('[familyHelloProvider] disposed');
+  });
+  return 'Hello $name';
+});
+```
+이렇게 provider 정의하면 argument 사용할 수 있다.
+
+```dart
+    final helloA = ref.watch(familyHelloProvider('A'));
+    final helloB = ref.watch(familyHelloProvider('B'));
+```
+watch할 때도 이런식으로 해야한다.
