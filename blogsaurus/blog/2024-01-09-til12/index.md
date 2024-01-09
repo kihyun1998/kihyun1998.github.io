@@ -72,3 +72,18 @@ final familyHelloProvider = Provider.family<String, String>((ref, name) {
     final helloB = ref.watch(familyHelloProvider('B'));
 ```
 watch할 때도 이런식으로 해야한다.
+
+## autoDisposeFamily
+---
+
+```dart
+final autoDisposeFamilyHelloProvider =
+    Provider.autoDispose.family<String, String>((ref, name) {
+  ref.onDispose(() {
+    print('[autoDisposeFamilyHelloProvider] disposed');
+  });
+  return 'Hello $name';
+});
+```
+
+autoDispose와 family를 모두 사용할 수 있다.
