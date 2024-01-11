@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[7073],{44252:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/flutter/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":15,"previousPage":"/blog/tags/flutter","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

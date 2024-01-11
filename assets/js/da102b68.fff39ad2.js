@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[1583],{49495:a=>{a.exports=JSON.parse('{"label":"remote api","permalink":"/blog/tags/remote-api","allTagsPath":"/blog/tags","count":1}')}}]);

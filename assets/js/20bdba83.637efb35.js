@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[8287],{19264:s=>{s.exports=JSON.parse('{"label":"revierpod","permalink":"/blog/tags/revierpod","allTagsPath":"/blog/tags","count":2}')}}]);
