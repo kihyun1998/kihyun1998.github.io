@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[297],{21543:s=>{s.exports=JSON.parse('{"label":"provider","permalink":"/blog/tags/provider","allTagsPath":"/blog/tags","count":3}')}}]);
