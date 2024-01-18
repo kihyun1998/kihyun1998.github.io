@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[7163],{6151:s=>{s.exports=JSON.parse('{"label":"notifierProvider","permalink":"/blog/tags/notifier-provider","allTagsPath":"/blog/tags","count":2}')}}]);

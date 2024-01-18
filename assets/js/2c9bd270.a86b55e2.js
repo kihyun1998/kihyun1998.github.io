@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[3812],{59688:s=>{s.exports=JSON.parse('{"label":"enum based class","permalink":"/blog/tags/enum-based-class","allTagsPath":"/blog/tags","count":1}')}}]);
