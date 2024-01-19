@@ -43,11 +43,28 @@ gpt의 답변을 정리합니다.
 
 ### value
 
-|Async종류|previous value X|previous value O|
-|------|----------|----------|
-|AsyncLoading|null|previous value|
-|AsyncData|current value|current value|
-|AsyncError|rethrow error|previous value|
+<table>
+  <tr class="custom_th">
+    <th>Async종류</th>
+    <th>previous value [no]</th>
+    <th>previous value [yes]</th>
+  </tr>
+  <tr>
+    <td class="custom_td">AsyncLoading</td>
+    <td>null</td>
+    <td>previous value</td>
+  </tr>
+  <tr>
+    <td class="custom_td">AsyncData</td>
+    <td>current value</td>
+    <td>current value</td>
+  </tr>
+  <tr>
+    <td class="custom_td">AsyncError</td>
+    <td>rethrow error</td>
+    <td>previous value</td>
+  </tr>
+</table>
 
 
 
