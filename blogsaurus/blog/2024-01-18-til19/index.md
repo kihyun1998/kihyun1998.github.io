@@ -236,7 +236,43 @@ future.delayed로 감싸는 것이 아닌 state에 init()을 먼저 할당해준
 
 `AsyncError`에서도 value에는 이전값 보유한다.
 
-## guard
----
+### guard
 
 Async할 때 try catch문에서 보통 try에 AsyncData, catch에선 AsyncError을 정의합니다. 이를 간소화시켜주는 방법입니다.
+
+
+```dart
+state = await AsyncValue.guard(() async {
+  await wait();
+  return state.value! + 1;
+});
+```
+
+이렇게 하면 알아서 AsyncData와 AsyncError에 값을 넣어준다.
+
+### riverpod annotation 절차
+
+1. riverpodpart
+
+2. riverpodAsyncClass / 작명 / build함수 타입 지정
+
+3. build에 async 추가 및 family 할거면 build에 인자 추가 
+
+4. 추가 값들 추가
+
+
+```dart
+FutureOr<int> build({required int init}) async {
+    
+    return init;
+  }
+```
+
+riverpod annotation 사용하면 named parameter 사용할 수 있다.
+
+
+### skip error
+
+`AsyncValue`의 `when` 메서드 사용 시 `skipError` 속성이 있다.
+
+이 속성은 default가 false고 true로 바꾸면 에러 발생 시 error: 로직에 처리된게 실행되는게 아닌 data가 있다면 이전 데이터를 보여주는 것이다.
