@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[3018],{9572:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/\ud50c\ub7ec\ud130/page/2","page":2,"postsPerPage":10,"totalPages":3,"totalCount":21,"previousPage":"/blog/tags/\ud50c\ub7ec\ud130","nextPage":"/blog/tags/\ud50c\ub7ec\ud130/page/3","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
