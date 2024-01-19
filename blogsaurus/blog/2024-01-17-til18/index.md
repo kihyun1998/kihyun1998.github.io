@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-18
 title: Flutter TIL - 18
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, revierpod, notifierProvider ]

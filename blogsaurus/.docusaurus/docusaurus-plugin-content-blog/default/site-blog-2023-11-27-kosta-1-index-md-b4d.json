@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/와이어샤크",
+  "permalink": "/blog/kosta-1",
   "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-11-27-KOSTA1/index.md",
   "source": "@site/blog/2023-11-27-KOSTA1/index.md",
   "title": "와이어샤크",
@@ -28,7 +28,7 @@
     }
   ],
   "frontMatter": {
-    "slug": "와이어샤크",
+    "slug": "kosta-1",
     "title": "와이어샤크",
     "authors": [
       "kihyun"
@@ -40,7 +40,7 @@
   },
   "prevItem": {
     "title": "와이어샤크",
-    "permalink": "/blog/와이어샤크"
+    "permalink": "/blog/kosta-2"
   },
   "nextItem": {
     "title": "PKI 개념",

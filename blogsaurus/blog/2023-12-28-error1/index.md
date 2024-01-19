@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: git-error-1
 title: Git - LF will be replaced by CRLF the next time Git touches it
 authors: [kihyun]
 tags: [git]

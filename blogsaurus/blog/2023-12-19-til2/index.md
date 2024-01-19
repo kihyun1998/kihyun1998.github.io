@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-2
 title: Flutter TIL - 2
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, const, provider, riverpod]

@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-8
 title: Flutter TIL - 8
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, dart, tree-view]

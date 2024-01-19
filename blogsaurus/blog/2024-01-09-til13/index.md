@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-13
 title: Flutter TIL - 13
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, revierpod,code generator,provider,stateProvider]

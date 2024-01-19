@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-6
 title: Flutter TIL - 6
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, dart, listview, clipping,GestureDetector, divider]

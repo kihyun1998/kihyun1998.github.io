@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-20
 title: Flutter TIL - 20
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, revierpod, path_provider, AsyncValue ]

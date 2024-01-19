@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-11
 title: Flutter TIL - 11
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, dart, freezed,json_annotation,riverpod, provider]

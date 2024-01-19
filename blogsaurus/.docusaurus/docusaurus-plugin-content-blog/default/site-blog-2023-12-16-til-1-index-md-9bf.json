@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/Flutter",
+  "permalink": "/blog/flutter-til-1",
   "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-16-til1/index.md",
   "source": "@site/blog/2023-12-16-til1/index.md",
   "title": "Flutter TIL - 1",
@@ -36,7 +36,7 @@
     }
   ],
   "frontMatter": {
-    "slug": "Flutter",
+    "slug": "flutter-til-1",
     "title": "Flutter TIL - 1",
     "authors": [
       "kihyun"
@@ -50,7 +50,7 @@
   },
   "prevItem": {
     "title": "Flutter TIL - 2",
-    "permalink": "/blog/Flutter"
+    "permalink": "/blog/flutter-til-2"
   },
   "nextItem": {
     "title": "MVVM 아키텍처",

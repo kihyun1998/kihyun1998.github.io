@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-17
 title: Flutter TIL - 17
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, revierpod, FutureProvider, refresh, invalidate]

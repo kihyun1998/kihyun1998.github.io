@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-9
 title: Flutter TIL - 9
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, dart, data class generator, equatable, json]

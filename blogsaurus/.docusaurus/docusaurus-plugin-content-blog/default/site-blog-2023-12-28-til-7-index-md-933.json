@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/Flutter",
+  "permalink": "/blog/flutter-til-7",
   "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-til7/index.md",
   "source": "@site/blog/2023-12-28-til7/index.md",
   "title": "Flutter TIL - 7",
@@ -40,7 +40,7 @@
     }
   ],
   "frontMatter": {
-    "slug": "Flutter",
+    "slug": "flutter-til-7",
     "title": "Flutter TIL - 7",
     "authors": [
       "kihyun"
@@ -55,10 +55,10 @@
   },
   "prevItem": {
     "title": "Git - LF will be replaced by CRLF the next time Git touches it",
-    "permalink": "/blog/Flutter"
+    "permalink": "/blog/git-error-1"
   },
   "nextItem": {
     "title": "Git - 변경사항 취소",
-    "permalink": "/blog/Flutter"
+    "permalink": "/blog/tip-git-1"
   }
 }

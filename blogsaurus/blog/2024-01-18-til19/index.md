@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-19
 title: Flutter TIL - 19
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, revierpod, notifierProvider, asyncNotifierProvider, tear-offs, enum based class, sealed based class ]

@@ -1,9 +1,9 @@
 {
   "blogPosts": [
     {
-      "id": "Flutter",
+      "id": "flutter-til-20",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-20",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-19-til20/index.md",
         "source": "@site/blog/2024-01-19-til20/index.md",
         "title": "Flutter TIL - 20",
@@ -48,7 +48,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-20",
           "title": "Flutter TIL - 20",
           "authors": [
             "kihyun"
@@ -64,15 +64,15 @@
         },
         "nextItem": {
           "title": "Flutter TIL - 19",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-19"
         }
       },
       "content": "---\r\n\r\n## path_provider 종류\r\n---\r\n\r\ngpt의 답변을 정리합니다.\r\n\r\n1. getApplicationDocumentsDirectory()  \r\n  - Windows에서 이 함수는 사용자의 \"Documents\" 폴더에 있는 애플리케이션 데이터 디렉토리를 반환합니다. 보통 `C:\\Users\\<User Name>\\Documents` 경로로 찾을 수 있습니다.\r\n\r\n2. getApplicationSupportDirectory()  \r\n  - `C:\\Users\\User\\AppData\\Roaming\\[패키지이름]\\[프로젝트이름]`\r\n\r\n3. getDownloadsDirectory()  \r\n  - 사용자의 \"Downloads\" 폴더를 반환합니다, 보통 `C:\\Users\\<User Name>\\Downloads`에 위치합니다.\r\n\r\n4. getExternalCacheDirectories()  \r\n  - Windows에서 외부 캐시 디렉토리는 일반적으로 해당되지 않습니다. 이 함수는 Windows에서 지원되지 않을 가능성이 높습니다.\r\n\r\n5. getExternalStorageDirectories({StorageDirectory? type})  \r\n  - Windows에서 외부 저장소 디렉토리는 일반적으로 해당되지 않으며, 이 함수는 Android 플랫폼에 특화되어 있습니다.\r\n\r\n6. getExternalStorageDirectory()\r\n  - 이 함수도 마찬가지로 Windows에서는 일반적으로 사용되지 않습니다. Android에서는 외부 저장소의 루트 디렉토리를 반환합니다.\r\n\r\n7. getLibraryDirectory()  \r\n  - macOS에서만 사용되며, Windows에서는 해당 디렉토리가 없습니다.\r\n\r\n8. getTemporaryDirectory()  \r\n  - 시스템의 임시 폴더를 반환합니다. Windows에서는 보통 `C:\\Users\\<User Name>\\AppData\\Local\\Temp`에 위치합니다.\r\n\r\n\r\n## AsyncValeu - properties\r\n---\r\n\r\n### value\r\n\r\n|Async종류|previous value X|previous value O|\r\n|------|----------|----------|\r\n|AsyncLoading|null|previous value|\r\n|AsyncData|current value|current value|\r\n|AsyncError|rethrow error|previous value|"
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-19",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-19",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-18-til19/index.md",
         "source": "@site/blog/2024-01-18-til19/index.md",
         "title": "Flutter TIL - 19",
@@ -129,7 +129,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-19",
           "title": "Flutter TIL - 19",
           "authors": [
             "kihyun"
@@ -148,19 +148,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 20",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-20"
         },
         "nextItem": {
           "title": "Flutter TIL - 18",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-18"
         }
       },
       "content": "---\r\n\r\n## AutoDispose\r\n---\r\n\r\nautodispose를 사용하려면\r\n\r\n```dart\r\nfinal counterProvider = NotifierProvider.autoDispose<Counter, int>(Counter.new);\r\n```  \r\n\r\n로 선언해야 하고\r\n\r\n```dart\r\nclass Counter extends AutoDisposeNotifier<int>{}\r\n```\r\n\r\n위처럼 Notifier를 사용해야 한다.\r\n\r\n\r\n## Family\r\n---\r\n\r\n```dart\r\nfinal counterProvider = NotifierProvider.family<Counter, int, int>(Counter.new);\r\n```\r\n\r\nfamily를 사용하려면 family와 넘겨줄 인자값을 추가해야하고\r\n\r\n```dart\r\nclass Counter extends FamilyNotifier<int, int> {\r\n  @override\r\n  int build(int arg) {return arg;}\r\n}\r\n```\r\n\r\nNotifier도 FamilyNotifier와 인자 추가와 build함수에 인자를 추가해야 한다.\r\n\r\n\r\n## AutoDispose Family\r\n---\r\n\r\n위의 둘을 합치면 된다.\r\n\r\n## riverpod generator 이용\r\n---\r\n\r\ngenerator를 이용해서 notifier를 만들면 더 쉽다.\r\n\r\n1. riverpodpart 만들기\r\n\r\n2. riverpodclass로 만들기 (riverpodclass가 notifier다.)\r\n\r\n3. 이름 넣고 build 함수 타입 지정하기\r\n\r\n4. 나머지 구현\r\n\r\nAutoDispose는 어노테이션에 따라 결정되고 family 여부는 build함수 인자값 존재 유무로 결정된다고 합니다.\r\n\r\n추가 특이사항이 있으면 그 때 정리해야지.\r\n\r\n\r\n## state shape\r\n---\r\n\r\n2가지 있다고 한다.\r\n\r\n`enum`, `sealed` .. 그렇다\r\n\r\n추가로 `AsyncValue`도 있다.\r\n\r\n\r\n[이곳의 API](https://www.boredapi.com/)를 활용한다.\r\n\r\n\r\n## data model을 freezed로 만드는 절차\r\n---\r\n\r\n1. `ptf`\r\n\r\n2. `pts`\r\n\r\n3. `fdataclass`\r\n\r\n4. factory 생성자에 인자값 넣기 required로 아니여도되구\r\n\r\n5. `fromJson`키워드로 fromJson 만들기 (이름은 class이름붙이고)\r\n\r\n6. 메서드들 만들기(empty,add,remove 등)\r\n\r\n## stat를 freezed로 만드는 절차\r\n---\r\n\r\n1. `ptf`\r\n\r\n2. `fdataclass`\r\n\r\n3. 필요한 factory 메서드 만들기\r\n\r\n\r\n## dio provier 만들기 절차\r\n---\r\n\r\n1. `riverpodpart`\r\n\r\n2. `riverpod`으로 provider만들기\r\n\r\n3. 아래 문법 처럼\r\n\r\n```dart\r\n@riverpod\r\nDio dio(DioRef ref) {\r\n  return Dio(BaseOptions(baseUrl: '[Target URL]'));\r\n}\r\n```\r\n\r\n## Enum based에서 값 요청 provider 만드는 절차\r\n---\r\n\r\n1. `riverpodpart`와  `riverpodclass`로 초기 설정 후 이름 설정\r\n\r\n2. build 함수 타입 정해주고 return 값 정해주기\r\n\r\n3. 여러 상태 컨트롤하는 함수 만들기(loading, error, success 등등)\r\n\r\n4. 흐름을 적자면 먼저 state의 `status를 loading`으로 바꿔주고 `Get요청`을 날린다음에 성공적으로 값을 가져오면 `fromJson`해가지구 `copyWith`해서 `status success와 값을 가져온 값으로 변경`을 한다. 에러가 난다면 `copyWith해서 status failure와 error에 e.toString` 넣어줌\r\n\r\n### 특이점 정리\r\n\r\n- copyWith로 값 변경  \r\n- single state class임\r\n\r\n## inistate modifier 주의할 점\r\n\r\n페이지에 진입했을 때 바로 api를 쏘는 동작을 하고 싶어서 initState에 api 통신하는 코드를 넣었다. 이 때 UI를 수정하는 동작도 포함돼있어서\r\n\r\n`FlutterError (Tried to modify a provider while the widget tree was building....` 에러가 났다. \r\n\r\n```dart\r\n  @override\r\n  void initState() {\r\n    super.initState();\r\n    ref.read(enumActivityProvider.notifier).fetchActivity(activityTypes[0]);\r\n  }\r\n\r\n// 이거를 아래로 수정\r\n\r\n  @override\r\n  void initState() {\r\n    super.initState();\r\n    Future.delayed(Duration.zero, () {\r\n      ref.read(enumActivityProvider.notifier).fetchActivity(activityTypes[0]);\r\n    });\r\n  }\r\n```\r\n\r\n`Future.delayed`로 감싸면 에러가 해결된다. 이걸 사용하면 비동기적으로 실행하는듯 그래서 UI 그려지기 까지 기다려주는 것 같음.\r\n\r\n\r\n## Sealed class based\r\n---\r\n\r\n특징은 multi class 이다.\r\n\r\n\r\n## 절차\r\n\r\n1. sealed class를 만든다.\r\n\r\n```dart\r\nsealed class StateClass {\r\n  const StateClass();\r\n}\r\n```\r\n\r\n2. StateClass를 extend하여 init, loading, success, fail을 구현한다.\r\n\r\n```dart\r\nfinal class StateClassInit extends StateClass {\r\n  const StateClassInit();\r\n\r\n  @override\r\n  String toString() => 'StateClass()';\r\n}\r\n```\r\n\r\n3. provider에서 state 할당할 때 copyWith을 사용하는게 아니라 구현한 class를 사용한다. 나머지는 비슷\r\n\r\n\r\n## async처럼 보이게하는 notifier\r\n---\r\n\r\n### enum\r\n\r\nsetInit 대신에 provider에서 build함수 안에 fetch해주면 된다.\r\n\r\n```dart\r\n  @override\r\n  StateClass build() {\r\n    fetchActivity(types[0]);\r\n    return StateClass.init();\r\n  }\r\n\r\n```\r\n\r\n### 주의할 점\r\n\r\n이 때도 위처럼만 해버리면 에러가난다.\r\n\r\nfuture.delayed로 감싸는 것이 아닌 state에 init()을 먼저 할당해준다.\r\n\r\n```dart\r\n  @override\r\n  StateClass build() {\r\n    state = StateClass.init();\r\n    fetchActivity(types[0]);\r\n    return StateClass.init();\r\n  }\r\n```\r\n\r\n\r\n## AsyncNotifier\r\n---\r\n\r\n방식은 Notifier와 비슷하지만 안에 생성하는 메서드들은  모두 `Future<void>`타입이다.\r\n\r\n`AsyncValue`가 좋은게 `AsyncLoading`에서 이전값을 가지고 있고 `AsyncData`에서 바뀐 next값을 가지고 있다.\r\n\r\n`AsyncError`에서도 value에는 이전값 보유한다.\r\n\r\n### guard\r\n\r\nAsync할 때 try catch문에서 보통 try에 AsyncData, catch에선 AsyncError을 정의합니다. 이를 간소화시켜주는 방법입니다.\r\n\r\n\r\n```dart\r\nstate = await AsyncValue.guard(() async {\r\n  await wait();\r\n  return state.value! + 1;\r\n});\r\n```\r\n\r\n이렇게 하면 알아서 AsyncData와 AsyncError에 값을 넣어준다.\r\n\r\n### riverpod annotation 절차\r\n\r\n1. riverpodpart\r\n\r\n2. riverpodAsyncClass / 작명 / build함수 타입 지정\r\n\r\n3. build에 async 추가 및 family 할거면 build에 인자 추가 \r\n\r\n4. 추가 값들 추가\r\n\r\n\r\n```dart\r\nFutureOr<int> build({required int init}) async {\r\n    \r\n    return init;\r\n  }\r\n```\r\n\r\nriverpod annotation 사용하면 named parameter 사용할 수 있다.\r\n\r\n\r\n### skip error\r\n\r\n`AsyncValue`의 `when` 메서드 사용 시 `skipError` 속성이 있다.\r\n\r\n이 속성은 default가 false고 true로 바꾸면 에러 발생 시 error: 로직에 처리된게 실행되는게 아닌 data가 있다면 이전 데이터를 보여주는 것이다."
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-18",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-18",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-17-til18/index.md",
         "source": "@site/blog/2024-01-17-til18/index.md",
         "title": "Flutter TIL - 18",
@@ -201,7 +201,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-18",
           "title": "Flutter TIL - 18",
           "authors": [
             "kihyun"
@@ -216,19 +216,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 19",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-19"
         },
         "nextItem": {
           "title": "Flutter TIL - 17",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-17"
         }
       },
       "content": "---\r\n\r\n## ListView\r\n---\r\n\r\n`ListView` 위젯을 `Column/Row`위젯 아래에 둔다면 `ListView`와 `Column/Row`의 사이즈들이 unbounded height가 일어나서 render overflow가 납니다.\r\n\r\n`Column/Row` 아래에 `ListView`를 두고 싶다면 `Expanded` 위젯으로 `ListView`를 감싸야 함.\r\n\r\n## Notifier Provider\r\n---\r\n\r\n### 생성\r\n\r\nnotifier를 입력해서 먼저 notifier를 정의한다.\r\n\r\n```dart\r\nclass CounterNotifier extends Notifier<int> {\r\n  @override\r\n  int build() {\r\n    return 0;\r\n  }\r\n}\r\n```\r\n\r\n`CounterNotifier`는 Notifier의 이름이고 `Notifier<int>`로 돼있는데 int는 반환 타입이다. build함수 앞에는 반환 타입을 붙여줘야 한다.\r\n\r\n`StateNotifier`나 `ChangeNotifier`를 사용하면 `ref`를 사용할 수 없지만(사용하려면 생성자에서 정의해줘야 한다.) `Notifier`를 사용하면 `ref`를 바로 사용할 수 있다.\r\n\r\n\r\n### tear-offs 지원\r\n\r\n```dart\r\nonPressed:(){\r\n  func();\r\n}\r\n\r\n# 위와 아래는 같다.\r\n\r\nonPressed: func,\r\n```\r\n\r\n위 코드와 같은 동작을 하는 것이 tear-offs다.\r\n\r\n거추장스러운 부분이 제거가 된다. 함수와 생성자에서 사용할 수 있다.\r\n\r\n그래서 아래와 같이 `notifierProvider`를 선언할 수 있다.\r\n```dart\r\nfinal counterProvider = NotifierProvider<Counter, int>(() {\r\n  return Counter();\r\n});\r\n\r\n#위를 아래처럼\r\n\r\nfinal counterProvider = NotifierProvider<Counter, int>(Counter.new);\r\n```\r\n\r\n모르면 일단 외우자 tear-offs\r\n\r\n\r\n### 접근\r\n\r\nwatch하면 state값을 가져올 수 있고 인스턴스에 접근하려면\r\n\r\n```dart\r\nref.raed(counterProvider.notifier).increment();\r\n```\r\n\r\n이렇게 할 수 있다."
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-17",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-17",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-16-til17/index.md",
         "source": "@site/blog/2024-01-16-til17/index.md",
         "title": "Flutter TIL - 17",
@@ -277,7 +277,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-17",
           "title": "Flutter TIL - 17",
           "authors": [
             "kihyun"
@@ -294,19 +294,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 18",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-18"
         },
         "nextItem": {
           "title": "Flutter TIL - 16",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-16"
         }
       },
       "content": "---\r\n\r\n## invalidate\r\n---\r\n\r\n```dart\r\nonPressed: () async {\r\n  ref.invalidate(userDetailProvider);\r\n},\r\n```\r\n\r\nrefresh할 때 `invalidate`를 사용한다면 위처럼 onPressed 함수를 구현할 수 있습니다. 물론 skipLoadingOnRefresh도 적용했습니다.\r\n\r\n`invalidate`의 인자값 타입은 `ProviderOrFamily`이다. 그래서 Family를 주지 않고 적용한다면 모든 provider가 auto dispose된다.\r\n\r\n## refresh\r\n---\r\n\r\n```dart\r\nonPressed: () async {\r\n  return ref.refresh(userDetailProvider(userId));\r\n},\r\n```\r\n\r\n또는\r\n\r\n```dart\r\nonPressed: () {\r\n  return ref.refresh(userDetailProvider(userId).future);\r\n},\r\n```\r\n\r\nrefresh 인자 타입은 Family Provider라면 family값을 넘겨주어야 한다. 그리고 return을 사용해야 하기에 return값이 없다면 invalidate를 추천한다."
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-16",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-16",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-15-til16/index.md",
         "source": "@site/blog/2024-01-15-til16/index.md",
         "title": "Flutter TIL - 16",
@@ -347,7 +347,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-16",
           "title": "Flutter TIL - 16",
           "authors": [
             "kihyun"
@@ -362,19 +362,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 17",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-17"
         },
         "nextItem": {
           "title": "Flutter TIL - 15",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-15"
         }
       },
       "content": "---\r\n\r\n## skipLoadingOnRefresh\r\n---\r\n\r\nwhen 메서드에서 `skipLoadingOnRefresh`라는 메서드가 있는데 true가 디폴트다. 새로고침해도 loading 창 안보여주는건데 false로 해주는 편이 좋다.\r\n\r\n## 새로고침\r\n---\r\n\r\n`ref.refresh()` 또는 `ref.invalidate()`를 사용한다. 예시로는 `RefreshIndicator`로 했지만 버튼으로 하는게 좋은 UI라고 하는 듯\r\n\r\n그리고 윈도우에서는 `RefreshIndicator` 동작안한다..\r\n\r\n## freezed class override\r\n---\r\n\r\n```dart\r\n@freezed\r\nclass User with _$User {\r\n  const User._();\r\n  \r\n  ...\r\n  @override\r\n  String toString() => 'User(id:$id)';\r\n}\r\n```\r\n\r\nfreezed data class 에서 User._()를 선언하고 toString을 다시 오버라이딩 할 수 있던데 이에 대해서 조금 더 알아봐야 할 듯"
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-15",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-15",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-11-til15/index.md",
         "source": "@site/blog/2024-01-11-til15/index.md",
         "title": "Flutter TIL - 15",
@@ -415,7 +415,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-15",
           "title": "Flutter TIL - 15",
           "authors": [
             "kihyun"
@@ -430,19 +430,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 16",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-16"
         },
         "nextItem": {
           "title": "Flutter TIL - 14",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-14"
         }
       },
       "content": "---\r\n\r\n## 가상 API\r\n---\r\n\r\n[여기](https://jsonplaceholder.typicode.com) 에서 다양한 API를 제공해준다.\r\n\r\nusers API로 FutureProvider 실습을 한다.\r\n\r\n\r\n## autoDispose 사용 여부\r\n---\r\n\r\n만약 특정 페이지 진입 시 API를 통해서 값을 가져왔을 때 이 값을 캐싱 할 것이면 `autoDispose` 사용하면 안되고 다시 안 가져올 것이면 `autoDispose` 사용하는 것이 좋다.\r\n\r\n설정값 같은 경우는 API를 쏴서 변경하는 경우가 거의 없으므로 캐싱 하는 것이 좋다.\r\n\r\n\r\n## future provider body\r\n---\r\n\r\n### when\r\n\r\n값을 불러올 때 when을 사용한 모습입니다.\r\n\r\n```dart\r\nbody: userList.when(\r\n  data: (users) {\r\n    return ListView.separated(\r\n      itemCount: users.length,\r\n      separatorBuilder: (context, index) {\r\n        return const Divider();\r\n      },\r\n      itemBuilder: (context, index) {\r\n        final user = users[index];\r\n        return ListTile(\r\n          leading: CircleAvatar(\r\n            child: Text(user.id.toString()),\r\n          ),\r\n          title: Text(user.name),\r\n        );\r\n      },\r\n    );\r\n  },\r\n  error: (e, st) {\r\n    return Text(\r\n      e.toString(),\r\n      style: const TextStyle(fontSize: 20, color: Colors.red),\r\n    );\r\n  },\r\n  loading: () => const Center(\r\n    child: CircularProgressIndicator(),\r\n  ),\r\n),\r\n```\r\n\r\n\r\n\r\n### switch expression\r\n\r\n값을 불러올 때 switch를 사용한 모습입니다.\r\n\r\n```dart\r\nbody: switch (userList) {\r\n  AsyncData(value: final users) => ListView.separated(\r\n      itemCount: users.length,\r\n      separatorBuilder: (context, index) {\r\n        return const Divider();\r\n      },\r\n      itemBuilder: (context, index) {\r\n        final user = users[index];\r\n        return ListTile(\r\n          leading: CircleAvatar(\r\n            child: Text(user.id.toString()),\r\n          ),\r\n          title: Text(user.name),\r\n        );\r\n      },\r\n    ),\r\n  AsyncError(error: final e) => Text(\r\n      e.toString(),\r\n      style: const TextStyle(fontSize: 20, color: Colors.red),\r\n    ),\r\n  _ => const Center(\r\n      child: CircularProgressIndicator(),\r\n    ),\r\n},\r\n```\r\n\r\n마지막에 원래 `_` 대신 `AsyncLoading`이 들어가야 하지만 무슨 에러가 난다.\r\n\r\nuserListProvider를 `@Sealed`로 만들었어야 한다고 한다.\r\n\r\n## keepalive\r\n---\r\n\r\n하면서 궁금증이 생겼었는데 값을 가져왔으면 다시 나갔다 왔을 때 loading 안 보고 싶었습니다.\r\n\r\n그러면 autoDispose일 때 ref.keepAlive()를 사용하면 됩니다.  \r\n주의할 점은 http 호출이 끝나고 적용해야 합니다.\r\n\r\n값을 가져온 것을 성공한 페이지는 값이 유지가 되고(dispose안함)\r\nerror가 나면 dispose 합니다."
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-14",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-14",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-10-til14/index.md",
         "source": "@site/blog/2024-01-10-til14/index.md",
         "title": "Flutter TIL - 14",
@@ -491,7 +491,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-14",
           "title": "Flutter TIL - 14",
           "authors": [
             "kihyun"
@@ -508,19 +508,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 15",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-15"
         },
         "nextItem": {
           "title": "Flutter TIL - 12",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-12"
         }
       },
       "content": "---\r\n\r\n## state provider\r\n---\r\n\r\n특징으로는 code generator가 안되고\r\n\r\nstate를 갖고 있다는 점\r\n\r\n```dart\r\nfloatingActionButton: FloatingActionButton(\r\n  onPressed: () {\r\n    ref.read(counterProvider.notifier).state++;\r\n  },\r\n  child: const Icon(Icons.add),\r\n),\r\n```\r\n\r\n위와 같이 read를 하는데 notifier를 사용해서 state에 접근할 수 있다.\r\n\r\n그리고 추가로 UI를 그리려면 `Future.delay` 또는 Listen을 사용할 수 있다.  \r\n(그냥 그리려면 에러난다. 충돌나서)\r\n\r\n```dart\r\nref.listen<int>(counterProvider, (previous, next) {\r\n  if (next == 3) {\r\n    showDialog(\r\n      context: context,\r\n      builder: (context) {\r\n        return AlertDialog(\r\n          content: Text('counter : $next'),\r\n        );\r\n      },\r\n    );\r\n  }\r\n});\r\n```\r\n\r\n요런식으로 listen할 수 있다. 이전 값 다음 값이 있다.\r\n\r\n## update\r\n---\r\n\r\n```dart\r\nonPressed: () {\r\n  ref\r\n      .read(autoDisposecounterProvider.notifier)\r\n      .update((state) => state + 10);\r\n},\r\n```\r\n\r\n위 코드는\r\n\r\n```dart\r\nref.read(autoDisposecounterProvider.notifier).state + \r\n  ref.read(autoDisposecounterProvider.notifier).state + 10\r\n```\r\n\r\n과 같은 코드이다. 너무 길기 때문에 그냥 update 사용하는 것이 편리하다.\r\n\r\nstate를 인자로 사용할 로직이 필요하면 `update` 사용하기\r\n\r\n## Future Provider의 이야기\r\n---\r\n\r\nremote api를 호출하면 3가지 상태 처리가 필요하다.\r\n\r\n`in progress`, `success`, `error`이다.\r\n\r\n3가지 모두 동시에 2가지 이상 상태가 될 수 없다.\r\n\r\n`FutureProvider`는 이 3가지 상태에 대한 값을 처리해준다.\r\n\r\n`AsyncData`, `AsyncError`, `AsyncLoading`이 있다.\r\n\r\n생성자도 3가지 있다.\r\n\r\n`AsyncValue`가 중요하다는 뜻\r\n\r\n## 소소한 팁\r\n---\r\n\r\n1. provider 안에 ref.read()를 사용하지 말 것\r\n\r\n2. StateProvider 대신 NotifierProvider 사용할 것"
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-12",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-12",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-09-til12/index.md",
         "source": "@site/blog/2024-01-09-til12/index.md",
         "title": "Flutter TIL - 12",
@@ -561,7 +561,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-12",
           "title": "Flutter TIL - 12",
           "authors": [
             "kihyun"
@@ -576,19 +576,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 14",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-14"
         },
         "nextItem": {
           "title": "Flutter TIL - 13",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-13"
         }
       },
       "content": "---\r\n\r\n```dart\r\nfinal helloProvider = Provider<String>((ref) {\r\n  ref.onDispose(() {\r\n    print(\"[helloProvider] : disposed\");\r\n  });\r\n  return \"Hello\";\r\n});\r\n```\r\n\r\nriverpod의 기본 모습이 이렇다.\r\n\r\n변수에 할당하고 `Provider` 부분은 사용할 Provider 종류,\r\n\r\n`<String>`에는 return값 타입을 정의한다.\r\n\r\nref를 통해서 여러 기능을 사용할 수 있는데 ref.onDispose해주면 dispose된다.\r\n\r\n### onDispose\r\n\r\n해당 provider가 dispose되면 실행되는 함수\r\n\r\n위의 코드는 자동으로 dispose 되지 않는다.\r\n\r\n### 대표적 3가지\r\n\r\n`watch` : 값 변하는지 계속 확인하고 변하면 리빌드 (async하면안된다.)\r\n\r\n`listen` : 값 변경되면 리빌딩 되는 것이 아닌 액션을 수행(navigate같은) (async하면 안된다.)\r\n\r\n`read` : 값을 확인하지만 변경을 watch하지 않음(build에서 사용하지마라)\r\n\r\n## auto dispose\r\n---\r\n\r\n```dart\r\nfinal autoDisposeHelloProvider = Provider.autoDispose<String>((ref) {\r\n  print('[autoDisposeHelloProvder]: created');\r\n  ref.onDispose(() {\r\n    print('[autoDisposeHelloProvder]: disposed');\r\n  });\r\n  return 'Hello';\r\n});\r\n```\r\n\r\n페이지에서 나오면 autodispose해준다.\r\n\r\n## family\r\n---\r\n\r\n```dart\r\nfinal familyHelloProvider = Provider.family<String, String>((ref, name) {\r\n  ref.onDispose(() {\r\n    print('[familyHelloProvider] disposed');\r\n  });\r\n  return 'Hello $name';\r\n});\r\n```\r\n이렇게 provider 정의하면 argument 사용할 수 있다.\r\n\r\n```dart\r\n    final helloA = ref.watch(familyHelloProvider('A'));\r\n    final helloB = ref.watch(familyHelloProvider('B'));\r\n```\r\nwatch할 때도 이런식으로 해야한다.\r\n\r\n## autoDisposeFamily\r\n---\r\n\r\n```dart\r\nfinal autoDisposeFamilyHelloProvider =\r\n    Provider.autoDispose.family<String, String>((ref, name) {\r\n  ref.onDispose(() {\r\n    print('[autoDisposeFamilyHelloProvider] disposed');\r\n  });\r\n  return 'Hello $name';\r\n});\r\n```\r\nautoDispose와 family를 모두 사용할 수 있다.\r\n\r\n만약 둘의 인자값이 `A`라면 dispose는 한번만 일어납니다. (그냥 autoDispose도 한번만 일어남)\r\n\r\n\r\n## 객체 넘기기 \r\n---\r\n\r\n```dart\r\nclass Counter {\r\n  final int count;\r\n  Counter({\r\n    required this.count,\r\n  });\r\n\r\n  @override\r\n  String toString() => 'Counter()(count: $count)';\r\n}\r\n\r\nfinal counterProvider = Provider.autoDispose.family<int, Counter>((ref, c) {\r\n  ref.onDispose(() {\r\n    print('[countProvider($c)] disposed');\r\n  });\r\n  return c.count;\r\n});\r\n```\r\n\r\n만약 위처럼 객체를 넘겨서\r\n\r\n```dart\r\n    ref.watch(counterProvider(Counter(count: 0)));\r\n    ref.watch(counterProvider(Counter(count: 0)));\r\n```\r\n\r\n이렇게 watch를 조지면 dispose가 두번 일어납니다. 둘 다 다른 객체로 판단합니다.\r\n\r\n\r\n```dart\r\nclass Counter extends Equatable {\r\n  final int count;\r\n  const Counter({\r\n    required this.count,\r\n  });\r\n\r\n  @override\r\n  String toString() => 'Counter()(count: $count)';\r\n\r\n  @override\r\n  List<Object> get props => [count];\r\n}\r\n```\r\n\r\nCounter 객체를 Equatable해야 dispose 한번만 일어난다.\r\n\r\n\r\n## 정리\r\n---\r\n\r\nautoDispose 조심히 사용해야 한다. 계속 dispose 하기 때문에"
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-13",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-13",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-09-til13/index.md",
         "source": "@site/blog/2024-01-09-til13/index.md",
         "title": "Flutter TIL - 13",
@@ -637,7 +637,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-13",
           "title": "Flutter TIL - 13",
           "authors": [
             "kihyun"
@@ -654,19 +654,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 12",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-12"
         },
         "nextItem": {
           "title": "Flutter TIL - 10",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-10"
         }
       },
       "content": "---\r\n\r\n## code generator\r\n---\r\n\r\n`rivp`: `riverpodPart`\r\n\r\n```dart\r\npart 'b_provider.g.dart';\r\n```\r\n\r\n`riverpodKeepAlive`\r\n\r\nriverpod code generator는 자동으로 autoDispose인데 keepAlive:true를 해주면 autoDispose하지 않는다.\r\n\r\n```dart\r\n@Riverpod(keepAlive: true)\r\nString hello(HelloRef ref) {\r\n  ref.onDispose(() {\r\n    print(\"[helloProvider] : disposed\");\r\n  });\r\n  return \"Hello\";\r\n}\r\n```\r\n\r\n`String`: return의 타입\r\n`hello`: 나중에 helloProvider라는 이름을 갖는다.\r\n`HelloRef`: generator하면 Ref로 나오는데 hello에서 앞글자를 대문자로 해서 붙이면 HelloRef가 된다. 이걸로 교체해줘야한다.\r\n\r\n### 코드생성\r\n\r\n```bash\r\ndart run build_runner build -d\r\n```\r\n\r\n위 처럼 build runner 실행해서 generate할 수 있다.\r\n\r\n`-d`옵션은 generate중 충돌이 나도 그냥 생성하라는 뜻입니다.\r\n\r\n```bash\r\ndart run build_runner watch -d\r\n```\r\n\r\nwatch를 사용하면 한번만 사용하면 변화를 계속 watch해서 적용된다.\r\n\r\n### 차이점\r\n\r\n수동 생성과 차이점은\r\n\r\n1. 기존은 `helloProvider` 이렇게 했다면 자동 생성에서는 hello로만 해도 `helloProvider` 생성해줌.\r\n\r\n2. 자동생성에서는 Provider 종류 지정 안해도된다.\r\n\r\n\r\n## Provider\r\n---\r\n\r\n### autoDispose\r\n---\r\n\r\nautoDispose Provider는 `riverpod`스니팻 으로 만들 수 있습니다.\r\n\r\n```dart\r\n@riverpod\r\nString autoDisposeHello(AutoDisposeHelloRef ref) {\r\n  print('[autoDisposeHelloProvder]: created');\r\n  ref.onDispose(() {\r\n    print('[autoDisposeHelloProvder]: disposed');\r\n  });\r\n  return 'Hello';\r\n}\r\n```\r\n\r\n\r\n\r\n### family\r\n---\r\n\r\nfamily는 그냥 `riverpod`이나 `riverpodkeepalive`에서  ref 옆에 파라미터 추가해주면 family로 자동으로 만들어줍니다.\r\n\r\n```dart\r\n@Riverpod(keepAlive: true)\r\nString familyHello(FamilyHelloRef ref, {required String name}) {\r\n  ref.onDispose(() {\r\n    print('[familyHelloProvider] disposed');\r\n  });\r\n  return 'Hello $name';\r\n}\r\n```\r\n\r\n참고로 `name`을 사용하면 에러난다. 그 이유는 generator에서 name이라는 변수를 이미 사용하고 있기 때문이다.\r\n\r\n### autoDispose, family\r\n---\r\n\r\n```dart\r\n@riverpod\r\nString autoDisposeFamilyHello(AutoDisposeFamilyHelloRef ref,\r\n    {required String nom}) {\r\n  ref.onDispose(() {\r\n    print('[autoDisposeFamilyHelloProvider] disposed');\r\n  });\r\n  return 'Hello $nom';\r\n}\r\n```\r\n\r\n별로 어렵지 않음\r\n\r\n## 한가지 배운 dart 언어 syntax\r\n---\r\n\r\n`part`는 `import`다음으로 최상단에 위치해야한다.\r\n\r\n\r\n## StateProvider\r\n---\r\n\r\n### 특징\r\n\r\n- stateProvider는 notifierProvider의 간소화된 버전  \r\n- 복잡하지 않는 로직을 쓸 때 사용  \r\n- code generator해서 만들 수 없다.(수동만 가능)"
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-10",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-10",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-08-til10/index.md",
         "source": "@site/blog/2024-01-08-til10/index.md",
         "title": "Flutter TIL - 10",
@@ -703,7 +703,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-10",
           "title": "Flutter TIL - 10",
           "authors": [
             "kihyun"
@@ -717,19 +717,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 13",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-13"
         },
         "nextItem": {
           "title": "Flutter TIL - 11",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-11"
         }
       },
       "content": "---\r\n\r\n## mutex와 semaphore 차이\r\n---\r\n\r\n### mutex\r\n\r\n공유된 자원에 스레드들의 동시 접근을 막아줍니다. 1개의 프로세스 혹은 쓰레드만 공유 자원에 접근할 수 있습니다. 키를 기반으로 한 상호배제 기법입니다.\r\n\r\n공유된 자원을 카페 화장실로 비유할 수 있고 키를 열쇠로 비유할 수 있습니다.\r\n\r\n### semaphore\r\n\r\n세마포어도 동시 접근을 막아주는데 1개의 프로세스만 접근할 수 있는 것이 아닌 여러 설정된 최대값 만큼 들어갈 수 있습니다. 빈칸이 0이면 대기해야 합니다.\r\n\r\n공유된 자원을 카페 화장실인데 칸이 여러 개 있는 화장실로 비유할 수 있습니다."
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-11",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-11",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-08-til11/index.md",
         "source": "@site/blog/2024-01-08-til11/index.md",
         "title": "Flutter TIL - 11",
@@ -782,7 +782,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-11",
           "title": "Flutter TIL - 11",
           "authors": [
             "kihyun"
@@ -800,19 +800,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 10",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-10"
         },
         "nextItem": {
           "title": "Flutter TIL - 9",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-9"
         }
       },
       "content": "---\r\n\r\n## factory Constructor\r\n---\r\n\r\nfactory constructor의 constructor redirection에 대해 알고 있어야 한다. 그리고 const를 사용할 수 있음.\r\n\r\n## 필요한 패키지\r\n---\r\n\r\n`freezed_annotation`: dep : 코드 생성기에 대한 어노테이션 패키지\r\n\r\n`build_runner` : dev-dep : 코드 생성기 실행\r\n\r\n`freezed` : dev-dep : 코드 생성기\r\n\r\n`json_annotation` : dep : 코드 생성기인 json_serializable의 어노테이션 갖고 있는 패키지\r\n\r\n`json_serializable` : dev-dep : 코드 생성기\r\n\r\n### freezed와 json_serializable 사용할 경우\r\n\r\nanalysis_options.yaml에 설정\r\n\r\n```yaml\r\nanalyzer:\r\n  errors:\r\n    invalid_annotation_target: ignore\r\n  exclude:\r\n    - '**/*.freezed.dart'\r\n    - '**/*.g.dart'\r\n```\r\n\r\n### build runner를 사용해서 코드 gen하려면\r\n\r\n```bash\r\ndart run build_runner build [--delete-conflicting-outputs]\r\n\r\nor\r\n\r\ndart run build_runner watch [-d]\r\n```\r\n\r\nbuild는 one-time, watch는 계속 빌드함\r\n\r\nwatch가 빌드 타임 적다.\r\n\r\n`[]`에 있는 옵션은 previous build에서 발생한 것 건너뛰기\r\n\r\n\r\n## extension\r\n\r\n`freezed`라는 확장 설치해야 한다.\r\n\r\n`ptf` : part '*.freezed.dart'; 생성\r\n`pts` : part '*.g.dart'; 생성\r\n`fdataclass` : Dataclass 생성\r\n`funion` : Union class 생성\r\n\r\n\r\n## 기능\r\n---\r\n\r\n### 정리\r\n\r\n우선 다양한 것들을 override해준다.\r\n\r\ntoString이나 copyWith, equality 등을 오버라이딩 해줌.\r\n\r\n### copyWith\r\n\r\n일반적인 copyWith + null도 지원해줌\r\n\r\ndeep copyWith도 제공해준다. 복잡한 코드를 간단하게 작성할 수 있도록 지원\r\n\r\n### Json annotation\r\n\r\n```dart\r\n@JsonKey(name: 'parking_lot_capacity') int? parkingLotcapacity,\r\n```\r\n\r\ndata class를 만들 때 이런 인자값을 볼 수 있다.\r\n\r\n변수 parkingLotcapacity를 json키 값 'parking_lot_capacity'로 판단하겠다는 뜻이다.\r\n\r\n```dart\r\n  factory Hotel.fromJson(Map<String, dynamic> json) => _$HotelFromJson(json);\r\n```\r\n\r\n이런 것도 제공해준다.\r\n\r\n## Provider\r\n---\r\n\r\n위젯이나 다른 Provider에 값을 제공\r\n\r\nriverpod에서는 Provider를 watch할 수 있다.\r\n그리고 그냥 값을 제공하는 Provider다.\r\n\r\n### dep\r\n\r\n`equatable`,`flutter_riverpod`,`riverpod_annotation`\r\n\r\n### dev-dep\r\n\r\n`build_runner`,`custom_lint`,`flutter_lints`,`riverpod_generator`, `riverpod_lint`"
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-9",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-9",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-04-til9/index.md",
         "source": "@site/blog/2024-01-04-til9/index.md",
         "title": "Flutter TIL - 9",
@@ -861,7 +861,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-9",
           "title": "Flutter TIL - 9",
           "authors": [
             "kihyun"
@@ -878,19 +878,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 11",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-11"
         },
         "nextItem": {
           "title": "Flutter TIL - 8",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-8"
         }
       },
       "content": "---\r\n\r\n## Equatable\r\n---\r\n\r\n`dart class generator`라는 vs code extension을 사용할 때 객체 비교를 위해서 `equatable`이라는 dart 패키지를 이용할 수 있습니다.\r\n\r\nvs code preferences에서 equatable 관련 설정을 `true`로 변경한다면 generator를 이용할 수 있습니다.\r\n\r\n함수를 통해 객체를 생성하면 주소 값이 달라져서 같은 값을 갖고 있는 객체를 비교해도 false로 나오는데 `equatable`을 이용해서 비교하면 true를 반환할 수 있습니다.\r\n\r\n## Json 관련\r\n---\r\n\r\njson object로 자동 data class가 생성되는 마법이 있다고 합니다.\r\n\r\n1. 일단 dart 파일을 만듭니다.\r\n\r\n2. api 응답 json 값을 넣습니다.\r\n\r\n3. `ctrl`+`shift`+`p`해서 Generate from JSON 입력해서 선택\r\n\r\n4. class 이름 입력\r\n\r\n5. no 선택\r\n\r\n그럼 data class 자동 생성 해준다.\r\n\r\nfromMap, toMap만 잘 확인해보면 된다. (beta 단계임)"
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-8",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-8",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-03-til8/index.md",
         "source": "@site/blog/2024-01-03-til8/index.md",
         "title": "Flutter TIL - 8",
@@ -931,7 +931,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-8",
           "title": "Flutter TIL - 8",
           "authors": [
             "kihyun"
@@ -946,19 +946,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 9",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-9"
         },
         "nextItem": {
           "title": "Git - LF will be replaced by CRLF the next time Git touches it",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/git-error-1"
         }
       },
       "content": "---\r\n\r\n## Treeview\r\n---\r\n\r\n[이 라이브러리](https://pub.dev/packages/animated_tree_view)를 사용한다.\r\n\r\n`animated_tree_view`다.\r\n\r\n`TreeNode.root`에 `..addAll([])` 해서 배열을 넣을 수 있다.\r\n\r\n```dart\r\n  final myTree = TreeNode.root()\r\n    ..addAll([\r\n      TreeNode(key: \"Today\"),\r\n      TreeNode(key: \"Tomorrow\")\r\n        ..addAll([\r\n          TreeNode(key: \"task 1\"),\r\n          TreeNode(key: \"task 2\"),\r\n          TreeNode(key: \"task 3\"),\r\n        ]),\r\n      TreeNode(key: \"Upcoming\"),\r\n    ]);\r\n```\r\n\r\n`TreeView.simple`을 사용해봤는데 builder에서 인자로 `context`, `node`를 받는다.\r\n\r\n주의할 점은 key로 하기 때문에 key 중복되지 않게 조심해야한다. 같은 level만 아니면 괜찮다. (같은 level아니면 이름 중복 가능)"
     },
     {
-      "id": "Flutter",
+      "id": "git-error-1",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/git-error-1",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-error1/index.md",
         "source": "@site/blog/2023-12-28-error1/index.md",
         "title": "Git - LF will be replaced by CRLF the next time Git touches it",
@@ -983,7 +983,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "git-error-1",
           "title": "Git - LF will be replaced by CRLF the next time Git touches it",
           "authors": [
             "kihyun"
@@ -994,19 +994,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 8",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-8"
         },
         "nextItem": {
           "title": "Flutter TIL - 7",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-7"
         }
       },
       "content": "---\r\n\r\n## window\r\n---\r\n\r\n```bash\r\ngit config --global core.autocrlf true\r\n```\r\n\r\n## linux, mac\r\n---\r\n\r\n```bash\r\ngit config --global core.autocrlf input\r\n```"
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-7",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-7",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-til7/index.md",
         "source": "@site/blog/2023-12-28-til7/index.md",
         "title": "Flutter TIL - 7",
@@ -1047,7 +1047,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-7",
           "title": "Flutter TIL - 7",
           "authors": [
             "kihyun"
@@ -1062,19 +1062,19 @@
         },
         "prevItem": {
           "title": "Git - LF will be replaced by CRLF the next time Git touches it",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/git-error-1"
         },
         "nextItem": {
           "title": "Git - 변경사항 취소",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/tip-git-1"
         }
       },
       "content": "---\r\n\r\n## Future.wait\r\n---\r\n\r\n```dart\r\n  Future<void> searchProductList() async {\r\n    isBusy = true;\r\n    final results = await Future.wait([\r\n      productRepository.searchProductList(keyword),\r\n      Future.delayed(const Duration(milliseconds: 555)),\r\n    ]);\r\n    productList = results[0];\r\n    isBusy = false;\r\n  }\r\n```\r\n\r\n`Future.wait`이라는게 있는데 안에 있는 Future wait의 배열 명령어들이 모두 끝날 때까지 기다림\r\n\r\n즉 위 코드 상으로는 search하는거와 delayed를 동시에 돌리는데 555 millisecond는 무조건 돌고 그 이상은 search끝날 때까지 기다린다는 뜻"
     },
     {
-      "id": "Flutter",
+      "id": "tip-git-1",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/tip-git-1",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-tip-git1/index.md",
         "source": "@site/blog/2023-12-28-tip-git1/index.md",
         "title": "Git - 변경사항 취소",
@@ -1099,7 +1099,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "tip-git-1",
           "title": "Git - 변경사항 취소",
           "authors": [
             "kihyun"
@@ -1110,19 +1110,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 7",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-7"
         },
         "nextItem": {
           "title": "Flutter TIL - 6",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-6"
         }
       },
       "content": "---\r\n\r\n## 명령어\r\n\r\n```bash\r\ngit reset --hard\r\n```"
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-6",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-6",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-27-til6/index.md",
         "source": "@site/blog/2023-12-27-til6/index.md",
         "title": "Flutter TIL - 6",
@@ -1175,7 +1175,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-6",
           "title": "Flutter TIL - 6",
           "authors": [
             "kihyun"
@@ -1193,19 +1193,19 @@
         },
         "prevItem": {
           "title": "Git - 변경사항 취소",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/tip-git-1"
         },
         "nextItem": {
           "title": "Flutter TIL - 5",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-5"
         }
       },
       "content": "---\r\n\r\n## ClipRRect\r\n---\r\n\r\ncontainer를 border radius하게 디자인 했는데 스크롤 바가 오버플로우 되는 현상이 있었다.\r\n\r\nClipRRect로 스크롤바를 만드는 listview 위젯을 감싸니 오버플로우 되는 부분은 안보이게 됐다.\r\n\r\nClipRRect위젯은 클리핑하는 위젯인데 클리핑이란 주어진 경계 내에서만 내용을 보여주고 경계 넘어서는 잘라내는 것을 의미한다고 한다.\r\n\r\n주로 이미지를 둥근 액자에 넣고 싶을 때도 사용한다고 한다..\r\n\r\n## listView\r\n---\r\n\r\n사실 바보같은 짓을 했다 listView 안에 expanded를 넣으려고 했다. 왜냐하면 width를 double.infinity하게 하고싶었었다. 그러나 listView를 잘 몰랐었다.\r\n\r\nlistView의 자식들은 listView의 크기를 따라간다. 그래서 listView를 Expanded안에 infinity로 두면 그 안에도 infinity다. 그렇게 해결했다.\r\n\r\n## GestureDetector의 behavior\r\n---\r\n\r\n:::tip\r\n`deferToChild`: 자식 중 하나가 적중 시 이벤트 수신(투명한 대상 이벤트 수신 x)  \r\n`translucent` : 반투명한 대상 & 시각적으로 뒤에 있는 대상도 이벤트 수신  \r\n`opaque` : 시각적으로 뒤에 있는 대상은 이벤트 수신 불가능\r\n:::\r\n\r\n```dart\r\nbehavior: HitTestBehavior.translucent,\r\n```\r\n\r\n이와 같이 사용한다면 패딩부분도 클릭한다면 이벤트 수신될 수 있다.\r\n\r\n\r\n## Divider\r\n---\r\n\r\n`ListView.separated`를 사용하여 `separatorBuilder`를 통해 구분자를 넣을 수 있었다.\r\n\r\n줄을 긋고 싶었는데 `Divider`를 사용할 수 있었다.\r\n\r\n`height`로 상하 여백을 정할 수 있었고  \r\n`thickness`로 줄의 굵기를  \r\n`indent`,`endIndent`로 좌우 여백을  \r\n`color`로 색상을 정할 수 있었다.\r\n\r\n## 리랜더링\r\n---\r\n\r\n다국어 지원 설정을 했는데 값은 변경 됐는데 화면 리랜더링을 못해서 계속 애먹었었다. 결국에는 riverpod provider를 수정하여 다국어도 watch하는 방법으로 변경했는데 현업에서 이렇게 사용하는지는 아직 모르겠다.."
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-5",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-5",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-26-til5/index.md",
         "source": "@site/blog/2023-12-26-til5/index.md",
         "title": "Flutter TIL - 5",
@@ -1254,7 +1254,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-5",
           "title": "Flutter TIL - 5",
           "authors": [
             "kihyun"
@@ -1271,19 +1271,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 6",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-6"
         },
         "nextItem": {
           "title": "Flutter TIL - 4",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-4"
         }
       },
       "content": "---\r\n\r\n## nullable constructor\r\n---\r\n\r\n### 실수한 코드\r\n\r\n처음에 class의 인스턴스를 만들 때 nullable로 선언하면 될 줄 알았다.\r\n\r\n```dart\r\nclass NaviState {\r\n  final int? index;  \r\n  final bool? yesOrNo;  \r\n\r\n  NaviState({\r\n    this.index,\r\n    this.yesOrNo,\r\n  });\r\n}\r\n```\r\n\r\n이렇게 했더니 사용하는 변수 타입이 nullabe이 되어버려서 계속 사용하는 변수 뒤에 `!`를 붙여줘서 null이 아님을 명시했어야 했는데\r\n\r\n### 원했던 코드\r\n\r\n```dart\r\nclass NaviState {\r\n  final int index;\r\n  final bool yesOrNo;\r\n\r\n  NaviState({\r\n    int? index,\r\n    bool? yesOrNo,\r\n  })  : index = index ?? 0,\r\n        yesOrNo = yesOrNo ?? false;\r\n}\r\n```\r\n\r\n이렇게 nullable로 선언하는 것이 아닌 생성자에서 nullable로 받고 null인 경우 초기값을 설정하도록 하는 것이 내가 의도한 방향성과 더 맞는 코드인 것을 알게 됐다.\r\n\r\n\r\n## Navigator.pushNamed\r\n---\r\n\r\nflutter에서 라우팅 하는 방법은 좀 다양한 것 같다.\r\n\r\n그 중 `Navigator.pushNamed`이다.\r\n\r\nNavigator.pushNamed로 context에 불러올 위젯 이름을 push한다.\r\n\r\n그러면 정의해 놓은 `onGenerateRoute`를 통해서 page를 불러오면 된다. 간단하다.\r\n\r\n## GestureDetector 렌더링 문제\r\n---\r\n\r\n갑자기 GestureDetector만 사용하면 렌더링 에러가 났다.\r\n\r\nGestureDetector에 사이즈를 제공해주지 않았기 때문이라고 한다. (ListView도 마찬가지다)\r\n\r\n```dart\r\nExpanded(\r\n  child: SizedBox(\r\n    height: 200,\r\n    width: 200,\r\n    child: GestureDetector(),\r\n  ),\r\n)\r\n```\r\n\r\n이런식으로 구현할 수 있다."
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-4",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-4",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-21-til4/index.md",
         "source": "@site/blog/2023-12-21-til4/index.md",
         "title": "Flutter TIL - 4",
@@ -1324,7 +1324,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-4",
           "title": "Flutter TIL - 4",
           "authors": [
             "kihyun"
@@ -1339,19 +1339,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 5",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-5"
         },
         "nextItem": {
           "title": "Flutter TIL - 3",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-3"
         }
       },
       "content": "---\r\n\r\n## 선택적 매개변수\r\n---\r\n\r\n```dart\r\nColor getColor(WidgetRef ref, bool isInactive, [Color? color]) {}\r\n```\r\n\r\n위와 같은 함수가 있다고 가정하자. `[Color? color]` 이렇게 대괄호로 받는 매개변수는 넣어도 되고 안 넣어도 되는 선택적 매개변수이다.\r\n\r\n\r\n## svg icon에 대해서\r\n---\r\n\r\n지금 저는 IconButton을 사용하지 않고 Custom으로 Button위젯을 만들어서 사용하고 있습니다.\r\n\r\n이 때 버튼 등 다양한 값들을 `GestureDetector`의 `Row` 위젯으로 감싸아서 했는데 width가 넘어갔다는고 하네요.. 그래서 appbar가 좀 밀려보였습니다.\r\n\r\nsvg파일의 크기를 줄여야 합니다. vs code에서 위젯트리 디버깅 확인해보며 Row에 할당된 width를 확인하고 그 이하로 svg 파일 크기를 줄이면 해결됩니다.\r\n\r\n## NaviagtionRail\r\n---\r\n\r\nnavigationRail을 사용하면 사이드 네비게이션 바를 사용할 수 있다.\r\n\r\n`NavigationRail`안에 `NavigationRailDestination`으로 Navigator를 하나하나 정의할 수 있다.\r\n\r\n`selectedIndex`가 필수로 필요하다.\r\n\r\n`onDestinationSelected`로 어떤 것을 선택했는지 정의할 수 있다. setState로도 할 수 있는데 provider를 사용해서 watch해서 사용할 수도 있다.\r\n\r\n예를 들어서 `selectedIndex`를 state를 watch하고 `onDestinationSelected`에는 값을 바꿔주는 함수를 정의해서 read로 호출하면 될 듯\r\n\r\n`selectedIconTheme`과 `unselectedIconTheme`을 통하여 테마 지정 가능 아직은 큰 필요성 모르겠다.\r\n\r\ntrailing을 사용하면 맨 밑에 버튼 같은 걸 만들 수 있습니다.\r\n\r\n이 과정도 복잡했는데 Expanded와 Align 을 사용해야 할 수 있었습니다. 이에 대해서는 또 찾아봐야겠네요\r\n\r\n## body에 border-radius\r\n---\r\n\r\n사실 body에 border-radius줘도 안바뀐다 왜냐하면 배경색과 색이 같아서\r\n\r\n그래서 body를 이루고 있는 Row위젯을 ColorBox로 감쌉니다. 그렇게 배경색을 주고 밑에서 Container에 해당했던 부분(기존에 border-radius를 줬던 부분)을 Expanded로 확장시킵니다 그럼 끝 !"
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-3",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-3",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-20-til3/index.md",
         "source": "@site/blog/2023-12-20-til3/index.md",
         "title": "Flutter TIL - 3",
@@ -1396,7 +1396,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-3",
           "title": "Flutter TIL - 3",
           "authors": [
             "kihyun"
@@ -1412,19 +1412,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 4",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-4"
         },
         "nextItem": {
           "title": "Flutter TIL - 2",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-2"
         }
       },
       "content": "---\r\n\r\n## NotifierProvider의 notifier 메소드\r\n---\r\n\r\n```dart\r\nfinal cartProvider = NotifierProvider<RiverpodCart, List<Product>>(() {\r\n  return RiverpodCart();\r\n});\r\n```\r\n\r\n플러터는 위처럼 provider를 위젯트리에 따로 등록하지 않고 변수로 선언해서 사용한다.\r\n\r\n```dart\r\nreturn ProductTile(\r\n  product: product,\r\n  isInCart: ref.watch(cartProvider).contains(product),\r\n  onPressed: ref.read(cartProvider.notifier).onProductPressed,\r\n);\r\n```\r\n\r\n신기한 것이 있었다. 이렇게 전역변수로 선언한 것을 watch하고 read하는 것은 이해를 했는데 갑자기 `.notifier`.. 이건 뭐지\r\n\r\n실험해보고 찾아보니 `.notifier`를 붙이면 해당 provider의 class로 접근해서 그 class의 메소드 등을 사용할 수 있다는 것.\r\n\r\n즉 위에서 cartProvider의 `NotifierProvider<RiverpodCart, List<Product>>` 중 앞 부분인 `RiverpodCart`에 접근하는 느낌이다.\r\n\r\n`.notifier`를 붙이지 않으면 이 provider의 상태로 접근하는 것이다.\r\n\r\n즉 `List<Product>`에 접근한다. 그래서 contians 메소드를 사용할 수 있었다.\r\n\r\n## dart 생성자\r\n\r\n---\r\n\r\n### named parameter\r\n\r\n생성자 안에 `{}` 중괄호로 파라미터를 묶으면 named parameter 가능\r\n\r\nnamed parameter하면 required 할 수도 있다."
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-2",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-2",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-19-til2/index.md",
         "source": "@site/blog/2023-12-19-til2/index.md",
         "title": "Flutter TIL - 2",
@@ -1469,7 +1469,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-2",
           "title": "Flutter TIL - 2",
           "authors": [
             "kihyun"
@@ -1485,19 +1485,19 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 3",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-3"
         },
         "nextItem": {
           "title": "Flutter TIL - 1",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-1"
         }
       },
       "content": "---\r\n\r\n## const에 대해\r\n---\r\n\r\nclass에서 생성자를 `const`로 만들지 않았을 때\r\n\r\n```dart\r\nclass Product {\r\n  final int id;\r\n  final String name;\r\n  final String desc;\r\n  final String price;\r\n  final String imageUrl;\r\n\r\n  Product({\r\n    required this.id,\r\n    required this.name,\r\n    required this.desc,\r\n    required this.price,\r\n    required this.imageUrl,\r\n  });\r\n}\r\n```\r\n\r\n위처럼 만들면 아래 코드는 에러난다.\r\n\r\n```dart\r\nconst List<Product> storeProductList = [];\r\n```\r\n\r\n생성자 Product에 `const`를 붙여주면 해결할 수 있다.\r\n\r\n## context.read에 대해\r\n\r\n---\r\n\r\n```dart\r\nvoid main() {\r\n  runApp(\r\n    MultiProvider(\r\n      providers: [\r\n        ChangeNotifierProvider(\r\n          create: (context) => MyCart(),\r\n        ),\r\n        ChangeNotifierProvider(\r\n          create: (context) => MyBadge(myCart: context.read()),\r\n        ),\r\n      ],\r\n      child: MaterialApp(\r\n        home: MyApp(),\r\n      ),\r\n    ),\r\n  );\r\n}\r\n```\r\n\r\n코드 상황이 위와 같을 때 어떻게 MyCart의 정보를 `contex.read()`로 가져오나 의문이 있었다.\r\n\r\n본론부터 말하면\r\n\r\n```dart\r\n        ChangeNotifierProvider(\r\n          create: (context) => MyBadge(myCart: context.read<MyCart>()),\r\n        ),\r\n```\r\n\r\n위와 같이 사용하면 헷갈릴 일이 없고 가져올 수 있는 이유는 `ChangeNotifierProvider`를 통해서 `MyCart`를 위젯 트리 상 등록 했기에 바로 가져와지는 것이다. 만약 중간에 `MyStore` 같은 다른 위젯이 있었다면 `MyCart`는 저런식으로 가져오지 못한다.\r\n\r\n## List의 값에 const에 대해\r\n\r\n---\r\n\r\n```dart\r\nList<Product> cartProductList = const [];\r\n```\r\n\r\n리스트의 불변을 보장해주기 위해 []앞에 `const` 키워드를 붙일 수 있다. `List<Product>` 앞에 붙이는 것과는 다르다. 리스트를 바꿀 수 있지만(요소 말고) 리스트에 직접적인 값을추가하거나 삭제 수정은 못한다.\r\n\r\n삭제를 원한다면 where를 사용할 수 있다.\r\n\r\n```dart\r\nlist.where((p)=>p!= product).toList();\r\n```\r\n\r\n위처럼 작성하면 list를 돌면서 돌고 있는 값이 p인데 product와 비교하면서 product는 빼고 다시 리스트를 만드는 코드이다.\r\n\r\n추가를 원한다면\r\n\r\n```dart\r\n[...list,product]\r\n```\r\n\r\n아래처럼 간단하게 `...`연산자를 사용할 수 있다.\r\n\r\n## dart 자동 매개변수..?\r\n\r\n---\r\n\r\n```dart\r\n  void onProductPressed(Product product) {\r\n    if (cartProductList.contains(product)) {\r\n      cartProductList = cartProductList.where((p) => p != product).toList();\r\n    } else {\r\n      cartProductList = [...cartProductList, product];\r\n    }\r\n    notifyListeners();\r\n  }\r\n```\r\n\r\n이렇게 매개변수가 필요한 함수로 구현돼있는데\r\n\r\n```dart\r\n      return ProductTile(\r\n        product: product,\r\n        isInCart: providerCart.cartProductList.contains(product),\r\n        onPressed: providerCart.onProductPressed,\r\n      );\r\n```\r\n\r\n이렇게 사용하길래 깜짝 놀랐다. 뭔가 싶었는데 ProductTile class에 비밀이 있었다.\r\n\r\n```dart\r\n  final Product product;\r\n  final bool isInCart;\r\n  final void Function(Product product) onPressed;\r\n```\r\n\r\n이렇게 onPressed가 구현돼있으면 product를 넣지 않아도 알아서 넣어준다고..\r\n\r\nproduct를 넣지 않았는데 어떻게 아냐구요? ProductTile 위젯을 만들 때 product값을 전달하기 때문에 인지할 수 있다고 하네요 !\r\n\r\n정리하자면 특정 위젯에 a라는 값을 통해서 구현하고 그 a라는 값을 매개변수로 사용하는 함수가 있을 때 다른 함수도 그 a라는 값을 필요로 한다면 사용하지 않는다.. 라는 것입니다. 근데 100% 이해를 못했다. 마음에 담아두자.\r\n\r\n## context.read() 2\r\n\r\n---\r\n\r\n한 가지를 더 이해해 버렸다.\r\n\r\n위젯 트리 상에 등록해서 context로 가져올 수 있다면\r\n\r\n```dart\r\ncontext.read<ProviderCart>().onProductPressed\r\n```\r\n\r\n위 처럼 ProviderCart의 함수를 가져올 수 있다.\r\n\r\n## context.select()\r\n\r\n---\r\n\r\n이거 좀 이상하긴 하다. 그래서 이제 완벽히 이해했다.\r\n\r\n`context.watch()` : Provider의 모든 상태를 구독한다.\r\n\r\n`context.select()`: Provider의 특정 상태를 구독한다.\r\n\r\n```dart\r\nfinal count = context.select<Counter,int>((counter) => counter.count);\r\n```\r\n\r\n위 처럼 사용하기 때문에 select는 특정 상태 구독 가능\r\n\r\n`context.read()`: 구독안하고 현재 상태 그냥 가져오기\r\n\r\n드디어 context 3형제는 이해한듯\r\n\r\n## Riverpod\r\n\r\n---\r\n\r\nprovider 만든 사람이 만든거라고 해서 provider랑 비슷할 줄 알았는데 다르다.\r\n\r\nprovider 등록을 MultiProvider에 등록하는 것이 아닌 그냥 전역 변수로 등록한다. 별도 변수에 할당하기 때문에 같은 Provider를 다른 변수에 할당할 수 있다. 그리고 BuildContex를 사용하지 않고 별도의 WidgetRef라는 것을 사용한다.\r\n\r\n:::tip 변경점 정리\r\n\r\n1. provider를 전역 변수로 선언해서 사용\r\n2. BuildContext 대신 WidgetRef 사용\r\n   :::\r\n\r\n나머지는 차차 알아가보는걸로\r\n\r\n`StatelessWidget`은 `ConsumerWidget`으로 바꿔야한다.\r\n그리고 `build()`메소드 파라미터에 `WidgetRef ref`를 추가해야 ref사용할 수 있다.\r\n\r\n`StatefulWidget`은 `ConsumerStatefulWidget`으로 바꿔야 한다.\r\n\r\n바꾸기 싫으면 `Consumer` 위젯으로 감싸서 사용할 수 있다.\r\n\r\n### provider 종류\r\n\r\n1. `StateProvider` : 별로 클래스 선언 없이 가볍게 사용할 수 있다.\r\n\r\n2. `NotifierProvider` : 클래스를 만들어서 사용할 수 있습니다.\r\n\r\n3. `Provider` : 기존 Provider의 Provider와 같음 즉 상태가 없는 Provider들\r\n\r\n### 잡기술\r\n\r\n1. `AutoDispose` : `NotifierProvider`뒤에 `.autoDispose`를 붙이고 `Notifier` extends한 것을 `AutoDisposeNotifier`로 수정하면 됩니다. 자동으로 dispose 해줍니다.\r\n\r\n2. `family` : `NotifierProvider`뒤에 `family`를 추가해서 사용하면 되느데 매개변수 타입을 추가해주면 `build()`에 매개변수 추가해서 사용할 수 있습니다.\r\n\r\n3. `AutoDisposeFamilyNotifier` : 1,2번을 합친 것.\r\n\r\n## Error: Unable to find git in your PATH.\r\n\r\n---\r\n\r\n간혹 flutter를 처음할 때 아래와 같은 에러가 괴롭힌다.\r\n\r\n```bash\r\nError: Unable to find git in your PATH.\r\n```\r\n\r\n```bash\r\ngit config --global --add safe.directory '*'\r\n```\r\n\r\n위 명령어로 해결할 수 있음 저장소 권한 문제인 것같다. 관리자 powershell은 flutter 됐었음"
     },
     {
-      "id": "Flutter",
+      "id": "flutter-til-1",
       "metadata": {
-        "permalink": "/blog/Flutter",
+        "permalink": "/blog/flutter-til-1",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-16-til1/index.md",
         "source": "@site/blog/2023-12-16-til1/index.md",
         "title": "Flutter TIL - 1",
@@ -1534,7 +1534,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "Flutter",
+          "slug": "flutter-til-1",
           "title": "Flutter TIL - 1",
           "authors": [
             "kihyun"
@@ -1548,7 +1548,7 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 2",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-2"
         },
         "nextItem": {
           "title": "MVVM 아키텍처",
@@ -1611,7 +1611,7 @@
         },
         "prevItem": {
           "title": "Flutter TIL - 1",
-          "permalink": "/blog/Flutter"
+          "permalink": "/blog/flutter-til-1"
         },
         "nextItem": {
           "title": "테스트 코드",
@@ -1683,15 +1683,15 @@
         },
         "nextItem": {
           "title": "와이어샤크",
-          "permalink": "/blog/와이어샤크"
+          "permalink": "/blog/kosta3"
         }
       },
       "content": "---\r\n\r\n[테스트 코드 작성 요령](https://github.com/flutter/flutter/tree/master/packages/flutter/test/material)\r\n\r\n테스트 코드를 작성하면 기능들의 의존성도 확인할 수 있고 테스트할 기능이 많아질 수록 자동화 해놓면 좋다.\r\n\r\n:::tip 테스트 종류\r\n`단위 테스트 ( Unit Test )`: 특정 함수 및 클래스 테스트  \r\n`위젯 테스트 ( Widget Test )`: 단일 위젯 테스트  \r\n`통합 테스트 ( Integration Test )`: 앱의 전체적인 테스트 동작\r\n:::\r\n\r\n## 단위 테스트\r\n---\r\n\r\n내장 테스트로 테스트를 진행할 수 있습니다.\r\n\r\n테스트 파일은 `파일이름_test.dart`여야 한다. 즉 `_test.dart`로 끝나야 함\r\n\r\n:::tip 테스트 관련 함수\r\n`test()`: 테스트 시작\r\n`expect()`: 값 검증  \r\n`group()`: 테스트 그룹 만들기  \r\n`setUp()`: 테스트 시작 전 실행하는 함수(계속 테스트 시작할 때마다 실행)  \r\n`setUpAll()`: 최초 한 번만 실행  \r\n`tearDown()`: 테스트 후 실행  \r\n`tearDownAll()`: 테스트 종료 후 마지막 한 번 실행\r\n:::\r\n\r\n테스트를 하다보면 왜하나 싶을 수 있는데 변경에 대처하기 위해서 작성하는 것임. 완전 변한다면 또 의미가 없어지긴하는데 리팩토링 했을 때 검증하는 느낌이려나 아직은 잘 모르겠다.\r\n\r\n\r\n### Mock Object\r\n\r\napi 통신 테스트 같은 경우 외부 변수가 많아서 mock object로 한다.\r\n\r\n왜냐하면 실제 요청 응답은 변수가 많아서... 재현이 어렵다. 그리고 실제로 서버 응답 실패 테스트 같은 경우도 쉽지 않다. mock object를 사용하면 쉽게 할 수 있다.\r\n\r\nmockito랑 build_runner를 사용한다고 한다.\r\n\r\nmockito로 어노테이션 달고 build_runner로 코드 생성하는 거임\r\n\r\n\r\n### DI ( Dependency Injection )\r\n\r\ndi를 하는데 생성자를 통해 외부 코드를 받는다인 간단한 개념이라고 한다.\r\n\r\n  \r\n  \r\n\r\n## 위젯 테스트\r\n---\r\n\r\n상호작용, 생김새, 상태 확인을 테스트 한다고 한다.\r\n\r\n\r\n:::tip 위젯 테스트\r\n`testWidgets()`: 테스트 진행  \r\n`pump()`: 화면 갱신  \r\n`find.text()`: 특정 테스트 검색  \r\n`find.byType()`: 특정 클래스의 타입과 일치하는 위젯 검색  \r\n`tester.widget()`: 특정 타입의 위젯 가져옴  \r\n`tester.element()`: 특정 위젯의 BuildContext 가져옴\r\n:::\r\n\r\n[golden test](https://api.flutter.dev/flutter/flutter_test/matchesGoldenFile.html)도 있다.\r\n\r\ngolden test는 이미지 픽셀 비교하는 테스트다 즉 시각적 모습을 테스트할 수 있다.\r\n\r\n\r\n```bash\r\nflutter test --update-goldens\r\n```\r\n\r\n이걸로 골든테스트 정답 생성해줌 신기하넹.\r\n\r\n\r\n## 통합 테스트\r\n---\r\n\r\nGUI테스트 EndToEnd라고 합니다.\r\n\r\n실제 에뮬레이터를 통해서 테스트를 하게 된다.\r\n\r\n`integration_test`를 추가해야 한다고 합니다.\r\n\r\n```bash\r\n\r\n  integration_test:\r\n    sdk: flutter\r\n```\r\n\r\ndev_dependecies에 붙여넣어주면 된다.\r\n\r\n\r\nintegration_test라는 폴더를 root에 만들어주고 하면 된다.\r\n아주 신기하다.\r\n\r\n## 테스트 커버리지\r\n---\r\n\r\n[플러터 커버리지](https://marketplace.visualstudio.com/items?itemName=Flutterando.flutter-coverage)\r\n\r\n테스트 코드 기반으로 커버리지 측정을 한다.\r\n\r\n[커버리지 거터스](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)\r\n\r\n이거는 특정 파일에서 좌측 하단 watch를 눌러보면 어디가 테스트가 안됐는지와 커버리지 % 알려준다.\r\n\r\n\r\nhydrated bloc을 사용해보거나 다른 서드파티들 검색해서 찾아보자"
     },
     {
-      "id": "와이어샤크",
+      "id": "kosta3",
       "metadata": {
-        "permalink": "/blog/와이어샤크",
+        "permalink": "/blog/kosta3",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-11-29-KOSTA3/index.md",
         "source": "@site/blog/2023-11-29-KOSTA3/index.md",
         "title": "와이어샤크",
@@ -1720,7 +1720,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "와이어샤크",
+          "slug": "kosta3",
           "title": "와이어샤크",
           "authors": [
             "kihyun"
@@ -1736,15 +1736,15 @@
         },
         "nextItem": {
           "title": "와이어샤크",
-          "permalink": "/blog/와이어샤크"
+          "permalink": "/blog/kosta-2"
         }
       },
       "content": "---\r\n\r\n### 이름 풀이 기능 참조 파일\r\n\r\n- mac address 사용자 정의 C:\\Program Files\\Wireshark\\ethers\r\n- port number 정보 C:\\Program Files\\Wireshark\\services\r\n- 호스트 이름 정보 C:\\Program Files\\Wireshark\\hosts\r\n\r\n### 와이어샤크는 포트번호가 인식되지 않을때 data로 해석됩니다. 비표준 포트 번호를 사용하는 FTP 서비스를 수동으로 분석기를 설정하는 메뉴는 어디인가요?\r\n\r\nAnalyze>Decode as\r\n\r\n### WLAN 프로파일을 생성시 환경설정 저장 경로는 어디인가요?\r\n\r\nC:\\Users\\user1\\AppData\\Roaming\\Wireshark\\Profile\r\n\r\n### 원격지 트래픽 캡쳐를 수행하려고 합니다. 캡쳐하고자 하는 컴퓨터에 winpcap을 설치한 후 원격지에 실행해야하는 데몬 실행파일은 무엇인가요?\r\n\r\nrpcapd.exe\r\n\r\n### 기존 추적파일에는 적용할 수 없고 실시간 캡쳐하는 작업에만 적용되는 필터로 TCPDUMP 구문의 BPF형식을 따르는 필터는 무엇인가요?\r\n\r\n캡쳐필터\r\n\r\n### 실시간 캡쳐 필터구문을 작성하세요. \r\n\r\n- http와 dns 패킷을 동시 캡쳐 `tcp port 80 or udp port 53`\r\n- 목적지 IP주소가 10.10.10.10 이면서 telnet 패킷만 캡쳐 `ip dst 10.10.10.10 and tcp port 23`\r\n- icmp ttl 에러만 캡쳐 `icmp[0]=11 and icmp[1]=0`\r\n\r\n### 전역환경설정 위치에 존재하는 파일로 업그레이드시 복사본을 만들어야 하는 파일을 쓰세요.\r\n\r\n- 실시간 캡쳐 필터 cfilters\r\n- 디스플레이 필터 dfilters\r\n- 컬러링 필터 colorfilter\r\n\r\n### 실시간 캡쳐시 파일집합으로 최근 10개 파일만 생성을 유지할 수 있는 설정은 무엇인가요?\r\n\r\n링버퍼"
     },
     {
-      "id": "와이어샤크",
+      "id": "kosta-2",
       "metadata": {
-        "permalink": "/blog/와이어샤크",
+        "permalink": "/blog/kosta-2",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-11-28-KOSTA2/index.md",
         "source": "@site/blog/2023-11-28-KOSTA2/index.md",
         "title": "와이어샤크",
@@ -1773,7 +1773,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "와이어샤크",
+          "slug": "kosta-2",
           "title": "와이어샤크",
           "authors": [
             "kihyun"
@@ -1785,19 +1785,19 @@
         },
         "prevItem": {
           "title": "와이어샤크",
-          "permalink": "/blog/와이어샤크"
+          "permalink": "/blog/kosta3"
         },
         "nextItem": {
           "title": "와이어샤크",
-          "permalink": "/blog/와이어샤크"
+          "permalink": "/blog/kosta-1"
         }
       },
       "content": "---\r\n\r\n## 문제\r\n---\r\n\r\n### PDU\r\n\r\n- L1> bits\r\n- L2> frame\r\n- L3> packet\r\n- L4> segement\r\n- L5~L7> message, data stream\r\n\r\n### 캐시 확인 및 삭제\r\n\r\n- MAC\r\n\r\n```bash title='추가'\r\narp -a\r\n```\r\n\r\n```bash title='삭제'\r\narp -d\r\n```\r\n\r\n- DNS\r\n\r\n```bash title='추가'\r\nipconfig/displaydns\r\n```\r\n\r\n```bash title='삭제'\r\nipconfig/flushdns\r\n```\r\n\r\n- NetBIOS\r\n\r\n```bash title='추가'\r\nnbtstat -c\r\n```\r\n\r\n```bash title='삭제'\r\nnbtstat -R\r\n```\r\n\r\n### OSI \r\n\r\nMAC주소 포함 : L2 - datalink layer\r\nIP주소 포함 : L3 - network layer\r\n\r\n### 기본 최대 크기\r\nEthernet Frame : 1518 Byte\r\nMTU : 1500 byte 크기변경 가능\r\nMSS : 1460 byte\r\n\r\n\r\n## 목적지 IP주소에 대한 MAC주소를 찾아오는 프로토콜\r\n\r\narp\r\n\r\n### TCP 헤더에서 Flag 6개\r\n\r\nsyn,ack,fin,rst,psh,urg\r\n\r\n###  TCP/IP에서 연결상태를 확인하고 에러메세지를 전달하는 프로토콜\r\n\r\nicmp\r\n\r\n### 스위치 기본 기능\r\n\r\nflooding, learning, fowarding, filtering\r\n\r\n\r\n\r\n## 와이어샤크\r\n---\r\n\r\n### 병합\r\n\r\n와이어샤크에 일시중지 기능은 없다 정지 이후 다시 캡쳐해서 병합하는 방법밖에 없다.\r\n\r\n병합은 파일 > 병합에서 가능\r\n\r\n와이어샤크는 두개의 파일을 동시에 열 수 없어서 병합을 사용한다.\r\n\r\n병합에는 3가지 옵션이 있는데 기본값은 시간 기준으로 병합하는 것이고 전에 이어붙이기 후에 이어붙이기가 있습니다.\r\n\r\n### 캡처 파일\r\n\r\n열기 폴더 버튼으로 파일을 연다면 캡처 시간과 사이즈 등을 추가로 확인할 수 있다.\r\n\r\n\r\n### 새로고침 버튼\r\n\r\n와이어샤크는 time 칼럼의 작동방식이 지연 시간 작동방식을 채택한다.\r\n\r\n\r\n그래서 1번 패킷이 0.00초이고 그다음 부터는 1번 패킷 이후 캡쳐된 지연 시간이다.\r\n\r\n그런데 10번 패킷을 0초로 설정하는 방법이 있는데 `시간 참조 설정`을 하면 할 수 있다.\r\n\r\n`시간 참조 설정`은 하나에만 할 수 있는 것이 아닌데 그래서 나중에 풀어주려고 하면 너무 어렵다.\r\n\r\n이 때 `파일 다시 불러오기` 버튼이 이를 모두 해제해준다.\r\n\r\n그래서 `파일 다시 불러오기` 버튼을 자주 사용한다고 한다.\r\n\r\n\r\n### 이름 해석\r\n\r\n보기 > 이름해석 > 네트워크 주소 해석을 키면 패킷의 IPv4에서 dns 주소로 확인할 수 있다.\r\n\r\n근데 이러면 쓸데없는 UDP 패킷이 생기기 때문에 실시간 패킷을 캡쳐할 때 이름 해석을 해제하고 하는 것이 좋다.\r\n\r\n보기 > 이름해석 > 전송주소 해석을 키면 포트 번호에 이름을 붙여줌\r\n\r\n\r\n:::tip 이름 해석 커스텀\r\n`MAC addr`  c:\\program files\\wireshark\\ethers\r\n`IP addr`   c:\\program files\\wireshark\\hosts\r\n`port name` c:\\program files\\wireshark\\services\r\n:::"
     },
     {
-      "id": "와이어샤크",
+      "id": "kosta-1",
       "metadata": {
-        "permalink": "/blog/와이어샤크",
+        "permalink": "/blog/kosta-1",
         "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-11-27-KOSTA1/index.md",
         "source": "@site/blog/2023-11-27-KOSTA1/index.md",
         "title": "와이어샤크",
@@ -1826,7 +1826,7 @@
           }
         ],
         "frontMatter": {
-          "slug": "와이어샤크",
+          "slug": "kosta-1",
           "title": "와이어샤크",
           "authors": [
             "kihyun"
@@ -1838,7 +1838,7 @@
         },
         "prevItem": {
           "title": "와이어샤크",
-          "permalink": "/blog/와이어샤크"
+          "permalink": "/blog/kosta-2"
         },
         "nextItem": {
           "title": "PKI 개념",
@@ -1887,7 +1887,7 @@
         },
         "prevItem": {
           "title": "와이어샤크",
-          "permalink": "/blog/와이어샤크"
+          "permalink": "/blog/kosta-1"
         },
         "nextItem": {
           "title": "Overloading & Overriding",
@@ -2006,64 +2006,11 @@
           "permalink": "/blog/Overloading and Overriding"
         },
         "nextItem": {
-          "title": "Welcome",
-          "permalink": "/blog/welcome"
-        }
-      },
-      "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
-    },
-    {
-      "id": "welcome",
-      "metadata": {
-        "permalink": "/blog/welcome",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-welcome/index.md",
-        "source": "@site/blog/2023-08-29-welcome/index.md",
-        "title": "Welcome",
-        "description": "Docusaurus 첫번째 글이다.",
-        "date": "2023-08-29T00:00:00.000Z",
-        "formattedDate": "August 29, 2023",
-        "tags": [
-          {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
-          },
-          {
-            "label": "first post",
-            "permalink": "/blog/tags/first-post"
-          }
-        ],
-        "readingTime": 0.095,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "welcome",
-          "title": "Welcome",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "docusaurus",
-            "first post"
-          ]
-        },
-        "prevItem": {
-          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-          "permalink": "/blog/design pattern rule"
-        },
-        "nextItem": {
           "title": "전략 패턴 - Strategy pattern",
           "permalink": "/blog/strategy pattern"
         }
       },
-      "content": "Docusaurus 첫번째 글이다.\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\n귀여운 공룡 인형이 있다."
+      "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
     },
     {
       "id": "strategy pattern",
@@ -2108,11 +2055,64 @@
           ]
         },
         "prevItem": {
+          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+          "permalink": "/blog/design pattern rule"
+        },
+        "nextItem": {
           "title": "Welcome",
           "permalink": "/blog/welcome"
         }
       },
       "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
+    },
+    {
+      "id": "welcome",
+      "metadata": {
+        "permalink": "/blog/welcome",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-welcome/index.md",
+        "source": "@site/blog/2023-08-29-welcome/index.md",
+        "title": "Welcome",
+        "description": "Docusaurus 첫번째 글이다.",
+        "date": "2023-08-29T00:00:00.000Z",
+        "formattedDate": "August 29, 2023",
+        "tags": [
+          {
+            "label": "docusaurus",
+            "permalink": "/blog/tags/docusaurus"
+          },
+          {
+            "label": "first post",
+            "permalink": "/blog/tags/first-post"
+          }
+        ],
+        "readingTime": 0.095,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "welcome",
+          "title": "Welcome",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "docusaurus",
+            "first post"
+          ]
+        },
+        "prevItem": {
+          "title": "전략 패턴 - Strategy pattern",
+          "permalink": "/blog/strategy pattern"
+        }
+      },
+      "content": "Docusaurus 첫번째 글이다.\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\n귀여운 공룡 인형이 있다."
     }
   ]
 }

@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-15
 title: Flutter TIL - 15
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, revierpod, FutureProvider]

@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-10
 title: Flutter TIL - 10
 authors: [kihyun]
 tags: [TIL, 개념, mutex, semaphore]

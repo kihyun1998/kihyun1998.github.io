@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-3
 title: Flutter TIL - 3
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, riverpod, notifier, dart 생성자]

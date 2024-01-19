@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-7
 title: Flutter TIL - 7
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, dart, future_wait]

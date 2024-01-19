@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-4
 title: Flutter TIL - 4
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, dart, function]

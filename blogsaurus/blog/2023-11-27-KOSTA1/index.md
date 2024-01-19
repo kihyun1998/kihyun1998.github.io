@@ -1,5 +1,5 @@
 ---
-slug: 와이어샤크
+slug: kosta-1
 title: 와이어샤크
 authors: [kihyun]
 tags: [KOSTA, 와이어샤크 ]

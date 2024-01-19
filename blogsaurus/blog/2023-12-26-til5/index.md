@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-5
 title: Flutter TIL - 5
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, dart, 생성자, constructor, nullabel]

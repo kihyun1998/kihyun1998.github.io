@@ -1,5 +1,5 @@
 ---
-slug: Flutter
+slug: flutter-til-1
 title: Flutter TIL - 1
 authors: [kihyun]
 tags: [TIL, 플러터, flutter, Bloc]

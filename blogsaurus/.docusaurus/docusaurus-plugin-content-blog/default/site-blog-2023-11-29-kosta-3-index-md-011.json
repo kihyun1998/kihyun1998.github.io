@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/와이어샤크",
+  "permalink": "/blog/kosta3",
   "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-11-29-KOSTA3/index.md",
   "source": "@site/blog/2023-11-29-KOSTA3/index.md",
   "title": "와이어샤크",
@@ -28,7 +28,7 @@
     }
   ],
   "frontMatter": {
-    "slug": "와이어샤크",
+    "slug": "kosta3",
     "title": "와이어샤크",
     "authors": [
       "kihyun"
@@ -44,6 +44,6 @@
   },
   "nextItem": {
     "title": "와이어샤크",
-    "permalink": "/blog/와이어샤크"
+    "permalink": "/blog/kosta-2"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/Flutter",
+  "permalink": "/blog/flutter-til-14",
   "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-10-til14/index.md",
   "source": "@site/blog/2024-01-10-til14/index.md",
   "title": "Flutter TIL - 14",
@@ -48,7 +48,7 @@
     }
   ],
   "frontMatter": {
-    "slug": "Flutter",
+    "slug": "flutter-til-14",
     "title": "Flutter TIL - 14",
     "authors": [
       "kihyun"
@@ -65,10 +65,10 @@
   },
   "prevItem": {
     "title": "Flutter TIL - 15",
-    "permalink": "/blog/Flutter"
+    "permalink": "/blog/flutter-til-15"
   },
   "nextItem": {
     "title": "Flutter TIL - 12",
-    "permalink": "/blog/Flutter"
+    "permalink": "/blog/flutter-til-12"
   }
 }
