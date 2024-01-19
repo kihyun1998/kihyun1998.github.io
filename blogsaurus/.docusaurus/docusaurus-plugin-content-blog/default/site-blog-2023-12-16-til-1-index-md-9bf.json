@@ -1,0 +1,59 @@
+{
+  "permalink": "/blog/Flutter",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-16-til1/index.md",
+  "source": "@site/blog/2023-12-16-til1/index.md",
+  "title": "Flutter TIL - 1",
+  "description": "---",
+  "date": "2023-12-16T00:00:00.000Z",
+  "formattedDate": "December 16, 2023",
+  "tags": [
+    {
+      "label": "TIL",
+      "permalink": "/blog/tags/til"
+    },
+    {
+      "label": "플러터",
+      "permalink": "/blog/tags/플러터"
+    },
+    {
+      "label": "flutter",
+      "permalink": "/blog/tags/flutter"
+    },
+    {
+      "label": "Bloc",
+      "permalink": "/blog/tags/bloc"
+    }
+  ],
+  "readingTime": 2.46,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Flutter",
+    "title": "Flutter TIL - 1",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "TIL",
+      "플러터",
+      "flutter",
+      "Bloc"
+    ]
+  },
+  "prevItem": {
+    "title": "Flutter TIL - 2",
+    "permalink": "/blog/Flutter"
+  },
+  "nextItem": {
+    "title": "MVVM 아키텍처",
+    "permalink": "/blog/mvvm"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-ops/dev-ops6",
+  "id": "dev-ops/dev-ops6",
+  "title": "[Gitlab] yml파일 기록",
+  "description": "---",
+  "source": "@site/docs/dev-ops/dev-ops6.md",
+  "sourceDirName": "dev-ops",
+  "slug": "/dev-ops/dev-ops6",
+  "permalink": "/docs/dev-ops/dev-ops6",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Gitlab] self host runner",
+    "permalink": "/docs/dev-ops/dev-ops5"
+  },
+  "next": {
+    "title": "[Gitlab] push rules",
+    "permalink": "/docs/dev-ops/dev-ops7"
+  }
+}

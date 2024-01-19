@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-ops/dev-ops2",
+  "id": "dev-ops/dev-ops2",
+  "title": "[Gitlab] CI/CD 실습",
+  "description": "---",
+  "source": "@site/docs/dev-ops/dev-ops2.md",
+  "sourceDirName": "dev-ops",
+  "slug": "/dev-ops/dev-ops2",
+  "permalink": "/docs/dev-ops/dev-ops2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[GitHub Actions] self-host runner 사용하기 in Ubuntu",
+    "permalink": "/docs/dev-ops/dev-ops1"
+  },
+  "next": {
+    "title": "[Gitlab] CI/CD 실습 2",
+    "permalink": "/docs/dev-ops/dev-ops3"
+  }
+}

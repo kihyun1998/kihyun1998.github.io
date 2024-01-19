@@ -1,0 +1,84 @@
+{
+  "permalink": "/blog/Flutter",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-18-til19/index.md",
+  "source": "@site/blog/2024-01-18-til19/index.md",
+  "title": "Flutter TIL - 19",
+  "description": "---",
+  "date": "2024-01-18T00:00:00.000Z",
+  "formattedDate": "January 18, 2024",
+  "tags": [
+    {
+      "label": "TIL",
+      "permalink": "/blog/tags/til"
+    },
+    {
+      "label": "플러터",
+      "permalink": "/blog/tags/플러터"
+    },
+    {
+      "label": "flutter",
+      "permalink": "/blog/tags/flutter"
+    },
+    {
+      "label": "revierpod",
+      "permalink": "/blog/tags/revierpod"
+    },
+    {
+      "label": "notifierProvider",
+      "permalink": "/blog/tags/notifier-provider"
+    },
+    {
+      "label": "asyncNotifierProvider",
+      "permalink": "/blog/tags/async-notifier-provider"
+    },
+    {
+      "label": "tear-offs",
+      "permalink": "/blog/tags/tear-offs"
+    },
+    {
+      "label": "enum based class",
+      "permalink": "/blog/tags/enum-based-class"
+    },
+    {
+      "label": "sealed based class",
+      "permalink": "/blog/tags/sealed-based-class"
+    }
+  ],
+  "readingTime": 5.84,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Flutter",
+    "title": "Flutter TIL - 19",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "TIL",
+      "플러터",
+      "flutter",
+      "revierpod",
+      "notifierProvider",
+      "asyncNotifierProvider",
+      "tear-offs",
+      "enum based class",
+      "sealed based class"
+    ]
+  },
+  "prevItem": {
+    "title": "Flutter TIL - 20",
+    "permalink": "/blog/Flutter"
+  },
+  "nextItem": {
+    "title": "Flutter TIL - 18",
+    "permalink": "/blog/Flutter"
+  }
+}

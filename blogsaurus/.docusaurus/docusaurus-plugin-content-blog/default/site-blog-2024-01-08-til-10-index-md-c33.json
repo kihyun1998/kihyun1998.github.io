@@ -1,0 +1,59 @@
+{
+  "permalink": "/blog/Flutter",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-08-til10/index.md",
+  "source": "@site/blog/2024-01-08-til10/index.md",
+  "title": "Flutter TIL - 10",
+  "description": "---",
+  "date": "2024-01-08T00:00:00.000Z",
+  "formattedDate": "January 8, 2024",
+  "tags": [
+    {
+      "label": "TIL",
+      "permalink": "/blog/tags/til"
+    },
+    {
+      "label": "개념",
+      "permalink": "/blog/tags/개념"
+    },
+    {
+      "label": "mutex",
+      "permalink": "/blog/tags/mutex"
+    },
+    {
+      "label": "semaphore",
+      "permalink": "/blog/tags/semaphore"
+    }
+  ],
+  "readingTime": 0.995,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Flutter",
+    "title": "Flutter TIL - 10",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "TIL",
+      "개념",
+      "mutex",
+      "semaphore"
+    ]
+  },
+  "prevItem": {
+    "title": "Flutter TIL - 13",
+    "permalink": "/blog/Flutter"
+  },
+  "nextItem": {
+    "title": "Flutter TIL - 11",
+    "permalink": "/blog/Flutter"
+  }
+}

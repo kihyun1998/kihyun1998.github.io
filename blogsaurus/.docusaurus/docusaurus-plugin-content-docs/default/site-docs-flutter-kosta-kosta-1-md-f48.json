@@ -16,8 +16,8 @@
   },
   "sidebar": "dartSidebar",
   "previous": {
-    "title": "27. [Flutter] shared_preferences",
-    "permalink": "/docs/flutter/flutter27"
+    "title": "flutter riverpod을 위한 필요사항",
+    "permalink": "/docs/flutter/flutter28"
   },
   "next": {
     "title": "02. [KOSTA] 플러터 심화 교육",

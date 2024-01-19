@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-ops/dev-ops5",
+  "id": "dev-ops/dev-ops5",
+  "title": "[Gitlab] self host runner",
+  "description": "---",
+  "source": "@site/docs/dev-ops/dev-ops5.md",
+  "sourceDirName": "dev-ops",
+  "slug": "/dev-ops/dev-ops5",
+  "permalink": "/docs/dev-ops/dev-ops5",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Gitlab] Gitlab ce 설치",
+    "permalink": "/docs/dev-ops/dev-ops4"
+  },
+  "next": {
+    "title": "[Gitlab] yml파일 기록",
+    "permalink": "/docs/dev-ops/dev-ops6"
+  }
+}

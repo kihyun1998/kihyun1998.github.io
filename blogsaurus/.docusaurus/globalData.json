@@ -406,6 +406,36 @@
               "sidebar": "backSidebar"
             },
             {
+              "id": "dev-ops/dev-ops2",
+              "path": "/docs/dev-ops/dev-ops2",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops3",
+              "path": "/docs/dev-ops/dev-ops3",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops4",
+              "path": "/docs/dev-ops/dev-ops4",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops5",
+              "path": "/docs/dev-ops/dev-ops5",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops6",
+              "path": "/docs/dev-ops/dev-ops6",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops7",
+              "path": "/docs/dev-ops/dev-ops7",
+              "sidebar": "backSidebar"
+            },
+            {
               "id": "DP--behavioral-patterns/observer",
               "path": "/docs/DP--behavioral-patterns/observer",
               "sidebar": "designPatternSidebar"
@@ -548,6 +578,11 @@
             {
               "id": "flutter/flutter27",
               "path": "/docs/flutter/flutter27",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter28",
+              "path": "/docs/flutter/flutter28",
               "sidebar": "dartSidebar"
             },
             {

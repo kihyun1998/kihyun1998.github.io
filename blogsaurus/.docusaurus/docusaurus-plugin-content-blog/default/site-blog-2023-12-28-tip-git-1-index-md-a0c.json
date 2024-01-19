@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/Flutter",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-tip-git1/index.md",
+  "source": "@site/blog/2023-12-28-tip-git1/index.md",
+  "title": "Git - 변경사항 취소",
+  "description": "---",
+  "date": "2023-12-28T00:00:00.000Z",
+  "formattedDate": "December 28, 2023",
+  "tags": [
+    {
+      "label": "git",
+      "permalink": "/blog/tags/git"
+    }
+  ],
+  "readingTime": 0.05,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Flutter",
+    "title": "Git - 변경사항 취소",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "git"
+    ]
+  },
+  "prevItem": {
+    "title": "Flutter TIL - 7",
+    "permalink": "/blog/Flutter"
+  },
+  "nextItem": {
+    "title": "Flutter TIL - 6",
+    "permalink": "/blog/Flutter"
+  }
+}

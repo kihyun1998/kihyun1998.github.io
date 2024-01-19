@@ -414,6 +414,12 @@
             "label": "27. [Flutter] shared_preferences",
             "href": "/docs/flutter/flutter27",
             "docId": "flutter/flutter27"
+          },
+          {
+            "type": "link",
+            "label": "flutter riverpod을 위한 필요사항",
+            "href": "/docs/flutter/flutter28",
+            "docId": "flutter/flutter28"
           }
         ],
         "collapsed": true,
@@ -790,6 +796,42 @@
             "label": "[GitHub Actions] self-host runner 사용하기 in Ubuntu",
             "href": "/docs/dev-ops/dev-ops1",
             "docId": "dev-ops/dev-ops1"
+          },
+          {
+            "type": "link",
+            "label": "[Gitlab] CI/CD 실습",
+            "href": "/docs/dev-ops/dev-ops2",
+            "docId": "dev-ops/dev-ops2"
+          },
+          {
+            "type": "link",
+            "label": "[Gitlab] CI/CD 실습 2",
+            "href": "/docs/dev-ops/dev-ops3",
+            "docId": "dev-ops/dev-ops3"
+          },
+          {
+            "type": "link",
+            "label": "[Gitlab] Gitlab ce 설치",
+            "href": "/docs/dev-ops/dev-ops4",
+            "docId": "dev-ops/dev-ops4"
+          },
+          {
+            "type": "link",
+            "label": "[Gitlab] self host runner",
+            "href": "/docs/dev-ops/dev-ops5",
+            "docId": "dev-ops/dev-ops5"
+          },
+          {
+            "type": "link",
+            "label": "[Gitlab] yml파일 기록",
+            "href": "/docs/dev-ops/dev-ops6",
+            "docId": "dev-ops/dev-ops6"
+          },
+          {
+            "type": "link",
+            "label": "[Gitlab] push rules",
+            "href": "/docs/dev-ops/dev-ops7",
+            "docId": "dev-ops/dev-ops7"
           }
         ],
         "collapsed": true,
@@ -1470,6 +1512,42 @@
       "description": "사용하기 전에 먼저 환경 설정을 합니다.",
       "sidebar": "backSidebar"
     },
+    "dev-ops/dev-ops2": {
+      "id": "dev-ops/dev-ops2",
+      "title": "[Gitlab] CI/CD 실습",
+      "description": "---",
+      "sidebar": "backSidebar"
+    },
+    "dev-ops/dev-ops3": {
+      "id": "dev-ops/dev-ops3",
+      "title": "[Gitlab] CI/CD 실습 2",
+      "description": "---",
+      "sidebar": "backSidebar"
+    },
+    "dev-ops/dev-ops4": {
+      "id": "dev-ops/dev-ops4",
+      "title": "[Gitlab] Gitlab ce 설치",
+      "description": "---",
+      "sidebar": "backSidebar"
+    },
+    "dev-ops/dev-ops5": {
+      "id": "dev-ops/dev-ops5",
+      "title": "[Gitlab] self host runner",
+      "description": "---",
+      "sidebar": "backSidebar"
+    },
+    "dev-ops/dev-ops6": {
+      "id": "dev-ops/dev-ops6",
+      "title": "[Gitlab] yml파일 기록",
+      "description": "---",
+      "sidebar": "backSidebar"
+    },
+    "dev-ops/dev-ops7": {
+      "id": "dev-ops/dev-ops7",
+      "title": "[Gitlab] push rules",
+      "description": "---",
+      "sidebar": "backSidebar"
+    },
     "DP--behavioral-patterns/observer": {
       "id": "DP--behavioral-patterns/observer",
       "title": "옵저버 패턴 ( Observer Pattern )",
@@ -1642,6 +1720,12 @@
       "id": "flutter/flutter27",
       "title": "27. [Flutter] shared_preferences",
       "description": "1. 코드",
+      "sidebar": "dartSidebar"
+    },
+    "flutter/flutter28": {
+      "id": "flutter/flutter28",
+      "title": "flutter riverpod을 위한 필요사항",
+      "description": "---",
       "sidebar": "dartSidebar"
     },
     "flutter/flutter3": {

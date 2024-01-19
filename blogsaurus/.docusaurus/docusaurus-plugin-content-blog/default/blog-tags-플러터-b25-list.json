@@ -2,8 +2,9 @@
   "permalink": "/blog/tags/플러터",
   "page": 1,
   "postsPerPage": 10,
-  "totalPages": 1,
-  "totalCount": 2,
+  "totalPages": 3,
+  "totalCount": 21,
+  "nextPage": "/blog/tags/플러터/page/2",
   "blogDescription": "Blog",
   "blogTitle": "Blog"
 }

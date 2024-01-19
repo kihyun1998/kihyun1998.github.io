@@ -1,0 +1,64 @@
+{
+  "permalink": "/blog/Flutter",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-til7/index.md",
+  "source": "@site/blog/2023-12-28-til7/index.md",
+  "title": "Flutter TIL - 7",
+  "description": "---",
+  "date": "2023-12-28T00:00:00.000Z",
+  "formattedDate": "December 28, 2023",
+  "tags": [
+    {
+      "label": "TIL",
+      "permalink": "/blog/tags/til"
+    },
+    {
+      "label": "플러터",
+      "permalink": "/blog/tags/플러터"
+    },
+    {
+      "label": "flutter",
+      "permalink": "/blog/tags/flutter"
+    },
+    {
+      "label": "dart",
+      "permalink": "/blog/tags/dart"
+    },
+    {
+      "label": "future_wait",
+      "permalink": "/blog/tags/future-wait"
+    }
+  ],
+  "readingTime": 0.54,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Flutter",
+    "title": "Flutter TIL - 7",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "TIL",
+      "플러터",
+      "flutter",
+      "dart",
+      "future_wait"
+    ]
+  },
+  "prevItem": {
+    "title": "Git - LF will be replaced by CRLF the next time Git touches it",
+    "permalink": "/blog/Flutter"
+  },
+  "nextItem": {
+    "title": "Git - 변경사항 취소",
+    "permalink": "/blog/Flutter"
+  }
+}

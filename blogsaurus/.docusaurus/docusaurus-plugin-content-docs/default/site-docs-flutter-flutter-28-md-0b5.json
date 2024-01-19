@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter28",
+  "id": "flutter/flutter28",
+  "title": "flutter riverpod을 위한 필요사항",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter28.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter28",
+  "permalink": "/docs/flutter/flutter28",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 28,
+  "frontMatter": {
+    "sidebar_position": 28
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "27. [Flutter] shared_preferences",
+    "permalink": "/docs/flutter/flutter27"
+  },
+  "next": {
+    "title": "01. [KOSTA] 플러터 교육 - 1회차",
+    "permalink": "/docs/flutter-kosta/kosta1"
+  }
+}

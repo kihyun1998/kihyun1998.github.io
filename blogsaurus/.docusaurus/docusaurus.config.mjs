@@ -147,7 +147,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
     },
     "prism": {
       "additionalLanguages": [
@@ -161,7 +161,8 @@ export default {
         "dart",
         "xml-doc",
         "sql",
-        "protobuf"
+        "protobuf",
+        "docker"
       ],
       "theme": {
         "plain": {
