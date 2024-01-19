@@ -48,3 +48,13 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.custom_th{
+  background-color: navy;
+  color: white;
+}
+
+.custom_td{
+  background-color: rgb(36, 182, 0);
+  color: white;
+}
