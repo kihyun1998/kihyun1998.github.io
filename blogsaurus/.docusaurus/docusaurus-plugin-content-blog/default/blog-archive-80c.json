@@ -36,7 +36,7 @@
             "permalink": "/blog/tags/async-value"
           }
         ],
-        "readingTime": 1.78,
+        "readingTime": 2.255,
         "hasTruncateMarker": false,
         "authors": [
           {
@@ -67,7 +67,7 @@
           "permalink": "/blog/flutter-til-19"
         }
       },
-      "content": "---\r\n\r\n## path_provider 종류\r\n---\r\n\r\ngpt의 답변을 정리합니다.\r\n\r\n1. getApplicationDocumentsDirectory()  \r\n  - Windows에서 이 함수는 사용자의 \"Documents\" 폴더에 있는 애플리케이션 데이터 디렉토리를 반환합니다. 보통 `C:\\Users\\<User Name>\\Documents` 경로로 찾을 수 있습니다.\r\n\r\n2. getApplicationSupportDirectory()  \r\n  - `C:\\Users\\User\\AppData\\Roaming\\[패키지이름]\\[프로젝트이름]`\r\n\r\n3. getDownloadsDirectory()  \r\n  - 사용자의 \"Downloads\" 폴더를 반환합니다, 보통 `C:\\Users\\<User Name>\\Downloads`에 위치합니다.\r\n\r\n4. getExternalCacheDirectories()  \r\n  - Windows에서 외부 캐시 디렉토리는 일반적으로 해당되지 않습니다. 이 함수는 Windows에서 지원되지 않을 가능성이 높습니다.\r\n\r\n5. getExternalStorageDirectories({StorageDirectory? type})  \r\n  - Windows에서 외부 저장소 디렉토리는 일반적으로 해당되지 않으며, 이 함수는 Android 플랫폼에 특화되어 있습니다.\r\n\r\n6. getExternalStorageDirectory()\r\n  - 이 함수도 마찬가지로 Windows에서는 일반적으로 사용되지 않습니다. Android에서는 외부 저장소의 루트 디렉토리를 반환합니다.\r\n\r\n7. getLibraryDirectory()  \r\n  - macOS에서만 사용되며, Windows에서는 해당 디렉토리가 없습니다.\r\n\r\n8. getTemporaryDirectory()  \r\n  - 시스템의 임시 폴더를 반환합니다. Windows에서는 보통 `C:\\Users\\<User Name>\\AppData\\Local\\Temp`에 위치합니다.\r\n\r\n\r\n## AsyncValeu - properties\r\n---\r\n\r\n### value\r\n\r\n<table>\r\n  <tr class=\"custom_th\">\r\n    <th>Async종류</th>\r\n    <th>previous value [no]</th>\r\n    <th>previous value [yes]</th>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncLoading</td>\r\n    <td>null</td>\r\n    <td>previous value</td>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncData</td>\r\n    <td>current value</td>\r\n    <td>current value</td>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncError</td>\r\n    <td>rethrow error</td>\r\n    <td>previous value</td>\r\n  </tr>\r\n</table>"
+      "content": "---\r\n\r\n## path_provider 종류\r\n---\r\n\r\ngpt의 답변을 정리합니다.\r\n\r\n1. getApplicationDocumentsDirectory()  \r\n  - Windows에서 이 함수는 사용자의 \"Documents\" 폴더에 있는 애플리케이션 데이터 디렉토리를 반환합니다. 보통 `C:\\Users\\<User Name>\\Documents` 경로로 찾을 수 있습니다.\r\n\r\n2. getApplicationSupportDirectory()  \r\n  - `C:\\Users\\User\\AppData\\Roaming\\[패키지이름]\\[프로젝트이름]`\r\n\r\n3. getDownloadsDirectory()  \r\n  - 사용자의 \"Downloads\" 폴더를 반환합니다, 보통 `C:\\Users\\<User Name>\\Downloads`에 위치합니다.\r\n\r\n4. getExternalCacheDirectories()  \r\n  - Windows에서 외부 캐시 디렉토리는 일반적으로 해당되지 않습니다. 이 함수는 Windows에서 지원되지 않을 가능성이 높습니다.\r\n\r\n5. getExternalStorageDirectories({StorageDirectory? type})  \r\n  - Windows에서 외부 저장소 디렉토리는 일반적으로 해당되지 않으며, 이 함수는 Android 플랫폼에 특화되어 있습니다.\r\n\r\n6. getExternalStorageDirectory()\r\n  - 이 함수도 마찬가지로 Windows에서는 일반적으로 사용되지 않습니다. Android에서는 외부 저장소의 루트 디렉토리를 반환합니다.\r\n\r\n7. getLibraryDirectory()  \r\n  - macOS에서만 사용되며, Windows에서는 해당 디렉토리가 없습니다.\r\n\r\n8. getTemporaryDirectory()  \r\n  - 시스템의 임시 폴더를 반환합니다. Windows에서는 보통 `C:\\Users\\<User Name>\\AppData\\Local\\Temp`에 위치합니다.\r\n\r\n\r\n## AsyncValeu - properties\r\n---\r\n\r\n### value\r\n\r\n<table>\r\n  <tr class=\"custom_th\">\r\n    <th>Async종류</th>\r\n    <th>previous value [no]</th>\r\n    <th>previous value [yes]</th>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncLoading</td>\r\n    <td>null</td>\r\n    <td>previous value</td>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncData</td>\r\n    <td>current value</td>\r\n    <td>current value</td>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncError</td>\r\n    <td>rethrow error</td>\r\n    <td>previous value</td>\r\n  </tr>\r\n</table>\r\n\r\n### error, stackTrace\r\n\r\n<table>\r\n  <tr class=\"custom_th\">\r\n    <th>Async종류</th>\r\n    <th>previous error [no]</th>\r\n    <th>previous error [yes]</th>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncLoading</td>\r\n    <td>null</td>\r\n    <td>previous error</td>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncData</td>\r\n    <td>null</td>\r\n    <td>null</td>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncError</td>\r\n    <td>current error</td>\r\n    <td>current error</td>\r\n  </tr>\r\n</table>\r\n\r\n\r\n### isLoading \r\n\r\n<table>\r\n  <tr class=\"custom_th\">\r\n    <th>Async종류</th>\r\n    <th>previous value [no] &nbsp;previous error [no]</th>\r\n    <th>previous value [no] &nbsp;previous error [yes]</th>\r\n    <th>previous value [yes] &nbsp;previous error [no]</th>\r\n    <th>previous value [yes] &nbsp;previous error [yes]</th>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncLoading</td>\r\n    <td>null</td>\r\n    <td>previous error</td>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncData</td>\r\n    <td>null</td>\r\n    <td>null</td>\r\n  </tr>\r\n  <tr>\r\n    <td class=\"custom_td\">AsyncError</td>\r\n    <td>current error</td>\r\n    <td>current error</td>\r\n  </tr>\r\n</table>"
     },
     {
       "id": "flutter-til-19",
@@ -511,79 +511,11 @@
           "permalink": "/blog/flutter-til-15"
         },
         "nextItem": {
-          "title": "Flutter TIL - 12",
-          "permalink": "/blog/flutter-til-12"
-        }
-      },
-      "content": "---\r\n\r\n## state provider\r\n---\r\n\r\n특징으로는 code generator가 안되고\r\n\r\nstate를 갖고 있다는 점\r\n\r\n```dart\r\nfloatingActionButton: FloatingActionButton(\r\n  onPressed: () {\r\n    ref.read(counterProvider.notifier).state++;\r\n  },\r\n  child: const Icon(Icons.add),\r\n),\r\n```\r\n\r\n위와 같이 read를 하는데 notifier를 사용해서 state에 접근할 수 있다.\r\n\r\n그리고 추가로 UI를 그리려면 `Future.delay` 또는 Listen을 사용할 수 있다.  \r\n(그냥 그리려면 에러난다. 충돌나서)\r\n\r\n```dart\r\nref.listen<int>(counterProvider, (previous, next) {\r\n  if (next == 3) {\r\n    showDialog(\r\n      context: context,\r\n      builder: (context) {\r\n        return AlertDialog(\r\n          content: Text('counter : $next'),\r\n        );\r\n      },\r\n    );\r\n  }\r\n});\r\n```\r\n\r\n요런식으로 listen할 수 있다. 이전 값 다음 값이 있다.\r\n\r\n## update\r\n---\r\n\r\n```dart\r\nonPressed: () {\r\n  ref\r\n      .read(autoDisposecounterProvider.notifier)\r\n      .update((state) => state + 10);\r\n},\r\n```\r\n\r\n위 코드는\r\n\r\n```dart\r\nref.read(autoDisposecounterProvider.notifier).state + \r\n  ref.read(autoDisposecounterProvider.notifier).state + 10\r\n```\r\n\r\n과 같은 코드이다. 너무 길기 때문에 그냥 update 사용하는 것이 편리하다.\r\n\r\nstate를 인자로 사용할 로직이 필요하면 `update` 사용하기\r\n\r\n## Future Provider의 이야기\r\n---\r\n\r\nremote api를 호출하면 3가지 상태 처리가 필요하다.\r\n\r\n`in progress`, `success`, `error`이다.\r\n\r\n3가지 모두 동시에 2가지 이상 상태가 될 수 없다.\r\n\r\n`FutureProvider`는 이 3가지 상태에 대한 값을 처리해준다.\r\n\r\n`AsyncData`, `AsyncError`, `AsyncLoading`이 있다.\r\n\r\n생성자도 3가지 있다.\r\n\r\n`AsyncValue`가 중요하다는 뜻\r\n\r\n## 소소한 팁\r\n---\r\n\r\n1. provider 안에 ref.read()를 사용하지 말 것\r\n\r\n2. StateProvider 대신 NotifierProvider 사용할 것"
-    },
-    {
-      "id": "flutter-til-12",
-      "metadata": {
-        "permalink": "/blog/flutter-til-12",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-09-til12/index.md",
-        "source": "@site/blog/2024-01-09-til12/index.md",
-        "title": "Flutter TIL - 12",
-        "description": "---",
-        "date": "2024-01-09T00:00:00.000Z",
-        "formattedDate": "January 9, 2024",
-        "tags": [
-          {
-            "label": "TIL",
-            "permalink": "/blog/tags/til"
-          },
-          {
-            "label": "플러터",
-            "permalink": "/blog/tags/플러터"
-          },
-          {
-            "label": "flutter",
-            "permalink": "/blog/tags/flutter"
-          },
-          {
-            "label": "revierpod",
-            "permalink": "/blog/tags/revierpod"
-          },
-          {
-            "label": "provider",
-            "permalink": "/blog/tags/provider"
-          }
-        ],
-        "readingTime": 2.485,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "flutter-til-12",
-          "title": "Flutter TIL - 12",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "TIL",
-            "플러터",
-            "flutter",
-            "revierpod",
-            "provider"
-          ]
-        },
-        "prevItem": {
-          "title": "Flutter TIL - 14",
-          "permalink": "/blog/flutter-til-14"
-        },
-        "nextItem": {
           "title": "Flutter TIL - 13",
           "permalink": "/blog/flutter-til-13"
         }
       },
-      "content": "---\r\n\r\n```dart\r\nfinal helloProvider = Provider<String>((ref) {\r\n  ref.onDispose(() {\r\n    print(\"[helloProvider] : disposed\");\r\n  });\r\n  return \"Hello\";\r\n});\r\n```\r\n\r\nriverpod의 기본 모습이 이렇다.\r\n\r\n변수에 할당하고 `Provider` 부분은 사용할 Provider 종류,\r\n\r\n`<String>`에는 return값 타입을 정의한다.\r\n\r\nref를 통해서 여러 기능을 사용할 수 있는데 ref.onDispose해주면 dispose된다.\r\n\r\n### onDispose\r\n\r\n해당 provider가 dispose되면 실행되는 함수\r\n\r\n위의 코드는 자동으로 dispose 되지 않는다.\r\n\r\n### 대표적 3가지\r\n\r\n`watch` : 값 변하는지 계속 확인하고 변하면 리빌드 (async하면안된다.)\r\n\r\n`listen` : 값 변경되면 리빌딩 되는 것이 아닌 액션을 수행(navigate같은) (async하면 안된다.)\r\n\r\n`read` : 값을 확인하지만 변경을 watch하지 않음(build에서 사용하지마라)\r\n\r\n## auto dispose\r\n---\r\n\r\n```dart\r\nfinal autoDisposeHelloProvider = Provider.autoDispose<String>((ref) {\r\n  print('[autoDisposeHelloProvder]: created');\r\n  ref.onDispose(() {\r\n    print('[autoDisposeHelloProvder]: disposed');\r\n  });\r\n  return 'Hello';\r\n});\r\n```\r\n\r\n페이지에서 나오면 autodispose해준다.\r\n\r\n## family\r\n---\r\n\r\n```dart\r\nfinal familyHelloProvider = Provider.family<String, String>((ref, name) {\r\n  ref.onDispose(() {\r\n    print('[familyHelloProvider] disposed');\r\n  });\r\n  return 'Hello $name';\r\n});\r\n```\r\n이렇게 provider 정의하면 argument 사용할 수 있다.\r\n\r\n```dart\r\n    final helloA = ref.watch(familyHelloProvider('A'));\r\n    final helloB = ref.watch(familyHelloProvider('B'));\r\n```\r\nwatch할 때도 이런식으로 해야한다.\r\n\r\n## autoDisposeFamily\r\n---\r\n\r\n```dart\r\nfinal autoDisposeFamilyHelloProvider =\r\n    Provider.autoDispose.family<String, String>((ref, name) {\r\n  ref.onDispose(() {\r\n    print('[autoDisposeFamilyHelloProvider] disposed');\r\n  });\r\n  return 'Hello $name';\r\n});\r\n```\r\nautoDispose와 family를 모두 사용할 수 있다.\r\n\r\n만약 둘의 인자값이 `A`라면 dispose는 한번만 일어납니다. (그냥 autoDispose도 한번만 일어남)\r\n\r\n\r\n## 객체 넘기기 \r\n---\r\n\r\n```dart\r\nclass Counter {\r\n  final int count;\r\n  Counter({\r\n    required this.count,\r\n  });\r\n\r\n  @override\r\n  String toString() => 'Counter()(count: $count)';\r\n}\r\n\r\nfinal counterProvider = Provider.autoDispose.family<int, Counter>((ref, c) {\r\n  ref.onDispose(() {\r\n    print('[countProvider($c)] disposed');\r\n  });\r\n  return c.count;\r\n});\r\n```\r\n\r\n만약 위처럼 객체를 넘겨서\r\n\r\n```dart\r\n    ref.watch(counterProvider(Counter(count: 0)));\r\n    ref.watch(counterProvider(Counter(count: 0)));\r\n```\r\n\r\n이렇게 watch를 조지면 dispose가 두번 일어납니다. 둘 다 다른 객체로 판단합니다.\r\n\r\n\r\n```dart\r\nclass Counter extends Equatable {\r\n  final int count;\r\n  const Counter({\r\n    required this.count,\r\n  });\r\n\r\n  @override\r\n  String toString() => 'Counter()(count: $count)';\r\n\r\n  @override\r\n  List<Object> get props => [count];\r\n}\r\n```\r\n\r\nCounter 객체를 Equatable해야 dispose 한번만 일어난다.\r\n\r\n\r\n## 정리\r\n---\r\n\r\nautoDispose 조심히 사용해야 한다. 계속 dispose 하기 때문에"
+      "content": "---\r\n\r\n## state provider\r\n---\r\n\r\n특징으로는 code generator가 안되고\r\n\r\nstate를 갖고 있다는 점\r\n\r\n```dart\r\nfloatingActionButton: FloatingActionButton(\r\n  onPressed: () {\r\n    ref.read(counterProvider.notifier).state++;\r\n  },\r\n  child: const Icon(Icons.add),\r\n),\r\n```\r\n\r\n위와 같이 read를 하는데 notifier를 사용해서 state에 접근할 수 있다.\r\n\r\n그리고 추가로 UI를 그리려면 `Future.delay` 또는 Listen을 사용할 수 있다.  \r\n(그냥 그리려면 에러난다. 충돌나서)\r\n\r\n```dart\r\nref.listen<int>(counterProvider, (previous, next) {\r\n  if (next == 3) {\r\n    showDialog(\r\n      context: context,\r\n      builder: (context) {\r\n        return AlertDialog(\r\n          content: Text('counter : $next'),\r\n        );\r\n      },\r\n    );\r\n  }\r\n});\r\n```\r\n\r\n요런식으로 listen할 수 있다. 이전 값 다음 값이 있다.\r\n\r\n## update\r\n---\r\n\r\n```dart\r\nonPressed: () {\r\n  ref\r\n      .read(autoDisposecounterProvider.notifier)\r\n      .update((state) => state + 10);\r\n},\r\n```\r\n\r\n위 코드는\r\n\r\n```dart\r\nref.read(autoDisposecounterProvider.notifier).state + \r\n  ref.read(autoDisposecounterProvider.notifier).state + 10\r\n```\r\n\r\n과 같은 코드이다. 너무 길기 때문에 그냥 update 사용하는 것이 편리하다.\r\n\r\nstate를 인자로 사용할 로직이 필요하면 `update` 사용하기\r\n\r\n## Future Provider의 이야기\r\n---\r\n\r\nremote api를 호출하면 3가지 상태 처리가 필요하다.\r\n\r\n`in progress`, `success`, `error`이다.\r\n\r\n3가지 모두 동시에 2가지 이상 상태가 될 수 없다.\r\n\r\n`FutureProvider`는 이 3가지 상태에 대한 값을 처리해준다.\r\n\r\n`AsyncData`, `AsyncError`, `AsyncLoading`이 있다.\r\n\r\n생성자도 3가지 있다.\r\n\r\n`AsyncValue`가 중요하다는 뜻\r\n\r\n## 소소한 팁\r\n---\r\n\r\n1. provider 안에 ref.read()를 사용하지 말 것\r\n\r\n2. StateProvider 대신 NotifierProvider 사용할 것"
     },
     {
       "id": "flutter-til-13",
@@ -653,45 +585,49 @@
           ]
         },
         "prevItem": {
-          "title": "Flutter TIL - 12",
-          "permalink": "/blog/flutter-til-12"
+          "title": "Flutter TIL - 14",
+          "permalink": "/blog/flutter-til-14"
         },
         "nextItem": {
-          "title": "Flutter TIL - 10",
-          "permalink": "/blog/flutter-til-10"
+          "title": "Flutter TIL - 12",
+          "permalink": "/blog/flutter-til-12"
         }
       },
       "content": "---\r\n\r\n## code generator\r\n---\r\n\r\n`rivp`: `riverpodPart`\r\n\r\n```dart\r\npart 'b_provider.g.dart';\r\n```\r\n\r\n`riverpodKeepAlive`\r\n\r\nriverpod code generator는 자동으로 autoDispose인데 keepAlive:true를 해주면 autoDispose하지 않는다.\r\n\r\n```dart\r\n@Riverpod(keepAlive: true)\r\nString hello(HelloRef ref) {\r\n  ref.onDispose(() {\r\n    print(\"[helloProvider] : disposed\");\r\n  });\r\n  return \"Hello\";\r\n}\r\n```\r\n\r\n`String`: return의 타입\r\n`hello`: 나중에 helloProvider라는 이름을 갖는다.\r\n`HelloRef`: generator하면 Ref로 나오는데 hello에서 앞글자를 대문자로 해서 붙이면 HelloRef가 된다. 이걸로 교체해줘야한다.\r\n\r\n### 코드생성\r\n\r\n```bash\r\ndart run build_runner build -d\r\n```\r\n\r\n위 처럼 build runner 실행해서 generate할 수 있다.\r\n\r\n`-d`옵션은 generate중 충돌이 나도 그냥 생성하라는 뜻입니다.\r\n\r\n```bash\r\ndart run build_runner watch -d\r\n```\r\n\r\nwatch를 사용하면 한번만 사용하면 변화를 계속 watch해서 적용된다.\r\n\r\n### 차이점\r\n\r\n수동 생성과 차이점은\r\n\r\n1. 기존은 `helloProvider` 이렇게 했다면 자동 생성에서는 hello로만 해도 `helloProvider` 생성해줌.\r\n\r\n2. 자동생성에서는 Provider 종류 지정 안해도된다.\r\n\r\n\r\n## Provider\r\n---\r\n\r\n### autoDispose\r\n---\r\n\r\nautoDispose Provider는 `riverpod`스니팻 으로 만들 수 있습니다.\r\n\r\n```dart\r\n@riverpod\r\nString autoDisposeHello(AutoDisposeHelloRef ref) {\r\n  print('[autoDisposeHelloProvder]: created');\r\n  ref.onDispose(() {\r\n    print('[autoDisposeHelloProvder]: disposed');\r\n  });\r\n  return 'Hello';\r\n}\r\n```\r\n\r\n\r\n\r\n### family\r\n---\r\n\r\nfamily는 그냥 `riverpod`이나 `riverpodkeepalive`에서  ref 옆에 파라미터 추가해주면 family로 자동으로 만들어줍니다.\r\n\r\n```dart\r\n@Riverpod(keepAlive: true)\r\nString familyHello(FamilyHelloRef ref, {required String name}) {\r\n  ref.onDispose(() {\r\n    print('[familyHelloProvider] disposed');\r\n  });\r\n  return 'Hello $name';\r\n}\r\n```\r\n\r\n참고로 `name`을 사용하면 에러난다. 그 이유는 generator에서 name이라는 변수를 이미 사용하고 있기 때문이다.\r\n\r\n### autoDispose, family\r\n---\r\n\r\n```dart\r\n@riverpod\r\nString autoDisposeFamilyHello(AutoDisposeFamilyHelloRef ref,\r\n    {required String nom}) {\r\n  ref.onDispose(() {\r\n    print('[autoDisposeFamilyHelloProvider] disposed');\r\n  });\r\n  return 'Hello $nom';\r\n}\r\n```\r\n\r\n별로 어렵지 않음\r\n\r\n## 한가지 배운 dart 언어 syntax\r\n---\r\n\r\n`part`는 `import`다음으로 최상단에 위치해야한다.\r\n\r\n\r\n## StateProvider\r\n---\r\n\r\n### 특징\r\n\r\n- stateProvider는 notifierProvider의 간소화된 버전  \r\n- 복잡하지 않는 로직을 쓸 때 사용  \r\n- code generator해서 만들 수 없다.(수동만 가능)"
     },
     {
-      "id": "flutter-til-10",
+      "id": "flutter-til-12",
       "metadata": {
-        "permalink": "/blog/flutter-til-10",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-08-til10/index.md",
-        "source": "@site/blog/2024-01-08-til10/index.md",
-        "title": "Flutter TIL - 10",
+        "permalink": "/blog/flutter-til-12",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-09-til12/index.md",
+        "source": "@site/blog/2024-01-09-til12/index.md",
+        "title": "Flutter TIL - 12",
         "description": "---",
-        "date": "2024-01-08T00:00:00.000Z",
-        "formattedDate": "January 8, 2024",
+        "date": "2024-01-09T00:00:00.000Z",
+        "formattedDate": "January 9, 2024",
         "tags": [
           {
             "label": "TIL",
             "permalink": "/blog/tags/til"
           },
           {
-            "label": "개념",
-            "permalink": "/blog/tags/개념"
+            "label": "플러터",
+            "permalink": "/blog/tags/플러터"
           },
           {
-            "label": "mutex",
-            "permalink": "/blog/tags/mutex"
+            "label": "flutter",
+            "permalink": "/blog/tags/flutter"
           },
           {
-            "label": "semaphore",
-            "permalink": "/blog/tags/semaphore"
+            "label": "revierpod",
+            "permalink": "/blog/tags/revierpod"
+          },
+          {
+            "label": "provider",
+            "permalink": "/blog/tags/provider"
           }
         ],
-        "readingTime": 0.995,
+        "readingTime": 2.485,
         "hasTruncateMarker": false,
         "authors": [
           {
@@ -703,16 +639,17 @@
           }
         ],
         "frontMatter": {
-          "slug": "flutter-til-10",
-          "title": "Flutter TIL - 10",
+          "slug": "flutter-til-12",
+          "title": "Flutter TIL - 12",
           "authors": [
             "kihyun"
           ],
           "tags": [
             "TIL",
-            "개념",
-            "mutex",
-            "semaphore"
+            "플러터",
+            "flutter",
+            "revierpod",
+            "provider"
           ]
         },
         "prevItem": {
@@ -724,7 +661,7 @@
           "permalink": "/blog/flutter-til-11"
         }
       },
-      "content": "---\r\n\r\n## mutex와 semaphore 차이\r\n---\r\n\r\n### mutex\r\n\r\n공유된 자원에 스레드들의 동시 접근을 막아줍니다. 1개의 프로세스 혹은 쓰레드만 공유 자원에 접근할 수 있습니다. 키를 기반으로 한 상호배제 기법입니다.\r\n\r\n공유된 자원을 카페 화장실로 비유할 수 있고 키를 열쇠로 비유할 수 있습니다.\r\n\r\n### semaphore\r\n\r\n세마포어도 동시 접근을 막아주는데 1개의 프로세스만 접근할 수 있는 것이 아닌 여러 설정된 최대값 만큼 들어갈 수 있습니다. 빈칸이 0이면 대기해야 합니다.\r\n\r\n공유된 자원을 카페 화장실인데 칸이 여러 개 있는 화장실로 비유할 수 있습니다."
+      "content": "---\r\n\r\n```dart\r\nfinal helloProvider = Provider<String>((ref) {\r\n  ref.onDispose(() {\r\n    print(\"[helloProvider] : disposed\");\r\n  });\r\n  return \"Hello\";\r\n});\r\n```\r\n\r\nriverpod의 기본 모습이 이렇다.\r\n\r\n변수에 할당하고 `Provider` 부분은 사용할 Provider 종류,\r\n\r\n`<String>`에는 return값 타입을 정의한다.\r\n\r\nref를 통해서 여러 기능을 사용할 수 있는데 ref.onDispose해주면 dispose된다.\r\n\r\n### onDispose\r\n\r\n해당 provider가 dispose되면 실행되는 함수\r\n\r\n위의 코드는 자동으로 dispose 되지 않는다.\r\n\r\n### 대표적 3가지\r\n\r\n`watch` : 값 변하는지 계속 확인하고 변하면 리빌드 (async하면안된다.)\r\n\r\n`listen` : 값 변경되면 리빌딩 되는 것이 아닌 액션을 수행(navigate같은) (async하면 안된다.)\r\n\r\n`read` : 값을 확인하지만 변경을 watch하지 않음(build에서 사용하지마라)\r\n\r\n## auto dispose\r\n---\r\n\r\n```dart\r\nfinal autoDisposeHelloProvider = Provider.autoDispose<String>((ref) {\r\n  print('[autoDisposeHelloProvder]: created');\r\n  ref.onDispose(() {\r\n    print('[autoDisposeHelloProvder]: disposed');\r\n  });\r\n  return 'Hello';\r\n});\r\n```\r\n\r\n페이지에서 나오면 autodispose해준다.\r\n\r\n## family\r\n---\r\n\r\n```dart\r\nfinal familyHelloProvider = Provider.family<String, String>((ref, name) {\r\n  ref.onDispose(() {\r\n    print('[familyHelloProvider] disposed');\r\n  });\r\n  return 'Hello $name';\r\n});\r\n```\r\n이렇게 provider 정의하면 argument 사용할 수 있다.\r\n\r\n```dart\r\n    final helloA = ref.watch(familyHelloProvider('A'));\r\n    final helloB = ref.watch(familyHelloProvider('B'));\r\n```\r\nwatch할 때도 이런식으로 해야한다.\r\n\r\n## autoDisposeFamily\r\n---\r\n\r\n```dart\r\nfinal autoDisposeFamilyHelloProvider =\r\n    Provider.autoDispose.family<String, String>((ref, name) {\r\n  ref.onDispose(() {\r\n    print('[autoDisposeFamilyHelloProvider] disposed');\r\n  });\r\n  return 'Hello $name';\r\n});\r\n```\r\nautoDispose와 family를 모두 사용할 수 있다.\r\n\r\n만약 둘의 인자값이 `A`라면 dispose는 한번만 일어납니다. (그냥 autoDispose도 한번만 일어남)\r\n\r\n\r\n## 객체 넘기기 \r\n---\r\n\r\n```dart\r\nclass Counter {\r\n  final int count;\r\n  Counter({\r\n    required this.count,\r\n  });\r\n\r\n  @override\r\n  String toString() => 'Counter()(count: $count)';\r\n}\r\n\r\nfinal counterProvider = Provider.autoDispose.family<int, Counter>((ref, c) {\r\n  ref.onDispose(() {\r\n    print('[countProvider($c)] disposed');\r\n  });\r\n  return c.count;\r\n});\r\n```\r\n\r\n만약 위처럼 객체를 넘겨서\r\n\r\n```dart\r\n    ref.watch(counterProvider(Counter(count: 0)));\r\n    ref.watch(counterProvider(Counter(count: 0)));\r\n```\r\n\r\n이렇게 watch를 조지면 dispose가 두번 일어납니다. 둘 다 다른 객체로 판단합니다.\r\n\r\n\r\n```dart\r\nclass Counter extends Equatable {\r\n  final int count;\r\n  const Counter({\r\n    required this.count,\r\n  });\r\n\r\n  @override\r\n  String toString() => 'Counter()(count: $count)';\r\n\r\n  @override\r\n  List<Object> get props => [count];\r\n}\r\n```\r\n\r\nCounter 객체를 Equatable해야 dispose 한번만 일어난다.\r\n\r\n\r\n## 정리\r\n---\r\n\r\nautoDispose 조심히 사용해야 한다. 계속 dispose 하기 때문에"
     },
     {
       "id": "flutter-til-11",
@@ -799,15 +736,78 @@
           ]
         },
         "prevItem": {
+          "title": "Flutter TIL - 12",
+          "permalink": "/blog/flutter-til-12"
+        },
+        "nextItem": {
           "title": "Flutter TIL - 10",
           "permalink": "/blog/flutter-til-10"
+        }
+      },
+      "content": "---\r\n\r\n## factory Constructor\r\n---\r\n\r\nfactory constructor의 constructor redirection에 대해 알고 있어야 한다. 그리고 const를 사용할 수 있음.\r\n\r\n## 필요한 패키지\r\n---\r\n\r\n`freezed_annotation`: dep : 코드 생성기에 대한 어노테이션 패키지\r\n\r\n`build_runner` : dev-dep : 코드 생성기 실행\r\n\r\n`freezed` : dev-dep : 코드 생성기\r\n\r\n`json_annotation` : dep : 코드 생성기인 json_serializable의 어노테이션 갖고 있는 패키지\r\n\r\n`json_serializable` : dev-dep : 코드 생성기\r\n\r\n### freezed와 json_serializable 사용할 경우\r\n\r\nanalysis_options.yaml에 설정\r\n\r\n```yaml\r\nanalyzer:\r\n  errors:\r\n    invalid_annotation_target: ignore\r\n  exclude:\r\n    - '**/*.freezed.dart'\r\n    - '**/*.g.dart'\r\n```\r\n\r\n### build runner를 사용해서 코드 gen하려면\r\n\r\n```bash\r\ndart run build_runner build [--delete-conflicting-outputs]\r\n\r\nor\r\n\r\ndart run build_runner watch [-d]\r\n```\r\n\r\nbuild는 one-time, watch는 계속 빌드함\r\n\r\nwatch가 빌드 타임 적다.\r\n\r\n`[]`에 있는 옵션은 previous build에서 발생한 것 건너뛰기\r\n\r\n\r\n## extension\r\n\r\n`freezed`라는 확장 설치해야 한다.\r\n\r\n`ptf` : part '*.freezed.dart'; 생성\r\n`pts` : part '*.g.dart'; 생성\r\n`fdataclass` : Dataclass 생성\r\n`funion` : Union class 생성\r\n\r\n\r\n## 기능\r\n---\r\n\r\n### 정리\r\n\r\n우선 다양한 것들을 override해준다.\r\n\r\ntoString이나 copyWith, equality 등을 오버라이딩 해줌.\r\n\r\n### copyWith\r\n\r\n일반적인 copyWith + null도 지원해줌\r\n\r\ndeep copyWith도 제공해준다. 복잡한 코드를 간단하게 작성할 수 있도록 지원\r\n\r\n### Json annotation\r\n\r\n```dart\r\n@JsonKey(name: 'parking_lot_capacity') int? parkingLotcapacity,\r\n```\r\n\r\ndata class를 만들 때 이런 인자값을 볼 수 있다.\r\n\r\n변수 parkingLotcapacity를 json키 값 'parking_lot_capacity'로 판단하겠다는 뜻이다.\r\n\r\n```dart\r\n  factory Hotel.fromJson(Map<String, dynamic> json) => _$HotelFromJson(json);\r\n```\r\n\r\n이런 것도 제공해준다.\r\n\r\n## Provider\r\n---\r\n\r\n위젯이나 다른 Provider에 값을 제공\r\n\r\nriverpod에서는 Provider를 watch할 수 있다.\r\n그리고 그냥 값을 제공하는 Provider다.\r\n\r\n### dep\r\n\r\n`equatable`,`flutter_riverpod`,`riverpod_annotation`\r\n\r\n### dev-dep\r\n\r\n`build_runner`,`custom_lint`,`flutter_lints`,`riverpod_generator`, `riverpod_lint`"
+    },
+    {
+      "id": "flutter-til-10",
+      "metadata": {
+        "permalink": "/blog/flutter-til-10",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-08-til10/index.md",
+        "source": "@site/blog/2024-01-08-til10/index.md",
+        "title": "Flutter TIL - 10",
+        "description": "---",
+        "date": "2024-01-08T00:00:00.000Z",
+        "formattedDate": "January 8, 2024",
+        "tags": [
+          {
+            "label": "TIL",
+            "permalink": "/blog/tags/til"
+          },
+          {
+            "label": "개념",
+            "permalink": "/blog/tags/개념"
+          },
+          {
+            "label": "mutex",
+            "permalink": "/blog/tags/mutex"
+          },
+          {
+            "label": "semaphore",
+            "permalink": "/blog/tags/semaphore"
+          }
+        ],
+        "readingTime": 0.995,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "flutter-til-10",
+          "title": "Flutter TIL - 10",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "TIL",
+            "개념",
+            "mutex",
+            "semaphore"
+          ]
+        },
+        "prevItem": {
+          "title": "Flutter TIL - 11",
+          "permalink": "/blog/flutter-til-11"
         },
         "nextItem": {
           "title": "Flutter TIL - 9",
           "permalink": "/blog/flutter-til-9"
         }
       },
-      "content": "---\r\n\r\n## factory Constructor\r\n---\r\n\r\nfactory constructor의 constructor redirection에 대해 알고 있어야 한다. 그리고 const를 사용할 수 있음.\r\n\r\n## 필요한 패키지\r\n---\r\n\r\n`freezed_annotation`: dep : 코드 생성기에 대한 어노테이션 패키지\r\n\r\n`build_runner` : dev-dep : 코드 생성기 실행\r\n\r\n`freezed` : dev-dep : 코드 생성기\r\n\r\n`json_annotation` : dep : 코드 생성기인 json_serializable의 어노테이션 갖고 있는 패키지\r\n\r\n`json_serializable` : dev-dep : 코드 생성기\r\n\r\n### freezed와 json_serializable 사용할 경우\r\n\r\nanalysis_options.yaml에 설정\r\n\r\n```yaml\r\nanalyzer:\r\n  errors:\r\n    invalid_annotation_target: ignore\r\n  exclude:\r\n    - '**/*.freezed.dart'\r\n    - '**/*.g.dart'\r\n```\r\n\r\n### build runner를 사용해서 코드 gen하려면\r\n\r\n```bash\r\ndart run build_runner build [--delete-conflicting-outputs]\r\n\r\nor\r\n\r\ndart run build_runner watch [-d]\r\n```\r\n\r\nbuild는 one-time, watch는 계속 빌드함\r\n\r\nwatch가 빌드 타임 적다.\r\n\r\n`[]`에 있는 옵션은 previous build에서 발생한 것 건너뛰기\r\n\r\n\r\n## extension\r\n\r\n`freezed`라는 확장 설치해야 한다.\r\n\r\n`ptf` : part '*.freezed.dart'; 생성\r\n`pts` : part '*.g.dart'; 생성\r\n`fdataclass` : Dataclass 생성\r\n`funion` : Union class 생성\r\n\r\n\r\n## 기능\r\n---\r\n\r\n### 정리\r\n\r\n우선 다양한 것들을 override해준다.\r\n\r\ntoString이나 copyWith, equality 등을 오버라이딩 해줌.\r\n\r\n### copyWith\r\n\r\n일반적인 copyWith + null도 지원해줌\r\n\r\ndeep copyWith도 제공해준다. 복잡한 코드를 간단하게 작성할 수 있도록 지원\r\n\r\n### Json annotation\r\n\r\n```dart\r\n@JsonKey(name: 'parking_lot_capacity') int? parkingLotcapacity,\r\n```\r\n\r\ndata class를 만들 때 이런 인자값을 볼 수 있다.\r\n\r\n변수 parkingLotcapacity를 json키 값 'parking_lot_capacity'로 판단하겠다는 뜻이다.\r\n\r\n```dart\r\n  factory Hotel.fromJson(Map<String, dynamic> json) => _$HotelFromJson(json);\r\n```\r\n\r\n이런 것도 제공해준다.\r\n\r\n## Provider\r\n---\r\n\r\n위젯이나 다른 Provider에 값을 제공\r\n\r\nriverpod에서는 Provider를 watch할 수 있다.\r\n그리고 그냥 값을 제공하는 Provider다.\r\n\r\n### dep\r\n\r\n`equatable`,`flutter_riverpod`,`riverpod_annotation`\r\n\r\n### dev-dep\r\n\r\n`build_runner`,`custom_lint`,`flutter_lints`,`riverpod_generator`, `riverpod_lint`"
+      "content": "---\r\n\r\n## mutex와 semaphore 차이\r\n---\r\n\r\n### mutex\r\n\r\n공유된 자원에 스레드들의 동시 접근을 막아줍니다. 1개의 프로세스 혹은 쓰레드만 공유 자원에 접근할 수 있습니다. 키를 기반으로 한 상호배제 기법입니다.\r\n\r\n공유된 자원을 카페 화장실로 비유할 수 있고 키를 열쇠로 비유할 수 있습니다.\r\n\r\n### semaphore\r\n\r\n세마포어도 동시 접근을 막아주는데 1개의 프로세스만 접근할 수 있는 것이 아닌 여러 설정된 최대값 만큼 들어갈 수 있습니다. 빈칸이 0이면 대기해야 합니다.\r\n\r\n공유된 자원을 카페 화장실인데 칸이 여러 개 있는 화장실로 비유할 수 있습니다."
     },
     {
       "id": "flutter-til-9",
@@ -877,8 +877,8 @@
           ]
         },
         "prevItem": {
-          "title": "Flutter TIL - 11",
-          "permalink": "/blog/flutter-til-11"
+          "title": "Flutter TIL - 10",
+          "permalink": "/blog/flutter-til-10"
         },
         "nextItem": {
           "title": "Flutter TIL - 8",
@@ -997,11 +997,59 @@
           "permalink": "/blog/flutter-til-8"
         },
         "nextItem": {
+          "title": "Git - 변경사항 취소",
+          "permalink": "/blog/tip-git-1"
+        }
+      },
+      "content": "---\r\n\r\n## window\r\n---\r\n\r\n```bash\r\ngit config --global core.autocrlf true\r\n```\r\n\r\n## linux, mac\r\n---\r\n\r\n```bash\r\ngit config --global core.autocrlf input\r\n```"
+    },
+    {
+      "id": "tip-git-1",
+      "metadata": {
+        "permalink": "/blog/tip-git-1",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-tip-git1/index.md",
+        "source": "@site/blog/2023-12-28-tip-git1/index.md",
+        "title": "Git - 변경사항 취소",
+        "description": "---",
+        "date": "2023-12-28T00:00:00.000Z",
+        "formattedDate": "December 28, 2023",
+        "tags": [
+          {
+            "label": "git",
+            "permalink": "/blog/tags/git"
+          }
+        ],
+        "readingTime": 0.05,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "tip-git-1",
+          "title": "Git - 변경사항 취소",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "git"
+          ]
+        },
+        "prevItem": {
+          "title": "Git - LF will be replaced by CRLF the next time Git touches it",
+          "permalink": "/blog/git-error-1"
+        },
+        "nextItem": {
           "title": "Flutter TIL - 7",
           "permalink": "/blog/flutter-til-7"
         }
       },
-      "content": "---\r\n\r\n## window\r\n---\r\n\r\n```bash\r\ngit config --global core.autocrlf true\r\n```\r\n\r\n## linux, mac\r\n---\r\n\r\n```bash\r\ngit config --global core.autocrlf input\r\n```"
+      "content": "---\r\n\r\n## 명령어\r\n\r\n```bash\r\ngit reset --hard\r\n```"
     },
     {
       "id": "flutter-til-7",
@@ -1061,63 +1109,15 @@
           ]
         },
         "prevItem": {
-          "title": "Git - LF will be replaced by CRLF the next time Git touches it",
-          "permalink": "/blog/git-error-1"
-        },
-        "nextItem": {
           "title": "Git - 변경사항 취소",
           "permalink": "/blog/tip-git-1"
-        }
-      },
-      "content": "---\r\n\r\n## Future.wait\r\n---\r\n\r\n```dart\r\n  Future<void> searchProductList() async {\r\n    isBusy = true;\r\n    final results = await Future.wait([\r\n      productRepository.searchProductList(keyword),\r\n      Future.delayed(const Duration(milliseconds: 555)),\r\n    ]);\r\n    productList = results[0];\r\n    isBusy = false;\r\n  }\r\n```\r\n\r\n`Future.wait`이라는게 있는데 안에 있는 Future wait의 배열 명령어들이 모두 끝날 때까지 기다림\r\n\r\n즉 위 코드 상으로는 search하는거와 delayed를 동시에 돌리는데 555 millisecond는 무조건 돌고 그 이상은 search끝날 때까지 기다린다는 뜻"
-    },
-    {
-      "id": "tip-git-1",
-      "metadata": {
-        "permalink": "/blog/tip-git-1",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-tip-git1/index.md",
-        "source": "@site/blog/2023-12-28-tip-git1/index.md",
-        "title": "Git - 변경사항 취소",
-        "description": "---",
-        "date": "2023-12-28T00:00:00.000Z",
-        "formattedDate": "December 28, 2023",
-        "tags": [
-          {
-            "label": "git",
-            "permalink": "/blog/tags/git"
-          }
-        ],
-        "readingTime": 0.05,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "tip-git-1",
-          "title": "Git - 변경사항 취소",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "git"
-          ]
-        },
-        "prevItem": {
-          "title": "Flutter TIL - 7",
-          "permalink": "/blog/flutter-til-7"
         },
         "nextItem": {
           "title": "Flutter TIL - 6",
           "permalink": "/blog/flutter-til-6"
         }
       },
-      "content": "---\r\n\r\n## 명령어\r\n\r\n```bash\r\ngit reset --hard\r\n```"
+      "content": "---\r\n\r\n## Future.wait\r\n---\r\n\r\n```dart\r\n  Future<void> searchProductList() async {\r\n    isBusy = true;\r\n    final results = await Future.wait([\r\n      productRepository.searchProductList(keyword),\r\n      Future.delayed(const Duration(milliseconds: 555)),\r\n    ]);\r\n    productList = results[0];\r\n    isBusy = false;\r\n  }\r\n```\r\n\r\n`Future.wait`이라는게 있는데 안에 있는 Future wait의 배열 명령어들이 모두 끝날 때까지 기다림\r\n\r\n즉 위 코드 상으로는 search하는거와 delayed를 동시에 돌리는데 555 millisecond는 무조건 돌고 그 이상은 search끝날 때까지 기다린다는 뜻"
     },
     {
       "id": "flutter-til-6",
@@ -1192,8 +1192,8 @@
           ]
         },
         "prevItem": {
-          "title": "Git - 변경사항 취소",
-          "permalink": "/blog/tip-git-1"
+          "title": "Flutter TIL - 7",
+          "permalink": "/blog/flutter-til-7"
         },
         "nextItem": {
           "title": "Flutter TIL - 5",
@@ -1551,74 +1551,11 @@
           "permalink": "/blog/flutter-til-2"
         },
         "nextItem": {
-          "title": "MVVM 아키텍처",
-          "permalink": "/blog/mvvm"
-        }
-      },
-      "content": "---\r\n\r\n일단 vs code 확장은 `bloc`, `dart data class generator`, `dart-import`, `pubspec assist`\r\n\r\n`dart data class generator`가 있으면 코드 자동 생성을 편하게 해준다. (copyWith, constructor 등.. )\r\n\r\n`pubspec assist`가 있으면 패키지를 쉽게 넣을 수 있음\r\n\r\n## Bloc에 대해서\r\n\r\n---\r\n\r\n영상을 보며 따라하면서 저번주에 KOSTA에서 배운 Bloc 사용법에 대해 익히고 있었다.\r\n\r\n영상은 다른 방식이라 헷갈렸는데 VS Code의 Bloc extension을 사용하여 New Bloc을 해가지구 Bloc을 만들었다.\r\n\r\n3개의 파일이 나온다. `bloc`,`event`,`state`\r\n\r\n### state\r\n\r\n```dart\r\nclass TasksState extends Equatable {\r\n  const TasksState({\r\n    this.allTasks = const <Task>[],\r\n  });\r\n\r\n  final List<Task> allTasks;\r\n\r\n  @override\r\n  List<Object> get props => [allTasks];\r\n}\r\n```\r\n\r\n현재 state에는 `List<Task>` 타입의 allTasks라는 상태가 하나 있다.\r\n\r\n여러 개 추가하면 여러 개 되는듯?\r\n\r\n### event\r\n\r\n```dart\r\nsealed class TasksEvent extends Equatable {\r\n  const TasksEvent();\r\n\r\n  @override\r\n  List<Object> get props => [];\r\n}\r\n\r\nclass AddTask extends TasksEvent {\r\n  final Task task;\r\n  const AddTask({\r\n    required this.task,\r\n  });\r\n\r\n  @override\r\n  List<Object> get props => [task];\r\n}\r\n\r\nclass UpdateTask extends TasksEvent {\r\n  final Task task;\r\n  const UpdateTask({\r\n    required this.task,\r\n  });\r\n\r\n  @override\r\n  List<Object> get props => [task];\r\n}\r\n\r\nclass DeleteTask extends TasksEvent {\r\n  final Task task;\r\n  const DeleteTask({\r\n    required this.task,\r\n  });\r\n\r\n  @override\r\n  List<Object> get props => [task];\r\n}\r\n\r\n```\r\n\r\n이렇게 서비스들 만들 수 있다. 현재 전부 구현된건 아닌.. 거같은데 일단 이따 수정\r\n\r\n### bloc\r\n\r\n하다가 깨달았다.\r\n\r\n```dart\r\nclass TasksBloc extends Bloc<TasksEvent, TasksState> {\r\n  TasksBloc() : super(const TasksState()) {\r\n    on<AddTask>(_onAddTask);\r\n  }\r\n\r\n  void _onAddTask(AddTask event, emit) {\r\n    emit(TasksState(\r\n      allTasks: [...state.allTasks, event.task],\r\n    ));\r\n  }\r\n}\r\n```\r\n\r\nBloc을 extends 할 때 `Bloc<event, state>`로 하라고 배웠다. 근데 할 때 state를 `int`나 `bool`같은 타입으로만 지정해줘서 그냥 state로 사용하면 됐었는데 class로 state 타입 지정해주니 state.allTasks로 해야 하더라..\r\n\r\n### 깨달음\r\n\r\nbloc에서 큰 실수가 있었다. 위코드 처럼 작성하면 되는데 코드 수를 줄여보겠다고\r\n\r\n```dart\r\n  void _onAddTask(AddTask event, emit) {\r\n    emit(\r\n      [...state.allTasks, event.task],\r\n    );\r\n  }\r\n```\r\n\r\n위처럼 작성했다가 작동을 안해서 살짝 어지러웠다.\r\n\r\nBloc이 `Bloc<TasksEvent,TasksState>`이니 TasksState type에 맞춰줘야 하나보다."
-    },
-    {
-      "id": "mvvm",
-      "metadata": {
-        "permalink": "/blog/mvvm",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-15-mvvm/index.md",
-        "source": "@site/blog/2023-12-15-mvvm/index.md",
-        "title": "MVVM 아키텍처",
-        "description": "---",
-        "date": "2023-12-15T00:00:00.000Z",
-        "formattedDate": "December 15, 2023",
-        "tags": [
-          {
-            "label": "KOSTA",
-            "permalink": "/blog/tags/kosta"
-          },
-          {
-            "label": "플러터",
-            "permalink": "/blog/tags/플러터"
-          },
-          {
-            "label": "flutter",
-            "permalink": "/blog/tags/flutter"
-          },
-          {
-            "label": "mvvm",
-            "permalink": "/blog/tags/mvvm"
-          }
-        ],
-        "readingTime": 1.42,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "mvvm",
-          "title": "MVVM 아키텍처",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "KOSTA",
-            "플러터",
-            "flutter",
-            "mvvm"
-          ]
-        },
-        "prevItem": {
-          "title": "Flutter TIL - 1",
-          "permalink": "/blog/flutter-til-1"
-        },
-        "nextItem": {
           "title": "테스트 코드",
           "permalink": "/blog/test code"
         }
       },
-      "content": "---\r\n\r\n## 관심사 분리\r\n---\r\n\r\n모듈 별 경계를 나누고 모듈간 약속을 정하는 것 like a 전기 콘센트와 플러그의 관계라고 한다.\r\n\r\n\r\n## MVVM 이론\r\n---\r\n\r\n`View`와 `ViewModel` 그리고 `Model`을 나누어 View를 쉽게 변경할 수 있는 목적을 갖고 있는 아키텍처 패턴\r\n\r\n:::tip 역할\r\n`View` : UI  \r\n`ViewModel`: View 상태 및 로직 담당  \r\n`Model`: 비지니스 로직과 데이터 입출력 담당\r\n:::\r\n\r\n핵심은 `데이터 바인딩`이다.\r\n\r\n`데이터 바인딩`이란 간단히 말하면 ViewModel과 View가 서로를 의존하지 않는 것 `Provider` 패키지를 사용해서 데이터 바인딩 이용한다는데 나는 Bloc를 사용해서 하고 싶다.. 당장은 Provider로 구현해보기\r\n\r\n페이지 마다 하나의 ViewModel이 있어야 하고 ViewModel은 View의 상태와 로직을 관리한다.\r\n\r\nModel은 `Service`, `Model`, `Repository`가 있는데 `Service`는 전역 상태와 비지니스 로직을 관리하고 `Model`은 데이터 `Repository`는 데이터 요청 로직을 담당한다.\r\n\r\n걍 뭔가 어려움 많이 연습해봐야겠다."
+      "content": "---\r\n\r\n일단 vs code 확장은 `bloc`, `dart data class generator`, `dart-import`, `pubspec assist`\r\n\r\n`dart data class generator`가 있으면 코드 자동 생성을 편하게 해준다. (copyWith, constructor 등.. )\r\n\r\n`pubspec assist`가 있으면 패키지를 쉽게 넣을 수 있음\r\n\r\n## Bloc에 대해서\r\n\r\n---\r\n\r\n영상을 보며 따라하면서 저번주에 KOSTA에서 배운 Bloc 사용법에 대해 익히고 있었다.\r\n\r\n영상은 다른 방식이라 헷갈렸는데 VS Code의 Bloc extension을 사용하여 New Bloc을 해가지구 Bloc을 만들었다.\r\n\r\n3개의 파일이 나온다. `bloc`,`event`,`state`\r\n\r\n### state\r\n\r\n```dart\r\nclass TasksState extends Equatable {\r\n  const TasksState({\r\n    this.allTasks = const <Task>[],\r\n  });\r\n\r\n  final List<Task> allTasks;\r\n\r\n  @override\r\n  List<Object> get props => [allTasks];\r\n}\r\n```\r\n\r\n현재 state에는 `List<Task>` 타입의 allTasks라는 상태가 하나 있다.\r\n\r\n여러 개 추가하면 여러 개 되는듯?\r\n\r\n### event\r\n\r\n```dart\r\nsealed class TasksEvent extends Equatable {\r\n  const TasksEvent();\r\n\r\n  @override\r\n  List<Object> get props => [];\r\n}\r\n\r\nclass AddTask extends TasksEvent {\r\n  final Task task;\r\n  const AddTask({\r\n    required this.task,\r\n  });\r\n\r\n  @override\r\n  List<Object> get props => [task];\r\n}\r\n\r\nclass UpdateTask extends TasksEvent {\r\n  final Task task;\r\n  const UpdateTask({\r\n    required this.task,\r\n  });\r\n\r\n  @override\r\n  List<Object> get props => [task];\r\n}\r\n\r\nclass DeleteTask extends TasksEvent {\r\n  final Task task;\r\n  const DeleteTask({\r\n    required this.task,\r\n  });\r\n\r\n  @override\r\n  List<Object> get props => [task];\r\n}\r\n\r\n```\r\n\r\n이렇게 서비스들 만들 수 있다. 현재 전부 구현된건 아닌.. 거같은데 일단 이따 수정\r\n\r\n### bloc\r\n\r\n하다가 깨달았다.\r\n\r\n```dart\r\nclass TasksBloc extends Bloc<TasksEvent, TasksState> {\r\n  TasksBloc() : super(const TasksState()) {\r\n    on<AddTask>(_onAddTask);\r\n  }\r\n\r\n  void _onAddTask(AddTask event, emit) {\r\n    emit(TasksState(\r\n      allTasks: [...state.allTasks, event.task],\r\n    ));\r\n  }\r\n}\r\n```\r\n\r\nBloc을 extends 할 때 `Bloc<event, state>`로 하라고 배웠다. 근데 할 때 state를 `int`나 `bool`같은 타입으로만 지정해줘서 그냥 state로 사용하면 됐었는데 class로 state 타입 지정해주니 state.allTasks로 해야 하더라..\r\n\r\n### 깨달음\r\n\r\nbloc에서 큰 실수가 있었다. 위코드 처럼 작성하면 되는데 코드 수를 줄여보겠다고\r\n\r\n```dart\r\n  void _onAddTask(AddTask event, emit) {\r\n    emit(\r\n      [...state.allTasks, event.task],\r\n    );\r\n  }\r\n```\r\n\r\n위처럼 작성했다가 작동을 안해서 살짝 어지러웠다.\r\n\r\nBloc이 `Bloc<TasksEvent,TasksState>`이니 TasksState type에 맞춰줘야 하나보다."
     },
     {
       "id": "test code",
@@ -1678,15 +1615,78 @@
           ]
         },
         "prevItem": {
+          "title": "Flutter TIL - 1",
+          "permalink": "/blog/flutter-til-1"
+        },
+        "nextItem": {
           "title": "MVVM 아키텍처",
           "permalink": "/blog/mvvm"
+        }
+      },
+      "content": "---\r\n\r\n[테스트 코드 작성 요령](https://github.com/flutter/flutter/tree/master/packages/flutter/test/material)\r\n\r\n테스트 코드를 작성하면 기능들의 의존성도 확인할 수 있고 테스트할 기능이 많아질 수록 자동화 해놓면 좋다.\r\n\r\n:::tip 테스트 종류\r\n`단위 테스트 ( Unit Test )`: 특정 함수 및 클래스 테스트  \r\n`위젯 테스트 ( Widget Test )`: 단일 위젯 테스트  \r\n`통합 테스트 ( Integration Test )`: 앱의 전체적인 테스트 동작\r\n:::\r\n\r\n## 단위 테스트\r\n---\r\n\r\n내장 테스트로 테스트를 진행할 수 있습니다.\r\n\r\n테스트 파일은 `파일이름_test.dart`여야 한다. 즉 `_test.dart`로 끝나야 함\r\n\r\n:::tip 테스트 관련 함수\r\n`test()`: 테스트 시작\r\n`expect()`: 값 검증  \r\n`group()`: 테스트 그룹 만들기  \r\n`setUp()`: 테스트 시작 전 실행하는 함수(계속 테스트 시작할 때마다 실행)  \r\n`setUpAll()`: 최초 한 번만 실행  \r\n`tearDown()`: 테스트 후 실행  \r\n`tearDownAll()`: 테스트 종료 후 마지막 한 번 실행\r\n:::\r\n\r\n테스트를 하다보면 왜하나 싶을 수 있는데 변경에 대처하기 위해서 작성하는 것임. 완전 변한다면 또 의미가 없어지긴하는데 리팩토링 했을 때 검증하는 느낌이려나 아직은 잘 모르겠다.\r\n\r\n\r\n### Mock Object\r\n\r\napi 통신 테스트 같은 경우 외부 변수가 많아서 mock object로 한다.\r\n\r\n왜냐하면 실제 요청 응답은 변수가 많아서... 재현이 어렵다. 그리고 실제로 서버 응답 실패 테스트 같은 경우도 쉽지 않다. mock object를 사용하면 쉽게 할 수 있다.\r\n\r\nmockito랑 build_runner를 사용한다고 한다.\r\n\r\nmockito로 어노테이션 달고 build_runner로 코드 생성하는 거임\r\n\r\n\r\n### DI ( Dependency Injection )\r\n\r\ndi를 하는데 생성자를 통해 외부 코드를 받는다인 간단한 개념이라고 한다.\r\n\r\n  \r\n  \r\n\r\n## 위젯 테스트\r\n---\r\n\r\n상호작용, 생김새, 상태 확인을 테스트 한다고 한다.\r\n\r\n\r\n:::tip 위젯 테스트\r\n`testWidgets()`: 테스트 진행  \r\n`pump()`: 화면 갱신  \r\n`find.text()`: 특정 테스트 검색  \r\n`find.byType()`: 특정 클래스의 타입과 일치하는 위젯 검색  \r\n`tester.widget()`: 특정 타입의 위젯 가져옴  \r\n`tester.element()`: 특정 위젯의 BuildContext 가져옴\r\n:::\r\n\r\n[golden test](https://api.flutter.dev/flutter/flutter_test/matchesGoldenFile.html)도 있다.\r\n\r\ngolden test는 이미지 픽셀 비교하는 테스트다 즉 시각적 모습을 테스트할 수 있다.\r\n\r\n\r\n```bash\r\nflutter test --update-goldens\r\n```\r\n\r\n이걸로 골든테스트 정답 생성해줌 신기하넹.\r\n\r\n\r\n## 통합 테스트\r\n---\r\n\r\nGUI테스트 EndToEnd라고 합니다.\r\n\r\n실제 에뮬레이터를 통해서 테스트를 하게 된다.\r\n\r\n`integration_test`를 추가해야 한다고 합니다.\r\n\r\n```bash\r\n\r\n  integration_test:\r\n    sdk: flutter\r\n```\r\n\r\ndev_dependecies에 붙여넣어주면 된다.\r\n\r\n\r\nintegration_test라는 폴더를 root에 만들어주고 하면 된다.\r\n아주 신기하다.\r\n\r\n## 테스트 커버리지\r\n---\r\n\r\n[플러터 커버리지](https://marketplace.visualstudio.com/items?itemName=Flutterando.flutter-coverage)\r\n\r\n테스트 코드 기반으로 커버리지 측정을 한다.\r\n\r\n[커버리지 거터스](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)\r\n\r\n이거는 특정 파일에서 좌측 하단 watch를 눌러보면 어디가 테스트가 안됐는지와 커버리지 % 알려준다.\r\n\r\n\r\nhydrated bloc을 사용해보거나 다른 서드파티들 검색해서 찾아보자"
+    },
+    {
+      "id": "mvvm",
+      "metadata": {
+        "permalink": "/blog/mvvm",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-15-mvvm/index.md",
+        "source": "@site/blog/2023-12-15-mvvm/index.md",
+        "title": "MVVM 아키텍처",
+        "description": "---",
+        "date": "2023-12-15T00:00:00.000Z",
+        "formattedDate": "December 15, 2023",
+        "tags": [
+          {
+            "label": "KOSTA",
+            "permalink": "/blog/tags/kosta"
+          },
+          {
+            "label": "플러터",
+            "permalink": "/blog/tags/플러터"
+          },
+          {
+            "label": "flutter",
+            "permalink": "/blog/tags/flutter"
+          },
+          {
+            "label": "mvvm",
+            "permalink": "/blog/tags/mvvm"
+          }
+        ],
+        "readingTime": 1.42,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "mvvm",
+          "title": "MVVM 아키텍처",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "KOSTA",
+            "플러터",
+            "flutter",
+            "mvvm"
+          ]
+        },
+        "prevItem": {
+          "title": "테스트 코드",
+          "permalink": "/blog/test code"
         },
         "nextItem": {
           "title": "와이어샤크",
           "permalink": "/blog/kosta3"
         }
       },
-      "content": "---\r\n\r\n[테스트 코드 작성 요령](https://github.com/flutter/flutter/tree/master/packages/flutter/test/material)\r\n\r\n테스트 코드를 작성하면 기능들의 의존성도 확인할 수 있고 테스트할 기능이 많아질 수록 자동화 해놓면 좋다.\r\n\r\n:::tip 테스트 종류\r\n`단위 테스트 ( Unit Test )`: 특정 함수 및 클래스 테스트  \r\n`위젯 테스트 ( Widget Test )`: 단일 위젯 테스트  \r\n`통합 테스트 ( Integration Test )`: 앱의 전체적인 테스트 동작\r\n:::\r\n\r\n## 단위 테스트\r\n---\r\n\r\n내장 테스트로 테스트를 진행할 수 있습니다.\r\n\r\n테스트 파일은 `파일이름_test.dart`여야 한다. 즉 `_test.dart`로 끝나야 함\r\n\r\n:::tip 테스트 관련 함수\r\n`test()`: 테스트 시작\r\n`expect()`: 값 검증  \r\n`group()`: 테스트 그룹 만들기  \r\n`setUp()`: 테스트 시작 전 실행하는 함수(계속 테스트 시작할 때마다 실행)  \r\n`setUpAll()`: 최초 한 번만 실행  \r\n`tearDown()`: 테스트 후 실행  \r\n`tearDownAll()`: 테스트 종료 후 마지막 한 번 실행\r\n:::\r\n\r\n테스트를 하다보면 왜하나 싶을 수 있는데 변경에 대처하기 위해서 작성하는 것임. 완전 변한다면 또 의미가 없어지긴하는데 리팩토링 했을 때 검증하는 느낌이려나 아직은 잘 모르겠다.\r\n\r\n\r\n### Mock Object\r\n\r\napi 통신 테스트 같은 경우 외부 변수가 많아서 mock object로 한다.\r\n\r\n왜냐하면 실제 요청 응답은 변수가 많아서... 재현이 어렵다. 그리고 실제로 서버 응답 실패 테스트 같은 경우도 쉽지 않다. mock object를 사용하면 쉽게 할 수 있다.\r\n\r\nmockito랑 build_runner를 사용한다고 한다.\r\n\r\nmockito로 어노테이션 달고 build_runner로 코드 생성하는 거임\r\n\r\n\r\n### DI ( Dependency Injection )\r\n\r\ndi를 하는데 생성자를 통해 외부 코드를 받는다인 간단한 개념이라고 한다.\r\n\r\n  \r\n  \r\n\r\n## 위젯 테스트\r\n---\r\n\r\n상호작용, 생김새, 상태 확인을 테스트 한다고 한다.\r\n\r\n\r\n:::tip 위젯 테스트\r\n`testWidgets()`: 테스트 진행  \r\n`pump()`: 화면 갱신  \r\n`find.text()`: 특정 테스트 검색  \r\n`find.byType()`: 특정 클래스의 타입과 일치하는 위젯 검색  \r\n`tester.widget()`: 특정 타입의 위젯 가져옴  \r\n`tester.element()`: 특정 위젯의 BuildContext 가져옴\r\n:::\r\n\r\n[golden test](https://api.flutter.dev/flutter/flutter_test/matchesGoldenFile.html)도 있다.\r\n\r\ngolden test는 이미지 픽셀 비교하는 테스트다 즉 시각적 모습을 테스트할 수 있다.\r\n\r\n\r\n```bash\r\nflutter test --update-goldens\r\n```\r\n\r\n이걸로 골든테스트 정답 생성해줌 신기하넹.\r\n\r\n\r\n## 통합 테스트\r\n---\r\n\r\nGUI테스트 EndToEnd라고 합니다.\r\n\r\n실제 에뮬레이터를 통해서 테스트를 하게 된다.\r\n\r\n`integration_test`를 추가해야 한다고 합니다.\r\n\r\n```bash\r\n\r\n  integration_test:\r\n    sdk: flutter\r\n```\r\n\r\ndev_dependecies에 붙여넣어주면 된다.\r\n\r\n\r\nintegration_test라는 폴더를 root에 만들어주고 하면 된다.\r\n아주 신기하다.\r\n\r\n## 테스트 커버리지\r\n---\r\n\r\n[플러터 커버리지](https://marketplace.visualstudio.com/items?itemName=Flutterando.flutter-coverage)\r\n\r\n테스트 코드 기반으로 커버리지 측정을 한다.\r\n\r\n[커버리지 거터스](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)\r\n\r\n이거는 특정 파일에서 좌측 하단 watch를 눌러보면 어디가 테스트가 안됐는지와 커버리지 % 알려준다.\r\n\r\n\r\nhydrated bloc을 사용해보거나 다른 서드파티들 검색해서 찾아보자"
+      "content": "---\r\n\r\n## 관심사 분리\r\n---\r\n\r\n모듈 별 경계를 나누고 모듈간 약속을 정하는 것 like a 전기 콘센트와 플러그의 관계라고 한다.\r\n\r\n\r\n## MVVM 이론\r\n---\r\n\r\n`View`와 `ViewModel` 그리고 `Model`을 나누어 View를 쉽게 변경할 수 있는 목적을 갖고 있는 아키텍처 패턴\r\n\r\n:::tip 역할\r\n`View` : UI  \r\n`ViewModel`: View 상태 및 로직 담당  \r\n`Model`: 비지니스 로직과 데이터 입출력 담당\r\n:::\r\n\r\n핵심은 `데이터 바인딩`이다.\r\n\r\n`데이터 바인딩`이란 간단히 말하면 ViewModel과 View가 서로를 의존하지 않는 것 `Provider` 패키지를 사용해서 데이터 바인딩 이용한다는데 나는 Bloc를 사용해서 하고 싶다.. 당장은 Provider로 구현해보기\r\n\r\n페이지 마다 하나의 ViewModel이 있어야 하고 ViewModel은 View의 상태와 로직을 관리한다.\r\n\r\nModel은 `Service`, `Model`, `Repository`가 있는데 `Service`는 전역 상태와 비지니스 로직을 관리하고 `Model`은 데이터 `Repository`는 데이터 요청 로직을 담당한다.\r\n\r\n걍 뭔가 어려움 많이 연습해봐야겠다."
     },
     {
       "id": "kosta3",
@@ -1731,8 +1731,8 @@
           ]
         },
         "prevItem": {
-          "title": "테스트 코드",
-          "permalink": "/blog/test code"
+          "title": "MVVM 아키텍처",
+          "permalink": "/blog/mvvm"
         },
         "nextItem": {
           "title": "와이어샤크",
@@ -1953,117 +1953,11 @@
           "permalink": "/blog/PKI"
         },
         "nextItem": {
-          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-          "permalink": "/blog/design pattern rule"
-        }
-      },
-      "content": "오버로딩과 오버라이딩에 대해서 알아보겠습니다.\r\n\r\n## 오버로딩 (Overloading)\r\n\r\n### 정의\r\n\r\n한 클래스 내에 이미 **사용하려는 이름**과 **같은 이름**을 가진 **`메소드`**가 있어도 매개 변수의 개수와 타입이 다르면 같은 이름을 사용해서 메소드를 재정의 할 수 있다.\r\n\r\n여기서 핵심은 2가지로 정리할 수 있습니다.\r\n\r\n1. 메소드의 이름이 같다.\r\n2. 매개변수의 개수나 타입이 달라야 한다.\r\n3. 리턴값과는 상관 없습니다.\r\n\r\n\r\n### 오버로딩 함수 코드\r\n\r\n```java title='오버로딩 함수'\r\npublic class OverringClass {\r\n    \r\n    // 오버로딩 1번 함수\r\n    public void OverloadMethod(){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 0개\");\r\n        System.out.println(\"매개변수 타입 : void\");\r\n        System.out.println(\"오버라이딩 1번 함수 입니다.\");\r\n        System.out.println(\"============================\");\r\n    }\r\n\r\n    // 오버로딩 2번 함수\r\n    public int OverloadMethod(int a, int b){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 2개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a+b;\r\n    }\r\n\r\n    // 오버로딩 3번 함수\r\n    public int OverloadMethod(int a, int b, int c){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 3개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a*b*c;\r\n    }\r\n\r\n\r\n    // 오버로딩 4번 함수\r\n    public boolean OverloadMethod(String str){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 1개\");\r\n        System.out.println(\"매개변수 타입 : String\");\r\n        System.out.println(\"오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        if(str.equals(\"park\")){\r\n            return true;\r\n        }else{\r\n            return false;\r\n        }\r\n    }\r\n}\r\n\r\n```\r\n\r\n위 함수들을 보시면 `OverloadMethod`로 이름들이 같지만 타입과 매개변수의 수가 다른 것들을 보실 수 있습니다. 함수들에 대한 설명은 코드에 작성돼 있으니 참고해주세요~ 😎\r\n\r\n코드를 실행하는 코드와 결과를 확인해보겠습니다.\r\n\r\n``` java title='결과 확인 코드'\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        OverringClass oc = new OverringClass();\r\n        \r\n        // 오버로딩 1번 함수\r\n        oc.OverloadMethod();\r\n\r\n        // 오버로딩 2번 함수\r\n        int a = oc.OverloadMethod(1,2);\r\n        System.out.println(\"오버로딩 2번 함수 반환값 : \"+a);\r\n\r\n        // 오버로딩 3번 함수\r\n        int b = oc.OverloadMethod(4,5,6);\r\n        System.out.println(\"오버로딩 3번 함수 반환값 : \"+b);\r\n\r\n        // 오버로딩 4번 함수\r\n        boolean c = oc.OverloadMethod(\"park\");\r\n        System.out.println(\"오버로딩 4번 함수 반환값 : \"+c);\r\n    }\r\n}\r\n```\r\n\r\n```text title='결과'\r\n============================\r\n매개변수 수 : 0개\r\n매개변수 타입 : void\r\n오버라이딩 1번 함수 입니다.\r\n============================\r\n============================\r\n매개변수 수 : 2개\r\n매개변수 타입 : int\r\n오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\r\n============================\r\n오버로딩 2번 함수 반환값 : 3\r\n============================\r\n매개변수 수 : 3개\r\n매개변수 타입 : int\r\n오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\r\n============================\r\n오버로딩 3번 함수 반환값 : 120\r\n============================\r\n매개변수 수 : 1개\r\n매개변수 타입 : String\r\n오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\r\n============================\r\n오버로딩 4번 함수 반환값 : true\r\n```"
-    },
-    {
-      "id": "design pattern rule",
-      "metadata": {
-        "permalink": "/blog/design pattern rule",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-rule/index.md",
-        "source": "@site/blog/2023-08-29-rule/index.md",
-        "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-        "description": "SRP ( 단일 책임의 원칙 : Single Responsibility Principle )",
-        "date": "2023-08-29T00:00:00.000Z",
-        "formattedDate": "August 29, 2023",
-        "tags": [
-          {
-            "label": "design pattern",
-            "permalink": "/blog/tags/design-pattern"
-          },
-          {
-            "label": "rule",
-            "permalink": "/blog/tags/rule"
-          }
-        ],
-        "readingTime": 1.925,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "design pattern rule",
-          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "design pattern",
-            "rule"
-          ]
-        },
-        "prevItem": {
-          "title": "Overloading & Overriding",
-          "permalink": "/blog/Overloading and Overriding"
-        },
-        "nextItem": {
-          "title": "전략 패턴 - Strategy pattern",
-          "permalink": "/blog/strategy pattern"
-        }
-      },
-      "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
-    },
-    {
-      "id": "strategy pattern",
-      "metadata": {
-        "permalink": "/blog/strategy pattern",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-stratgy/index.md",
-        "source": "@site/blog/2023-08-29-stratgy/index.md",
-        "title": "전략 패턴 - Strategy pattern",
-        "description": "정의",
-        "date": "2023-08-29T00:00:00.000Z",
-        "formattedDate": "August 29, 2023",
-        "tags": [
-          {
-            "label": "design pattern",
-            "permalink": "/blog/tags/design-pattern"
-          },
-          {
-            "label": "strategy pattern",
-            "permalink": "/blog/tags/strategy-pattern"
-          }
-        ],
-        "readingTime": 1.465,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "strategy pattern",
-          "title": "전략 패턴 - Strategy pattern",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "design pattern",
-            "strategy pattern"
-          ]
-        },
-        "prevItem": {
-          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-          "permalink": "/blog/design pattern rule"
-        },
-        "nextItem": {
           "title": "Welcome",
           "permalink": "/blog/welcome"
         }
       },
-      "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
+      "content": "오버로딩과 오버라이딩에 대해서 알아보겠습니다.\r\n\r\n## 오버로딩 (Overloading)\r\n\r\n### 정의\r\n\r\n한 클래스 내에 이미 **사용하려는 이름**과 **같은 이름**을 가진 **`메소드`**가 있어도 매개 변수의 개수와 타입이 다르면 같은 이름을 사용해서 메소드를 재정의 할 수 있다.\r\n\r\n여기서 핵심은 2가지로 정리할 수 있습니다.\r\n\r\n1. 메소드의 이름이 같다.\r\n2. 매개변수의 개수나 타입이 달라야 한다.\r\n3. 리턴값과는 상관 없습니다.\r\n\r\n\r\n### 오버로딩 함수 코드\r\n\r\n```java title='오버로딩 함수'\r\npublic class OverringClass {\r\n    \r\n    // 오버로딩 1번 함수\r\n    public void OverloadMethod(){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 0개\");\r\n        System.out.println(\"매개변수 타입 : void\");\r\n        System.out.println(\"오버라이딩 1번 함수 입니다.\");\r\n        System.out.println(\"============================\");\r\n    }\r\n\r\n    // 오버로딩 2번 함수\r\n    public int OverloadMethod(int a, int b){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 2개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a+b;\r\n    }\r\n\r\n    // 오버로딩 3번 함수\r\n    public int OverloadMethod(int a, int b, int c){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 3개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a*b*c;\r\n    }\r\n\r\n\r\n    // 오버로딩 4번 함수\r\n    public boolean OverloadMethod(String str){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 1개\");\r\n        System.out.println(\"매개변수 타입 : String\");\r\n        System.out.println(\"오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        if(str.equals(\"park\")){\r\n            return true;\r\n        }else{\r\n            return false;\r\n        }\r\n    }\r\n}\r\n\r\n```\r\n\r\n위 함수들을 보시면 `OverloadMethod`로 이름들이 같지만 타입과 매개변수의 수가 다른 것들을 보실 수 있습니다. 함수들에 대한 설명은 코드에 작성돼 있으니 참고해주세요~ 😎\r\n\r\n코드를 실행하는 코드와 결과를 확인해보겠습니다.\r\n\r\n``` java title='결과 확인 코드'\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        OverringClass oc = new OverringClass();\r\n        \r\n        // 오버로딩 1번 함수\r\n        oc.OverloadMethod();\r\n\r\n        // 오버로딩 2번 함수\r\n        int a = oc.OverloadMethod(1,2);\r\n        System.out.println(\"오버로딩 2번 함수 반환값 : \"+a);\r\n\r\n        // 오버로딩 3번 함수\r\n        int b = oc.OverloadMethod(4,5,6);\r\n        System.out.println(\"오버로딩 3번 함수 반환값 : \"+b);\r\n\r\n        // 오버로딩 4번 함수\r\n        boolean c = oc.OverloadMethod(\"park\");\r\n        System.out.println(\"오버로딩 4번 함수 반환값 : \"+c);\r\n    }\r\n}\r\n```\r\n\r\n```text title='결과'\r\n============================\r\n매개변수 수 : 0개\r\n매개변수 타입 : void\r\n오버라이딩 1번 함수 입니다.\r\n============================\r\n============================\r\n매개변수 수 : 2개\r\n매개변수 타입 : int\r\n오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\r\n============================\r\n오버로딩 2번 함수 반환값 : 3\r\n============================\r\n매개변수 수 : 3개\r\n매개변수 타입 : int\r\n오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\r\n============================\r\n오버로딩 3번 함수 반환값 : 120\r\n============================\r\n매개변수 수 : 1개\r\n매개변수 타입 : String\r\n오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\r\n============================\r\n오버로딩 4번 함수 반환값 : true\r\n```"
     },
     {
       "id": "welcome",
@@ -2108,11 +2002,117 @@
           ]
         },
         "prevItem": {
+          "title": "Overloading & Overriding",
+          "permalink": "/blog/Overloading and Overriding"
+        },
+        "nextItem": {
           "title": "전략 패턴 - Strategy pattern",
           "permalink": "/blog/strategy pattern"
         }
       },
       "content": "Docusaurus 첫번째 글이다.\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\n귀여운 공룡 인형이 있다."
+    },
+    {
+      "id": "strategy pattern",
+      "metadata": {
+        "permalink": "/blog/strategy pattern",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-stratgy/index.md",
+        "source": "@site/blog/2023-08-29-stratgy/index.md",
+        "title": "전략 패턴 - Strategy pattern",
+        "description": "정의",
+        "date": "2023-08-29T00:00:00.000Z",
+        "formattedDate": "August 29, 2023",
+        "tags": [
+          {
+            "label": "design pattern",
+            "permalink": "/blog/tags/design-pattern"
+          },
+          {
+            "label": "strategy pattern",
+            "permalink": "/blog/tags/strategy-pattern"
+          }
+        ],
+        "readingTime": 1.465,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "strategy pattern",
+          "title": "전략 패턴 - Strategy pattern",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "design pattern",
+            "strategy pattern"
+          ]
+        },
+        "prevItem": {
+          "title": "Welcome",
+          "permalink": "/blog/welcome"
+        },
+        "nextItem": {
+          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+          "permalink": "/blog/design pattern rule"
+        }
+      },
+      "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
+    },
+    {
+      "id": "design pattern rule",
+      "metadata": {
+        "permalink": "/blog/design pattern rule",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-rule/index.md",
+        "source": "@site/blog/2023-08-29-rule/index.md",
+        "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+        "description": "SRP ( 단일 책임의 원칙 : Single Responsibility Principle )",
+        "date": "2023-08-29T00:00:00.000Z",
+        "formattedDate": "August 29, 2023",
+        "tags": [
+          {
+            "label": "design pattern",
+            "permalink": "/blog/tags/design-pattern"
+          },
+          {
+            "label": "rule",
+            "permalink": "/blog/tags/rule"
+          }
+        ],
+        "readingTime": 1.925,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "design pattern rule",
+          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "design pattern",
+            "rule"
+          ]
+        },
+        "prevItem": {
+          "title": "전략 패턴 - Strategy pattern",
+          "permalink": "/blog/strategy pattern"
+        }
+      },
+      "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
     }
   ]
 }

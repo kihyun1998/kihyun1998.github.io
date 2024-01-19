@@ -54,11 +54,11 @@
     ]
   },
   "prevItem": {
-    "title": "MVVM 아키텍처",
-    "permalink": "/blog/mvvm"
+    "title": "Flutter TIL - 1",
+    "permalink": "/blog/flutter-til-1"
   },
   "nextItem": {
-    "title": "와이어샤크",
-    "permalink": "/blog/kosta3"
+    "title": "MVVM 아키텍처",
+    "permalink": "/blog/mvvm"
   }
 }

@@ -66,5 +66,55 @@ gpt의 답변을 정리합니다.
   </tr>
 </table>
 
+### error, stackTrace
+
+<table>
+  <tr class="custom_th">
+    <th>Async종류</th>
+    <th>previous error [no]</th>
+    <th>previous error [yes]</th>
+  </tr>
+  <tr>
+    <td class="custom_td">AsyncLoading</td>
+    <td>null</td>
+    <td>previous error</td>
+  </tr>
+  <tr>
+    <td class="custom_td">AsyncData</td>
+    <td>null</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td class="custom_td">AsyncError</td>
+    <td>current error</td>
+    <td>current error</td>
+  </tr>
+</table>
 
 
+### isLoading 
+
+<table>
+  <tr class="custom_th">
+    <th>Async종류</th>
+    <th>previous value [no] &nbsp;previous error [no]</th>
+    <th>previous value [no] &nbsp;previous error [yes]</th>
+    <th>previous value [yes] &nbsp;previous error [no]</th>
+    <th>previous value [yes] &nbsp;previous error [yes]</th>
+  </tr>
+  <tr>
+    <td class="custom_td">AsyncLoading</td>
+    <td>null</td>
+    <td>previous error</td>
+  </tr>
+  <tr>
+    <td class="custom_td">AsyncData</td>
+    <td>null</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td class="custom_td">AsyncError</td>
+    <td>current error</td>
+    <td>current error</td>
+  </tr>
+</table>

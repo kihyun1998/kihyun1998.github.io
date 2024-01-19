@@ -49,11 +49,11 @@
     ]
   },
   "prevItem": {
-    "title": "Flutter TIL - 1",
-    "permalink": "/blog/flutter-til-1"
-  },
-  "nextItem": {
     "title": "테스트 코드",
     "permalink": "/blog/test code"
+  },
+  "nextItem": {
+    "title": "와이어샤크",
+    "permalink": "/blog/kosta3"
   }
 }
