@@ -1,0 +1,60 @@
+{
+  "permalink": "/blog/flutter-til-21",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-22-til21/index.md",
+  "source": "@site/blog/2024-01-22-til21/index.md",
+  "title": "Flutter TIL - 21",
+  "description": "---",
+  "date": "2024-01-22T00:00:00.000Z",
+  "formattedDate": "January 22, 2024",
+  "tags": [
+    {
+      "label": "TIL",
+      "permalink": "/blog/tags/til"
+    },
+    {
+      "label": "플러터",
+      "permalink": "/blog/tags/플러터"
+    },
+    {
+      "label": "flutter",
+      "permalink": "/blog/tags/flutter"
+    },
+    {
+      "label": "window manger",
+      "permalink": "/blog/tags/window-manger"
+    },
+    {
+      "label": "bitsdojo_window",
+      "permalink": "/blog/tags/bitsdojo-window"
+    }
+  ],
+  "readingTime": 2.3,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "flutter-til-21",
+    "title": "Flutter TIL - 21",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "TIL",
+      "플러터",
+      "flutter",
+      "window manger",
+      "bitsdojo_window"
+    ]
+  },
+  "nextItem": {
+    "title": "Flutter TIL - 20",
+    "permalink": "/blog/flutter-til-20"
+  }
+}

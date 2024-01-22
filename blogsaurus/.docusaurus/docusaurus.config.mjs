@@ -162,7 +162,9 @@ export default {
         "xml-doc",
         "sql",
         "protobuf",
-        "docker"
+        "docker",
+        "cpp",
+        "swift"
       ],
       "theme": {
         "plain": {

@@ -1,8 +1,8 @@
 ---
 slug: flutter-til-20
 title: Flutter TIL - 20
-authors: [kihyun]
-tags: [TIL, 플러터, flutter, revierpod, path_provider, AsyncValue ]
+authors:  [kihyun]
+tags:  [TIL, 플러터, flutter, revierpod, path_provider, AsyncValue ]
 ---
 
 # Flutter TIL - 20
@@ -17,7 +17,7 @@ gpt의 답변을 정리합니다.
   - Windows에서 이 함수는 사용자의 "Documents" 폴더에 있는 애플리케이션 데이터 디렉토리를 반환합니다. 보통 `C:\Users\<User Name>\Documents` 경로로 찾을 수 있습니다.
 
 2. getApplicationSupportDirectory()  
-  - `C:\Users\User\AppData\Roaming\[패키지이름]\[프로젝트이름]`
+  - `C:\Users\User\AppData\Roaming\ [패키지이름]\ [프로젝트이름]`
 
 3. getDownloadsDirectory()  
   - 사용자의 "Downloads" 폴더를 반환합니다, 보통 `C:\Users\<User Name>\Downloads`에 위치합니다.
@@ -46,8 +46,8 @@ gpt의 답변을 정리합니다.
 <table>
   <tr class="custom_th">
     <th>Async종류</th>
-    <th>previous value [no]</th>
-    <th>previous value [yes]</th>
+    <th>previous value [X]</th>
+    <th>previous value [O]</th>
   </tr>
   <tr>
     <td class="custom_td">AsyncLoading</td>
@@ -71,8 +71,8 @@ gpt의 답변을 정리합니다.
 <table>
   <tr class="custom_th">
     <th>Async종류</th>
-    <th>previous error [no]</th>
-    <th>previous error [yes]</th>
+    <th>previous error [X]</th>
+    <th>previous error [O]</th>
   </tr>
   <tr>
     <td class="custom_td">AsyncLoading</td>
@@ -92,29 +92,35 @@ gpt의 답변을 정리합니다.
 </table>
 
 
-### isLoading 
+### isLoading/hasValue/hasError
 
-<table>
+<table class="custom_table">
   <tr class="custom_th">
     <th>Async종류</th>
-    <th>previous value [no] &nbsp;previous error [no]</th>
-    <th>previous value [no] &nbsp;previous error [yes]</th>
-    <th>previous value [yes] &nbsp;previous error [no]</th>
-    <th>previous value [yes] &nbsp;previous error [yes]</th>
+    <th>previous value [X]<br/>previous error [X]</th>
+    <th>previous value [X]<br/>previous error [O]</th>
+    <th>previous value [O]<br/>previous error [X]</th>
+    <th>previous value [O]<br/>previous error [O]</th>
   </tr>
   <tr>
     <td class="custom_td">AsyncLoading</td>
-    <td>null</td>
-    <td>previous error</td>
+    <td>isLoading [O] <br/>hasValue [X] <br/>hasError [X]</td>
+    <td>isLoading [O] <br/>hasValue [O] <br/>hasError [X]</td>
+    <td>isLoading [O] <br/>hasValue [X] <br/>hasError [O]</td>
+    <td>isLoading [O] <br/>hasValue [O] <br/>hasError [O]</td>
   </tr>
   <tr>
     <td class="custom_td">AsyncData</td>
-    <td>null</td>
-    <td>null</td>
+    <td>isLoading [X] <br/>hasValue [O] <br/>hasError [X]</td>
+    <td>isLoading [X] <br/>hasValue [O] <br/>hasError [X]</td>
+    <td>isLoading [X] <br/>hasValue [O] <br/>hasError [X]</td>
+    <td>isLoading [X] <br/>hasValue [O] <br/>hasError [X]</td>
   </tr>
   <tr>
     <td class="custom_td">AsyncError</td>
-    <td>current error</td>
-    <td>current error</td>
+    <td>isLoading [X] <br/>hasValue [X] <br/>hasError [O]</td>
+    <td>isLoading [X] <br/>hasValue [O] <br/>hasError [O]</td>
+    <td>isLoading [X] <br/>hasValue [X] <br/>hasError [O]</td>
+    <td>isLoading [X] <br/>hasValue [O] <br/>hasError [O]</td>
   </tr>
 </table>

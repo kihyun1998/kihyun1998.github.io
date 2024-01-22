@@ -2,17 +2,27 @@
   {
     "label": "TIL",
     "permalink": "/blog/tags/til",
-    "count": 20
+    "count": 21
   },
   {
     "label": "플러터",
     "permalink": "/blog/tags/플러터",
-    "count": 21
+    "count": 22
   },
   {
     "label": "flutter",
     "permalink": "/blog/tags/flutter",
-    "count": 21
+    "count": 22
+  },
+  {
+    "label": "window manger",
+    "permalink": "/blog/tags/window-manger",
+    "count": 1
+  },
+  {
+    "label": "bitsdojo_window",
+    "permalink": "/blog/tags/bitsdojo-window",
+    "count": 1
   },
   {
     "label": "revierpod",
@@ -80,14 +90,14 @@
     "count": 1
   },
   {
-    "label": "code generator",
-    "permalink": "/blog/tags/code-generator",
-    "count": 1
-  },
-  {
     "label": "provider",
     "permalink": "/blog/tags/provider",
     "count": 4
+  },
+  {
+    "label": "code generator",
+    "permalink": "/blog/tags/code-generator",
+    "count": 1
   },
   {
     "label": "stateProvider",
@@ -225,6 +235,11 @@
     "count": 5
   },
   {
+    "label": "mvvm",
+    "permalink": "/blog/tags/mvvm",
+    "count": 1
+  },
+  {
     "label": "테스트 코드",
     "permalink": "/blog/tags/테스트-코드",
     "count": 1
@@ -232,11 +247,6 @@
   {
     "label": "test code",
     "permalink": "/blog/tags/test-code",
-    "count": 1
-  },
-  {
-    "label": "mvvm",
-    "permalink": "/blog/tags/mvvm",
     "count": 1
   },
   {
@@ -270,19 +280,14 @@
     "count": 1
   },
   {
-    "label": "docusaurus",
-    "permalink": "/blog/tags/docusaurus",
-    "count": 1
-  },
-  {
-    "label": "first post",
-    "permalink": "/blog/tags/first-post",
-    "count": 1
-  },
-  {
     "label": "design pattern",
     "permalink": "/blog/tags/design-pattern",
     "count": 2
+  },
+  {
+    "label": "rule",
+    "permalink": "/blog/tags/rule",
+    "count": 1
   },
   {
     "label": "strategy pattern",
@@ -290,8 +295,13 @@
     "count": 1
   },
   {
-    "label": "rule",
-    "permalink": "/blog/tags/rule",
+    "label": "docusaurus",
+    "permalink": "/blog/tags/docusaurus",
+    "count": 1
+  },
+  {
+    "label": "first post",
+    "permalink": "/blog/tags/first-post",
     "count": 1
   }
 ]

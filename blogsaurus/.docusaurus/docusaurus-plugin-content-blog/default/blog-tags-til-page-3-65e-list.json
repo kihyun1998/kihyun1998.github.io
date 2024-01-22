@@ -1,10 +1,10 @@
 {
-  "permalink": "/blog/tags/til",
-  "page": 1,
+  "permalink": "/blog/tags/til/page/3",
+  "page": 3,
   "postsPerPage": 10,
   "totalPages": 3,
   "totalCount": 21,
-  "nextPage": "/blog/tags/til/page/2",
+  "previousPage": "/blog/tags/til/page/2",
   "blogDescription": "Blog",
   "blogTitle": "Blog"
 }

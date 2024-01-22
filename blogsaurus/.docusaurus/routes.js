@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '176'),
+    component: ComponentCreator('/blog', '857'),
     exact: true
   },
   {
@@ -118,6 +118,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/flutter-til-21',
+    component: ComponentCreator('/blog/flutter-til-21', '370'),
+    exact: true
+  },
+  {
     path: '/blog/flutter-til-3',
     component: ComponentCreator('/blog/flutter-til-3', '4de'),
     exact: true
@@ -184,17 +189,17 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', '286'),
+    component: ComponentCreator('/blog/page/2', 'f87'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', '5a8'),
+    component: ComponentCreator('/blog/page/3', 'bf7'),
     exact: true
   },
   {
     path: '/blog/page/4',
-    component: ComponentCreator('/blog/page/4', 'a44'),
+    component: ComponentCreator('/blog/page/4', 'e25'),
     exact: true
   },
   {
@@ -244,17 +249,17 @@ export default [
   },
   {
     path: '/blog/tags/플러터',
-    component: ComponentCreator('/blog/tags/플러터', 'dea'),
+    component: ComponentCreator('/blog/tags/플러터', 'e6a'),
     exact: true
   },
   {
     path: '/blog/tags/플러터/page/2',
-    component: ComponentCreator('/blog/tags/플러터/page/2', 'cac'),
+    component: ComponentCreator('/blog/tags/플러터/page/2', '3ff'),
     exact: true
   },
   {
     path: '/blog/tags/플러터/page/3',
-    component: ComponentCreator('/blog/tags/플러터/page/3', 'cdc'),
+    component: ComponentCreator('/blog/tags/플러터/page/3', '612'),
     exact: true
   },
   {
@@ -265,6 +270,11 @@ export default [
   {
     path: '/blog/tags/async-value',
     component: ComponentCreator('/blog/tags/async-value', '3de'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/bitsdojo-window',
+    component: ComponentCreator('/blog/tags/bitsdojo-window', 'af5'),
     exact: true
   },
   {
@@ -309,7 +319,7 @@ export default [
   },
   {
     path: '/blog/tags/design-pattern',
-    component: ComponentCreator('/blog/tags/design-pattern', '39b'),
+    component: ComponentCreator('/blog/tags/design-pattern', 'bce'),
     exact: true
   },
   {
@@ -339,17 +349,17 @@ export default [
   },
   {
     path: '/blog/tags/flutter',
-    component: ComponentCreator('/blog/tags/flutter', 'ee9'),
+    component: ComponentCreator('/blog/tags/flutter', '740'),
     exact: true
   },
   {
     path: '/blog/tags/flutter/page/2',
-    component: ComponentCreator('/blog/tags/flutter/page/2', '1c0'),
+    component: ComponentCreator('/blog/tags/flutter/page/2', '2fb'),
     exact: true
   },
   {
     path: '/blog/tags/flutter/page/3',
-    component: ComponentCreator('/blog/tags/flutter/page/3', 'c26'),
+    component: ComponentCreator('/blog/tags/flutter/page/3', '2e1'),
     exact: true
   },
   {
@@ -399,7 +409,7 @@ export default [
   },
   {
     path: '/blog/tags/kosta',
-    component: ComponentCreator('/blog/tags/kosta', '2d5'),
+    component: ComponentCreator('/blog/tags/kosta', 'a66'),
     exact: true
   },
   {
@@ -454,7 +464,7 @@ export default [
   },
   {
     path: '/blog/tags/provider',
-    component: ComponentCreator('/blog/tags/provider', '0aa'),
+    component: ComponentCreator('/blog/tags/provider', 'dc9'),
     exact: true
   },
   {
@@ -469,7 +479,7 @@ export default [
   },
   {
     path: '/blog/tags/revierpod',
-    component: ComponentCreator('/blog/tags/revierpod', '0d9'),
+    component: ComponentCreator('/blog/tags/revierpod', 'c2c'),
     exact: true
   },
   {
@@ -519,17 +529,27 @@ export default [
   },
   {
     path: '/blog/tags/til',
-    component: ComponentCreator('/blog/tags/til', '54c'),
+    component: ComponentCreator('/blog/tags/til', 'fdd'),
     exact: true
   },
   {
     path: '/blog/tags/til/page/2',
-    component: ComponentCreator('/blog/tags/til/page/2', '626'),
+    component: ComponentCreator('/blog/tags/til/page/2', '779'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/til/page/3',
+    component: ComponentCreator('/blog/tags/til/page/3', '527'),
     exact: true
   },
   {
     path: '/blog/tags/tree-view',
     component: ComponentCreator('/blog/tags/tree-view', '989'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/window-manger',
+    component: ComponentCreator('/blog/tags/window-manger', '047'),
     exact: true
   },
   {
