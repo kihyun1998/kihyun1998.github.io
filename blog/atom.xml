@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kihyun1998.github.io/blog</id>
     <title>A Little "Bit" Blog</title>
-    <updated>2024-01-31T00:00:00.000Z</updated>
+    <updated>2024-02-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kihyun1998.github.io/blog"/>
     <subtitle>A Little "Bit" Blog</subtitle>
     <icon>https://kihyun1998.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Virtual Box 에러 해결]]></title>
+        <id>https://kihyun1998.github.io/blog/virtual-err-1</id>
+        <link href="https://kihyun1998.github.io/blog/virtual-err-1"/>
+        <updated>2024-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[---]]></summary>
+        <content type="html"><![CDATA[<hr><p>스냅샷 찍은 환경으로 돌아가는 과정에서 아래와 같은 에러 메시지가 발생했다.</p><div class="theme-admonition theme-admonition-warning alert alert--danger admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</div><div class="admonitionContent_S0QG"><p>The VM session was aborted.<br>
+<!-- -->결과 코드: E_FAIL (0X80004005)<br>
+<!-- -->구성 요소: SessionMachine<br>
+<!-- -->인터페이스: ISession {c0447716-ff5a-4795-b57a-ecd5fffa18a4}</p></div></div><p>멘붕이 왔지만 해결방법을 찾았다.</p><p><code>머신</code> &gt; <code>저장된 상태 삭제</code>를 해주면 된다.</p><p><img loading="lazy" alt="Alt text" src="/assets/images/image-0a1e690021edd6233966be6a9b15a036.png" width="725" height="801" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Park Ki Hyun</name>
+            <uri>https://github.com/kihyun1998</uri>
+        </author>
+        <category label="Virtual Box" term="Virtual Box"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Flutter TIL - 25]]></title>
         <id>https://kihyun1998.github.io/blog/flutter-til-25</id>
