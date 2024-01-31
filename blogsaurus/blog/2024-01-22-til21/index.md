@@ -11,7 +11,7 @@ tags: [TIL, 플러터, flutter, window manger, bitsdojo_window ]
 ## Window app에서 상단바 커스텀
 ---
 
-[bitdoho_window]("https://pub.dev/packages/bitsdojo_window)라는 패키지를 이용한다.
+[bitdoho_window](https://pub.dev/packages/bitsdojo_window)라는 패키지를 이용한다.
 
 ### 초기값 설정
 
