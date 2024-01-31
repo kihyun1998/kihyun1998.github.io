@@ -1,0 +1,69 @@
+{
+  "permalink": "/blog/flutter-til-24",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-01-25-til24/index.md",
+  "source": "@site/blog/2024-01-25-til24/index.md",
+  "title": "Flutter TIL - 24",
+  "description": "---",
+  "date": "2024-01-25T00:00:00.000Z",
+  "formattedDate": "January 25, 2024",
+  "tags": [
+    {
+      "label": "TIL",
+      "permalink": "/blog/tags/til"
+    },
+    {
+      "label": "플러터",
+      "permalink": "/blog/tags/플러터"
+    },
+    {
+      "label": "flutter",
+      "permalink": "/blog/tags/flutter"
+    },
+    {
+      "label": "intl",
+      "permalink": "/blog/tags/intl"
+    },
+    {
+      "label": "localization",
+      "permalink": "/blog/tags/localization"
+    },
+    {
+      "label": "다국어 설정",
+      "permalink": "/blog/tags/다국어-설정"
+    }
+  ],
+  "readingTime": 1.145,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "flutter-til-24",
+    "title": "Flutter TIL - 24",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "TIL",
+      "플러터",
+      "flutter",
+      "intl",
+      "localization",
+      "다국어 설정"
+    ]
+  },
+  "prevItem": {
+    "title": "Flutter TIL - 25",
+    "permalink": "/blog/flutter-til-25"
+  },
+  "nextItem": {
+    "title": "Flutter TIL - 23",
+    "permalink": "/blog/flutter-til-23"
+  }
+}

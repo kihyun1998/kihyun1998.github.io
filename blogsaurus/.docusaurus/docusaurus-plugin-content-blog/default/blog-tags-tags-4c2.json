@@ -2,17 +2,67 @@
   {
     "label": "TIL",
     "permalink": "/blog/tags/til",
-    "count": 21
+    "count": 25
   },
   {
     "label": "플러터",
     "permalink": "/blog/tags/플러터",
-    "count": 22
+    "count": 26
   },
   {
     "label": "flutter",
     "permalink": "/blog/tags/flutter",
-    "count": 22
+    "count": 26
+  },
+  {
+    "label": "navigator",
+    "permalink": "/blog/tags/navigator",
+    "count": 1
+  },
+  {
+    "label": "named push",
+    "permalink": "/blog/tags/named-push",
+    "count": 1
+  },
+  {
+    "label": "라우팅",
+    "permalink": "/blog/tags/라우팅",
+    "count": 1
+  },
+  {
+    "label": "애니메이션",
+    "permalink": "/blog/tags/애니메이션",
+    "count": 1
+  },
+  {
+    "label": "intl",
+    "permalink": "/blog/tags/intl",
+    "count": 1
+  },
+  {
+    "label": "localization",
+    "permalink": "/blog/tags/localization",
+    "count": 1
+  },
+  {
+    "label": "다국어 설정",
+    "permalink": "/blog/tags/다국어-설정",
+    "count": 1
+  },
+  {
+    "label": "TextOverflow",
+    "permalink": "/blog/tags/text-overflow",
+    "count": 1
+  },
+  {
+    "label": "dll 사용",
+    "permalink": "/blog/tags/dll-사용",
+    "count": 1
+  },
+  {
+    "label": "typedef",
+    "permalink": "/blog/tags/typedef",
+    "count": 1
   },
   {
     "label": "window manger",
@@ -160,14 +210,14 @@
     "count": 1
   },
   {
-    "label": "git",
-    "permalink": "/blog/tags/git",
-    "count": 2
-  },
-  {
     "label": "future_wait",
     "permalink": "/blog/tags/future-wait",
     "count": 1
+  },
+  {
+    "label": "git",
+    "permalink": "/blog/tags/git",
+    "count": 2
   },
   {
     "label": "listview",

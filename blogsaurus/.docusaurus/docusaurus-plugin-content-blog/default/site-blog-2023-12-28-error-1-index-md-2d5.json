@@ -34,11 +34,11 @@
     ]
   },
   "prevItem": {
-    "title": "Flutter TIL - 8",
-    "permalink": "/blog/flutter-til-8"
-  },
-  "nextItem": {
     "title": "Flutter TIL - 7",
     "permalink": "/blog/flutter-til-7"
+  },
+  "nextItem": {
+    "title": "Git - 변경사항 취소",
+    "permalink": "/blog/tip-git-1"
   }
 }
