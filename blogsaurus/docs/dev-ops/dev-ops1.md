@@ -248,10 +248,9 @@ sudo systemctl status docker
 
 8. docker.sock 권한 변경
 
-root권한으로 
 
 ```bash
-chmod 666 /run/docker.sock
+sudo chmod 666 /run/docker.sock
 ```
 
 권한 변경하지 않으면 Permission denied 나옵니다.
