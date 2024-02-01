@@ -72,3 +72,22 @@ Error: Process completed with exit code 128.
 ### fatal: detected dubious ownership in repository at ... 이유
 
 Github에서 `CVE-2022-24765` 보안 이슈를 해결하면서 업데이트를 했는데 이 때문에 이 설정이 필요해졌다.
+
+## 환경변수 설정 관련해서
+---
+
+```yaml
+      - name: 💾 Register File name in env
+        run:  echo "FILE_NAME=$(echo ${{ github.ref }} | sed 's|refs/tags/||')_wsub" >> $GITHUB_ENV
+```
+
+아에 이런식으로 파일이름을 만들어버리고 밑에서도 사용하길 원했다.
+
+그럼 Makefile에서는 아래처럼 바꿔서 사용할 수 있다.
+
+```yaml
+build:
+	go build -o $(FILE_NAME) .
+```
+
+아니면 여러 빌드파일을 묶을 tar의 이름으로 사용할수도 있겠다. (아니면 태그만 따로 받고 또 다른 변수를 만드는 것도 방법 일듯)
