@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 9
 ---
 
 # [Github Actions] Docker Container를 이용한 Gihub Actions CI
@@ -36,7 +36,7 @@ Docker Hub에 대한 IP/PW는 미리 Github secret에 정의하면 된다.
         run:  echo "TAG_NAME=$(echo ${{ github.ref }} | sed 's|refs/tags/||')" >> $GITHUB_ENV
 
       - name: 🧙 Config Safe Git Directory
-        run: git config --global --add safe.directory [작업 디렉토리]
+        run: git config --global --add safe.directory $GITHUB_WORKSPACE
 
       - name: ✅ git check
         run: git status
@@ -64,6 +64,10 @@ Error: Process completed with exit code 128.
 ```
 
 위 경고문에서 해결방안도 제시해줬다 저 명령어를 추가하면 해결된다.
+
+작업 디렉토리를 하드코딩하는 방법도 있지만 코드 재사용을 위해서 제공하는 환경변수를 사용할 수도 있다.
+
+`$GITHUB_WORKSPACE`를 사용하면 된다. 자주 사용할 듯
 
 ### fatal: detected dubious ownership in repository at ... 이유
 
