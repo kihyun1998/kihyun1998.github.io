@@ -67,7 +67,9 @@ Error: Process completed with exit code 128.
 
 작업 디렉토리를 하드코딩하는 방법도 있지만 코드 재사용을 위해서 제공하는 환경변수를 사용할 수도 있다.
 
-`$GITHUB_WORKSPACE`를 사용하면 된다. 자주 사용할 듯
+`$GITHUB_WORKSPACE`를 사용하면 된다. 자주 사용할 듯.
+
+참고로 `${{github.workspace}}` 이렇게도 사용할 수 있다.
 
 ### fatal: detected dubious ownership in repository at ... 이유
 
