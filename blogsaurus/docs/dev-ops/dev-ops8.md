@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 # [Docker] Github Action을 위한 Dockerfile 작성
