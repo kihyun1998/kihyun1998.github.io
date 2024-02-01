@@ -16,7 +16,7 @@ FROM debian:buster-slim
 
 # 패키지 설치
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends ca-certificates curl netbase git && \
+    apt-get install -y --no-install-recommends ca-certificates curl netbase git make && \
     rm -rf /var/lib/apt/lists/*
 
 # Go 설치
