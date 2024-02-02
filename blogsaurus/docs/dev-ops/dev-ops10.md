@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# [Github Actions] Github Action에서 artifacts사용
+# [Github Actions] Github Action에서 artifacts & SMTP 
 ---
 
 ## artifacts
