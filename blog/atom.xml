@@ -667,21 +667,6 @@ MSS : 1460 byte</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="목적지-
         <category label="오버라이딩" term="오버라이딩"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[SOLID] 객체 지향 프로그래밍(OOP) 원칙]]></title>
-        <id>https://kihyun1998.github.io/blog/design pattern rule</id>
-        <link href="https://kihyun1998.github.io/blog/design pattern rule"/>
-        <updated>2023-08-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SRP ( 단일 책임의 원칙 : Single Responsibility Principle )]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="srp--단일-책임의-원칙--single-responsibility-principle-">SRP ( 단일 책임의 원칙 : Single Responsibility Principle )<a href="#srp--단일-책임의-원칙--single-responsibility-principle-" class="hash-link" aria-label="Direct link to SRP ( 단일 책임의 원칙 : Single Responsibility Principle )" title="Direct link to SRP ( 단일 책임의 원칙 : Single Responsibility Principle )">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="ocp--계방-폐쇄의-원칙--open-close-principle-">OCP ( 계방-폐쇄의 원칙 : Open Close Principle )<a href="#ocp--계방-폐쇄의-원칙--open-close-principle-" class="hash-link" aria-label="Direct link to OCP ( 계방-폐쇄의 원칙 : Open Close Principle )" title="Direct link to OCP ( 계방-폐쇄의 원칙 : Open Close Principle )">​</a></h2><ol><li><p>바뀌는 부분을 캡슐화한다.</p><ul><li>변하는(확장되는) 것과 변하지 않을 것을 구분</li></ul></li><li><p>상속보다는 구성을 활용한다.</p></li><li><p>구현보다는 인터페이스에 맞춰서 프로그래밍한다.</p><ul><li>정의한 인터페이스에 의존</li></ul></li><li><p>상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.</p></li><li><p>클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.</p></li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="lsp--리스코프-치환의-원칙--the-liskov-substitution-principle-">LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )<a href="#lsp--리스코프-치환의-원칙--the-liskov-substitution-principle-" class="hash-link" aria-label="Direct link to LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )" title="Direct link to LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="isp--인터페이스-분리의-원칙--interface-segregation-principle-">ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )<a href="#isp--인터페이스-분리의-원칙--interface-segregation-principle-" class="hash-link" aria-label="Direct link to ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )" title="Direct link to ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="dip--의존성-역전의-원칙--dependency-inversion-principle-">DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )<a href="#dip--의존성-역전의-원칙--dependency-inversion-principle-" class="hash-link" aria-label="Direct link to DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )" title="Direct link to DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )">​</a></h2><ol><li><p>추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.</p></li><li><p>고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.
-<code>고수준 구성 요소</code> : 다른 <code>저수준 구성 요소</code>에 의해 정의되는 행동이 들어있는 구성 요소</p></li><li><p>변수에 구상 클래스의 레퍼런스를 저장하지 않는다.</p></li><li><p>구상 클래스에서 유도된 클래스를 만들지 않는다.</p></li><li><p>베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다.</p></li></ol>]]></content>
-        <author>
-            <name>Park Ki Hyun</name>
-            <uri>https://github.com/kihyun1998</uri>
-        </author>
-        <category label="design pattern" term="design pattern"/>
-        <category label="rule" term="rule"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[전략 패턴 - Strategy pattern]]></title>
         <id>https://kihyun1998.github.io/blog/strategy pattern</id>
         <link href="https://kihyun1998.github.io/blog/strategy pattern"/>
@@ -695,6 +680,21 @@ MSS : 1460 byte</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="목적지-
         </author>
         <category label="design pattern" term="design pattern"/>
         <category label="strategy pattern" term="strategy pattern"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[SOLID] 객체 지향 프로그래밍(OOP) 원칙]]></title>
+        <id>https://kihyun1998.github.io/blog/design pattern rule</id>
+        <link href="https://kihyun1998.github.io/blog/design pattern rule"/>
+        <updated>2023-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SRP ( 단일 책임의 원칙 : Single Responsibility Principle )]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="srp--단일-책임의-원칙--single-responsibility-principle-">SRP ( 단일 책임의 원칙 : Single Responsibility Principle )<a href="#srp--단일-책임의-원칙--single-responsibility-principle-" class="hash-link" aria-label="Direct link to SRP ( 단일 책임의 원칙 : Single Responsibility Principle )" title="Direct link to SRP ( 단일 책임의 원칙 : Single Responsibility Principle )">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="ocp--계방-폐쇄의-원칙--open-close-principle-">OCP ( 계방-폐쇄의 원칙 : Open Close Principle )<a href="#ocp--계방-폐쇄의-원칙--open-close-principle-" class="hash-link" aria-label="Direct link to OCP ( 계방-폐쇄의 원칙 : Open Close Principle )" title="Direct link to OCP ( 계방-폐쇄의 원칙 : Open Close Principle )">​</a></h2><ol><li><p>바뀌는 부분을 캡슐화한다.</p><ul><li>변하는(확장되는) 것과 변하지 않을 것을 구분</li></ul></li><li><p>상속보다는 구성을 활용한다.</p></li><li><p>구현보다는 인터페이스에 맞춰서 프로그래밍한다.</p><ul><li>정의한 인터페이스에 의존</li></ul></li><li><p>상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.</p></li><li><p>클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.</p></li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="lsp--리스코프-치환의-원칙--the-liskov-substitution-principle-">LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )<a href="#lsp--리스코프-치환의-원칙--the-liskov-substitution-principle-" class="hash-link" aria-label="Direct link to LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )" title="Direct link to LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="isp--인터페이스-분리의-원칙--interface-segregation-principle-">ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )<a href="#isp--인터페이스-분리의-원칙--interface-segregation-principle-" class="hash-link" aria-label="Direct link to ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )" title="Direct link to ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="dip--의존성-역전의-원칙--dependency-inversion-principle-">DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )<a href="#dip--의존성-역전의-원칙--dependency-inversion-principle-" class="hash-link" aria-label="Direct link to DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )" title="Direct link to DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )">​</a></h2><ol><li><p>추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.</p></li><li><p>고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.
+<code>고수준 구성 요소</code> : 다른 <code>저수준 구성 요소</code>에 의해 정의되는 행동이 들어있는 구성 요소</p></li><li><p>변수에 구상 클래스의 레퍼런스를 저장하지 않는다.</p></li><li><p>구상 클래스에서 유도된 클래스를 만들지 않는다.</p></li><li><p>베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다.</p></li></ol>]]></content>
+        <author>
+            <name>Park Ki Hyun</name>
+            <uri>https://github.com/kihyun1998</uri>
+        </author>
+        <category label="design pattern" term="design pattern"/>
+        <category label="rule" term="rule"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
