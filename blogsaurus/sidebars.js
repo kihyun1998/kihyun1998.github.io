@@ -30,7 +30,7 @@ const sidebars = {
             ],
         },
     ],
-    reactSidebar:[
+    jsSidebar:[
         'react-intro',
         {        
             type: 'category',
@@ -210,7 +210,7 @@ const sidebars = {
                 }
             ]
         },
-    ]
+    ],
 };
 
 module.exports = sidebars;

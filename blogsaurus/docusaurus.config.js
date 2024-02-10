@@ -88,9 +88,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'reactSidebar',
+            sidebarId: 'jsSidebar',
             position: 'left',
-            label: 'React'
+            label: 'JavaScript'
           },
           {
             type: 'docSidebar',
@@ -170,7 +170,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        additionalLanguages:['java','yaml','csharp','go','python','bash','powershell','dart','xml-doc','sql','protobuf','docker','cpp','swift'],
+        additionalLanguages:['java','yaml','csharp','go','python','bash','powershell','dart','xml-doc','sql','protobuf','docker','cpp','swift','typescript'],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
