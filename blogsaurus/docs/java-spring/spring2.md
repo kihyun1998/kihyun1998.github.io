@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# [Spring] index.html
+# [Spring] 컨트롤러
 ---
 
 ## index.html
