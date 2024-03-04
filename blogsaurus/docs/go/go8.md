@@ -18,6 +18,17 @@ go env -w GOPRIVATE=[비공개 저장소]
 
 `github.com/privateTeam` 이런 것입니다.
 
++ 그럼 아래와 같이 설정할 수 있습니다.
+
+```bash
+go env -w GOPRIVATE=github.com/privateTeam
+```
+
+잘 설정됐는지는 env로 확인할 수 있습니다.
+
+```bash
+go env -json
+```
 
 ## 토큰 발급
 ---
