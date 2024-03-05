@@ -58,3 +58,10 @@ go mod tidy
 
 끝
 
+## 수정하기
+
+```bash
+git config --global --edit
+```
+
+여기서 잘못된거 수정해야한다. 이거 때문에 1시간 버림
