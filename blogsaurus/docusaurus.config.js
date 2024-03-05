@@ -116,6 +116,12 @@ const config = {
             position: 'left',
             label: 'Algorithm'
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'errorSidebar',
+            position: 'left',
+            label: 'Error'
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
