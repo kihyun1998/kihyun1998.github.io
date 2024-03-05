@@ -1,9 +1,4 @@
----
-slug: design pattern rule
-title: "[SOLID] 객체 지향 프로그래밍(OOP) 원칙" 
-authors: [kihyun]
-tags: [design pattern ,rule]
----
+
 
 ## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )
 

@@ -82,9 +82,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'designPatternSidebar',
+            sidebarId: 'studySidebar',
             position: 'left',
-            label: '디자인 패턴'
+            label: '개인 공부'
           },
           {
             type: 'docSidebar',

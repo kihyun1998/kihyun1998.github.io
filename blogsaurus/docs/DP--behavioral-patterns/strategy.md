@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # 전략 패턴 ( Strategy Pattern )
 
+**2023-08-29**
+
 ## 정의
 ---
 

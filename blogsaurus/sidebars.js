@@ -66,7 +66,7 @@ const sidebars = {
             ]
         },
     ],
-    designPatternSidebar:[
+    studySidebar:[
         'design-pattern-intro',
         {
             type:'category',
