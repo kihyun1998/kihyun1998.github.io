@@ -29,7 +29,7 @@ github actions에서 빌드한 파일은 어디로 가는가?
 
 그럼 아래 사진처럼 `Artifacts`라는 탭이 생기면서 이것을 활용할 수 있게 된다.
 
-![Alt text](image.png)
+![Alt text](./img/1-30/10/image.png)
 
 
 ## SMTP로 전송하기
