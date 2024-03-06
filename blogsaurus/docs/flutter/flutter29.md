@@ -2,7 +2,7 @@
 sidebar_position: 29
 ---
 
-# flutter riverpod을 위한 필요사항
+# 29. [flutter] SVG를 IconData로
 ---
 
 ## icondata from svg
