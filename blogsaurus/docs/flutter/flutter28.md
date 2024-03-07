@@ -2,7 +2,7 @@
 sidebar_position: 28
 ---
 
-# flutter riverpod을 위한 필요사항
+# 28. [flutter] riverpod을 위한 필요사항
 ---
 
 ## vs code extensions
