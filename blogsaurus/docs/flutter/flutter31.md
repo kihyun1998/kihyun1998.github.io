@@ -2,7 +2,7 @@
 sidebar_position: 31
 ---
 
-# 30. [flutter] pub.dev에 패키지 올리기
+# 31. [flutter] pub.dev에 패키지 올리기
 ---
 
 ## 패키지 종류
