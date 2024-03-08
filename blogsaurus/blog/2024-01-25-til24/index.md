@@ -86,6 +86,9 @@ import 'package:flutter_localizations/flutter_localizations.dart';
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: S.delegate.supportedLocales,
+
+      /// 이거 넣어야 한다.
+      locale: ref.watch(langProvider),
 ...
 ```
 
