@@ -13,6 +13,14 @@ tags: [TIL, 플러터, flutter, intl, localization, 다국어 설정 ]
 
 1. `flutter_localization`,`intl` 패키지 추가
 
+```yaml
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+```
+
+꼭 위처럼 추가해야한다.
+
 2. vs code `Flutter Intl` extension 설치
 
 3. pubspec.yaml파일에 아래 내용 입력
@@ -84,3 +92,30 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 해당 내용 추가하기
 
 그리고 추가적으로 구현해야할 것이 locale값을 watch하는 provider 만들어서 `MaterialApp` 안에 `locale` 속성값에 `watch`로 넣기
+
+
+## 추가 팁
+---
+
+```dart
+@riverpod
+class Lang extends _$Lang {
+  @override
+  Locale build() {
+    return LangState.en;
+  }
+
+  void toggleLanguage() {
+    state = LangState.isKo ? LangState.en : LangState.ko;
+  }
+}
+
+abstract class LangState {
+  static const Locale en = Locale('en');
+  static const Locale ko = Locale('ko');
+
+  static bool get isKo => Intl.getCurrentLocale() == ko.languageCode;
+}
+```
+
+riverpod generater를 이용한 language provider 코드와 state 코드다.
