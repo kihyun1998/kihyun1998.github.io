@@ -89,9 +89,9 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 ...
 ```
 
-해당 내용 추가하기
-
 그리고 추가적으로 구현해야할 것이 locale값을 watch하는 provider 만들어서 `MaterialApp` 안에 `locale` 속성값에 `watch`로 넣기
+
+
 
 
 ## 추가 팁
