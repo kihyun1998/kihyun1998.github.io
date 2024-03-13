@@ -43,4 +43,4 @@ icon: zeroData.nodeOSType == "Linux"
 
 5. 사용하기
 
-끝.
+끝..
