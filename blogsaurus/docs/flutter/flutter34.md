@@ -118,6 +118,18 @@ releases:
 
 ### flutter_distributor
 
+```bash
+dart pub global activate flutter_distributor
+```
+
+위 명령어로 `flutter_distributor`를 설치합니다.
+
+그리고 시스템 환경변수를 설정합니다.
+
+
+`C:\Users\User\AppData\Local\Pub\Cache\bin` 제 경우는 여기를 추가했어야 했습니다.
+
+
 
 [flutter_distributor 링크](https://distributor.leanflutter.dev/) 에 들어가보면 좀 더 자세한 내용을 확인할 수 있습니다.
 
