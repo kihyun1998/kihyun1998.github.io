@@ -141,3 +141,83 @@ locales:
 ```
 
 이런식으로 작성할 수 있습니다.
+
+이렇게 했다면
+
+```bash
+flutter_distributor release --name dev --jobs release-windows
+```
+
+다시 위의 명령어가 성공할 것이고 dist/밑에 exe 파일이 생길 것입니다.
+
+### sign_update
+
+```bash
+dart run auto_updater:sign_update dist/아까exe파일명
+```
+
+이렇게 해주면 exe파일에 대한 서명 값이 아래처럼 나옵니다.
+
+```yaml
+sparkle:dsaSignature="MEUCIQCVbVzVID7H3aUzAY5znpi+ySZKznkukV8whlMFzKh66AIgREUGOmvavlcg6hwAwkb2o4IqVE/D56ipIBshIqCH8rk=" length="13400992"
+```
+
+### 서버 쪽
+---
+
+```py
+from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
+
+app = FastAPI()
+
+app.mount("/dist",StaticFiles(directory="dist"),name="dist")
+```
+
+fast api로 단순하게 만들었습니다.
+
+
+```xml title="appcast.xml"
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>앱 업데이트</title>
+        <link>앱 홈페이지 URL</link>
+        <description>앱 업데이트 정보</description>
+        <language>ko</language>
+        <item>
+            <title>1.0.0</title>
+            <description>이번 업데이트의 변경 사항</description>
+            <pubDate>Wed, 13 Mar 2024 12:01:00 +0800</pubDate>
+            <enclosure url="http://127.0.0.1:8000/dist/1.0.1/update_app-1.0.1+1.0.1-windows-setup.exe"
+                       sparkle:dsaSignature="MEUCIQCVbV해시값"
+                       sparkle:version="1.0.1"
+                       sparkle:os="windows"
+                       length="0"
+                       type="application/octet-stream" />
+        </item>
+        <!-- 추가 업데이트 항목을 위해 더 많은 <item> 요소를 추가할 수 있습니다 -->
+    </channel>
+</rss>
+```
+
+appcast.xml을 사용하여 업데이트 버전을 확인할 수 있습니다.
+
+`sparkle:dsaSignature`에 해시 값을 넣으면 됩니다.
+
+그리고 `url`경로에 exe 파일을 넣으면 됩니다.
+
+
+### 업데이트 하는 법 요약
+
+1. 사전 설정 하기
+
+2. `flutter_distributor release --name dev --jobs release-windows` 해서 building 하기
+
+3. `dart run auto_updater:sign_update dist/어쩌구저쩌구.exe` 하기
+
+4. exe파일 서버로 옮기기
+
+5. 서버에서 appcast.xml 수정하기 ( 옮긴 exe파일로 url 수정 및 sparkle:dsaSignature 해시 값 변경 )
+
+끝..
