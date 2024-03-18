@@ -24,11 +24,8 @@ class ResourceManager {
   ResourceManager._privateConstructor(this.resourceId);
 
   static ResourceManager getInstance(String resourceId) {
-    if (_instance == null) {
-      _instance = ResourceManager._privateConstructor(resourceId);
-    } else {
-      _instance!.resourceId = resourceId;
-    }
+    _instance ??= ResourceManager._privateConstructor(resourceId);
+
     return _instance!;
   }
 
@@ -38,7 +35,7 @@ class ResourceManager {
 }
 ```
 
-`??=`을 사용하여 null값이
+`??=`을 사용하여 객체 instance가 생성되지 않은 null 값일 때만 객체를 생성해서 싱글톤을 유지할 수 있습니다.
 
 ### 사용 예제 
 ---
