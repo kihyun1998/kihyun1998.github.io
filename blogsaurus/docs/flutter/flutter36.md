@@ -1,17 +1,14 @@
 ---
-slug: flutter-til-24
-title: Flutter TIL - 24
-authors: [kihyun]
-tags: [TIL, 플러터, flutter, intl, localization, 다국어 설정 ]
+sidebar_position: 36
 ---
 
-# Flutter TIL - 24
+# 36. [flutter] 다국어 설정 intl
 ---
 
 ## 다국어 설정
 ---
 
-1. `flutter_localization`,`intl` 패키지 추가
+1. `flutter_localizations`,`intl` 패키지 추가
 
 ```yaml
   flutter_localizations:

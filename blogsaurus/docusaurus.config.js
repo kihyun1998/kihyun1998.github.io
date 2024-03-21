@@ -82,9 +82,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'designPatternSidebar',
+            sidebarId: 'studySidebar',
             position: 'left',
-            label: '디자인 패턴'
+            label: '개인 공부'
           },
           {
             type: 'docSidebar',
@@ -115,6 +115,12 @@ const config = {
             sidebarId: 'algorithmSidebar',
             position: 'left',
             label: 'Algorithm'
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'errorSidebar',
+            position: 'left',
+            label: 'Error'
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -170,7 +176,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        additionalLanguages:['java','yaml','csharp','go','python','bash','powershell','dart','xml-doc','sql','protobuf','docker','cpp','swift','typescript','gradle'],
+        additionalLanguages:['java','yaml','csharp','go','python','bash','powershell','dart','xml-doc','sql','protobuf','docker','cpp','swift','typescript','gradle','markdown'],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },

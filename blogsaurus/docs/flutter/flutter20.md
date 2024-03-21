@@ -1,8 +1,8 @@
 ---
-sidebar_position: 19
+sidebar_position: 20
 ---
 
-# 19. [Flutter] fetch
+# 20. [Flutter] fetch
 
 :::tip 목차
 1. [고전적인 fetch](#고전적인-fetch)
