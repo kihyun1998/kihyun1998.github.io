@@ -36,3 +36,12 @@ java -jar [빌드파일이름].jar
 ```
 
 을 하면 스프링 서버가 시작합니다 !
+
+
+## 잘 안되는 경우
+
+```bash
+./gradlew clean build
+```
+
+clean build를 하면 된다. clean하면 build 폴더를 삭제함
