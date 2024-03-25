@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# 4. [etc] firebase 사용 법
+# 4. [etc] firebase 사용법
 ---
 
 ## 사전 절차
