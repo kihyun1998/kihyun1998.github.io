@@ -157,7 +157,7 @@ docker pull postgres:태그명
 그리고 아래처럼 실행할 수 있다.
 
 ```bash
-docker run --name PostgreSQL -e POSTGRES_USER=p유저명 -e POSTGRES_PASSWORD=비밀번호 -d -p 5432:5432 postgres:태그명
+docker run --name PostgreSQL -e POSTGRES_USER=유저명 -e POSTGRES_PASSWORD=비밀번호 -d -p 5432:5432 postgres:태그명
 ```
 
 ## postgresql 실행
@@ -361,4 +361,154 @@ Page<BookmarkDTO> findByTitleContainsIgnoreCase(String query, PageRequest pageRe
 
 ### 입력 항목 검증
 
-problem-spring-web이라는 의존성 추가하면 오류 메시지 괜찮게 나온다.
+`problem-spring-web`이라는 의존성 추가하면 오류 메시지 괜찮게 나온다.
+
+
+## cors
+---
+
+```java
+@Configuration
+public class WebConfig {
+    @Bean
+    public FilterRegistrationBean<?> corsConfigurationSource() {
+        /// cors configuration 가져옴
+        CorsConfiguration configuration = new CorsConfiguration();
+
+        /// 오리진 모두 허용
+        configuration.setAllowedOrigins(Arrays.asList("*"));
+        
+        /// 크리덴셜 true
+        configuration.setAllowCredentials(true);
+        
+        /// 헤더 허용
+        configuration.setAllowedHeaders(Arrays.asList(
+                "Access-Control-Allow-Headers",
+                "Access-Control-Allow-Origin",
+                "Access-Control-Request-Method",
+                "Access-Control-Request-Headers",
+                "Origin",
+                "Cache-Control",
+                "Content-Type", 
+                "Authorization"));
+        
+        /// 메서드 허용
+        configuration.setAllowedMethods(Arrays.asList("POST", "DELETE", "GET", "PATCH", "PUT"));
+
+        /// UrlBasedCorsConfigurationSource 클래스
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        
+        /// configuration 값을 적용
+        source.registerCorsConfiguration("/**", configuration);
+
+        /// CorsFilter에 이 설정값을 적용
+        FilterRegistrationBean<?> bean = new FilterRegistrationBean<>(new CorsFilter(source));
+        bean.setOrder(0);
+        return bean;
+    }
+}
+```
+
+이런식으로 webConfig 생성해서 bean에 등록하여 사용
+
+
+## docker 배포
+---
+
+### jar 생성
+
+1. 파일 이름 설정  
+    `build` 태그 안에 `plugins` 태그 밑에 `finalName`으로 설정한다.
+
+    그리고 maven이나 gradel 업데이트
+
+2. 빌드
+
+- `maven`
+
+```bash
+mvnw clean package
+```
+
+```bash
+mvnw clean package -Dmaven.test.skip=true
+```
+위처럼 하면 테스트 스킵
+
+```bash
+mvnw clean package -Dspring.profiles.active=dev
+```
+위처럼 하면 프로파일 지정
+
+```bash
+mvnw clean package -Denv=production
+```
+
+이렇게 하면 변수 지정
+
+- `gradle`
+
+```bash
+gradlew.bat clean bootJar
+```
+
+3. 실행
+
+```bash
+java -jar target\springboot-nextjs-backend.jar --spring.profiles.active=prod
+```
+
+이런식으로 할 수 있다.
+
+target.. 이거는 실행할 jar파일이고 profiles.active 설정은 profile 값을 뭐로할지 정하는거다.
+
+
+### docker 이미지 생성
+
+- **도커파일 생성**
+
+먼저 도커파일 생성하고
+
+```dockerfile
+FROM openjdk:20
+VOLUME /tmp
+COPY target/springboot-nextjs-backend.jar springboot-nextjs-backend.jar
+ENTRYPOINT ["java","-jar","/springboot-nextjs-backend.jar","--spring.profiles.active=prod"]
+```
+
+위처럼 작성하면 됩니다.
+
+이미지는 openjdk를 사용하고
+
+jar 파일을 복사해서
+
+entry point 명령어들을 실행합니다.
+
+- **도커 이미지 빌드**
+
+도커 이미지 빌드 하고
+
+```bash
+docker build -t 도커유저이름/도커저장소이름:도커태그 .
+```
+
+- **도커 허브 push**
+
+로그인하고
+
+```bash
+docker login -u 도커계정명
+```
+
+push
+
+```bash
+docker push 도커저장소:태그
+```
+
+도커저장소:태그는 이미지를 특정하는 거다.
+
+## github action 설정
+---
+
+yaml파일 작성하면 끝.
