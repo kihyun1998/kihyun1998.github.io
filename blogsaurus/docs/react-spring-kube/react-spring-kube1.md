@@ -376,7 +376,7 @@ public class WebConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         /// 오리진 모두 허용
-        configuration.setAllowedOrigins(Arrays.asList("*"));
+        configuration.setAllowedOriginPatterns(Arrays.asList("*"));
         
         /// 크리덴셜 true
         configuration.setAllowCredentials(true);
