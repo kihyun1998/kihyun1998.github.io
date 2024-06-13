@@ -79,7 +79,46 @@ PARAMETER stop </s>
 ---
 
 ```bash
-pip install ollama
+curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 이렇게 설치가능
+
+그리고 
+
+```bash
+ollama serve
+```
+
+해야지 ollama 명령어 쓸 수 있음. docker와 비슷하다.
+
+### 모델 만들기
+
+```bash
+ollama create 만들파일이름 -f Modelfile경로
+```
+
+예시로 아래처럼 할 수 있다.
+
+```bash
+ollama create new-model -f model/Modelfile
+```
+
+### 리스트 보기
+
+```bash
+ollama list
+```
+
+### 실행하기
+
+```bash
+ollama run 모델명:태그
+```
+
+그러면 질문할 수 있다.
+
+```bash
+/exit
+```
+으로 나갈 수 있다.
