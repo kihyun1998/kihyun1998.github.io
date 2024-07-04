@@ -34,3 +34,4 @@ Controller('movies')이기 때문이다.
 ```
 
 위처럼 하면 `/movies/{id}`에 대한 api다
+
