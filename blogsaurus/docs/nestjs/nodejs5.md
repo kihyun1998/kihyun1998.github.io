@@ -55,9 +55,9 @@ export class MoviesService {
   getOne(id: string): Movie {
     return this.movies.find((movie) => movie.id === +id);
   }
-  deleteOne(id: string): boolean {
-    this.movies.filter((movie) => movie.id !== +id);
-    return true;
+  deleteOne(id: string) {
+    this.getOne(id);
+    this.movies = this.movies.filter((movie) => movie.id !== +id);
   }
   create(data) {
     this.movies.push({
