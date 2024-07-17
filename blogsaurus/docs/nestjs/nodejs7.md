@@ -2,7 +2,38 @@
 sidebar_position: 7
 ---
 
-# [NestJS] 유효성검사
+# [NestJS] 유효성 검사
+
+## DTO
+---
+
+```typescript
+export class CreateMoiveDto {
+  readonly title: string;
+  readonly year: number;
+  readonly genres: string[];
+}
+```
+
+이렇게 dto를 구현해놓고
+
+```typescript
+  create(data: CreateMoiveDto) {
+    this.movies.push({
+      id: this.movies.length + 1,
+      ...data,
+    });
+  }
+```
+
+```typescript
+  @Post()
+  create(@Body() data: CreateMovieDto) {
+    return this.moviesService.create(data);
+  }
+```
+
+이런식으로 사용할 수 있습니다.
 
 ## class-validator, class-transformer
 ---
