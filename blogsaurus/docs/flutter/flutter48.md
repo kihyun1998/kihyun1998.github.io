@@ -2,7 +2,7 @@
 sidebar_position: 48
 ---
 
-# 46. [flutter] riverpod에서 AsyncValue가 Loading이 되는 경우
+# 48. [flutter] riverpod에서 AsyncValue가 Loading이 되는 경우
 ---
 
 ## 정리

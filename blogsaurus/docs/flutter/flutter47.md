@@ -2,7 +2,7 @@
 sidebar_position: 47
 ---
 
-# 46. [flutter] 에러 -  FlutterError (Tried to modify a provider while the widget tree was building.)
+# 47. [flutter] 에러 -  FlutterError (Tried to modify a provider while the widget tree was building.)
 ---
 
 ## 메시지
