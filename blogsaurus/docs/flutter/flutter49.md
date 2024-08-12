@@ -75,7 +75,7 @@ git installer로 설치하면 됩니다.
 
 ### Visual Studio
 
-받아온 install 파일을 실행
+받아온 파일을 압축해제 하면 나오는 `vs_setup.exe`를 실행해서 설치하면 됩니다.
 
 ### VS code
  
