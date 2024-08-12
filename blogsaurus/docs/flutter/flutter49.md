@@ -59,6 +59,8 @@ vs_Professional.exe --layout C:\\layout --lang ko-KR
 
 그리고 떨어지는 폴더를 압축해서 옮기면 됩니다.
 
+![alt text](./img/49/image2.png)
+
 ### Git
 
 git installer를 다운로드해서 옮기면 됩니다.
@@ -93,3 +95,4 @@ start ms-settings:developers
 를 통해서 개발자 설정을 킬 수 있습니다.
 
 그럼 flutter doctor를 하고 flutter run을 하면 해결..
+
