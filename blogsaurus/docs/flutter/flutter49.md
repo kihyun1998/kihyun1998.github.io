@@ -69,6 +69,8 @@ git installer를 다운로드해서 옮기면 됩니다.
 
 ## In Offline
 
+
+
 ### Git
 
 git installer로 설치하면 됩니다.
@@ -76,6 +78,15 @@ git installer로 설치하면 됩니다.
 ### Visual Studio
 
 받아온 파일을 압축해제 하면 나오는 `vs_setup.exe`를 실행해서 설치하면 됩니다.
+
+
+### 폴더
+
+압축했던 flutter 폴더와 Pub 폴더를 알맞은 위치에 옮깁니다.
+
+이 때 주의할 점이 사용자 이름이 다르면 동작하지 않습니다.. 이건 어떻게 해야하는지 모르겠습니다.
+
+적절한 폴더에 압축해제를 한 후 vs code 설정을 기다립니다..
 
 ### VS code
  
@@ -94,5 +105,7 @@ start ms-settings:developers
 
 를 통해서 개발자 설정을 킬 수 있습니다.
 
-그럼 flutter doctor를 하고 flutter run을 하면 해결..
+setting.json에서 `dart.offline`을 `true`로 설정합니다.
+
+그럼 `flutter doctor`를 하고 `flutter pub get`하고 `flutter run`을 하면 해결..
 
