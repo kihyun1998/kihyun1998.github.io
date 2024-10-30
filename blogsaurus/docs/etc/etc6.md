@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# 5. [etc] firebase 로그인
+# 6. [etc] firebase 로그인
 ---
 
 ## 1. 패키지 get
