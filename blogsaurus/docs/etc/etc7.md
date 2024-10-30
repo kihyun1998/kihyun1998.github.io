@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# 5. [etc] local postgresql 접속 방법
+# 7. [etc] local postgresql 접속 방법
 ---
 
 ```bash
