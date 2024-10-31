@@ -126,7 +126,19 @@ sync 하고 live 하면 끝
 
 promtail은 로그를 읽고 전송만하는 친구임
 
+### dashboard
 
+대시보드 만들수 있는데
+
+copy paste할 수 있음.
+
+copy 해서 `Add` > `Paste Panel` 하면 가능
+
+```
+sum by(level)(count_over_time({host="my-labtop"} |~ "info|INFO" [$__interval]))
+```
+
+쿼리가 위처럼 돼있는데 중요한 부분은 `{host="my-labtop"}` 이부분임.
 
 ## 오픈소스 프로메테우스 대시보드
 
