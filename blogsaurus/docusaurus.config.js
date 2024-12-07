@@ -128,7 +128,7 @@ const config = {
             position: 'left',
             label: 'AI'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'rifgt'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
