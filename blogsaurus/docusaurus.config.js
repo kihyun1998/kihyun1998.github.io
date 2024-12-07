@@ -128,6 +128,12 @@ const config = {
             position: 'left',
             label: 'AI'
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'infraSidebar',
+            position: 'left',
+            label: 'Infra'
+          },
           {to: '/blog', label: 'Blog', position: 'rifgt'},
           {
             href: 'https://github.com/facebook/docusaurus',
