@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-#  [etc] Android 설정값 변경 법
+#  8. [etc] Android 설정값 변경 법
 ---
 
 1. 스마트폰 제조사 USB 드라이버를 설치합니다.
