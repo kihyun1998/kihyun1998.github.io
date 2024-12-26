@@ -9,6 +9,7 @@ sidebar_position: 8
 
 ```bash
 npm install -D @types/node @types/express
+npm install --save-dev prettier eslint-config-prettier
 ```
 
 ## setting.json
