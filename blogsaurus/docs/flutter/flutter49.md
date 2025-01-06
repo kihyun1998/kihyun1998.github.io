@@ -15,6 +15,11 @@ sidebar_position: 49
 
 ## In Online
 
+### SDK 다운로드
+
+SDK 다운로드를 위해서 먼저 `flutter run`을 해줘야합니다. 그럼 PC에서 사용할 수 있는 SDK들을 다운로드 받습니다. 이 과정은 필수입니다.  
+MAC용 SDK를 다운로드해야한다면 온라인이되는 MAC OS 장비에서 `flutter run`을 1회 수행해야합니다.
+
 ### 압축하기
 
 1. 사용하던 flutter SDK가 있는 폴더를 압축합니다. (경로는 저는 `C:\flutter`였습니다.)
