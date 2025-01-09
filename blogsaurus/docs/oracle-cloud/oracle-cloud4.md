@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Oracle Cloud IP 고정
+# [Oracle Cloud] IP 고정
 ---
 
 클라우드 서비스는 서버를 껏다가 키면 아이피가 변동된다.

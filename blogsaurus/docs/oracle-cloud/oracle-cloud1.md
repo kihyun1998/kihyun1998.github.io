@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Oracle Cloud 서버 이용하기
+# [Oracle Cloud] 서버 이용하기
 ---
 
 ## 회원가입

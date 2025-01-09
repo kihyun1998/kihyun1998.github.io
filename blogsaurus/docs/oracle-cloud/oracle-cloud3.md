@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Oracle Cloud RAM 용량 늘리기
+# [Oracle Cloud] RAM 용량 늘리기
 ---
 
 ```bash

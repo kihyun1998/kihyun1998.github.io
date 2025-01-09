@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Oracle Cloud 포트포워딩
+# [Oracle Cloud] 포트포워딩
 ---
 
 이 상태라면 웹서버를 올려도 접속할 수 없습니다.  
