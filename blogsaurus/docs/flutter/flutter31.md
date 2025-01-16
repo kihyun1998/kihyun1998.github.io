@@ -35,6 +35,12 @@ flutter create --org com.example --template=plugin --platforms=windows [패키�
 4) `-i` : iOS launguage로 objc를 쓸 건지 swift를 쓸 건지를 나타냅니다. (명시안하면 기본은 swift)
 
 
+```bash
+`flutter create -t plugin --platforms <platforms> .
+```
+
+위와 같은 방식으로 사용할 플랫폼을 추가할 수 있다.
+
 ## plugin package 생성
 ---
 
