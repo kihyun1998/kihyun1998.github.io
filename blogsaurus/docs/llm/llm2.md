@@ -151,3 +151,12 @@ GPT는 Transformer Decoder만을 사용하는 모델(Autoregressive)로 단방�
 
 - 🚀 결론
     - GPT는 미래 단어를 볼 수 없도록 Casual Masking을 사용하여 훈련합니다. 생성에 강하지만 문맥 고려가 아쉽습니다.
+
+
+
+## 요약
+
+- Encoder는 문장을 벡터로 변환, Decoder는 벡터를 다시 문장으로 변환
+- `BERT`는 Encoder 기반으로 문장 전체를 분석 -> 감성, 분석, 문서 분류에 강하다.
+- `GPT`는 Decoder 기반으로 자연스럽게 텍스트 생성 -> 챗봇, 텍스트 생성에 강하다.
+- `BERT`는 **양방향 학습**, GTP는 **단방향 학습**(앞 단어만 참고)
