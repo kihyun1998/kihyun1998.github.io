@@ -1463,11 +1463,107 @@
           "permalink": "/blog/flutter-til-9"
         },
         "nextItem": {
+          "title": "Git - LF will be replaced by CRLF the next time Git touches it",
+          "permalink": "/blog/git-error-1"
+        }
+      },
+      "content": "---\r\n\r\n## Treeview\r\n---\r\n\r\n[이 라이브러리](https://pub.dev/packages/animated_tree_view)를 사용한다.\r\n\r\n`animated_tree_view`다.\r\n\r\n`TreeNode.root`에 `..addAll([])` 해서 배열을 넣을 수 있다.\r\n\r\n```dart\r\n  final myTree = TreeNode.root()\r\n    ..addAll([\r\n      TreeNode(key: \"Today\"),\r\n      TreeNode(key: \"Tomorrow\")\r\n        ..addAll([\r\n          TreeNode(key: \"task 1\"),\r\n          TreeNode(key: \"task 2\"),\r\n          TreeNode(key: \"task 3\"),\r\n        ]),\r\n      TreeNode(key: \"Upcoming\"),\r\n    ]);\r\n```\r\n\r\n`TreeView.simple`을 사용해봤는데 builder에서 인자로 `context`, `node`를 받는다.\r\n\r\n주의할 점은 key로 하기 때문에 key 중복되지 않게 조심해야한다. 같은 level만 아니면 괜찮다. (같은 level아니면 이름 중복 가능)"
+    },
+    {
+      "id": "git-error-1",
+      "metadata": {
+        "permalink": "/blog/git-error-1",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-error1/index.md",
+        "source": "@site/blog/2023-12-28-error1/index.md",
+        "title": "Git - LF will be replaced by CRLF the next time Git touches it",
+        "description": "---",
+        "date": "2023-12-28T00:00:00.000Z",
+        "formattedDate": "December 28, 2023",
+        "tags": [
+          {
+            "label": "git",
+            "permalink": "/blog/tags/git"
+          }
+        ],
+        "readingTime": 0.11,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "git-error-1",
+          "title": "Git - LF will be replaced by CRLF the next time Git touches it",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "git"
+          ]
+        },
+        "prevItem": {
+          "title": "Flutter TIL - 8",
+          "permalink": "/blog/flutter-til-8"
+        },
+        "nextItem": {
+          "title": "Git - 변경사항 취소",
+          "permalink": "/blog/tip-git-1"
+        }
+      },
+      "content": "---\r\n\r\n## window\r\n---\r\n\r\n```bash\r\ngit config --global core.autocrlf true\r\n```\r\n\r\n## linux, mac\r\n---\r\n\r\n```bash\r\ngit config --global core.autocrlf input\r\n```"
+    },
+    {
+      "id": "tip-git-1",
+      "metadata": {
+        "permalink": "/blog/tip-git-1",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-tip-git1/index.md",
+        "source": "@site/blog/2023-12-28-tip-git1/index.md",
+        "title": "Git - 변경사항 취소",
+        "description": "---",
+        "date": "2023-12-28T00:00:00.000Z",
+        "formattedDate": "December 28, 2023",
+        "tags": [
+          {
+            "label": "git",
+            "permalink": "/blog/tags/git"
+          }
+        ],
+        "readingTime": 0.05,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "tip-git-1",
+          "title": "Git - 변경사항 취소",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "git"
+          ]
+        },
+        "prevItem": {
+          "title": "Git - LF will be replaced by CRLF the next time Git touches it",
+          "permalink": "/blog/git-error-1"
+        },
+        "nextItem": {
           "title": "Flutter TIL - 7",
           "permalink": "/blog/flutter-til-7"
         }
       },
-      "content": "---\r\n\r\n## Treeview\r\n---\r\n\r\n[이 라이브러리](https://pub.dev/packages/animated_tree_view)를 사용한다.\r\n\r\n`animated_tree_view`다.\r\n\r\n`TreeNode.root`에 `..addAll([])` 해서 배열을 넣을 수 있다.\r\n\r\n```dart\r\n  final myTree = TreeNode.root()\r\n    ..addAll([\r\n      TreeNode(key: \"Today\"),\r\n      TreeNode(key: \"Tomorrow\")\r\n        ..addAll([\r\n          TreeNode(key: \"task 1\"),\r\n          TreeNode(key: \"task 2\"),\r\n          TreeNode(key: \"task 3\"),\r\n        ]),\r\n      TreeNode(key: \"Upcoming\"),\r\n    ]);\r\n```\r\n\r\n`TreeView.simple`을 사용해봤는데 builder에서 인자로 `context`, `node`를 받는다.\r\n\r\n주의할 점은 key로 하기 때문에 key 중복되지 않게 조심해야한다. 같은 level만 아니면 괜찮다. (같은 level아니면 이름 중복 가능)"
+      "content": "---\r\n\r\n## 명령어\r\n\r\n```bash\r\ngit reset --hard\r\n```"
     },
     {
       "id": "flutter-til-7",
@@ -1527,111 +1623,15 @@
           ]
         },
         "prevItem": {
-          "title": "Flutter TIL - 8",
-          "permalink": "/blog/flutter-til-8"
-        },
-        "nextItem": {
-          "title": "Git - LF will be replaced by CRLF the next time Git touches it",
-          "permalink": "/blog/git-error-1"
-        }
-      },
-      "content": "---\r\n\r\n## Future.wait\r\n---\r\n\r\n```dart\r\n  Future<void> searchProductList() async {\r\n    isBusy = true;\r\n    final results = await Future.wait([\r\n      productRepository.searchProductList(keyword),\r\n      Future.delayed(const Duration(milliseconds: 555)),\r\n    ]);\r\n    productList = results[0];\r\n    isBusy = false;\r\n  }\r\n```\r\n\r\n`Future.wait`이라는게 있는데 안에 있는 Future wait의 배열 명령어들이 모두 끝날 때까지 기다림\r\n\r\n즉 위 코드 상으로는 search하는거와 delayed를 동시에 돌리는데 555 millisecond는 무조건 돌고 그 이상은 search끝날 때까지 기다린다는 뜻"
-    },
-    {
-      "id": "git-error-1",
-      "metadata": {
-        "permalink": "/blog/git-error-1",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-error1/index.md",
-        "source": "@site/blog/2023-12-28-error1/index.md",
-        "title": "Git - LF will be replaced by CRLF the next time Git touches it",
-        "description": "---",
-        "date": "2023-12-28T00:00:00.000Z",
-        "formattedDate": "December 28, 2023",
-        "tags": [
-          {
-            "label": "git",
-            "permalink": "/blog/tags/git"
-          }
-        ],
-        "readingTime": 0.11,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "git-error-1",
-          "title": "Git - LF will be replaced by CRLF the next time Git touches it",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "git"
-          ]
-        },
-        "prevItem": {
-          "title": "Flutter TIL - 7",
-          "permalink": "/blog/flutter-til-7"
-        },
-        "nextItem": {
           "title": "Git - 변경사항 취소",
           "permalink": "/blog/tip-git-1"
-        }
-      },
-      "content": "---\r\n\r\n## window\r\n---\r\n\r\n```bash\r\ngit config --global core.autocrlf true\r\n```\r\n\r\n## linux, mac\r\n---\r\n\r\n```bash\r\ngit config --global core.autocrlf input\r\n```"
-    },
-    {
-      "id": "tip-git-1",
-      "metadata": {
-        "permalink": "/blog/tip-git-1",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-12-28-tip-git1/index.md",
-        "source": "@site/blog/2023-12-28-tip-git1/index.md",
-        "title": "Git - 변경사항 취소",
-        "description": "---",
-        "date": "2023-12-28T00:00:00.000Z",
-        "formattedDate": "December 28, 2023",
-        "tags": [
-          {
-            "label": "git",
-            "permalink": "/blog/tags/git"
-          }
-        ],
-        "readingTime": 0.05,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "tip-git-1",
-          "title": "Git - 변경사항 취소",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "git"
-          ]
-        },
-        "prevItem": {
-          "title": "Git - LF will be replaced by CRLF the next time Git touches it",
-          "permalink": "/blog/git-error-1"
         },
         "nextItem": {
           "title": "Flutter TIL - 6",
           "permalink": "/blog/flutter-til-6"
         }
       },
-      "content": "---\r\n\r\n## 명령어\r\n\r\n```bash\r\ngit reset --hard\r\n```"
+      "content": "---\r\n\r\n## Future.wait\r\n---\r\n\r\n```dart\r\n  Future<void> searchProductList() async {\r\n    isBusy = true;\r\n    final results = await Future.wait([\r\n      productRepository.searchProductList(keyword),\r\n      Future.delayed(const Duration(milliseconds: 555)),\r\n    ]);\r\n    productList = results[0];\r\n    isBusy = false;\r\n  }\r\n```\r\n\r\n`Future.wait`이라는게 있는데 안에 있는 Future wait의 배열 명령어들이 모두 끝날 때까지 기다림\r\n\r\n즉 위 코드 상으로는 search하는거와 delayed를 동시에 돌리는데 555 millisecond는 무조건 돌고 그 이상은 search끝날 때까지 기다린다는 뜻"
     },
     {
       "id": "flutter-til-6",
@@ -1706,8 +1706,8 @@
           ]
         },
         "prevItem": {
-          "title": "Git - 변경사항 취소",
-          "permalink": "/blog/tip-git-1"
+          "title": "Flutter TIL - 7",
+          "permalink": "/blog/flutter-til-7"
         },
         "nextItem": {
           "title": "Flutter TIL - 5",

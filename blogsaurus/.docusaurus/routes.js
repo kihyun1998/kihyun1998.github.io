@@ -214,7 +214,7 @@ export default [
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', '6df'),
+    component: ComponentCreator('/blog/page/3', '87b'),
     exact: true
   },
   {

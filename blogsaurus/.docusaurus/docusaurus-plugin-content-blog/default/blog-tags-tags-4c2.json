@@ -230,14 +230,14 @@
     "count": 1
   },
   {
-    "label": "future_wait",
-    "permalink": "/blog/tags/future-wait",
-    "count": 1
-  },
-  {
     "label": "git",
     "permalink": "/blog/tags/git",
     "count": 2
+  },
+  {
+    "label": "future_wait",
+    "permalink": "/blog/tags/future-wait",
+    "count": 1
   },
   {
     "label": "listview",
