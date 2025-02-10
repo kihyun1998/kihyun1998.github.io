@@ -1,0 +1,22 @@
+{
+  "unversionedId": "react-spring-kube/react-spring-kube3",
+  "id": "react-spring-kube/react-spring-kube3",
+  "title": "[React + Spring + Kube] KOSTA 3",
+  "description": "---",
+  "source": "@site/docs/react-spring-kube/react-spring-kube3.md",
+  "sourceDirName": "react-spring-kube",
+  "slug": "/react-spring-kube/react-spring-kube3",
+  "permalink": "/docs/react-spring-kube/react-spring-kube3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "[React + Spring + Kube] KOSTA 2",
+    "permalink": "/docs/react-spring-kube/react-spring-kube2"
+  }
+}

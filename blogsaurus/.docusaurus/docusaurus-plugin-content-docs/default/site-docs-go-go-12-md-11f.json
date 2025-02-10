@@ -1,0 +1,26 @@
+{
+  "unversionedId": "go/go12",
+  "id": "go/go12",
+  "title": "[Go] go work와 replace",
+  "description": "---",
+  "source": "@site/docs/go/go12.md",
+  "sourceDirName": "go",
+  "slug": "/go/go12",
+  "permalink": "/docs/go/go12",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "goSidebar",
+  "previous": {
+    "title": "[Go] go-fyne 사용하기",
+    "permalink": "/docs/go/go11"
+  },
+  "next": {
+    "title": "[Go] go fyne 개발을 위한 준비사항",
+    "permalink": "/docs/go/go13"
+  }
+}

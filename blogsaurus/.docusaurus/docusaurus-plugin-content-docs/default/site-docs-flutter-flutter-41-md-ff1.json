@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter41",
+  "id": "flutter/flutter41",
+  "title": "41. [flutter] riverpod invalidate",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter41.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter41",
+  "permalink": "/docs/flutter/flutter41",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 41,
+  "frontMatter": {
+    "sidebar_position": 41
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "40. [flutter] Isolate로 dll 함수 호출",
+    "permalink": "/docs/flutter/flutter40"
+  },
+  "next": {
+    "title": "42. [flutter] riverpod NotifierProvider list state 관리",
+    "permalink": "/docs/flutter/flutter42"
+  }
+}

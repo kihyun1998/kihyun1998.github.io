@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-ops/dev-ops16",
+  "id": "dev-ops/dev-ops16",
+  "title": "[TTA] dev-ops의 개념",
+  "description": "---",
+  "source": "@site/docs/dev-ops/dev-ops16.md",
+  "sourceDirName": "dev-ops",
+  "slug": "/dev-ops/dev-ops16",
+  "permalink": "/docs/dev-ops/dev-ops16",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Github Actions] Self-hosted runner로 Golang CI 하기",
+    "permalink": "/docs/dev-ops/dev-ops15"
+  },
+  "next": {
+    "title": "[TTA] dev-ops의 개념2",
+    "permalink": "/docs/dev-ops/dev-ops17"
+  }
+}

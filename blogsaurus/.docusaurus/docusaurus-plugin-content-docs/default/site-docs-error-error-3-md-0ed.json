@@ -1,0 +1,22 @@
+{
+  "unversionedId": "error/error3",
+  "id": "error/error3",
+  "title": "[Docker] Error response from daemon: Ports are not available: ...",
+  "description": "---",
+  "source": "@site/docs/error/error3.md",
+  "sourceDirName": "error",
+  "slug": "/error/error3",
+  "permalink": "/docs/error/error3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "errorSidebar",
+  "previous": {
+    "title": "[Flutter] Unable to find git in your PATH",
+    "permalink": "/docs/error/error2"
+  }
+}

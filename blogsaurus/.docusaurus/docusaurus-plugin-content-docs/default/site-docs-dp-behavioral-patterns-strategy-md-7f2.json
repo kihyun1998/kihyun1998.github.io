@@ -2,7 +2,7 @@
   "unversionedId": "DP--behavioral-patterns/strategy",
   "id": "DP--behavioral-patterns/strategy",
   "title": "전략 패턴 ( Strategy Pattern )",
-  "description": "정의",
+  "description": "2023-08-29",
   "source": "@site/docs/DP--behavioral-patterns/strategy.md",
   "sourceDirName": "DP--behavioral-patterns",
   "slug": "/DP--behavioral-patterns/strategy",
@@ -14,9 +14,13 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "designPatternSidebar",
+  "sidebar": "studySidebar",
   "previous": {
     "title": "옵저버 패턴 ( Observer Pattern )",
     "permalink": "/docs/DP--behavioral-patterns/observer"
+  },
+  "next": {
+    "title": "1. [etc] Inno Setup 사용하기",
+    "permalink": "/docs/etc/etc1"
   }
 }

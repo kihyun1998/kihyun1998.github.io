@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter32",
+  "id": "flutter/flutter32",
+  "title": "32. [flutter] Image.asset 색 변경",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter32.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter32",
+  "permalink": "/docs/flutter/flutter32",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 32,
+  "frontMatter": {
+    "sidebar_position": 32
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "31. [flutter] pub.dev에 패키지 올리기",
+    "permalink": "/docs/flutter/flutter31"
+  },
+  "next": {
+    "title": "33. [flutter] Icon 변경",
+    "permalink": "/docs/flutter/flutter33"
+  }
+}

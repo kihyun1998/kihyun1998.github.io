@@ -18,5 +18,9 @@
   "previous": {
     "title": "[Go] go routines와 go channel",
     "permalink": "/docs/go/go6"
+  },
+  "next": {
+    "title": "[Go] private repository module import",
+    "permalink": "/docs/go/go8"
   }
 }

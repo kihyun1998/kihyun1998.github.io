@@ -14,7 +14,7 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "reactSidebar",
+  "sidebar": "jsSidebar",
   "previous": {
     "title": "React Intro",
     "permalink": "/docs/react-intro"

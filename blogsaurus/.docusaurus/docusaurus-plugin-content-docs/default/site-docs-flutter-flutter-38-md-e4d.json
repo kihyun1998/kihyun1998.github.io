@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter38",
+  "id": "flutter/flutter38",
+  "title": "38. [flutter] MVVM",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter38.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter38",
+  "permalink": "/docs/flutter/flutter38",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 38,
+  "frontMatter": {
+    "sidebar_position": 38
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "37. [flutter] 싱글톤 패턴",
+    "permalink": "/docs/flutter/flutter37"
+  },
+  "next": {
+    "title": "39. [flutter] toJson, fromJson",
+    "permalink": "/docs/flutter/flutter39"
+  }
+}

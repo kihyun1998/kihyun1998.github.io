@@ -1,0 +1,26 @@
+{
+  "unversionedId": "go/go8",
+  "id": "go/go8",
+  "title": "[Go] private repository module import",
+  "description": "---",
+  "source": "@site/docs/go/go8.md",
+  "sourceDirName": "go",
+  "slug": "/go/go8",
+  "permalink": "/docs/go/go8",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "goSidebar",
+  "previous": {
+    "title": "[Go] 문자열",
+    "permalink": "/docs/go/go7"
+  },
+  "next": {
+    "title": "[Go] linux golang 설치",
+    "permalink": "/docs/go/go9"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter52",
+  "id": "flutter/flutter52",
+  "title": "51. [flutter] [Windows] Flutter windows plugin 개발 시 디버깅 방법",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter52.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter52",
+  "permalink": "/docs/flutter/flutter52",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 52,
+  "frontMatter": {
+    "sidebar_position": 52
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "51. [flutter] [ERROR] 폐쇄망 package 업데이트가 안된다면",
+    "permalink": "/docs/flutter/flutter51"
+  },
+  "next": {
+    "title": "01. [KOSTA] 플러터 교육 - 1회차",
+    "permalink": "/docs/flutter-kosta/kosta1"
+  }
+}

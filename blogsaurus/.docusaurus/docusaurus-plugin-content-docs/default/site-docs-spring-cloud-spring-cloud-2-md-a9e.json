@@ -1,0 +1,26 @@
+{
+  "unversionedId": "spring-cloud/spring_cloud2",
+  "id": "spring-cloud/spring_cloud2",
+  "title": "[Spring-Cloud] Spring Cloud MSA 구성",
+  "description": "---",
+  "source": "@site/docs/spring-cloud/spring_cloud2.md",
+  "sourceDirName": "spring-cloud",
+  "slug": "/spring-cloud/spring_cloud2",
+  "permalink": "/docs/spring-cloud/spring_cloud2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Spring-Cloud] MSA란",
+    "permalink": "/docs/spring-cloud/spring_cloud1"
+  },
+  "next": {
+    "title": "[Spring-Cloud] Spring Config 서버 구성",
+    "permalink": "/docs/spring-cloud/spring_cloud3"
+  }
+}

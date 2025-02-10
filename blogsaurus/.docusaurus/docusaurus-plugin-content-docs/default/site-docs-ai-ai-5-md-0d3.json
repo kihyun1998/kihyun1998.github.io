@@ -1,0 +1,26 @@
+{
+  "unversionedId": "ai/ai5",
+  "id": "ai/ai5",
+  "title": "Open Ko llm leaderboard",
+  "description": "---",
+  "source": "@site/docs/ai/ai5.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/ai5",
+  "permalink": "/docs/ai/ai5",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "aiSidebar",
+  "previous": {
+    "title": "solar LLM 사용하기",
+    "permalink": "/docs/ai/ai4"
+  },
+  "next": {
+    "title": "Ollama에 Huggingface에서 다운로드 받은 모델 올리기",
+    "permalink": "/docs/ai/ai6"
+  }
+}

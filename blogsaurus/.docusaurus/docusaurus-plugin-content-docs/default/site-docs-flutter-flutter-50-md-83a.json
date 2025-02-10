@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter50",
+  "id": "flutter/flutter50",
+  "title": "50. [flutter] dynamic text box",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter50.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter50",
+  "permalink": "/docs/flutter/flutter50",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 50,
+  "frontMatter": {
+    "sidebar_position": 50
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "49. [flutter] Windows Flutter폐쇄망 개발환경 구축",
+    "permalink": "/docs/flutter/flutter49"
+  },
+  "next": {
+    "title": "51. [flutter] [ERROR] 폐쇄망 package 업데이트가 안된다면",
+    "permalink": "/docs/flutter/flutter51"
+  }
+}

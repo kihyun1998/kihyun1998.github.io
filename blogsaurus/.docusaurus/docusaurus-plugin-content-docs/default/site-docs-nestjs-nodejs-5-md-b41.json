@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nestjs/nodejs5",
+  "id": "nestjs/nodejs5",
+  "title": "[NestJS] Services",
+  "description": "servie에 대해 알아본다",
+  "source": "@site/docs/nestjs/nodejs5.md",
+  "sourceDirName": "nestjs",
+  "slug": "/nestjs/nodejs5",
+  "permalink": "/docs/nestjs/nodejs5",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[NestJS] Decorators",
+    "permalink": "/docs/nestjs/nodejs4"
+  },
+  "next": {
+    "title": "[NestJS] Services2",
+    "permalink": "/docs/nestjs/nodejs6"
+  }
+}

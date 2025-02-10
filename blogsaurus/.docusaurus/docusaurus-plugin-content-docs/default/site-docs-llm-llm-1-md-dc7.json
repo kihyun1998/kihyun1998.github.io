@@ -1,0 +1,26 @@
+{
+  "unversionedId": "llm/llm1",
+  "id": "llm/llm1",
+  "title": "LLM 개요 및 기본 개념",
+  "description": "---",
+  "source": "@site/docs/llm/llm1.md",
+  "sourceDirName": "llm",
+  "slug": "/llm/llm1",
+  "permalink": "/docs/llm/llm1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "aiSidebar",
+  "previous": {
+    "title": "Supervised Learning & Unsupervised Learning & Reinforcement Learning",
+    "permalink": "/docs/ai/ai9"
+  },
+  "next": {
+    "title": "[LLM] 2. LLM 개요 및 기본 개념",
+    "permalink": "/docs/llm/llm2"
+  }
+}

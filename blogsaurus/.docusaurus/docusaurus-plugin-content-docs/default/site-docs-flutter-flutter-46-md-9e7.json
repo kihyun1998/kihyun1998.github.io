@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter46",
+  "id": "flutter/flutter46",
+  "title": "46. [flutter] riverpod - ProviderScope",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter46.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter46",
+  "permalink": "/docs/flutter/flutter46",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 46,
+  "frontMatter": {
+    "sidebar_position": 46
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "45. [flutter] Don't use BuildContext across async gaps",
+    "permalink": "/docs/flutter/flutter45"
+  },
+  "next": {
+    "title": "47. [flutter] 에러 -  FlutterError (Tried to modify a provider while the widget tree was building.)",
+    "permalink": "/docs/flutter/flutter47"
+  }
+}

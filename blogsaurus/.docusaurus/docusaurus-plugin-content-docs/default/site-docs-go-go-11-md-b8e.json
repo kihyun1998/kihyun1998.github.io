@@ -1,0 +1,26 @@
+{
+  "unversionedId": "go/go11",
+  "id": "go/go11",
+  "title": "[Go] go-fyne 사용하기",
+  "description": "---",
+  "source": "@site/docs/go/go11.md",
+  "sourceDirName": "go",
+  "slug": "/go/go11",
+  "permalink": "/docs/go/go11",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "goSidebar",
+  "previous": {
+    "title": "[Go] go-wails 사용하기",
+    "permalink": "/docs/go/go10"
+  },
+  "next": {
+    "title": "[Go] go work와 replace",
+    "permalink": "/docs/go/go12"
+  }
+}

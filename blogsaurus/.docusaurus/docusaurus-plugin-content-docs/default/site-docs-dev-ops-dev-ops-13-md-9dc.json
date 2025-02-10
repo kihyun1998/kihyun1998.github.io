@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-ops/dev-ops13",
+  "id": "dev-ops/dev-ops13",
+  "title": "[Github Actions] Slack bot & Slack webhook",
+  "description": "---",
+  "source": "@site/docs/dev-ops/dev-ops13.md",
+  "sourceDirName": "dev-ops",
+  "slug": "/dev-ops/dev-ops13",
+  "permalink": "/docs/dev-ops/dev-ops13",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Github Actions] release에 업로드",
+    "permalink": "/docs/dev-ops/dev-ops12"
+  },
+  "next": {
+    "title": "[Github Actions] Self-hosted runner for RedHat 9.x",
+    "permalink": "/docs/dev-ops/dev-ops14"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "java-spring/spring4",
+  "id": "java-spring/spring4",
+  "title": "[Spring] JPA 및 DB 설정",
+  "description": "---",
+  "source": "@site/docs/java-spring/spring4.md",
+  "sourceDirName": "java-spring",
+  "slug": "/java-spring/spring4",
+  "permalink": "/docs/java-spring/spring4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Spring] build 하는 법",
+    "permalink": "/docs/java-spring/spring3"
+  },
+  "next": {
+    "title": "[Spring-Cloud] MSA란",
+    "permalink": "/docs/spring-cloud/spring_cloud1"
+  }
+}

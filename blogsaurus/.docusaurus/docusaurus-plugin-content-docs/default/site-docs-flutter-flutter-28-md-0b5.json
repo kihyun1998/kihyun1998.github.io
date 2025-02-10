@@ -1,7 +1,7 @@
 {
   "unversionedId": "flutter/flutter28",
   "id": "flutter/flutter28",
-  "title": "flutter riverpod을 위한 필요사항",
+  "title": "28. [flutter] riverpod을 위한 필요사항",
   "description": "---",
   "source": "@site/docs/flutter/flutter28.md",
   "sourceDirName": "flutter",
@@ -20,7 +20,7 @@
     "permalink": "/docs/flutter/flutter27"
   },
   "next": {
-    "title": "01. [KOSTA] 플러터 교육 - 1회차",
-    "permalink": "/docs/flutter-kosta/kosta1"
+    "title": "29. [flutter] SVG를 IconData로",
+    "permalink": "/docs/flutter/flutter29"
   }
 }

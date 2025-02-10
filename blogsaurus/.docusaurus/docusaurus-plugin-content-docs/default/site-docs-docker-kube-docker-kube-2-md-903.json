@@ -1,0 +1,26 @@
+{
+  "unversionedId": "docker-kube/docker-kube2",
+  "id": "docker-kube/docker-kube2",
+  "title": "[Docker & Kubernetes] KOSTA 2",
+  "description": "---",
+  "source": "@site/docs/docker-kube/docker-kube2.md",
+  "sourceDirName": "docker-kube",
+  "slug": "/docker-kube/docker-kube2",
+  "permalink": "/docs/docker-kube/docker-kube2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "[Docker & Kubernetes] KOSTA 1",
+    "permalink": "/docs/docker-kube/docker-kube1"
+  },
+  "next": {
+    "title": "[Docker & Kubernetes] KOSTA 3",
+    "permalink": "/docs/docker-kube/docker-kube3"
+  }
+}

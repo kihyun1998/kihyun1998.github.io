@@ -1,0 +1,26 @@
+{
+  "unversionedId": "etc/etc6",
+  "id": "etc/etc6",
+  "title": "6. [etc] firebase 로그인",
+  "description": "---",
+  "source": "@site/docs/etc/etc6.md",
+  "sourceDirName": "etc",
+  "slug": "/etc/etc6",
+  "permalink": "/docs/etc/etc6",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "5. [etc] windows에서 자체 서명 인증서 발급",
+    "permalink": "/docs/etc/etc5"
+  },
+  "next": {
+    "title": "7. [etc] local postgresql 접속 방법",
+    "permalink": "/docs/etc/etc7"
+  }
+}

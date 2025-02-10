@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter40",
+  "id": "flutter/flutter40",
+  "title": "40. [flutter] Isolate로 dll 함수 호출",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter40.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter40",
+  "permalink": "/docs/flutter/flutter40",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {
+    "sidebar_position": 40
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "39. [flutter] toJson, fromJson",
+    "permalink": "/docs/flutter/flutter39"
+  },
+  "next": {
+    "title": "41. [flutter] riverpod invalidate",
+    "permalink": "/docs/flutter/flutter41"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "etc/etc1",
+  "id": "etc/etc1",
+  "title": "1. [etc] Inno Setup 사용하기",
+  "description": "---",
+  "source": "@site/docs/etc/etc1.md",
+  "sourceDirName": "etc",
+  "slug": "/etc/etc1",
+  "permalink": "/docs/etc/etc1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "전략 패턴 ( Strategy Pattern )",
+    "permalink": "/docs/DP--behavioral-patterns/strategy"
+  },
+  "next": {
+    "title": "2. [etc] Inno Setup 한국어 설정",
+    "permalink": "/docs/etc/etc2"
+  }
+}

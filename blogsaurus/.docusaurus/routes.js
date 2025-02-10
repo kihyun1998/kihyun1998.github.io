@@ -39,17 +39,12 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'a41'),
+    component: ComponentCreator('/blog', 'b9c'),
     exact: true
   },
   {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive', '2c1'),
-    exact: true
-  },
-  {
-    path: '/blog/design pattern rule',
-    component: ComponentCreator('/blog/design pattern rule', '8c8'),
     exact: true
   },
   {
@@ -143,6 +138,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/flutter-til-26',
+    component: ComponentCreator('/blog/flutter-til-26', '004'),
+    exact: true
+  },
+  {
     path: '/blog/flutter-til-3',
     component: ComponentCreator('/blog/flutter-til-3', '4de'),
     exact: true
@@ -209,27 +209,22 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', '94f'),
+    component: ComponentCreator('/blog/page/2', 'ac5'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', '268'),
+    component: ComponentCreator('/blog/page/3', '6df'),
     exact: true
   },
   {
     path: '/blog/page/4',
-    component: ComponentCreator('/blog/page/4', '490'),
+    component: ComponentCreator('/blog/page/4', '064'),
     exact: true
   },
   {
     path: '/blog/PKI',
     component: ComponentCreator('/blog/PKI', 'f6c'),
-    exact: true
-  },
-  {
-    path: '/blog/strategy pattern',
-    component: ComponentCreator('/blog/strategy pattern', 'ef9'),
     exact: true
   },
   {
@@ -284,17 +279,17 @@ export default [
   },
   {
     path: '/blog/tags/플러터',
-    component: ComponentCreator('/blog/tags/플러터', '9ba'),
+    component: ComponentCreator('/blog/tags/플러터', '4c5'),
     exact: true
   },
   {
     path: '/blog/tags/플러터/page/2',
-    component: ComponentCreator('/blog/tags/플러터/page/2', '943'),
+    component: ComponentCreator('/blog/tags/플러터/page/2', '051'),
     exact: true
   },
   {
     path: '/blog/tags/플러터/page/3',
-    component: ComponentCreator('/blog/tags/플러터/page/3', '79b'),
+    component: ComponentCreator('/blog/tags/플러터/page/3', '489'),
     exact: true
   },
   {
@@ -338,6 +333,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/context-menu',
+    component: ComponentCreator('/blog/tags/context-menu', 'e19'),
+    exact: true
+  },
+  {
     path: '/blog/tags/dart',
     component: ComponentCreator('/blog/tags/dart', 'df1'),
     exact: true
@@ -353,11 +353,6 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/design-pattern',
-    component: ComponentCreator('/blog/tags/design-pattern', 'bce'),
-    exact: true
-  },
-  {
     path: '/blog/tags/divider',
     component: ComponentCreator('/blog/tags/divider', 'baa'),
     exact: true
@@ -365,11 +360,6 @@ export default [
   {
     path: '/blog/tags/dll-사용',
     component: ComponentCreator('/blog/tags/dll-사용', '0d2'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '374'),
     exact: true
   },
   {
@@ -383,23 +373,23 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/first-post',
-    component: ComponentCreator('/blog/tags/first-post', '15d'),
-    exact: true
-  },
-  {
     path: '/blog/tags/flutter',
-    component: ComponentCreator('/blog/tags/flutter', '964'),
+    component: ComponentCreator('/blog/tags/flutter', '9df'),
     exact: true
   },
   {
     path: '/blog/tags/flutter/page/2',
-    component: ComponentCreator('/blog/tags/flutter/page/2', '81d'),
+    component: ComponentCreator('/blog/tags/flutter/page/2', '352'),
     exact: true
   },
   {
     path: '/blog/tags/flutter/page/3',
-    component: ComponentCreator('/blog/tags/flutter/page/3', '976'),
+    component: ComponentCreator('/blog/tags/flutter/page/3', '807'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/folder',
+    component: ComponentCreator('/blog/tags/folder', 'a7b'),
     exact: true
   },
   {
@@ -548,11 +538,6 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/rule',
-    component: ComponentCreator('/blog/tags/rule', '7d2'),
-    exact: true
-  },
-  {
     path: '/blog/tags/sealed-based-class',
     component: ComponentCreator('/blog/tags/sealed-based-class', '2db'),
     exact: true
@@ -573,11 +558,6 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/strategy-pattern',
-    component: ComponentCreator('/blog/tags/strategy-pattern', 'b33'),
-    exact: true
-  },
-  {
     path: '/blog/tags/tear-offs',
     component: ComponentCreator('/blog/tags/tear-offs', '291'),
     exact: true
@@ -594,17 +574,22 @@ export default [
   },
   {
     path: '/blog/tags/til',
-    component: ComponentCreator('/blog/tags/til', '69e'),
+    component: ComponentCreator('/blog/tags/til', 'eaf'),
     exact: true
   },
   {
     path: '/blog/tags/til/page/2',
-    component: ComponentCreator('/blog/tags/til/page/2', '06b'),
+    component: ComponentCreator('/blog/tags/til/page/2', '236'),
     exact: true
   },
   {
     path: '/blog/tags/til/page/3',
-    component: ComponentCreator('/blog/tags/til/page/3', 'ed3'),
+    component: ComponentCreator('/blog/tags/til/page/3', 'af9'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/tree',
+    component: ComponentCreator('/blog/tags/tree', '77a'),
     exact: true
   },
   {
@@ -615,6 +600,11 @@ export default [
   {
     path: '/blog/tags/typedef',
     component: ComponentCreator('/blog/tags/typedef', 'd6f'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/virtual-box',
+    component: ComponentCreator('/blog/tags/virtual-box', '024'),
     exact: true
   },
   {
@@ -633,8 +623,13 @@ export default [
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'e0f'),
+    path: '/blog/tree-markdown',
+    component: ComponentCreator('/blog/tree-markdown', '884'),
+    exact: true
+  },
+  {
+    path: '/blog/virtual-err-1',
+    component: ComponentCreator('/blog/virtual-err-1', 'e13'),
     exact: true
   },
   {
@@ -644,8 +639,62 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '2ce'),
+    component: ComponentCreator('/docs', '76e'),
     routes: [
+      {
+        path: '/docs/ai/ai1',
+        component: ComponentCreator('/docs/ai/ai1', '4fb'),
+        exact: true,
+        sidebar: "aiSidebar"
+      },
+      {
+        path: '/docs/ai/ai2',
+        component: ComponentCreator('/docs/ai/ai2', '2a4'),
+        exact: true,
+        sidebar: "aiSidebar"
+      },
+      {
+        path: '/docs/ai/ai3',
+        component: ComponentCreator('/docs/ai/ai3', '120'),
+        exact: true,
+        sidebar: "aiSidebar"
+      },
+      {
+        path: '/docs/ai/ai4',
+        component: ComponentCreator('/docs/ai/ai4', 'de0'),
+        exact: true,
+        sidebar: "aiSidebar"
+      },
+      {
+        path: '/docs/ai/ai5',
+        component: ComponentCreator('/docs/ai/ai5', '643'),
+        exact: true,
+        sidebar: "aiSidebar"
+      },
+      {
+        path: '/docs/ai/ai6',
+        component: ComponentCreator('/docs/ai/ai6', 'c0b'),
+        exact: true,
+        sidebar: "aiSidebar"
+      },
+      {
+        path: '/docs/ai/ai7',
+        component: ComponentCreator('/docs/ai/ai7', 'dd0'),
+        exact: true,
+        sidebar: "aiSidebar"
+      },
+      {
+        path: '/docs/ai/ai8',
+        component: ComponentCreator('/docs/ai/ai8', 'dcc'),
+        exact: true,
+        sidebar: "aiSidebar"
+      },
+      {
+        path: '/docs/ai/ai9',
+        component: ComponentCreator('/docs/ai/ai9', 'a1d'),
+        exact: true,
+        sidebar: "aiSidebar"
+      },
       {
         path: '/docs/algorithm/al1',
         component: ComponentCreator('/docs/algorithm/al1', '4b5'),
@@ -781,6 +830,12 @@ export default [
       {
         path: '/docs/algorithm/al3',
         component: ComponentCreator('/docs/algorithm/al3', 'f0d'),
+        exact: true,
+        sidebar: "algorithmSidebar"
+      },
+      {
+        path: '/docs/algorithm/al30',
+        component: ComponentCreator('/docs/algorithm/al30', '855'),
         exact: true,
         sidebar: "algorithmSidebar"
       },
@@ -1109,14 +1164,74 @@ export default [
         sidebar: "dartSidebar"
       },
       {
-        path: '/docs/design-pattern-intro',
-        component: ComponentCreator('/docs/design-pattern-intro', '382'),
+        path: '/docs/dart/dart5',
+        component: ComponentCreator('/docs/dart/dart5', 'fc6'),
         exact: true,
-        sidebar: "designPatternSidebar"
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/design-pattern-intro',
+        component: ComponentCreator('/docs/design-pattern-intro', '9b7'),
+        exact: true,
+        sidebar: "studySidebar"
       },
       {
         path: '/docs/dev-ops/dev-ops1',
         component: ComponentCreator('/docs/dev-ops/dev-ops1', 'bbc'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/dev-ops/dev-ops10',
+        component: ComponentCreator('/docs/dev-ops/dev-ops10', '858'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/dev-ops/dev-ops11',
+        component: ComponentCreator('/docs/dev-ops/dev-ops11', '558'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/dev-ops/dev-ops12',
+        component: ComponentCreator('/docs/dev-ops/dev-ops12', 'c2c'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/dev-ops/dev-ops13',
+        component: ComponentCreator('/docs/dev-ops/dev-ops13', '282'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/dev-ops/dev-ops14',
+        component: ComponentCreator('/docs/dev-ops/dev-ops14', '35c'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/dev-ops/dev-ops15',
+        component: ComponentCreator('/docs/dev-ops/dev-ops15', 'de3'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/dev-ops/dev-ops16',
+        component: ComponentCreator('/docs/dev-ops/dev-ops16', '401'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/dev-ops/dev-ops17',
+        component: ComponentCreator('/docs/dev-ops/dev-ops17', '9b0'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/dev-ops/dev-ops18',
+        component: ComponentCreator('/docs/dev-ops/dev-ops18', 'aac'),
         exact: true,
         sidebar: "backSidebar"
       },
@@ -1157,28 +1272,136 @@ export default [
         sidebar: "backSidebar"
       },
       {
-        path: '/docs/DP--behavioral-patterns/observer',
-        component: ComponentCreator('/docs/DP--behavioral-patterns/observer', '366'),
+        path: '/docs/dev-ops/dev-ops8',
+        component: ComponentCreator('/docs/dev-ops/dev-ops8', '39d'),
         exact: true,
-        sidebar: "designPatternSidebar"
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/dev-ops/dev-ops9',
+        component: ComponentCreator('/docs/dev-ops/dev-ops9', 'aa0'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/django/django1',
+        component: ComponentCreator('/docs/django/django1', '107'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/docker-kube/docker-kube1',
+        component: ComponentCreator('/docs/docker-kube/docker-kube1', '76f'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/docker-kube/docker-kube2',
+        component: ComponentCreator('/docs/docker-kube/docker-kube2', 'bac'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/docker-kube/docker-kube3',
+        component: ComponentCreator('/docs/docker-kube/docker-kube3', '1a2'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/DP--behavioral-patterns/observer',
+        component: ComponentCreator('/docs/DP--behavioral-patterns/observer', '8f0'),
+        exact: true,
+        sidebar: "studySidebar"
       },
       {
         path: '/docs/DP--behavioral-patterns/strategy',
-        component: ComponentCreator('/docs/DP--behavioral-patterns/strategy', 'c0a'),
+        component: ComponentCreator('/docs/DP--behavioral-patterns/strategy', 'b8f'),
         exact: true,
-        sidebar: "designPatternSidebar"
+        sidebar: "studySidebar"
       },
       {
         path: '/docs/DP--creational-patterns/factory-method',
-        component: ComponentCreator('/docs/DP--creational-patterns/factory-method', 'c6b'),
+        component: ComponentCreator('/docs/DP--creational-patterns/factory-method', 'cbe'),
         exact: true,
-        sidebar: "designPatternSidebar"
+        sidebar: "studySidebar"
       },
       {
         path: '/docs/DP--structural-patterns/decorator',
-        component: ComponentCreator('/docs/DP--structural-patterns/decorator', '93d'),
+        component: ComponentCreator('/docs/DP--structural-patterns/decorator', 'c31'),
         exact: true,
-        sidebar: "designPatternSidebar"
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/error/error1',
+        component: ComponentCreator('/docs/error/error1', '837'),
+        exact: true,
+        sidebar: "errorSidebar"
+      },
+      {
+        path: '/docs/error/error2',
+        component: ComponentCreator('/docs/error/error2', '97b'),
+        exact: true,
+        sidebar: "errorSidebar"
+      },
+      {
+        path: '/docs/error/error3',
+        component: ComponentCreator('/docs/error/error3', '122'),
+        exact: true,
+        sidebar: "errorSidebar"
+      },
+      {
+        path: '/docs/etc/etc1',
+        component: ComponentCreator('/docs/etc/etc1', 'b04'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/etc/etc2',
+        component: ComponentCreator('/docs/etc/etc2', '55c'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/etc/etc3',
+        component: ComponentCreator('/docs/etc/etc3', 'd35'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/etc/etc4',
+        component: ComponentCreator('/docs/etc/etc4', '36c'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/etc/etc5',
+        component: ComponentCreator('/docs/etc/etc5', 'd80'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/etc/etc6',
+        component: ComponentCreator('/docs/etc/etc6', 'bfe'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/etc/etc7',
+        component: ComponentCreator('/docs/etc/etc7', '877'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/etc/etc8',
+        component: ComponentCreator('/docs/etc/etc8', 'b82'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/etc/etc9',
+        component: ComponentCreator('/docs/etc/etc9', '031'),
+        exact: true,
+        sidebar: "studySidebar"
       },
       {
         path: '/docs/flutter-kosta/kosta1',
@@ -1337,8 +1560,74 @@ export default [
         sidebar: "dartSidebar"
       },
       {
+        path: '/docs/flutter/flutter29',
+        component: ComponentCreator('/docs/flutter/flutter29', '63c'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
         path: '/docs/flutter/flutter3',
         component: ComponentCreator('/docs/flutter/flutter3', 'da6'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter30',
+        component: ComponentCreator('/docs/flutter/flutter30', '78d'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter31',
+        component: ComponentCreator('/docs/flutter/flutter31', 'e38'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter32',
+        component: ComponentCreator('/docs/flutter/flutter32', 'e05'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter33',
+        component: ComponentCreator('/docs/flutter/flutter33', 'b14'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter34',
+        component: ComponentCreator('/docs/flutter/flutter34', 'eb7'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter35',
+        component: ComponentCreator('/docs/flutter/flutter35', '17e'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter36',
+        component: ComponentCreator('/docs/flutter/flutter36', 'd10'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter37',
+        component: ComponentCreator('/docs/flutter/flutter37', '1a4'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter38',
+        component: ComponentCreator('/docs/flutter/flutter38', '984'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter39',
+        component: ComponentCreator('/docs/flutter/flutter39', 'e38'),
         exact: true,
         sidebar: "dartSidebar"
       },
@@ -1349,8 +1638,86 @@ export default [
         sidebar: "dartSidebar"
       },
       {
+        path: '/docs/flutter/flutter40',
+        component: ComponentCreator('/docs/flutter/flutter40', '06f'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter41',
+        component: ComponentCreator('/docs/flutter/flutter41', '25a'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter42',
+        component: ComponentCreator('/docs/flutter/flutter42', 'a37'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter43',
+        component: ComponentCreator('/docs/flutter/flutter43', '630'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter44',
+        component: ComponentCreator('/docs/flutter/flutter44', '9ea'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter45',
+        component: ComponentCreator('/docs/flutter/flutter45', '279'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter46',
+        component: ComponentCreator('/docs/flutter/flutter46', 'cea'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter47',
+        component: ComponentCreator('/docs/flutter/flutter47', '4a5'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter48',
+        component: ComponentCreator('/docs/flutter/flutter48', 'c76'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter49',
+        component: ComponentCreator('/docs/flutter/flutter49', '784'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
         path: '/docs/flutter/flutter5',
         component: ComponentCreator('/docs/flutter/flutter5', '20f'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter50',
+        component: ComponentCreator('/docs/flutter/flutter50', '8e3'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter51',
+        component: ComponentCreator('/docs/flutter/flutter51', '085'),
+        exact: true,
+        sidebar: "dartSidebar"
+      },
+      {
+        path: '/docs/flutter/flutter52',
+        component: ComponentCreator('/docs/flutter/flutter52', 'ae3'),
         exact: true,
         sidebar: "dartSidebar"
       },
@@ -1381,6 +1748,30 @@ export default [
       {
         path: '/docs/go/go1',
         component: ComponentCreator('/docs/go/go1', '075'),
+        exact: true,
+        sidebar: "goSidebar"
+      },
+      {
+        path: '/docs/go/go10',
+        component: ComponentCreator('/docs/go/go10', 'f16'),
+        exact: true,
+        sidebar: "goSidebar"
+      },
+      {
+        path: '/docs/go/go11',
+        component: ComponentCreator('/docs/go/go11', '4a1'),
+        exact: true,
+        sidebar: "goSidebar"
+      },
+      {
+        path: '/docs/go/go12',
+        component: ComponentCreator('/docs/go/go12', 'd9c'),
+        exact: true,
+        sidebar: "goSidebar"
+      },
+      {
+        path: '/docs/go/go13',
+        component: ComponentCreator('/docs/go/go13', '89d'),
         exact: true,
         sidebar: "goSidebar"
       },
@@ -1421,6 +1812,18 @@ export default [
         sidebar: "goSidebar"
       },
       {
+        path: '/docs/go/go8',
+        component: ComponentCreator('/docs/go/go8', 'f00'),
+        exact: true,
+        sidebar: "goSidebar"
+      },
+      {
+        path: '/docs/go/go9',
+        component: ComponentCreator('/docs/go/go9', '1a6'),
+        exact: true,
+        sidebar: "goSidebar"
+      },
+      {
         path: '/docs/gRPC/grpc1',
         component: ComponentCreator('/docs/gRPC/grpc1', '18d'),
         exact: true,
@@ -1457,22 +1860,177 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/nodejs/nodejs1',
-        component: ComponentCreator('/docs/nodejs/nodejs1', 'a9d'),
+        path: '/docs/java-spring/spring1',
+        component: ComponentCreator('/docs/java-spring/spring1', '30a'),
         exact: true,
         sidebar: "backSidebar"
       },
       {
-        path: '/docs/react-basic/react1',
-        component: ComponentCreator('/docs/react-basic/react1', 'fac'),
+        path: '/docs/java-spring/spring2',
+        component: ComponentCreator('/docs/java-spring/spring2', '805'),
         exact: true,
-        sidebar: "reactSidebar"
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/java-spring/spring3',
+        component: ComponentCreator('/docs/java-spring/spring3', '2b8'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/java-spring/spring4',
+        component: ComponentCreator('/docs/java-spring/spring4', '614'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/kubernates/kubernates1',
+        component: ComponentCreator('/docs/kubernates/kubernates1', '3b2'),
+        exact: true,
+        sidebar: "infraSidebar"
+      },
+      {
+        path: '/docs/llm/llm1',
+        component: ComponentCreator('/docs/llm/llm1', '6b9'),
+        exact: true,
+        sidebar: "aiSidebar"
+      },
+      {
+        path: '/docs/llm/llm2',
+        component: ComponentCreator('/docs/llm/llm2', '346'),
+        exact: true,
+        sidebar: "aiSidebar"
+      },
+      {
+        path: '/docs/nestjs/nodejs1',
+        component: ComponentCreator('/docs/nestjs/nodejs1', 'ceb'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/nestjs/nodejs2',
+        component: ComponentCreator('/docs/nestjs/nodejs2', 'b2f'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/nestjs/nodejs3',
+        component: ComponentCreator('/docs/nestjs/nodejs3', '417'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/nestjs/nodejs4',
+        component: ComponentCreator('/docs/nestjs/nodejs4', 'fbc'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/nestjs/nodejs5',
+        component: ComponentCreator('/docs/nestjs/nodejs5', '04a'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/nestjs/nodejs6',
+        component: ComponentCreator('/docs/nestjs/nodejs6', '5d6'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/nestjs/nodejs7',
+        component: ComponentCreator('/docs/nestjs/nodejs7', '2a5'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/nestjs/nodejs8',
+        component: ComponentCreator('/docs/nestjs/nodejs8', '55b'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/nestjs/nodejs9',
+        component: ComponentCreator('/docs/nestjs/nodejs9', '2ac'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/oracle-cloud/oracle-cloud1',
+        component: ComponentCreator('/docs/oracle-cloud/oracle-cloud1', 'c61'),
+        exact: true,
+        sidebar: "infraSidebar"
+      },
+      {
+        path: '/docs/oracle-cloud/oracle-cloud2',
+        component: ComponentCreator('/docs/oracle-cloud/oracle-cloud2', '981'),
+        exact: true,
+        sidebar: "infraSidebar"
+      },
+      {
+        path: '/docs/oracle-cloud/oracle-cloud3',
+        component: ComponentCreator('/docs/oracle-cloud/oracle-cloud3', '1f1'),
+        exact: true,
+        sidebar: "infraSidebar"
+      },
+      {
+        path: '/docs/oracle-cloud/oracle-cloud4',
+        component: ComponentCreator('/docs/oracle-cloud/oracle-cloud4', '69b'),
+        exact: true,
+        sidebar: "infraSidebar"
+      },
+      {
+        path: '/docs/react-basic/react1',
+        component: ComponentCreator('/docs/react-basic/react1', '359'),
+        exact: true,
+        sidebar: "jsSidebar"
       },
       {
         path: '/docs/react-intro',
-        component: ComponentCreator('/docs/react-intro', '839'),
+        component: ComponentCreator('/docs/react-intro', '401'),
         exact: true,
-        sidebar: "reactSidebar"
+        sidebar: "jsSidebar"
+      },
+      {
+        path: '/docs/react-spring-kube/react-spring-kube1',
+        component: ComponentCreator('/docs/react-spring-kube/react-spring-kube1', '4b2'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/react-spring-kube/react-spring-kube2',
+        component: ComponentCreator('/docs/react-spring-kube/react-spring-kube2', 'da4'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/react-spring-kube/react-spring-kube3',
+        component: ComponentCreator('/docs/react-spring-kube/react-spring-kube3', 'cc5'),
+        exact: true,
+        sidebar: "studySidebar"
+      },
+      {
+        path: '/docs/solid',
+        component: ComponentCreator('/docs/solid', 'dfd'),
+        exact: true
+      },
+      {
+        path: '/docs/spring-cloud/spring_cloud1',
+        component: ComponentCreator('/docs/spring-cloud/spring_cloud1', 'b5c'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/spring-cloud/spring_cloud2',
+        component: ComponentCreator('/docs/spring-cloud/spring_cloud2', '2b2'),
+        exact: true,
+        sidebar: "backSidebar"
+      },
+      {
+        path: '/docs/spring-cloud/spring_cloud3',
+        component: ComponentCreator('/docs/spring-cloud/spring_cloud3', '4d0'),
+        exact: true,
+        sidebar: "backSidebar"
       },
       {
         path: '/docs/tutorial-basics/congratulations',
@@ -1521,6 +2079,16 @@ export default [
         component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '2d7'),
         exact: true,
         sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/typescript/typescript1',
+        component: ComponentCreator('/docs/typescript/typescript1', 'c8c'),
+        exact: true
+      },
+      {
+        path: '/docs/typescript/typescript2',
+        component: ComponentCreator('/docs/typescript/typescript2', '519'),
+        exact: true
       }
     ]
   },

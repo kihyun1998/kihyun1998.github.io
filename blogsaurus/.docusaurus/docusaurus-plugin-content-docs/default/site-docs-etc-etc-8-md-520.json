@@ -1,0 +1,26 @@
+{
+  "unversionedId": "etc/etc8",
+  "id": "etc/etc8",
+  "title": "8. [etc] Android 설정값 변경 법",
+  "description": "---",
+  "source": "@site/docs/etc/etc8.md",
+  "sourceDirName": "etc",
+  "slug": "/etc/etc8",
+  "permalink": "/docs/etc/etc8",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "7. [etc] local postgresql 접속 방법",
+    "permalink": "/docs/etc/etc7"
+  },
+  "next": {
+    "title": "9. [etc] MinGW 다운로드 링크크",
+    "permalink": "/docs/etc/etc9"
+  }
+}

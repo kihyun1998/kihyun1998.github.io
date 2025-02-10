@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nestjs/nodejs1",
+  "id": "nestjs/nodejs1",
+  "title": "[NestJS] 시작 전 요구사항",
+  "description": "Insomnia",
+  "source": "@site/docs/nestjs/nodejs1.md",
+  "sourceDirName": "nestjs",
+  "slug": "/nestjs/nodejs1",
+  "permalink": "/docs/nestjs/nodejs1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[TTA] grafana 사용",
+    "permalink": "/docs/dev-ops/dev-ops18"
+  },
+  "next": {
+    "title": "[NestJS] 구조",
+    "permalink": "/docs/nestjs/nodejs2"
+  }
+}

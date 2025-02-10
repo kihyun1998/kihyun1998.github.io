@@ -14,9 +14,9 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "designPatternSidebar",
+  "sidebar": "studySidebar",
   "previous": {
-    "title": "디자인 패턴 인트로",
+    "title": "SOLID",
     "permalink": "/docs/design-pattern-intro"
   },
   "next": {

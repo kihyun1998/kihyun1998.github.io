@@ -1,0 +1,26 @@
+{
+  "unversionedId": "java-spring/spring3",
+  "id": "java-spring/spring3",
+  "title": "[Spring] build 하는 법",
+  "description": "---",
+  "source": "@site/docs/java-spring/spring3.md",
+  "sourceDirName": "java-spring",
+  "slug": "/java-spring/spring3",
+  "permalink": "/docs/java-spring/spring3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Spring] 컨트롤러",
+    "permalink": "/docs/java-spring/spring2"
+  },
+  "next": {
+    "title": "[Spring] JPA 및 DB 설정",
+    "permalink": "/docs/java-spring/spring4"
+  }
+}

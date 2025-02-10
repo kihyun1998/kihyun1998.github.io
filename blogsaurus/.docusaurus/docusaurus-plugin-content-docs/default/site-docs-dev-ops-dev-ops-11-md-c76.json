@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-ops/dev-ops11",
+  "id": "dev-ops/dev-ops11",
+  "title": "[Github Actions] Golang private module 가져오기",
+  "description": "---",
+  "source": "@site/docs/dev-ops/dev-ops11.md",
+  "sourceDirName": "dev-ops",
+  "slug": "/dev-ops/dev-ops11",
+  "permalink": "/docs/dev-ops/dev-ops11",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Github Actions] Github Action에서 artifacts & SMTP",
+    "permalink": "/docs/dev-ops/dev-ops10"
+  },
+  "next": {
+    "title": "[Github Actions] release에 업로드",
+    "permalink": "/docs/dev-ops/dev-ops12"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "go/go9",
+  "id": "go/go9",
+  "title": "[Go] linux golang 설치",
+  "description": "---",
+  "source": "@site/docs/go/go9.md",
+  "sourceDirName": "go",
+  "slug": "/go/go9",
+  "permalink": "/docs/go/go9",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "goSidebar",
+  "previous": {
+    "title": "[Go] private repository module import",
+    "permalink": "/docs/go/go8"
+  },
+  "next": {
+    "title": "[Go] go-wails 사용하기",
+    "permalink": "/docs/go/go10"
+  }
+}

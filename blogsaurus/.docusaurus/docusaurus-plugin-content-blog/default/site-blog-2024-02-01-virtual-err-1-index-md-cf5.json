@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/virtual-err-1",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-02-01-virtual-err-1/index.md",
+  "source": "@site/blog/2024-02-01-virtual-err-1/index.md",
+  "title": "Virtual Box 에러 해결",
+  "description": "---",
+  "date": "2024-02-01T00:00:00.000Z",
+  "formattedDate": "February 1, 2024",
+  "tags": [
+    {
+      "label": "Virtual Box",
+      "permalink": "/blog/tags/virtual-box"
+    }
+  ],
+  "readingTime": 0.445,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "virtual-err-1",
+    "title": "Virtual Box 에러 해결",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "Virtual Box"
+    ]
+  },
+  "prevItem": {
+    "title": "Flutter TIL - 26",
+    "permalink": "/blog/flutter-til-26"
+  },
+  "nextItem": {
+    "title": "Flutter TIL - 25",
+    "permalink": "/blog/flutter-til-25"
+  }
+}

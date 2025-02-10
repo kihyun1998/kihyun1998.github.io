@@ -1,0 +1,26 @@
+{
+  "unversionedId": "ai/ai9",
+  "id": "ai/ai9",
+  "title": "Supervised Learning & Unsupervised Learning & Reinforcement Learning",
+  "description": "---",
+  "source": "@site/docs/ai/ai9.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/ai9",
+  "permalink": "/docs/ai/ai9",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "aiSidebar",
+  "previous": {
+    "title": "Alpaca 프롬프트 형식",
+    "permalink": "/docs/ai/ai8"
+  },
+  "next": {
+    "title": "LLM 개요 및 기본 개념",
+    "permalink": "/docs/llm/llm1"
+  }
+}

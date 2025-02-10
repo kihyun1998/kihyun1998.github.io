@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dart/dart5",
+  "id": "dart/dart5",
+  "title": "04. [Dart] IntPtr",
+  "description": "IntPtr",
+  "source": "@site/docs/dart/dart5.md",
+  "sourceDirName": "dart",
+  "slug": "/dart/dart5",
+  "permalink": "/docs/dart/dart5",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "04. [Dart] 클래스",
+    "permalink": "/docs/dart/dart4"
+  },
+  "next": {
+    "title": "01. [Flutter] 설치하기",
+    "permalink": "/docs/flutter/flutter1"
+  }
+}

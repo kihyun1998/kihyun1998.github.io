@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter35",
+  "id": "flutter/flutter35",
+  "title": "35. [flutter] nullable 타입의 copyWith",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter35.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter35",
+  "permalink": "/docs/flutter/flutter35",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 35,
+  "frontMatter": {
+    "sidebar_position": 35
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "34. [flutter] package:auto_updater 사용하기",
+    "permalink": "/docs/flutter/flutter34"
+  },
+  "next": {
+    "title": "36. [flutter] 다국어 설정 intl",
+    "permalink": "/docs/flutter/flutter36"
+  }
+}

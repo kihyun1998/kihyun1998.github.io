@@ -1,0 +1,26 @@
+{
+  "unversionedId": "go/go10",
+  "id": "go/go10",
+  "title": "[Go] go-wails 사용하기",
+  "description": "---",
+  "source": "@site/docs/go/go10.md",
+  "sourceDirName": "go",
+  "slug": "/go/go10",
+  "permalink": "/docs/go/go10",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "goSidebar",
+  "previous": {
+    "title": "[Go] linux golang 설치",
+    "permalink": "/docs/go/go9"
+  },
+  "next": {
+    "title": "[Go] go-fyne 사용하기",
+    "permalink": "/docs/go/go11"
+  }
+}

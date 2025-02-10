@@ -1,0 +1,26 @@
+{
+  "unversionedId": "etc/etc7",
+  "id": "etc/etc7",
+  "title": "7. [etc] local postgresql 접속 방법",
+  "description": "---",
+  "source": "@site/docs/etc/etc7.md",
+  "sourceDirName": "etc",
+  "slug": "/etc/etc7",
+  "permalink": "/docs/etc/etc7",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "6. [etc] firebase 로그인",
+    "permalink": "/docs/etc/etc6"
+  },
+  "next": {
+    "title": "8. [etc] Android 설정값 변경 법",
+    "permalink": "/docs/etc/etc8"
+  }
+}

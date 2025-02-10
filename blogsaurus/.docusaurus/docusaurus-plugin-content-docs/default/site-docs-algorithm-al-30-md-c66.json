@@ -1,0 +1,22 @@
+{
+  "unversionedId": "algorithm/al30",
+  "id": "algorithm/al30",
+  "title": "[백준]",
+  "description": "문제 1463 1로 만들기",
+  "source": "@site/docs/algorithm/al30.md",
+  "sourceDirName": "algorithm",
+  "slug": "/algorithm/al30",
+  "permalink": "/docs/algorithm/al30",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30
+  },
+  "sidebar": "algorithmSidebar",
+  "previous": {
+    "title": "[백준]",
+    "permalink": "/docs/algorithm/al29"
+  }
+}

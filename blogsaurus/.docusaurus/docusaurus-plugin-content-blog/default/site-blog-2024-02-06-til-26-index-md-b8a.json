@@ -1,0 +1,59 @@
+{
+  "permalink": "/blog/flutter-til-26",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-02-06-til26/index.md",
+  "source": "@site/blog/2024-02-06-til26/index.md",
+  "title": "Flutter TIL - 26",
+  "description": "---",
+  "date": "2024-02-06T00:00:00.000Z",
+  "formattedDate": "February 6, 2024",
+  "tags": [
+    {
+      "label": "TIL",
+      "permalink": "/blog/tags/til"
+    },
+    {
+      "label": "플러터",
+      "permalink": "/blog/tags/플러터"
+    },
+    {
+      "label": "flutter",
+      "permalink": "/blog/tags/flutter"
+    },
+    {
+      "label": "context menu",
+      "permalink": "/blog/tags/context-menu"
+    }
+  ],
+  "readingTime": 1.825,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "flutter-til-26",
+    "title": "Flutter TIL - 26",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "TIL",
+      "플러터",
+      "flutter",
+      "context menu"
+    ]
+  },
+  "prevItem": {
+    "title": "Markdown으로 Tree구조 표현하기",
+    "permalink": "/blog/tree-markdown"
+  },
+  "nextItem": {
+    "title": "Virtual Box 에러 해결",
+    "permalink": "/blog/virtual-err-1"
+  }
+}

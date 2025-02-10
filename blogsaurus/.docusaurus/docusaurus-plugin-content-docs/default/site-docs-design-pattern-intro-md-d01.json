@@ -1,8 +1,8 @@
 {
   "unversionedId": "design-pattern-intro",
   "id": "design-pattern-intro",
-  "title": "디자인 패턴 인트로",
-  "description": "",
+  "title": "SOLID",
+  "description": "2023-08-29",
   "source": "@site/docs/design-pattern-intro.md",
   "sourceDirName": ".",
   "slug": "/design-pattern-intro",
@@ -14,7 +14,7 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "designPatternSidebar",
+  "sidebar": "studySidebar",
   "next": {
     "title": "팩토리 메소드 패턴",
     "permalink": "/docs/DP--creational-patterns/factory-method"

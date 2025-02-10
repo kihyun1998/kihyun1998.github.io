@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-ops/dev-ops12",
+  "id": "dev-ops/dev-ops12",
+  "title": "[Github Actions] release에 업로드",
+  "description": "---",
+  "source": "@site/docs/dev-ops/dev-ops12.md",
+  "sourceDirName": "dev-ops",
+  "slug": "/dev-ops/dev-ops12",
+  "permalink": "/docs/dev-ops/dev-ops12",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Github Actions] Golang private module 가져오기",
+    "permalink": "/docs/dev-ops/dev-ops11"
+  },
+  "next": {
+    "title": "[Github Actions] Slack bot & Slack webhook",
+    "permalink": "/docs/dev-ops/dev-ops13"
+  }
+}

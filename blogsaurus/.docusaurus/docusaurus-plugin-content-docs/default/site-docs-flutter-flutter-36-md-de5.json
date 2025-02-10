@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter36",
+  "id": "flutter/flutter36",
+  "title": "36. [flutter] 다국어 설정 intl",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter36.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter36",
+  "permalink": "/docs/flutter/flutter36",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 36,
+  "frontMatter": {
+    "sidebar_position": 36
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "35. [flutter] nullable 타입의 copyWith",
+    "permalink": "/docs/flutter/flutter35"
+  },
+  "next": {
+    "title": "37. [flutter] 싱글톤 패턴",
+    "permalink": "/docs/flutter/flutter37"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "ai/ai7",
+  "id": "ai/ai7",
+  "title": "Local LLM UI 사용하기 (Open-WebUI)",
+  "description": "---",
+  "source": "@site/docs/ai/ai7.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/ai7",
+  "permalink": "/docs/ai/ai7",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "aiSidebar",
+  "previous": {
+    "title": "Ollama에 Huggingface에서 다운로드 받은 모델 올리기",
+    "permalink": "/docs/ai/ai6"
+  },
+  "next": {
+    "title": "Alpaca 프롬프트 형식",
+    "permalink": "/docs/ai/ai8"
+  }
+}

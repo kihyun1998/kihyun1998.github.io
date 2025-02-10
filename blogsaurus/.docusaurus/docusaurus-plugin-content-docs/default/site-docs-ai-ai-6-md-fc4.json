@@ -1,0 +1,26 @@
+{
+  "unversionedId": "ai/ai6",
+  "id": "ai/ai6",
+  "title": "Ollama에 Huggingface에서 다운로드 받은 모델 올리기",
+  "description": "---",
+  "source": "@site/docs/ai/ai6.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/ai6",
+  "permalink": "/docs/ai/ai6",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "aiSidebar",
+  "previous": {
+    "title": "Open Ko llm leaderboard",
+    "permalink": "/docs/ai/ai5"
+  },
+  "next": {
+    "title": "Local LLM UI 사용하기 (Open-WebUI)",
+    "permalink": "/docs/ai/ai7"
+  }
+}

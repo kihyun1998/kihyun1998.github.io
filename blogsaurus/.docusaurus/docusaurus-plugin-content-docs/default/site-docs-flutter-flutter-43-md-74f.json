@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter43",
+  "id": "flutter/flutter43",
+  "title": "43. [flutter] xml 사용",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter43.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter43",
+  "permalink": "/docs/flutter/flutter43",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 43,
+  "frontMatter": {
+    "sidebar_position": 43
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "42. [flutter] riverpod NotifierProvider list state 관리",
+    "permalink": "/docs/flutter/flutter42"
+  },
+  "next": {
+    "title": "44. [flutter] windows desktop에서 인증서 저장소에 인증서 추가",
+    "permalink": "/docs/flutter/flutter44"
+  }
+}

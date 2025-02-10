@@ -1,0 +1,17 @@
+{
+  "unversionedId": "typescript/typescript2",
+  "id": "typescript/typescript2",
+  "title": "[TypeScript] function",
+  "description": "arrow function",
+  "source": "@site/docs/typescript/typescript2.md",
+  "sourceDirName": "typescript",
+  "slug": "/typescript/typescript2",
+  "permalink": "/docs/typescript/typescript2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  }
+}

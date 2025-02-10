@@ -63,6 +63,10 @@
       "애니메이션"
     ]
   },
+  "prevItem": {
+    "title": "Virtual Box 에러 해결",
+    "permalink": "/blog/virtual-err-1"
+  },
   "nextItem": {
     "title": "Flutter TIL - 24",
     "permalink": "/blog/flutter-til-24"

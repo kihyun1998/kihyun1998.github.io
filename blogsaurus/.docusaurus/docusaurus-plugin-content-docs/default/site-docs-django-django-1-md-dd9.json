@@ -1,0 +1,22 @@
+{
+  "unversionedId": "django/django1",
+  "id": "django/django1",
+  "title": "[Django] 시작 전 venv",
+  "description": "만들기",
+  "source": "@site/docs/django/django1.md",
+  "sourceDirName": "django",
+  "slug": "/django/django1",
+  "permalink": "/docs/django/django1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Spring-Cloud] Spring Config 서버 구성",
+    "permalink": "/docs/spring-cloud/spring_cloud3"
+  }
+}

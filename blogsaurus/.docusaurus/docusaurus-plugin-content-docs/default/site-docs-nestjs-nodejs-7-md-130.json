@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nestjs/nodejs7",
+  "id": "nestjs/nodejs7",
+  "title": "[NestJS] 유효성 검사",
+  "description": "DTO",
+  "source": "@site/docs/nestjs/nodejs7.md",
+  "sourceDirName": "nestjs",
+  "slug": "/nestjs/nodejs7",
+  "permalink": "/docs/nestjs/nodejs7",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[NestJS] Services2",
+    "permalink": "/docs/nestjs/nodejs6"
+  },
+  "next": {
+    "title": "[NestJS] Code Formatting 설정법",
+    "permalink": "/docs/nestjs/nodejs8"
+  }
+}

@@ -18,5 +18,9 @@
   "previous": {
     "title": "[백준] 1003 피보나치 함수",
     "permalink": "/docs/algorithm/al28"
+  },
+  "next": {
+    "title": "[백준]",
+    "permalink": "/docs/algorithm/al30"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "ai/ai8",
+  "id": "ai/ai8",
+  "title": "Alpaca 프롬프트 형식",
+  "description": "---",
+  "source": "@site/docs/ai/ai8.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/ai8",
+  "permalink": "/docs/ai/ai8",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "aiSidebar",
+  "previous": {
+    "title": "Local LLM UI 사용하기 (Open-WebUI)",
+    "permalink": "/docs/ai/ai7"
+  },
+  "next": {
+    "title": "Supervised Learning & Unsupervised Learning & Reinforcement Learning",
+    "permalink": "/docs/ai/ai9"
+  }
+}

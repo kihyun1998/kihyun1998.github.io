@@ -1,0 +1,26 @@
+{
+  "unversionedId": "etc/etc9",
+  "id": "etc/etc9",
+  "title": "9. [etc] MinGW 다운로드 링크크",
+  "description": "---",
+  "source": "@site/docs/etc/etc9.md",
+  "sourceDirName": "etc",
+  "slug": "/etc/etc9",
+  "permalink": "/docs/etc/etc9",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "8. [etc] Android 설정값 변경 법",
+    "permalink": "/docs/etc/etc8"
+  },
+  "next": {
+    "title": "[Docker & Kubernetes] KOSTA 1",
+    "permalink": "/docs/docker-kube/docker-kube1"
+  }
+}

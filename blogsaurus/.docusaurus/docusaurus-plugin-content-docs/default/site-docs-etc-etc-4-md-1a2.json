@@ -1,0 +1,26 @@
+{
+  "unversionedId": "etc/etc4",
+  "id": "etc/etc4",
+  "title": "4. [etc] firebase 사용법",
+  "description": "---",
+  "source": "@site/docs/etc/etc4.md",
+  "sourceDirName": "etc",
+  "slug": "/etc/etc4",
+  "permalink": "/docs/etc/etc4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "3. [etc] Sparkle",
+    "permalink": "/docs/etc/etc3"
+  },
+  "next": {
+    "title": "5. [etc] windows에서 자체 서명 인증서 발급",
+    "permalink": "/docs/etc/etc5"
+  }
+}

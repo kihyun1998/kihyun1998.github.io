@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter42",
+  "id": "flutter/flutter42",
+  "title": "42. [flutter] riverpod NotifierProvider list state 관리",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter42.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter42",
+  "permalink": "/docs/flutter/flutter42",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 42,
+  "frontMatter": {
+    "sidebar_position": 42
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "41. [flutter] riverpod invalidate",
+    "permalink": "/docs/flutter/flutter41"
+  },
+  "next": {
+    "title": "43. [flutter] xml 사용",
+    "permalink": "/docs/flutter/flutter43"
+  }
+}

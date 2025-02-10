@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nestjs/nodejs9",
+  "id": "nestjs/nodejs9",
+  "title": "[NestJS] nest CLI 사용법",
+  "description": "모듈 생성",
+  "source": "@site/docs/nestjs/nodejs9.md",
+  "sourceDirName": "nestjs",
+  "slug": "/nestjs/nodejs9",
+  "permalink": "/docs/nestjs/nodejs9",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[NestJS] Code Formatting 설정법",
+    "permalink": "/docs/nestjs/nodejs8"
+  },
+  "next": {
+    "title": "[Spring] 프로젝트 생성",
+    "permalink": "/docs/java-spring/spring1"
+  }
+}

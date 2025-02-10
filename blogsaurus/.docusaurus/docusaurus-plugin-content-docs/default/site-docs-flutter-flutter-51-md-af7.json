@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter51",
+  "id": "flutter/flutter51",
+  "title": "51. [flutter] [ERROR] 폐쇄망 package 업데이트가 안된다면",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter51.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter51",
+  "permalink": "/docs/flutter/flutter51",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 51,
+  "frontMatter": {
+    "sidebar_position": 51
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "50. [flutter] dynamic text box",
+    "permalink": "/docs/flutter/flutter50"
+  },
+  "next": {
+    "title": "51. [flutter] [Windows] Flutter windows plugin 개발 시 디버깅 방법",
+    "permalink": "/docs/flutter/flutter52"
+  }
+}

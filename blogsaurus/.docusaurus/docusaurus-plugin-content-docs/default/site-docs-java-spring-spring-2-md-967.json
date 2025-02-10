@@ -1,0 +1,26 @@
+{
+  "unversionedId": "java-spring/spring2",
+  "id": "java-spring/spring2",
+  "title": "[Spring] 컨트롤러",
+  "description": "---",
+  "source": "@site/docs/java-spring/spring2.md",
+  "sourceDirName": "java-spring",
+  "slug": "/java-spring/spring2",
+  "permalink": "/docs/java-spring/spring2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Spring] 프로젝트 생성",
+    "permalink": "/docs/java-spring/spring1"
+  },
+  "next": {
+    "title": "[Spring] build 하는 법",
+    "permalink": "/docs/java-spring/spring3"
+  }
+}

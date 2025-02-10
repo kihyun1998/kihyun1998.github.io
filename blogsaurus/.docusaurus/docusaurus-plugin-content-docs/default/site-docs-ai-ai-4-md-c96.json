@@ -1,0 +1,26 @@
+{
+  "unversionedId": "ai/ai4",
+  "id": "ai/ai4",
+  "title": "solar LLM 사용하기",
+  "description": "---",
+  "source": "@site/docs/ai/ai4.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/ai4",
+  "permalink": "/docs/ai/ai4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "aiSidebar",
+  "previous": {
+    "title": "colab GPU 로컬에서 사용하기",
+    "permalink": "/docs/ai/ai3"
+  },
+  "next": {
+    "title": "Open Ko llm leaderboard",
+    "permalink": "/docs/ai/ai5"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter39",
+  "id": "flutter/flutter39",
+  "title": "39. [flutter] toJson, fromJson",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter39.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter39",
+  "permalink": "/docs/flutter/flutter39",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 39,
+  "frontMatter": {
+    "sidebar_position": 39
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "38. [flutter] MVVM",
+    "permalink": "/docs/flutter/flutter38"
+  },
+  "next": {
+    "title": "40. [flutter] Isolate로 dll 함수 호출",
+    "permalink": "/docs/flutter/flutter40"
+  }
+}

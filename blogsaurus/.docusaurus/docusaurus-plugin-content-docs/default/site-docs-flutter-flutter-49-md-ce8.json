@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter49",
+  "id": "flutter/flutter49",
+  "title": "49. [flutter] Windows Flutter폐쇄망 개발환경 구축",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter49.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter49",
+  "permalink": "/docs/flutter/flutter49",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 49,
+  "frontMatter": {
+    "sidebar_position": 49
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "48. [flutter] riverpod에서 AsyncValue가 Loading이 되는 경우",
+    "permalink": "/docs/flutter/flutter48"
+  },
+  "next": {
+    "title": "50. [flutter] dynamic text box",
+    "permalink": "/docs/flutter/flutter50"
+  }
+}

@@ -1,6 +1,166 @@
 {
   "blogPosts": [
     {
+      "id": "tree-markdown",
+      "metadata": {
+        "permalink": "/blog/tree-markdown",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-03-06-folder/index.md",
+        "source": "@site/blog/2024-03-06-folder/index.md",
+        "title": "Markdown으로 Tree구조 표현하기",
+        "description": "---",
+        "date": "2024-03-06T00:00:00.000Z",
+        "formattedDate": "March 6, 2024",
+        "tags": [
+          {
+            "label": "folder",
+            "permalink": "/blog/tags/folder"
+          },
+          {
+            "label": "tree",
+            "permalink": "/blog/tags/tree"
+          }
+        ],
+        "readingTime": 0.225,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "tree-markdown",
+          "title": "Markdown으로 Tree구조 표현하기",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "folder",
+            "tree"
+          ]
+        },
+        "nextItem": {
+          "title": "Flutter TIL - 26",
+          "permalink": "/blog/flutter-til-26"
+        }
+      },
+      "content": "---\r\n\r\n```bash\r\n├── Binary\r\n│   ├── wadd\r\n│   ├── wsub\r\n│   ├── wmul\r\n│   └── wdiv\r\n├── Library\r\n│   ├── libRandom\r\n│   └── libCalculator\r\n└── CI\r\n```\r\n\r\n이렇게 사용할 수 있다.\r\n\r\n두고두고 사용해야지~"
+    },
+    {
+      "id": "flutter-til-26",
+      "metadata": {
+        "permalink": "/blog/flutter-til-26",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-02-06-til26/index.md",
+        "source": "@site/blog/2024-02-06-til26/index.md",
+        "title": "Flutter TIL - 26",
+        "description": "---",
+        "date": "2024-02-06T00:00:00.000Z",
+        "formattedDate": "February 6, 2024",
+        "tags": [
+          {
+            "label": "TIL",
+            "permalink": "/blog/tags/til"
+          },
+          {
+            "label": "플러터",
+            "permalink": "/blog/tags/플러터"
+          },
+          {
+            "label": "flutter",
+            "permalink": "/blog/tags/flutter"
+          },
+          {
+            "label": "context menu",
+            "permalink": "/blog/tags/context-menu"
+          }
+        ],
+        "readingTime": 1.825,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "flutter-til-26",
+          "title": "Flutter TIL - 26",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "TIL",
+            "플러터",
+            "flutter",
+            "context menu"
+          ]
+        },
+        "prevItem": {
+          "title": "Markdown으로 Tree구조 표현하기",
+          "permalink": "/blog/tree-markdown"
+        },
+        "nextItem": {
+          "title": "Virtual Box 에러 해결",
+          "permalink": "/blog/virtual-err-1"
+        }
+      },
+      "content": "---\r\n\r\n## ContextMenu\r\n---\r\n\r\nGestureDetector를 사용하여 우클릭 이벤트 시 컨텍스트 메뉴가 나오게 할 수 있다.\r\n\r\n우클릭 이벤트는 `onSecondaryTapDown` 또는 `onSecondaryTapUp`인데 Up이 좋은게 다운 했다가 다른 곳에서 Up하면 취소되는거도 자연스럽게 적용된다.\r\n\r\n먼저 overlay를 구해야 한다.\r\n\r\n```dart\r\nfinal RenderObject? renderObject =\r\n              Overlay.of(context).context.findRenderObject();\r\n          if (renderObject is RenderBox) {\r\n            final RenderBox overlay = renderObject;\r\n            ...\r\n```\r\n\r\n렌더링할 object를 위젯 트리 상에서 가장 가까운 위젯을 build context를 통해 찾는다고 하네요\r\n\r\n```dart\r\nshowMenu(\r\n  context: context,\r\n  position: RelativeRect.fromRect(\r\n    details.globalPosition & const Size(48, 48),\r\n    Offset.zero & overlay.size,\r\n  ),\r\n  items: [\r\n    const PopupMenuItem(\r\n      value: 'menu1',\r\n      child: Text('메뉴 1'),\r\n    ),\r\n    const PopupMenuItem(\r\n      value: 'menu2',\r\n      child: Text('메뉴 2'),\r\n    ),\r\n  ],\r\n).then((value) {\r\n  // 메뉴 선택에 따른 동작\r\n  if (value != null) {\r\n    print('선택된 메뉴: $value');\r\n  }\r\n});\r\n```\r\n\r\nshowMenu 함수를 사용해서 context 메뉴를 정의할 수 있는데\r\n\r\npostion 속성의 값으로 첫 번째 인자로 `Rect rect`를 받고 두 번째 인자로는 `Rect container`를 받습니다.\r\n\r\n정확하게는 모르겠는데 Size(,)의 값을 수정하면 context menu가 제한된 곳을 얼만큼 나갈 수 있는지에 대한 값인 것 같고\r\n\r\n`item`을 통해서 메뉴 값을 정할 수 있고\r\n\r\n`then`을 통해서 눌린 버튼에 대한 이벤트를 정의할 수 있습니다. 눌린 버튼은 item 리스트에 정의된 value값을 then에 넘기기 때문에 switch case로 구분 가능"
+    },
+    {
+      "id": "virtual-err-1",
+      "metadata": {
+        "permalink": "/blog/virtual-err-1",
+        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-02-01-virtual-err-1/index.md",
+        "source": "@site/blog/2024-02-01-virtual-err-1/index.md",
+        "title": "Virtual Box 에러 해결",
+        "description": "---",
+        "date": "2024-02-01T00:00:00.000Z",
+        "formattedDate": "February 1, 2024",
+        "tags": [
+          {
+            "label": "Virtual Box",
+            "permalink": "/blog/tags/virtual-box"
+          }
+        ],
+        "readingTime": 0.445,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Park Ki Hyun",
+            "title": "Deveploper",
+            "url": "https://github.com/kihyun1998",
+            "imageURL": "https://github.com/kihyun1998.png",
+            "key": "kihyun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "virtual-err-1",
+          "title": "Virtual Box 에러 해결",
+          "authors": [
+            "kihyun"
+          ],
+          "tags": [
+            "Virtual Box"
+          ]
+        },
+        "prevItem": {
+          "title": "Flutter TIL - 26",
+          "permalink": "/blog/flutter-til-26"
+        },
+        "nextItem": {
+          "title": "Flutter TIL - 25",
+          "permalink": "/blog/flutter-til-25"
+        }
+      },
+      "content": "---\r\n\r\n스냅샷 찍은 환경으로 돌아가는 과정에서 아래와 같은 에러 메시지가 발생했다.\r\n\r\n:::warning\r\nThe VM session was aborted.  \r\n결과 코드: E_FAIL (0X80004005)  \r\n구성 요소: SessionMachine   \r\n인터페이스: ISession {c0447716-ff5a-4795-b57a-ecd5fffa18a4}\r\n:::\r\n\r\n멘붕이 왔지만 해결방법을 찾았다.\r\n\r\n`머신` > `저장된 상태 삭제`를 해주면 된다.\r\n\r\n![Alt text](image.png)"
+    },
+    {
       "id": "flutter-til-25",
       "metadata": {
         "permalink": "/blog/flutter-til-25",
@@ -67,6 +227,10 @@
             "애니메이션"
           ]
         },
+        "prevItem": {
+          "title": "Virtual Box 에러 해결",
+          "permalink": "/blog/virtual-err-1"
+        },
         "nextItem": {
           "title": "Flutter TIL - 24",
           "permalink": "/blog/flutter-til-24"
@@ -110,7 +274,7 @@
             "permalink": "/blog/tags/다국어-설정"
           }
         ],
-        "readingTime": 1.145,
+        "readingTime": 1.59,
         "hasTruncateMarker": false,
         "authors": [
           {
@@ -145,7 +309,7 @@
           "permalink": "/blog/flutter-til-23"
         }
       },
-      "content": "---\r\n\r\n## 다국어 설정\r\n---\r\n\r\n1. `flutter_localization`,`intl` 패키지 추가\r\n\r\n2. vs code `Flutter Intl` extension 설치\r\n\r\n3. pubspec.yaml파일에 아래 내용 입력\r\n```yaml\r\nflutter_intl:\r\n  enabled: true\r\n  arb_dir: lib/util/lang/l10n\r\n  output_dir: lib/util/lang/generated\r\n```\r\n\r\n4. `ctrl`+`shift`+`p`로 명령어 팔레트 열고 flutter intl initialize\r\n\r\n5. 그러면 lib/util/lang 밑에 `l10n`과 `generated`가 생김\r\n\r\n끝\r\n\r\n### 한국어 추가하기\r\n\r\n1. `ctrl`+`shift`+`p`로 열고 intl: Add locale하고 `ko`추가\r\n\r\n2. 그러면 intl_ko.arb파일 생긴다.\r\n\r\n```\r\n{\r\n    \"@@locale\" : \"en\",\r\n    \"language\" : \"language\"\r\n}\r\n\r\n{\r\n    \"@@locale\" : \"ko\",\r\n    \"language\" : \"언어\"\r\n}\r\n```\r\n\r\n이런식으로 설정하면 된다.\r\n\r\n\r\n### 추가 설정\r\n\r\n1. ios에서 사용하려면 `ios/Runner/Info.plist` 파일에서\r\n\r\n```\r\n<key>CFBundleDevelopmentRegion</key>\r\n\t<array>\r\n\t\t<string>en</string>\r\n\t\t<string>ko</string>\r\n\t</array>\r\n```\r\n\r\nkey태그 밑에 array태그 추가하기\r\n\r\n\r\n2. main.dart 설정\r\n\r\n```dart\r\nimport 'package:flutter_localizations/flutter_localizations.dart';\r\n\r\n...\r\n      localizationsDelegates: const [\r\n        S.delegate,\r\n        GlobalMaterialLocalizations.delegate,\r\n        GlobalWidgetsLocalizations.delegate,\r\n        GlobalCupertinoLocalizations.delegate,\r\n      ],\r\n      supportedLocales: S.delegate.supportedLocales,\r\n...\r\n```\r\n\r\n해당 내용 추가하기\r\n\r\n그리고 추가적으로 구현해야할 것이 locale값을 watch하는 provider 만들어서 `MaterialApp` 안에 `locale` 속성값에 `watch`로 넣기"
+      "content": "---\r\n\r\n## 다국어 설정\r\n---\r\n\r\n1. `flutter_localization`,`intl` 패키지 추가\r\n\r\n```yaml\r\n  flutter_localizations:\r\n    sdk: flutter\r\n  intl: ^0.18.1\r\n```\r\n\r\n꼭 위처럼 추가해야한다.\r\n\r\n2. vs code `Flutter Intl` extension 설치\r\n\r\n3. pubspec.yaml파일에 아래 내용 입력\r\n```yaml\r\nflutter_intl:\r\n  enabled: true\r\n  arb_dir: lib/util/lang/l10n\r\n  output_dir: lib/util/lang/generated\r\n```\r\n\r\n4. `ctrl`+`shift`+`p`로 명령어 팔레트 열고 flutter intl initialize\r\n\r\n5. 그러면 lib/util/lang 밑에 `l10n`과 `generated`가 생김\r\n\r\n끝\r\n\r\n### 한국어 추가하기\r\n\r\n1. `ctrl`+`shift`+`p`로 열고 intl: Add locale하고 `ko`추가\r\n\r\n2. 그러면 intl_ko.arb파일 생긴다.\r\n\r\n```\r\n{\r\n    \"@@locale\" : \"en\",\r\n    \"language\" : \"language\"\r\n}\r\n\r\n{\r\n    \"@@locale\" : \"ko\",\r\n    \"language\" : \"언어\"\r\n}\r\n```\r\n\r\n이런식으로 설정하면 된다.\r\n\r\n\r\n### 추가 설정\r\n\r\n1. ios에서 사용하려면 `ios/Runner/Info.plist` 파일에서\r\n\r\n```\r\n<key>CFBundleDevelopmentRegion</key>\r\n\t<array>\r\n\t\t<string>en</string>\r\n\t\t<string>ko</string>\r\n\t</array>\r\n```\r\n\r\nkey태그 밑에 array태그 추가하기\r\n\r\n\r\n2. main.dart 설정\r\n\r\n```dart\r\nimport 'package:flutter_localizations/flutter_localizations.dart';\r\n\r\n...\r\n      localizationsDelegates: const [\r\n        S.delegate,\r\n        GlobalMaterialLocalizations.delegate,\r\n        GlobalWidgetsLocalizations.delegate,\r\n        GlobalCupertinoLocalizations.delegate,\r\n      ],\r\n      supportedLocales: S.delegate.supportedLocales,\r\n\r\n      /// 이거 넣어야 한다.\r\n      locale: ref.watch(langProvider),\r\n...\r\n```\r\n\r\n그리고 추가적으로 구현해야할 것이 locale값을 watch하는 provider 만들어서 `MaterialApp` 안에 `locale` 속성값에 `watch`로 넣기\r\n\r\n\r\n\r\n\r\n## 추가 팁\r\n---\r\n\r\n```dart\r\n@riverpod\r\nclass Lang extends _$Lang {\r\n  @override\r\n  Locale build() {\r\n    return LangState.en;\r\n  }\r\n\r\n  void toggleLanguage() {\r\n    state = LangState.isKo ? LangState.en : LangState.ko;\r\n  }\r\n}\r\n\r\nabstract class LangState {\r\n  static const Locale en = Locale('en');\r\n  static const Locale ko = Locale('ko');\r\n\r\n  static bool get isKo => Intl.getCurrentLocale() == ko.languageCode;\r\n}\r\n```\r\n\r\nriverpod generater를 이용한 language provider 코드와 state 코드다."
     },
     {
       "id": "flutter-til-23",
@@ -344,7 +508,7 @@
           "permalink": "/blog/flutter-til-20"
         }
       },
-      "content": "---\r\n\r\n## Window app에서 상단바 커스텀\r\n---\r\n\r\n[bitdoho_window](\"https://pub.dev/packages/bitsdojo_window)라는 패키지를 이용한다.\r\n\r\n### 초기값 설정\r\n\r\n```dart\r\nvoid main() {\r\n  runApp(const MyApp());\r\n  doWhenWindowReady(() {\r\n    final win = appWindow; // 정의\r\n    const initialSize = Size(600, 450); // 사이즈 정의\r\n    win.minSize = initialSize; // 최소 사이즈 할당\r\n    win.size = initialSize; // 초기 사이즈 할당\r\n    win.alignment = Alignment.center; // 실행시 화면 위치\r\n    win.title = \"Custom Window app\"; // 창 이름\r\n    win.show(); // 이거 있어야 보여준다.\r\n  });\r\n}\r\n```\r\n\r\n### 테두리 설정\r\n---\r\n\r\n```dart\r\nScaffold(\r\n  // 테두리\r\n  body: WindowBorder(\r\n    color: const Color(0xFF0B4279),\r\n    width: 1,\r\n    child: const Row(\r\n      children: [\r\n        LeftSide(),\r\n        RightSide(),\r\n      ],\r\n    ),\r\n  ),\r\n),\r\n```\r\n\r\n`WindowBorder`라는 위젯을 사용해서 테두리를 설정할 수 있다. 테두리의 두께, 색상을 설정할 수 있다.\r\n\r\n### 이동 설정\r\n\r\n```dart\r\nchild: Column(\r\n  children: [\r\n    WindowTitleBarBox(\r\n      child: Row(\r\n        children: [\r\n          Expanded(\r\n            child: MoveWindow(),\r\n          ),\r\n          const WindowButtons(),\r\n        ],\r\n      ),\r\n    ),\r\n  ],\r\n),\r\n```\r\n\r\n`WindowTitleBarBox`를 정의하고 안에서 MoveWindow를 정의하면 해당 칸을 잡고 드래그하면 창도 드래그하도록 설정할 수 있다.\r\n\r\n### 이벤트 버튼 설정\r\n\r\n```dart\r\nWindowButtonColors buttonColors = WindowButtonColors(\r\n  iconNormal: const Color(0xFF0B4279),\r\n  mouseOver: const Color(0xFF2A78C6),\r\n  mouseDown: const Color(0xFF0B4279),\r\n  iconMouseOver: const Color(0xFF0B4279),\r\n  iconMouseDown: const Color(0xFFCEE1FF),\r\n);\r\n\r\nRow(\r\n  children: [\r\n    MinimizeWindowButton(\r\n      colors: buttonColors,\r\n    ),\r\n    MaximizeWindowButton(\r\n      colors: buttonColors,\r\n    ),\r\n    CloseWindowButton(),\r\n  ],\r\n);\r\n```\r\n\r\n이미 정의 돼있는 이벤트 버튼을 사용할 수 있습니다. 여러 가지 색상 속성을 정의하여 커스텀할 수 있습니다.\r\n\r\n## 플랫폼 별 설정\r\n---\r\n\r\n\r\n### For Windows\r\n\r\n```cpp\r\n#include <bitsdojo_window_windows/bitsdojo_window_plugin.h>\r\nauto bdw = bitsdojo_window_configure(BDW_CUSTOM_FRAME | BDW_HIDE_ON_STARTUP);\r\n```\r\n\r\n위 내용을 `windows\\runner\\main.cpp`의 최상단에 작성해야 합니다.\r\n\r\n### For Mac\r\n\r\n`macos\\runner\\MainFlutterWindow.swift`에서\r\n\r\n```swift\r\nimport bitsdojo_window_macos // FlutterMacOS 밑에 추가\r\n```\r\n\r\n이 코드를 `import FlutterMacOs`밑에 추가하고\r\n\r\n```swift\r\nclass MainFlutterWindow: NSWindow {\r\n\r\n// 를 아래 코드로 변경\r\n\r\nclass MainFlutterWindow: BitsdojoWindow {\r\n```\r\n\r\n```swift\r\noverride func bitsdojo_window_configure() -> UInt {\r\n    return BDW_CUSTOM_FRAME | BDW_HIDE_ON_STARTUP\r\n  }\r\n```\r\n\r\n이 코드를\r\n\r\n```swift\r\noverride func awakeFromNib() {\r\n```\r\n\r\n이 코드 위에 추가합니다.\r\n\r\n리눅스를 위한 방법도 있는데 따로 정리하진 않겠습니다."
+      "content": "---\r\n\r\n## Window app에서 상단바 커스텀\r\n---\r\n\r\n[bitdoho_window](https://pub.dev/packages/bitsdojo_window)라는 패키지를 이용한다.\r\n\r\n### 초기값 설정\r\n\r\n```dart\r\nvoid main() {\r\n  runApp(const MyApp());\r\n  doWhenWindowReady(() {\r\n    final win = appWindow; // 정의\r\n    const initialSize = Size(600, 450); // 사이즈 정의\r\n    win.minSize = initialSize; // 최소 사이즈 할당\r\n    win.size = initialSize; // 초기 사이즈 할당\r\n    win.alignment = Alignment.center; // 실행시 화면 위치\r\n    win.title = \"Custom Window app\"; // 창 이름\r\n    win.show(); // 이거 있어야 보여준다.\r\n  });\r\n}\r\n```\r\n\r\n### 테두리 설정\r\n---\r\n\r\n```dart\r\nScaffold(\r\n  // 테두리\r\n  body: WindowBorder(\r\n    color: const Color(0xFF0B4279),\r\n    width: 1,\r\n    child: const Row(\r\n      children: [\r\n        LeftSide(),\r\n        RightSide(),\r\n      ],\r\n    ),\r\n  ),\r\n),\r\n```\r\n\r\n`WindowBorder`라는 위젯을 사용해서 테두리를 설정할 수 있다. 테두리의 두께, 색상을 설정할 수 있다.\r\n\r\n### 이동 설정\r\n\r\n```dart\r\nchild: Column(\r\n  children: [\r\n    WindowTitleBarBox(\r\n      child: Row(\r\n        children: [\r\n          Expanded(\r\n            child: MoveWindow(),\r\n          ),\r\n          const WindowButtons(),\r\n        ],\r\n      ),\r\n    ),\r\n  ],\r\n),\r\n```\r\n\r\n`WindowTitleBarBox`를 정의하고 안에서 MoveWindow를 정의하면 해당 칸을 잡고 드래그하면 창도 드래그하도록 설정할 수 있다.\r\n\r\n### 이벤트 버튼 설정\r\n\r\n```dart\r\nWindowButtonColors buttonColors = WindowButtonColors(\r\n  iconNormal: const Color(0xFF0B4279),\r\n  mouseOver: const Color(0xFF2A78C6),\r\n  mouseDown: const Color(0xFF0B4279),\r\n  iconMouseOver: const Color(0xFF0B4279),\r\n  iconMouseDown: const Color(0xFFCEE1FF),\r\n);\r\n\r\nRow(\r\n  children: [\r\n    MinimizeWindowButton(\r\n      colors: buttonColors,\r\n    ),\r\n    MaximizeWindowButton(\r\n      colors: buttonColors,\r\n    ),\r\n    CloseWindowButton(),\r\n  ],\r\n);\r\n```\r\n\r\n이미 정의 돼있는 이벤트 버튼을 사용할 수 있습니다. 여러 가지 색상 속성을 정의하여 커스텀할 수 있습니다.\r\n\r\n## 플랫폼 별 설정\r\n---\r\n\r\n\r\n### For Windows\r\n\r\n```cpp\r\n#include <bitsdojo_window_windows/bitsdojo_window_plugin.h>\r\nauto bdw = bitsdojo_window_configure(BDW_CUSTOM_FRAME | BDW_HIDE_ON_STARTUP);\r\n```\r\n\r\n위 내용을 `windows\\runner\\main.cpp`의 최상단에 작성해야 합니다.\r\n\r\n### For Mac\r\n\r\n`macos\\runner\\MainFlutterWindow.swift`에서\r\n\r\n```swift\r\nimport bitsdojo_window_macos // FlutterMacOS 밑에 추가\r\n```\r\n\r\n이 코드를 `import FlutterMacOs`밑에 추가하고\r\n\r\n```swift\r\nclass MainFlutterWindow: NSWindow {\r\n\r\n// 를 아래 코드로 변경\r\n\r\nclass MainFlutterWindow: BitsdojoWindow {\r\n```\r\n\r\n```swift\r\noverride func bitsdojo_window_configure() -> UInt {\r\n    return BDW_CUSTOM_FRAME | BDW_HIDE_ON_STARTUP\r\n  }\r\n```\r\n\r\n이 코드를\r\n\r\n```swift\r\noverride func awakeFromNib() {\r\n```\r\n\r\n이 코드 위에 추가합니다.\r\n\r\n리눅스를 위한 방법도 있는데 따로 정리하진 않겠습니다."
     },
     {
       "id": "flutter-til-20",
@@ -2301,168 +2465,9 @@
         "prevItem": {
           "title": "PKI 개념",
           "permalink": "/blog/PKI"
-        },
-        "nextItem": {
-          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-          "permalink": "/blog/design pattern rule"
         }
       },
       "content": "오버로딩과 오버라이딩에 대해서 알아보겠습니다.\r\n\r\n## 오버로딩 (Overloading)\r\n\r\n### 정의\r\n\r\n한 클래스 내에 이미 **사용하려는 이름**과 **같은 이름**을 가진 **`메소드`**가 있어도 매개 변수의 개수와 타입이 다르면 같은 이름을 사용해서 메소드를 재정의 할 수 있다.\r\n\r\n여기서 핵심은 2가지로 정리할 수 있습니다.\r\n\r\n1. 메소드의 이름이 같다.\r\n2. 매개변수의 개수나 타입이 달라야 한다.\r\n3. 리턴값과는 상관 없습니다.\r\n\r\n\r\n### 오버로딩 함수 코드\r\n\r\n```java title='오버로딩 함수'\r\npublic class OverringClass {\r\n    \r\n    // 오버로딩 1번 함수\r\n    public void OverloadMethod(){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 0개\");\r\n        System.out.println(\"매개변수 타입 : void\");\r\n        System.out.println(\"오버라이딩 1번 함수 입니다.\");\r\n        System.out.println(\"============================\");\r\n    }\r\n\r\n    // 오버로딩 2번 함수\r\n    public int OverloadMethod(int a, int b){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 2개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a+b;\r\n    }\r\n\r\n    // 오버로딩 3번 함수\r\n    public int OverloadMethod(int a, int b, int c){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 3개\");\r\n        System.out.println(\"매개변수 타입 : int\");\r\n        System.out.println(\"오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        return a*b*c;\r\n    }\r\n\r\n\r\n    // 오버로딩 4번 함수\r\n    public boolean OverloadMethod(String str){\r\n        System.out.println(\"============================\");\r\n        System.out.println(\"매개변수 수 : 1개\");\r\n        System.out.println(\"매개변수 타입 : String\");\r\n        System.out.println(\"오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\");\r\n        System.out.println(\"============================\");\r\n\r\n        if(str.equals(\"park\")){\r\n            return true;\r\n        }else{\r\n            return false;\r\n        }\r\n    }\r\n}\r\n\r\n```\r\n\r\n위 함수들을 보시면 `OverloadMethod`로 이름들이 같지만 타입과 매개변수의 수가 다른 것들을 보실 수 있습니다. 함수들에 대한 설명은 코드에 작성돼 있으니 참고해주세요~ 😎\r\n\r\n코드를 실행하는 코드와 결과를 확인해보겠습니다.\r\n\r\n``` java title='결과 확인 코드'\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        OverringClass oc = new OverringClass();\r\n        \r\n        // 오버로딩 1번 함수\r\n        oc.OverloadMethod();\r\n\r\n        // 오버로딩 2번 함수\r\n        int a = oc.OverloadMethod(1,2);\r\n        System.out.println(\"오버로딩 2번 함수 반환값 : \"+a);\r\n\r\n        // 오버로딩 3번 함수\r\n        int b = oc.OverloadMethod(4,5,6);\r\n        System.out.println(\"오버로딩 3번 함수 반환값 : \"+b);\r\n\r\n        // 오버로딩 4번 함수\r\n        boolean c = oc.OverloadMethod(\"park\");\r\n        System.out.println(\"오버로딩 4번 함수 반환값 : \"+c);\r\n    }\r\n}\r\n```\r\n\r\n```text title='결과'\r\n============================\r\n매개변수 수 : 0개\r\n매개변수 타입 : void\r\n오버라이딩 1번 함수 입니다.\r\n============================\r\n============================\r\n매개변수 수 : 2개\r\n매개변수 타입 : int\r\n오버라이딩 2번 함수 입니다. 덧셈 값을 반환합니다.\r\n============================\r\n오버로딩 2번 함수 반환값 : 3\r\n============================\r\n매개변수 수 : 3개\r\n매개변수 타입 : int\r\n오버라이딩 3번 함수 입니다. 곱셈을 반환합니다.\r\n============================\r\n오버로딩 3번 함수 반환값 : 120\r\n============================\r\n매개변수 수 : 1개\r\n매개변수 타입 : String\r\n오버라이딩 4번 함수 입니다. 이름이 park이면 true를 반환합니다.\r\n============================\r\n오버로딩 4번 함수 반환값 : true\r\n```"
-    },
-    {
-      "id": "design pattern rule",
-      "metadata": {
-        "permalink": "/blog/design pattern rule",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-rule/index.md",
-        "source": "@site/blog/2023-08-29-rule/index.md",
-        "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-        "description": "SRP ( 단일 책임의 원칙 : Single Responsibility Principle )",
-        "date": "2023-08-29T00:00:00.000Z",
-        "formattedDate": "August 29, 2023",
-        "tags": [
-          {
-            "label": "design pattern",
-            "permalink": "/blog/tags/design-pattern"
-          },
-          {
-            "label": "rule",
-            "permalink": "/blog/tags/rule"
-          }
-        ],
-        "readingTime": 1.925,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "design pattern rule",
-          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "design pattern",
-            "rule"
-          ]
-        },
-        "prevItem": {
-          "title": "Overloading & Overriding",
-          "permalink": "/blog/Overloading and Overriding"
-        },
-        "nextItem": {
-          "title": "전략 패턴 - Strategy pattern",
-          "permalink": "/blog/strategy pattern"
-        }
-      },
-      "content": "## SRP ( 단일 책임의 원칙 : Single Responsibility Principle )\r\n\r\n## OCP ( 계방-폐쇄의 원칙 : Open Close Principle )\r\n\r\n1. 바뀌는 부분을 캡슐화한다.\r\n    - 변하는(확장되는) 것과 변하지 않을 것을 구분\r\n\r\n2. 상속보다는 구성을 활용한다.\r\n\r\n3. 구현보다는 인터페이스에 맞춰서 프로그래밍한다.\r\n    - 정의한 인터페이스에 의존\r\n\r\n4. 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야 한다.\r\n\r\n5. 클래스는 확장에는 열려있어야 하고 변경에는 닫혀 있어야 한다.\r\n\r\n## LSP ( 리스코프 치환의 원칙 : The LisKov Substitution Principle )\r\n\r\n## ISP ( 인터페이스 분리의 원칙 : Interface Segregation Principle )\r\n\r\n## DIP ( 의존성 역전의 원칙 : Dependency Inversion Principle )\r\n\r\n1. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다.\r\n\r\n2. 고수준 구성 요소가 저수준 구성 요소에 의존하면 안되고 항상 추상화에 의존하게 만들어야 한다.\r\n`고수준 구성 요소` : 다른 `저수준 구성 요소`에 의해 정의되는 행동이 들어있는 구성 요소\r\n\r\n3. 변수에 구상 클래스의 레퍼런스를 저장하지 않는다.\r\n\r\n4. 구상 클래스에서 유도된 클래스를 만들지 않는다.\r\n\r\n5. 베이스 클래스에 이미 구현되어 있는 메소드를 오버라이드하지 않는다."
-    },
-    {
-      "id": "strategy pattern",
-      "metadata": {
-        "permalink": "/blog/strategy pattern",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-stratgy/index.md",
-        "source": "@site/blog/2023-08-29-stratgy/index.md",
-        "title": "전략 패턴 - Strategy pattern",
-        "description": "정의",
-        "date": "2023-08-29T00:00:00.000Z",
-        "formattedDate": "August 29, 2023",
-        "tags": [
-          {
-            "label": "design pattern",
-            "permalink": "/blog/tags/design-pattern"
-          },
-          {
-            "label": "strategy pattern",
-            "permalink": "/blog/tags/strategy-pattern"
-          }
-        ],
-        "readingTime": 1.465,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "strategy pattern",
-          "title": "전략 패턴 - Strategy pattern",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "design pattern",
-            "strategy pattern"
-          ]
-        },
-        "prevItem": {
-          "title": "[SOLID] 객체 지향 프로그래밍(OOP) 원칙",
-          "permalink": "/blog/design pattern rule"
-        },
-        "nextItem": {
-          "title": "Welcome",
-          "permalink": "/blog/welcome"
-        }
-      },
-      "content": "## 정의\r\n\r\n알고리즘군을 정의하고 캡슐화해서 각각의 알고리즘군을 수정해서 쓸 수 있게 해준다.\r\n전략 패턴을 사용하면 클라이언트로부터 알고리즘을 분리해서 독립적으로 변경할 수 있다.\r\n\r\n## 특징\r\n\r\n- 함수 중 변하는 코드를 class로 구현하여 상속받는 것이 아닌 interface로 구현하여서 Composition하는게 좋다.\r\n\r\n## 예시\r\n\r\n```java title=\"/src/interfaces/FlyBehavior.java\"\r\npublic interface FlyBehavor {\r\n    public void fly();\r\n}\r\n```\r\n위 처럼 나는 행동 인터페이스를 구현하고\r\n\r\n```java title=\"/src/classes/Duck.java\"\r\npublic abstract class Duck {\r\n    FlyBehavor flyBehavor;\r\n\r\n    public void setFlyBehavor(FlyBehavor flyBehavor) {\r\n        this.flyBehavor = flyBehavor;\r\n    }\r\n}\r\n```\r\n추상 클래스에선 interface 선언 및 setter를 구현하고\r\n\r\n```java title=\"/src/classes/FlyNoway ... FlyWithWings.java\"\r\npublic class FlyNoWay implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can't fly ! TT\");\r\n    }\r\n}\r\n\r\npublic class FlyRocketPowered implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"ROCKET FLY!!\");\r\n    }\r\n}\r\n\r\npublic class FlyWithWings implements FlyBehavor {\r\n    @Override\r\n    public void fly() {\r\n        System.out.println(\"I can fly!!\");\r\n    }\r\n}\r\n```\r\n\r\n위 코드들처럼 interface를 구현하여서 오버라이딩을 합니다.\r\n\r\n```java title=\"/src/classes/MallardDuck.java\"\r\npublic class MallardDuck extends Duck{\r\n    public MallardDuck(){\r\n        flyBehavor = new FlyWithWings();\r\n    }\r\n}\r\n```\r\n생성자에서 새로 구현한 인터페이스로 생성합니다."
-    },
-    {
-      "id": "welcome",
-      "metadata": {
-        "permalink": "/blog/welcome",
-        "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-08-29-welcome/index.md",
-        "source": "@site/blog/2023-08-29-welcome/index.md",
-        "title": "Welcome",
-        "description": "Docusaurus 첫번째 글이다.",
-        "date": "2023-08-29T00:00:00.000Z",
-        "formattedDate": "August 29, 2023",
-        "tags": [
-          {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
-          },
-          {
-            "label": "first post",
-            "permalink": "/blog/tags/first-post"
-          }
-        ],
-        "readingTime": 0.095,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Park Ki Hyun",
-            "title": "Deveploper",
-            "url": "https://github.com/kihyun1998",
-            "imageURL": "https://github.com/kihyun1998.png",
-            "key": "kihyun"
-          }
-        ],
-        "frontMatter": {
-          "slug": "welcome",
-          "title": "Welcome",
-          "authors": [
-            "kihyun"
-          ],
-          "tags": [
-            "docusaurus",
-            "first post"
-          ]
-        },
-        "prevItem": {
-          "title": "전략 패턴 - Strategy pattern",
-          "permalink": "/blog/strategy pattern"
-        }
-      },
-      "content": "Docusaurus 첫번째 글이다.\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\n귀여운 공룡 인형이 있다."
     }
   ]
 }

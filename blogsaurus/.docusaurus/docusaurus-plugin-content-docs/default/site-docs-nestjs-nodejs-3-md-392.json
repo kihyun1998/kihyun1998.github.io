@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nestjs/nodejs3",
+  "id": "nestjs/nodejs3",
+  "title": "[NestJS] Controller API",
+  "description": "generator",
+  "source": "@site/docs/nestjs/nodejs3.md",
+  "sourceDirName": "nestjs",
+  "slug": "/nestjs/nodejs3",
+  "permalink": "/docs/nestjs/nodejs3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[NestJS] 구조",
+    "permalink": "/docs/nestjs/nodejs2"
+  },
+  "next": {
+    "title": "[NestJS] Decorators",
+    "permalink": "/docs/nestjs/nodejs4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-ops/dev-ops18",
+  "id": "dev-ops/dev-ops18",
+  "title": "[TTA] grafana 사용",
+  "description": "---",
+  "source": "@site/docs/dev-ops/dev-ops18.md",
+  "sourceDirName": "dev-ops",
+  "slug": "/dev-ops/dev-ops18",
+  "permalink": "/docs/dev-ops/dev-ops18",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "sidebar_position": 18
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[TTA] dev-ops의 개념2",
+    "permalink": "/docs/dev-ops/dev-ops17"
+  },
+  "next": {
+    "title": "[NestJS] 시작 전 요구사항",
+    "permalink": "/docs/nestjs/nodejs1"
+  }
+}

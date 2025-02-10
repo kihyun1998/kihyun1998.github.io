@@ -14,7 +14,7 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "designPatternSidebar",
+  "sidebar": "studySidebar",
   "previous": {
     "title": "데코레이터 패턴",
     "permalink": "/docs/DP--structural-patterns/decorator"

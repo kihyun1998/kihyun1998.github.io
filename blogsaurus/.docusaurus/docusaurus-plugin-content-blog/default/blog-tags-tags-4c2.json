@@ -1,18 +1,38 @@
 [
   {
+    "label": "folder",
+    "permalink": "/blog/tags/folder",
+    "count": 1
+  },
+  {
+    "label": "tree",
+    "permalink": "/blog/tags/tree",
+    "count": 1
+  },
+  {
     "label": "TIL",
     "permalink": "/blog/tags/til",
-    "count": 25
+    "count": 26
   },
   {
     "label": "플러터",
     "permalink": "/blog/tags/플러터",
-    "count": 26
+    "count": 27
   },
   {
     "label": "flutter",
     "permalink": "/blog/tags/flutter",
-    "count": 26
+    "count": 27
+  },
+  {
+    "label": "context menu",
+    "permalink": "/blog/tags/context-menu",
+    "count": 1
+  },
+  {
+    "label": "Virtual Box",
+    "permalink": "/blog/tags/virtual-box",
+    "count": 1
   },
   {
     "label": "navigator",
@@ -327,31 +347,6 @@
   {
     "label": "오버라이딩",
     "permalink": "/blog/tags/오버라이딩",
-    "count": 1
-  },
-  {
-    "label": "design pattern",
-    "permalink": "/blog/tags/design-pattern",
-    "count": 2
-  },
-  {
-    "label": "rule",
-    "permalink": "/blog/tags/rule",
-    "count": 1
-  },
-  {
-    "label": "strategy pattern",
-    "permalink": "/blog/tags/strategy-pattern",
-    "count": 1
-  },
-  {
-    "label": "docusaurus",
-    "permalink": "/blog/tags/docusaurus",
-    "count": 1
-  },
-  {
-    "label": "first post",
-    "permalink": "/blog/tags/first-post",
     "count": 1
   }
 ]

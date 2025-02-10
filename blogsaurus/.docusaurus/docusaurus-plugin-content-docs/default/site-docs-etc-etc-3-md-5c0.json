@@ -1,0 +1,26 @@
+{
+  "unversionedId": "etc/etc3",
+  "id": "etc/etc3",
+  "title": "3. [etc] Sparkle",
+  "description": "---",
+  "source": "@site/docs/etc/etc3.md",
+  "sourceDirName": "etc",
+  "slug": "/etc/etc3",
+  "permalink": "/docs/etc/etc3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "2. [etc] Inno Setup 한국어 설정",
+    "permalink": "/docs/etc/etc2"
+  },
+  "next": {
+    "title": "4. [etc] firebase 사용법",
+    "permalink": "/docs/etc/etc4"
+  }
+}

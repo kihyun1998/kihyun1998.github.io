@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nestjs/nodejs2",
+  "id": "nestjs/nodejs2",
+  "title": "[NestJS] 구조",
+  "description": "nestjs는 main.ts에서 시작한다. 여기에서 appmodule을 시작한다.",
+  "source": "@site/docs/nestjs/nodejs2.md",
+  "sourceDirName": "nestjs",
+  "slug": "/nestjs/nodejs2",
+  "permalink": "/docs/nestjs/nodejs2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[NestJS] 시작 전 요구사항",
+    "permalink": "/docs/nestjs/nodejs1"
+  },
+  "next": {
+    "title": "[NestJS] Controller API",
+    "permalink": "/docs/nestjs/nodejs3"
+  }
+}

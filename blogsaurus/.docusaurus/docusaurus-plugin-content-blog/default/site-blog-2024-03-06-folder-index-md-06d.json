@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/tree-markdown",
+  "editUrl": "https://github.com/kihyun1998/blogsaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-03-06-folder/index.md",
+  "source": "@site/blog/2024-03-06-folder/index.md",
+  "title": "Markdown으로 Tree구조 표현하기",
+  "description": "---",
+  "date": "2024-03-06T00:00:00.000Z",
+  "formattedDate": "March 6, 2024",
+  "tags": [
+    {
+      "label": "folder",
+      "permalink": "/blog/tags/folder"
+    },
+    {
+      "label": "tree",
+      "permalink": "/blog/tags/tree"
+    }
+  ],
+  "readingTime": 0.225,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Park Ki Hyun",
+      "title": "Deveploper",
+      "url": "https://github.com/kihyun1998",
+      "imageURL": "https://github.com/kihyun1998.png",
+      "key": "kihyun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "tree-markdown",
+    "title": "Markdown으로 Tree구조 표현하기",
+    "authors": [
+      "kihyun"
+    ],
+    "tags": [
+      "folder",
+      "tree"
+    ]
+  },
+  "nextItem": {
+    "title": "Flutter TIL - 26",
+    "permalink": "/blog/flutter-til-26"
+  }
+}

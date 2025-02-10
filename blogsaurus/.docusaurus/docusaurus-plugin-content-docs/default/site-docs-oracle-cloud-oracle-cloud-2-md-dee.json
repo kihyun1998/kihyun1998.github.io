@@ -1,0 +1,26 @@
+{
+  "unversionedId": "oracle-cloud/oracle-cloud2",
+  "id": "oracle-cloud/oracle-cloud2",
+  "title": "[Oracle Cloud] 포트포워딩",
+  "description": "---",
+  "source": "@site/docs/oracle-cloud/oracle-cloud2.md",
+  "sourceDirName": "oracle-cloud",
+  "slug": "/oracle-cloud/oracle-cloud2",
+  "permalink": "/docs/oracle-cloud/oracle-cloud2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "infraSidebar",
+  "previous": {
+    "title": "[Oracle Cloud] 서버 이용하기",
+    "permalink": "/docs/oracle-cloud/oracle-cloud1"
+  },
+  "next": {
+    "title": "[Oracle Cloud] RAM 용량 늘리기",
+    "permalink": "/docs/oracle-cloud/oracle-cloud3"
+  }
+}

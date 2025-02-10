@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nestjs/nodejs8",
+  "id": "nestjs/nodejs8",
+  "title": "[NestJS] Code Formatting 설정법",
+  "description": "필요한 추가 패키지",
+  "source": "@site/docs/nestjs/nodejs8.md",
+  "sourceDirName": "nestjs",
+  "slug": "/nestjs/nodejs8",
+  "permalink": "/docs/nestjs/nodejs8",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[NestJS] 유효성 검사",
+    "permalink": "/docs/nestjs/nodejs7"
+  },
+  "next": {
+    "title": "[NestJS] nest CLI 사용법",
+    "permalink": "/docs/nestjs/nodejs9"
+  }
+}

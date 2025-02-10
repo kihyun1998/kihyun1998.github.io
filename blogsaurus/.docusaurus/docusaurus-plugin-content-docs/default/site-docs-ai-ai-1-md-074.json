@@ -1,0 +1,22 @@
+{
+  "unversionedId": "ai/ai1",
+  "id": "ai/ai1",
+  "title": "RAG (Retrieval Augmented Generation)",
+  "description": "---",
+  "source": "@site/docs/ai/ai1.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/ai1",
+  "permalink": "/docs/ai/ai1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "aiSidebar",
+  "next": {
+    "title": "Ollama+LLM",
+    "permalink": "/docs/ai/ai2"
+  }
+}

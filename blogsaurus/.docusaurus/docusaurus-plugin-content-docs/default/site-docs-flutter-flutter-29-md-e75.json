@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter29",
+  "id": "flutter/flutter29",
+  "title": "29. [flutter] SVG를 IconData로",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter29.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter29",
+  "permalink": "/docs/flutter/flutter29",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 29,
+  "frontMatter": {
+    "sidebar_position": 29
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "28. [flutter] riverpod을 위한 필요사항",
+    "permalink": "/docs/flutter/flutter28"
+  },
+  "next": {
+    "title": "30. [flutter] method channel 사용",
+    "permalink": "/docs/flutter/flutter30"
+  }
+}

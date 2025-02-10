@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-ops/dev-ops9",
+  "id": "dev-ops/dev-ops9",
+  "title": "[Github Actions] Docker Container를 이용한 Gihub Actions CI",
+  "description": "---",
+  "source": "@site/docs/dev-ops/dev-ops9.md",
+  "sourceDirName": "dev-ops",
+  "slug": "/dev-ops/dev-ops9",
+  "permalink": "/docs/dev-ops/dev-ops9",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Docker] Github Action을 위한 Dockerfile 작성",
+    "permalink": "/docs/dev-ops/dev-ops8"
+  },
+  "next": {
+    "title": "[Github Actions] Github Action에서 artifacts & SMTP",
+    "permalink": "/docs/dev-ops/dev-ops10"
+  }
+}

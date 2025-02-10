@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter45",
+  "id": "flutter/flutter45",
+  "title": "45. [flutter] Don't use BuildContext across async gaps",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter45.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter45",
+  "permalink": "/docs/flutter/flutter45",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 45,
+  "frontMatter": {
+    "sidebar_position": 45
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "44. [flutter] windows desktop에서 인증서 저장소에 인증서 추가",
+    "permalink": "/docs/flutter/flutter44"
+  },
+  "next": {
+    "title": "46. [flutter] riverpod - ProviderScope",
+    "permalink": "/docs/flutter/flutter46"
+  }
+}

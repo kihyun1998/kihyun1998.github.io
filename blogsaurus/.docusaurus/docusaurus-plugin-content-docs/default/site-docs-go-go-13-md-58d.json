@@ -1,0 +1,22 @@
+{
+  "unversionedId": "go/go13",
+  "id": "go/go13",
+  "title": "[Go] go fyne 개발을 위한 준비사항",
+  "description": "---",
+  "source": "@site/docs/go/go13.md",
+  "sourceDirName": "go",
+  "slug": "/go/go13",
+  "permalink": "/docs/go/go13",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "goSidebar",
+  "previous": {
+    "title": "[Go] go work와 replace",
+    "permalink": "/docs/go/go12"
+  }
+}

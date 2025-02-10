@@ -1,0 +1,26 @@
+{
+  "unversionedId": "docker-kube/docker-kube3",
+  "id": "docker-kube/docker-kube3",
+  "title": "[Docker & Kubernetes] KOSTA 3",
+  "description": "---",
+  "source": "@site/docs/docker-kube/docker-kube3.md",
+  "sourceDirName": "docker-kube",
+  "slug": "/docker-kube/docker-kube3",
+  "permalink": "/docs/docker-kube/docker-kube3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "[Docker & Kubernetes] KOSTA 2",
+    "permalink": "/docs/docker-kube/docker-kube2"
+  },
+  "next": {
+    "title": "[React + Spring + Kube] KOSTA 1",
+    "permalink": "/docs/react-spring-kube/react-spring-kube1"
+  }
+}

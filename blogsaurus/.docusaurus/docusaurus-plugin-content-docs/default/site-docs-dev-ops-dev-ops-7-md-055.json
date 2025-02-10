@@ -20,7 +20,7 @@
     "permalink": "/docs/dev-ops/dev-ops6"
   },
   "next": {
-    "title": "[NodeJS] ✳️ 1. gRPC 개념",
-    "permalink": "/docs/nodejs/nodejs1"
+    "title": "[Docker] Github Action을 위한 Dockerfile 작성",
+    "permalink": "/docs/dev-ops/dev-ops8"
   }
 }

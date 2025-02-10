@@ -1,0 +1,26 @@
+{
+  "unversionedId": "docker-kube/docker-kube1",
+  "id": "docker-kube/docker-kube1",
+  "title": "[Docker & Kubernetes] KOSTA 1",
+  "description": "---",
+  "source": "@site/docs/docker-kube/docker-kube1.md",
+  "sourceDirName": "docker-kube",
+  "slug": "/docker-kube/docker-kube1",
+  "permalink": "/docs/docker-kube/docker-kube1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "9. [etc] MinGW 다운로드 링크크",
+    "permalink": "/docs/etc/etc9"
+  },
+  "next": {
+    "title": "[Docker & Kubernetes] KOSTA 2",
+    "permalink": "/docs/docker-kube/docker-kube2"
+  }
+}

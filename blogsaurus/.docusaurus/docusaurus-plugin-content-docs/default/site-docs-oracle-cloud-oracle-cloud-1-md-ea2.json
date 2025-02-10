@@ -1,0 +1,22 @@
+{
+  "unversionedId": "oracle-cloud/oracle-cloud1",
+  "id": "oracle-cloud/oracle-cloud1",
+  "title": "[Oracle Cloud] 서버 이용하기",
+  "description": "---",
+  "source": "@site/docs/oracle-cloud/oracle-cloud1.md",
+  "sourceDirName": "oracle-cloud",
+  "slug": "/oracle-cloud/oracle-cloud1",
+  "permalink": "/docs/oracle-cloud/oracle-cloud1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "infraSidebar",
+  "next": {
+    "title": "[Oracle Cloud] 포트포워딩",
+    "permalink": "/docs/oracle-cloud/oracle-cloud2"
+  }
+}

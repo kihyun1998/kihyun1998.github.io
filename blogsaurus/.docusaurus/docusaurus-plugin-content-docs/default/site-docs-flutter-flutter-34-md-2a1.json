@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter34",
+  "id": "flutter/flutter34",
+  "title": "34. [flutter] package:auto_updater 사용하기",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter34.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter34",
+  "permalink": "/docs/flutter/flutter34",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 34,
+  "frontMatter": {
+    "sidebar_position": 34
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "33. [flutter] Icon 변경",
+    "permalink": "/docs/flutter/flutter33"
+  },
+  "next": {
+    "title": "35. [flutter] nullable 타입의 copyWith",
+    "permalink": "/docs/flutter/flutter35"
+  }
+}

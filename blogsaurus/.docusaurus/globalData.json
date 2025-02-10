@@ -11,6 +11,51 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "ai/ai1",
+              "path": "/docs/ai/ai1",
+              "sidebar": "aiSidebar"
+            },
+            {
+              "id": "ai/ai2",
+              "path": "/docs/ai/ai2",
+              "sidebar": "aiSidebar"
+            },
+            {
+              "id": "ai/ai3",
+              "path": "/docs/ai/ai3",
+              "sidebar": "aiSidebar"
+            },
+            {
+              "id": "ai/ai4",
+              "path": "/docs/ai/ai4",
+              "sidebar": "aiSidebar"
+            },
+            {
+              "id": "ai/ai5",
+              "path": "/docs/ai/ai5",
+              "sidebar": "aiSidebar"
+            },
+            {
+              "id": "ai/ai6",
+              "path": "/docs/ai/ai6",
+              "sidebar": "aiSidebar"
+            },
+            {
+              "id": "ai/ai7",
+              "path": "/docs/ai/ai7",
+              "sidebar": "aiSidebar"
+            },
+            {
+              "id": "ai/ai8",
+              "path": "/docs/ai/ai8",
+              "sidebar": "aiSidebar"
+            },
+            {
+              "id": "ai/ai9",
+              "path": "/docs/ai/ai9",
+              "sidebar": "aiSidebar"
+            },
+            {
               "id": "algorithm/al1",
               "path": "/docs/algorithm/al1",
               "sidebar": "algorithmSidebar"
@@ -123,6 +168,11 @@
             {
               "id": "algorithm/al3",
               "path": "/docs/algorithm/al3",
+              "sidebar": "algorithmSidebar"
+            },
+            {
+              "id": "algorithm/al30",
+              "path": "/docs/algorithm/al30",
               "sidebar": "algorithmSidebar"
             },
             {
@@ -396,13 +446,63 @@
               "sidebar": "dartSidebar"
             },
             {
+              "id": "dart/dart5",
+              "path": "/docs/dart/dart5",
+              "sidebar": "dartSidebar"
+            },
+            {
               "id": "design-pattern-intro",
               "path": "/docs/design-pattern-intro",
-              "sidebar": "designPatternSidebar"
+              "sidebar": "studySidebar"
             },
             {
               "id": "dev-ops/dev-ops1",
               "path": "/docs/dev-ops/dev-ops1",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops10",
+              "path": "/docs/dev-ops/dev-ops10",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops11",
+              "path": "/docs/dev-ops/dev-ops11",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops12",
+              "path": "/docs/dev-ops/dev-ops12",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops13",
+              "path": "/docs/dev-ops/dev-ops13",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops14",
+              "path": "/docs/dev-ops/dev-ops14",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops15",
+              "path": "/docs/dev-ops/dev-ops15",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops16",
+              "path": "/docs/dev-ops/dev-ops16",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops17",
+              "path": "/docs/dev-ops/dev-ops17",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops18",
+              "path": "/docs/dev-ops/dev-ops18",
               "sidebar": "backSidebar"
             },
             {
@@ -436,24 +536,114 @@
               "sidebar": "backSidebar"
             },
             {
+              "id": "dev-ops/dev-ops8",
+              "path": "/docs/dev-ops/dev-ops8",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "dev-ops/dev-ops9",
+              "path": "/docs/dev-ops/dev-ops9",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "django/django1",
+              "path": "/docs/django/django1",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "docker-kube/docker-kube1",
+              "path": "/docs/docker-kube/docker-kube1",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "docker-kube/docker-kube2",
+              "path": "/docs/docker-kube/docker-kube2",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "docker-kube/docker-kube3",
+              "path": "/docs/docker-kube/docker-kube3",
+              "sidebar": "studySidebar"
+            },
+            {
               "id": "DP--behavioral-patterns/observer",
               "path": "/docs/DP--behavioral-patterns/observer",
-              "sidebar": "designPatternSidebar"
+              "sidebar": "studySidebar"
             },
             {
               "id": "DP--behavioral-patterns/strategy",
               "path": "/docs/DP--behavioral-patterns/strategy",
-              "sidebar": "designPatternSidebar"
+              "sidebar": "studySidebar"
             },
             {
               "id": "DP--creational-patterns/factory-method",
               "path": "/docs/DP--creational-patterns/factory-method",
-              "sidebar": "designPatternSidebar"
+              "sidebar": "studySidebar"
             },
             {
               "id": "DP--structural-patterns/decorator",
               "path": "/docs/DP--structural-patterns/decorator",
-              "sidebar": "designPatternSidebar"
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "error/error1",
+              "path": "/docs/error/error1",
+              "sidebar": "errorSidebar"
+            },
+            {
+              "id": "error/error2",
+              "path": "/docs/error/error2",
+              "sidebar": "errorSidebar"
+            },
+            {
+              "id": "error/error3",
+              "path": "/docs/error/error3",
+              "sidebar": "errorSidebar"
+            },
+            {
+              "id": "etc/etc1",
+              "path": "/docs/etc/etc1",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "etc/etc2",
+              "path": "/docs/etc/etc2",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "etc/etc3",
+              "path": "/docs/etc/etc3",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "etc/etc4",
+              "path": "/docs/etc/etc4",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "etc/etc5",
+              "path": "/docs/etc/etc5",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "etc/etc6",
+              "path": "/docs/etc/etc6",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "etc/etc7",
+              "path": "/docs/etc/etc7",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "etc/etc8",
+              "path": "/docs/etc/etc8",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "etc/etc9",
+              "path": "/docs/etc/etc9",
+              "sidebar": "studySidebar"
             },
             {
               "id": "flutter-kosta/kosta1",
@@ -586,8 +776,63 @@
               "sidebar": "dartSidebar"
             },
             {
+              "id": "flutter/flutter29",
+              "path": "/docs/flutter/flutter29",
+              "sidebar": "dartSidebar"
+            },
+            {
               "id": "flutter/flutter3",
               "path": "/docs/flutter/flutter3",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter30",
+              "path": "/docs/flutter/flutter30",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter31",
+              "path": "/docs/flutter/flutter31",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter32",
+              "path": "/docs/flutter/flutter32",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter33",
+              "path": "/docs/flutter/flutter33",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter34",
+              "path": "/docs/flutter/flutter34",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter35",
+              "path": "/docs/flutter/flutter35",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter36",
+              "path": "/docs/flutter/flutter36",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter37",
+              "path": "/docs/flutter/flutter37",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter38",
+              "path": "/docs/flutter/flutter38",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter39",
+              "path": "/docs/flutter/flutter39",
               "sidebar": "dartSidebar"
             },
             {
@@ -596,8 +841,73 @@
               "sidebar": "dartSidebar"
             },
             {
+              "id": "flutter/flutter40",
+              "path": "/docs/flutter/flutter40",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter41",
+              "path": "/docs/flutter/flutter41",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter42",
+              "path": "/docs/flutter/flutter42",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter43",
+              "path": "/docs/flutter/flutter43",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter44",
+              "path": "/docs/flutter/flutter44",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter45",
+              "path": "/docs/flutter/flutter45",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter46",
+              "path": "/docs/flutter/flutter46",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter47",
+              "path": "/docs/flutter/flutter47",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter48",
+              "path": "/docs/flutter/flutter48",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter49",
+              "path": "/docs/flutter/flutter49",
+              "sidebar": "dartSidebar"
+            },
+            {
               "id": "flutter/flutter5",
               "path": "/docs/flutter/flutter5",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter50",
+              "path": "/docs/flutter/flutter50",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter51",
+              "path": "/docs/flutter/flutter51",
+              "sidebar": "dartSidebar"
+            },
+            {
+              "id": "flutter/flutter52",
+              "path": "/docs/flutter/flutter52",
               "sidebar": "dartSidebar"
             },
             {
@@ -623,6 +933,26 @@
             {
               "id": "go/go1",
               "path": "/docs/go/go1",
+              "sidebar": "goSidebar"
+            },
+            {
+              "id": "go/go10",
+              "path": "/docs/go/go10",
+              "sidebar": "goSidebar"
+            },
+            {
+              "id": "go/go11",
+              "path": "/docs/go/go11",
+              "sidebar": "goSidebar"
+            },
+            {
+              "id": "go/go12",
+              "path": "/docs/go/go12",
+              "sidebar": "goSidebar"
+            },
+            {
+              "id": "go/go13",
+              "path": "/docs/go/go13",
               "sidebar": "goSidebar"
             },
             {
@@ -656,6 +986,16 @@
               "sidebar": "goSidebar"
             },
             {
+              "id": "go/go8",
+              "path": "/docs/go/go8",
+              "sidebar": "goSidebar"
+            },
+            {
+              "id": "go/go9",
+              "path": "/docs/go/go9",
+              "sidebar": "goSidebar"
+            },
+            {
               "id": "gRPC/grpc1",
               "path": "/docs/gRPC/grpc1",
               "sidebar": "backSidebar"
@@ -686,19 +1026,148 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "nodejs/nodejs1",
-              "path": "/docs/nodejs/nodejs1",
+              "id": "java-spring/spring1",
+              "path": "/docs/java-spring/spring1",
               "sidebar": "backSidebar"
+            },
+            {
+              "id": "java-spring/spring2",
+              "path": "/docs/java-spring/spring2",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "java-spring/spring3",
+              "path": "/docs/java-spring/spring3",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "java-spring/spring4",
+              "path": "/docs/java-spring/spring4",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "kubernates/kubernates1",
+              "path": "/docs/kubernates/kubernates1",
+              "sidebar": "infraSidebar"
+            },
+            {
+              "id": "llm/llm1",
+              "path": "/docs/llm/llm1",
+              "sidebar": "aiSidebar"
+            },
+            {
+              "id": "llm/llm2",
+              "path": "/docs/llm/llm2",
+              "sidebar": "aiSidebar"
+            },
+            {
+              "id": "nestjs/nodejs1",
+              "path": "/docs/nestjs/nodejs1",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "nestjs/nodejs2",
+              "path": "/docs/nestjs/nodejs2",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "nestjs/nodejs3",
+              "path": "/docs/nestjs/nodejs3",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "nestjs/nodejs4",
+              "path": "/docs/nestjs/nodejs4",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "nestjs/nodejs5",
+              "path": "/docs/nestjs/nodejs5",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "nestjs/nodejs6",
+              "path": "/docs/nestjs/nodejs6",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "nestjs/nodejs7",
+              "path": "/docs/nestjs/nodejs7",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "nestjs/nodejs8",
+              "path": "/docs/nestjs/nodejs8",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "nestjs/nodejs9",
+              "path": "/docs/nestjs/nodejs9",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "oracle-cloud/oracle-cloud1",
+              "path": "/docs/oracle-cloud/oracle-cloud1",
+              "sidebar": "infraSidebar"
+            },
+            {
+              "id": "oracle-cloud/oracle-cloud2",
+              "path": "/docs/oracle-cloud/oracle-cloud2",
+              "sidebar": "infraSidebar"
+            },
+            {
+              "id": "oracle-cloud/oracle-cloud3",
+              "path": "/docs/oracle-cloud/oracle-cloud3",
+              "sidebar": "infraSidebar"
+            },
+            {
+              "id": "oracle-cloud/oracle-cloud4",
+              "path": "/docs/oracle-cloud/oracle-cloud4",
+              "sidebar": "infraSidebar"
             },
             {
               "id": "react-basic/react1",
               "path": "/docs/react-basic/react1",
-              "sidebar": "reactSidebar"
+              "sidebar": "jsSidebar"
             },
             {
               "id": "react-intro",
               "path": "/docs/react-intro",
-              "sidebar": "reactSidebar"
+              "sidebar": "jsSidebar"
+            },
+            {
+              "id": "react-spring-kube/react-spring-kube1",
+              "path": "/docs/react-spring-kube/react-spring-kube1",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "react-spring-kube/react-spring-kube2",
+              "path": "/docs/react-spring-kube/react-spring-kube2",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "react-spring-kube/react-spring-kube3",
+              "path": "/docs/react-spring-kube/react-spring-kube3",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "solid",
+              "path": "/docs/solid"
+            },
+            {
+              "id": "spring-cloud/spring_cloud1",
+              "path": "/docs/spring-cloud/spring_cloud1",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "spring-cloud/spring_cloud2",
+              "path": "/docs/spring-cloud/spring_cloud2",
+              "sidebar": "backSidebar"
+            },
+            {
+              "id": "spring-cloud/spring_cloud3",
+              "path": "/docs/spring-cloud/spring_cloud3",
+              "sidebar": "backSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",
@@ -739,6 +1208,14 @@
               "id": "tutorial-extras/translate-your-site",
               "path": "/docs/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "typescript/typescript1",
+              "path": "/docs/typescript/typescript1"
+            },
+            {
+              "id": "typescript/typescript2",
+              "path": "/docs/typescript/typescript2"
             }
           ],
           "draftIds": [],
@@ -749,7 +1226,7 @@
                 "label": "intro"
               }
             },
-            "reactSidebar": {
+            "jsSidebar": {
               "link": {
                 "path": "/docs/react-intro",
                 "label": "react-intro"
@@ -761,7 +1238,7 @@
                 "label": "blog-intro"
               }
             },
-            "designPatternSidebar": {
+            "studySidebar": {
               "link": {
                 "path": "/docs/design-pattern-intro",
                 "label": "design-pattern-intro"
@@ -789,6 +1266,24 @@
               "link": {
                 "path": "/docs/algorithm/al1",
                 "label": "algorithm/al1"
+              }
+            },
+            "errorSidebar": {
+              "link": {
+                "path": "/docs/error/error1",
+                "label": "error/error1"
+              }
+            },
+            "aiSidebar": {
+              "link": {
+                "path": "/docs/ai/ai1",
+                "label": "ai/ai1"
+              }
+            },
+            "infraSidebar": {
+              "link": {
+                "path": "/docs/oracle-cloud/oracle-cloud1",
+                "label": "oracle-cloud/oracle-cloud1"
               }
             }
           }

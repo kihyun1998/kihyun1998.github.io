@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nestjs/nodejs4",
+  "id": "nestjs/nodejs4",
+  "title": "[NestJS] Decorators",
+  "description": "다양한 데코레이터에 대해 알아볼 예정",
+  "source": "@site/docs/nestjs/nodejs4.md",
+  "sourceDirName": "nestjs",
+  "slug": "/nestjs/nodejs4",
+  "permalink": "/docs/nestjs/nodejs4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[NestJS] Controller API",
+    "permalink": "/docs/nestjs/nodejs3"
+  },
+  "next": {
+    "title": "[NestJS] Services",
+    "permalink": "/docs/nestjs/nodejs5"
+  }
+}

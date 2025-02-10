@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter31",
+  "id": "flutter/flutter31",
+  "title": "31. [flutter] pub.dev에 패키지 올리기",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter31.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter31",
+  "permalink": "/docs/flutter/flutter31",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 31,
+  "frontMatter": {
+    "sidebar_position": 31
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "30. [flutter] method channel 사용",
+    "permalink": "/docs/flutter/flutter30"
+  },
+  "next": {
+    "title": "32. [flutter] Image.asset 색 변경",
+    "permalink": "/docs/flutter/flutter32"
+  }
+}

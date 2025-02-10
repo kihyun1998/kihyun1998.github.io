@@ -1,7 +1,7 @@
 {
   "unversionedId": "flutter/flutter20",
   "id": "flutter/flutter20",
-  "title": "19. [Flutter] fetch",
+  "title": "20. [Flutter] fetch",
   "description": "1. 고전적인 fetch",
   "source": "@site/docs/flutter/flutter20.md",
   "sourceDirName": "flutter",
@@ -10,9 +10,9 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 19,
+  "sidebarPosition": 20,
   "frontMatter": {
-    "sidebar_position": 19
+    "sidebar_position": 20
   },
   "sidebar": "dartSidebar",
   "previous": {

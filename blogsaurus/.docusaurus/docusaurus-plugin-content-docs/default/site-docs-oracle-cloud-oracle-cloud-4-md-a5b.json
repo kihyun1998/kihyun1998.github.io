@@ -1,0 +1,26 @@
+{
+  "unversionedId": "oracle-cloud/oracle-cloud4",
+  "id": "oracle-cloud/oracle-cloud4",
+  "title": "[Oracle Cloud] IP 고정",
+  "description": "---",
+  "source": "@site/docs/oracle-cloud/oracle-cloud4.md",
+  "sourceDirName": "oracle-cloud",
+  "slug": "/oracle-cloud/oracle-cloud4",
+  "permalink": "/docs/oracle-cloud/oracle-cloud4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "infraSidebar",
+  "previous": {
+    "title": "[Oracle Cloud] RAM 용량 늘리기",
+    "permalink": "/docs/oracle-cloud/oracle-cloud3"
+  },
+  "next": {
+    "title": "[Kubernates] 쿠버네티스 시작하기",
+    "permalink": "/docs/kubernates/kubernates1"
+  }
+}

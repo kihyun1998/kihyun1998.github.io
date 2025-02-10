@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter30",
+  "id": "flutter/flutter30",
+  "title": "30. [flutter] method channel 사용",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter30.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter30",
+  "permalink": "/docs/flutter/flutter30",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "29. [flutter] SVG를 IconData로",
+    "permalink": "/docs/flutter/flutter29"
+  },
+  "next": {
+    "title": "31. [flutter] pub.dev에 패키지 올리기",
+    "permalink": "/docs/flutter/flutter31"
+  }
+}

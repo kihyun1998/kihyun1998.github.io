@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nestjs/nodejs6",
+  "id": "nestjs/nodejs6",
+  "title": "[NestJS] Services2",
+  "description": "Not found 반환",
+  "source": "@site/docs/nestjs/nodejs6.md",
+  "sourceDirName": "nestjs",
+  "slug": "/nestjs/nodejs6",
+  "permalink": "/docs/nestjs/nodejs6",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[NestJS] Services",
+    "permalink": "/docs/nestjs/nodejs5"
+  },
+  "next": {
+    "title": "[NestJS] 유효성 검사",
+    "permalink": "/docs/nestjs/nodejs7"
+  }
+}

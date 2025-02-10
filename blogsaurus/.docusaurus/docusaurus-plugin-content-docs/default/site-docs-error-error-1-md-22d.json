@@ -1,0 +1,22 @@
+{
+  "unversionedId": "error/error1",
+  "id": "error/error1",
+  "title": "Virtual Box 에러 해결",
+  "description": "---",
+  "source": "@site/docs/error/error1.md",
+  "sourceDirName": "error",
+  "slug": "/error/error1",
+  "permalink": "/docs/error/error1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "errorSidebar",
+  "next": {
+    "title": "[Flutter] Unable to find git in your PATH",
+    "permalink": "/docs/error/error2"
+  }
+}

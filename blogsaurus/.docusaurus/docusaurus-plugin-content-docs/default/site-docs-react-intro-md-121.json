@@ -14,7 +14,7 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "reactSidebar",
+  "sidebar": "jsSidebar",
   "next": {
     "title": "React 1",
     "permalink": "/docs/react-basic/react1"

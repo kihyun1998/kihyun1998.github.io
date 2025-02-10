@@ -1,0 +1,26 @@
+{
+  "unversionedId": "ai/ai3",
+  "id": "ai/ai3",
+  "title": "colab GPU 로컬에서 사용하기",
+  "description": "---",
+  "source": "@site/docs/ai/ai3.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/ai3",
+  "permalink": "/docs/ai/ai3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "aiSidebar",
+  "previous": {
+    "title": "Ollama+LLM",
+    "permalink": "/docs/ai/ai2"
+  },
+  "next": {
+    "title": "solar LLM 사용하기",
+    "permalink": "/docs/ai/ai4"
+  }
+}

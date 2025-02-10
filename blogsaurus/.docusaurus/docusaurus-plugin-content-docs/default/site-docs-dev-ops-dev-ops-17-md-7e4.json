@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-ops/dev-ops17",
+  "id": "dev-ops/dev-ops17",
+  "title": "[TTA] dev-ops의 개념2",
+  "description": "---",
+  "source": "@site/docs/dev-ops/dev-ops17.md",
+  "sourceDirName": "dev-ops",
+  "slug": "/dev-ops/dev-ops17",
+  "permalink": "/docs/dev-ops/dev-ops17",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[TTA] dev-ops의 개념",
+    "permalink": "/docs/dev-ops/dev-ops16"
+  },
+  "next": {
+    "title": "[TTA] grafana 사용",
+    "permalink": "/docs/dev-ops/dev-ops18"
+  }
+}

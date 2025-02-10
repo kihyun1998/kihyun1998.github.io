@@ -1,0 +1,26 @@
+{
+  "unversionedId": "ai/ai2",
+  "id": "ai/ai2",
+  "title": "Ollama+LLM",
+  "description": "---",
+  "source": "@site/docs/ai/ai2.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/ai2",
+  "permalink": "/docs/ai/ai2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "aiSidebar",
+  "previous": {
+    "title": "RAG (Retrieval Augmented Generation)",
+    "permalink": "/docs/ai/ai1"
+  },
+  "next": {
+    "title": "colab GPU 로컬에서 사용하기",
+    "permalink": "/docs/ai/ai3"
+  }
+}

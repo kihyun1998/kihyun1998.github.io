@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dev-ops/dev-ops10",
+  "id": "dev-ops/dev-ops10",
+  "title": "[Github Actions] Github Action에서 artifacts & SMTP",
+  "description": "---",
+  "source": "@site/docs/dev-ops/dev-ops10.md",
+  "sourceDirName": "dev-ops",
+  "slug": "/dev-ops/dev-ops10",
+  "permalink": "/docs/dev-ops/dev-ops10",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "backSidebar",
+  "previous": {
+    "title": "[Github Actions] Docker Container를 이용한 Gihub Actions CI",
+    "permalink": "/docs/dev-ops/dev-ops9"
+  },
+  "next": {
+    "title": "[Github Actions] Golang private module 가져오기",
+    "permalink": "/docs/dev-ops/dev-ops11"
+  }
+}

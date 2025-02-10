@@ -1,0 +1,26 @@
+{
+  "unversionedId": "etc/etc5",
+  "id": "etc/etc5",
+  "title": "5. [etc] windows에서 자체 서명 인증서 발급",
+  "description": "---",
+  "source": "@site/docs/etc/etc5.md",
+  "sourceDirName": "etc",
+  "slug": "/etc/etc5",
+  "permalink": "/docs/etc/etc5",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "4. [etc] firebase 사용법",
+    "permalink": "/docs/etc/etc4"
+  },
+  "next": {
+    "title": "6. [etc] firebase 로그인",
+    "permalink": "/docs/etc/etc6"
+  }
+}

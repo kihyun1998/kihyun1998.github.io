@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter37",
+  "id": "flutter/flutter37",
+  "title": "37. [flutter] 싱글톤 패턴",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter37.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter37",
+  "permalink": "/docs/flutter/flutter37",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 37,
+  "frontMatter": {
+    "sidebar_position": 37
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "36. [flutter] 다국어 설정 intl",
+    "permalink": "/docs/flutter/flutter36"
+  },
+  "next": {
+    "title": "38. [flutter] MVVM",
+    "permalink": "/docs/flutter/flutter38"
+  }
+}

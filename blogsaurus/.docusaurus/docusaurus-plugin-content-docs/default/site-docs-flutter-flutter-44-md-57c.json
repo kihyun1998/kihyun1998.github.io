@@ -1,0 +1,26 @@
+{
+  "unversionedId": "flutter/flutter44",
+  "id": "flutter/flutter44",
+  "title": "44. [flutter] windows desktop에서 인증서 저장소에 인증서 추가",
+  "description": "---",
+  "source": "@site/docs/flutter/flutter44.md",
+  "sourceDirName": "flutter",
+  "slug": "/flutter/flutter44",
+  "permalink": "/docs/flutter/flutter44",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 44,
+  "frontMatter": {
+    "sidebar_position": 44
+  },
+  "sidebar": "dartSidebar",
+  "previous": {
+    "title": "43. [flutter] xml 사용",
+    "permalink": "/docs/flutter/flutter43"
+  },
+  "next": {
+    "title": "45. [flutter] Don't use BuildContext across async gaps",
+    "permalink": "/docs/flutter/flutter45"
+  }
+}

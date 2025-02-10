@@ -57,15 +57,15 @@ export default {
         },
         {
           "type": "docSidebar",
-          "sidebarId": "designPatternSidebar",
+          "sidebarId": "studySidebar",
           "position": "left",
-          "label": "디자인 패턴"
+          "label": "개인 공부"
         },
         {
           "type": "docSidebar",
-          "sidebarId": "reactSidebar",
+          "sidebarId": "jsSidebar",
           "position": "left",
-          "label": "React"
+          "label": "JavaScript"
         },
         {
           "type": "docSidebar",
@@ -92,9 +92,27 @@ export default {
           "label": "Algorithm"
         },
         {
+          "type": "docSidebar",
+          "sidebarId": "errorSidebar",
+          "position": "left",
+          "label": "Error"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "aiSidebar",
+          "position": "left",
+          "label": "AI"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "infraSidebar",
+          "position": "left",
+          "label": "Infra"
+        },
+        {
           "to": "/blog",
           "label": "Blog",
-          "position": "left"
+          "position": "right"
         },
         {
           "href": "https://github.com/facebook/docusaurus",
@@ -147,7 +165,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
     },
     "prism": {
       "additionalLanguages": [
@@ -164,7 +182,10 @@ export default {
         "protobuf",
         "docker",
         "cpp",
-        "swift"
+        "swift",
+        "typescript",
+        "gradle",
+        "markdown"
       ],
       "theme": {
         "plain": {

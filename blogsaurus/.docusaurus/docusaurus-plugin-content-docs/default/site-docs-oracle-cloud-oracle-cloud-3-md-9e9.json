@@ -1,0 +1,26 @@
+{
+  "unversionedId": "oracle-cloud/oracle-cloud3",
+  "id": "oracle-cloud/oracle-cloud3",
+  "title": "[Oracle Cloud] RAM 용량 늘리기",
+  "description": "---",
+  "source": "@site/docs/oracle-cloud/oracle-cloud3.md",
+  "sourceDirName": "oracle-cloud",
+  "slug": "/oracle-cloud/oracle-cloud3",
+  "permalink": "/docs/oracle-cloud/oracle-cloud3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "infraSidebar",
+  "previous": {
+    "title": "[Oracle Cloud] 포트포워딩",
+    "permalink": "/docs/oracle-cloud/oracle-cloud2"
+  },
+  "next": {
+    "title": "[Oracle Cloud] IP 고정",
+    "permalink": "/docs/oracle-cloud/oracle-cloud4"
+  }
+}

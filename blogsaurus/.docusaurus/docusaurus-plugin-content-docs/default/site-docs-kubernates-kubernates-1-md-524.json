@@ -1,0 +1,22 @@
+{
+  "unversionedId": "kubernates/kubernates1",
+  "id": "kubernates/kubernates1",
+  "title": "[Kubernates] 쿠버네티스 시작하기",
+  "description": "---",
+  "source": "@site/docs/kubernates/kubernates1.md",
+  "sourceDirName": "kubernates",
+  "slug": "/kubernates/kubernates1",
+  "permalink": "/docs/kubernates/kubernates1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "infraSidebar",
+  "previous": {
+    "title": "[Oracle Cloud] IP 고정",
+    "permalink": "/docs/oracle-cloud/oracle-cloud4"
+  }
+}

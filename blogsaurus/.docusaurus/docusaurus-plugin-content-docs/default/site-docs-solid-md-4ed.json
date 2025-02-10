@@ -1,0 +1,14 @@
+{
+  "unversionedId": "solid",
+  "id": "solid",
+  "title": "solid",
+  "description": "SRP ( 단일 책임의 원칙 : Single Responsibility Principle )",
+  "source": "@site/docs/solid.md",
+  "sourceDirName": ".",
+  "slug": "/solid",
+  "permalink": "/docs/solid",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

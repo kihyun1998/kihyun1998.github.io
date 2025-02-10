@@ -1,0 +1,22 @@
+{
+  "unversionedId": "llm/llm2",
+  "id": "llm/llm2",
+  "title": "[LLM] 2. LLM 개요 및 기본 개념",
+  "description": "---",
+  "source": "@site/docs/llm/llm2.md",
+  "sourceDirName": "llm",
+  "slug": "/llm/llm2",
+  "permalink": "/docs/llm/llm2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "aiSidebar",
+  "previous": {
+    "title": "LLM 개요 및 기본 개념",
+    "permalink": "/docs/llm/llm1"
+  }
+}
