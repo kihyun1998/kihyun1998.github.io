@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# LLM 개요 및 기본 개념
+# [LLM] 1. LLM 개요 및 기본 개념
 ---
 
 ## LLM
