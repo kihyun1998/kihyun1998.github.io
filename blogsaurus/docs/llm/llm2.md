@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# [LLM] 2. LLM 개요 및 기본 개념
+# [LLM] 2. Transformer 아키텍처 및 기본 개념
 ---
 
 
