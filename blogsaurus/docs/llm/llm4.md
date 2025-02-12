@@ -145,7 +145,7 @@ window 3: ["AI", "and", "NLP", "models", "."]
 
 ### ✅ 종류
 
-- 🚀 Absolute Position Encoding (고정 위치 인코딩)
+- 🚀 **Absolute Position Encoding (고정 위치 인코딩)**
     가장 단순한 방법으로 단어의 위치를 숫자로 직접 표현하는 방법입니다.
 
 ```text
@@ -157,7 +157,7 @@ window 3: ["AI", "and", "NLP", "models", "."]
 - 문장이 길어지면 일반화 어려움
 :::
 
-- 🚀 Sinusoidal Position Encoding(사인 함수 기반 위치 인코딩)
+- 🚀 **Sinusoidal Position Encoding(사인 함수 기반 위치 인코딩)**
     사인(sin)과 코사인(cos) 함수를 사용해서 위치 정보를 인코딩 합니다.
 
 > Sin, Cos 함수 사용하는 이유
@@ -172,7 +172,7 @@ window 3: ["AI", "and", "NLP", "models", "."]
 - `d`는 모델의 임베딩 차원 (ex: 512)
 - `i`는 임베딩 차원의 인덱스
 
-- 🚀 Learnable Position Encoding (학습 가능한 위치 인코딩)
+- 🚀 **Learnable Position Encoding (학습 가능한 위치 인코딩)**
     GPT 모델에서는 위치 인코딩을 학습할 수 있도록 바꿔서 사용한다고 합니다.
     방식은 다음과 같습니다.
     1. 학습 가능한 위치 임베딩 레이어를 추가.
