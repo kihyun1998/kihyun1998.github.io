@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[4346],{10772:s=>{s.exports=JSON.parse('{"label":"sealed based class","permalink":"/blog/tags/sealed-based-class","allTagsPath":"/blog/tags","count":1}')}}]);

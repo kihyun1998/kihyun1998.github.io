@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[14316],{63131:s=>{s.exports=JSON.parse('{"label":"AsyncValue","permalink":"/blog/tags/async-value","allTagsPath":"/blog/tags","count":1}')}}]);

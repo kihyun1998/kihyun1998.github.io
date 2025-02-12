@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[42370],{93368:s=>{s.exports=JSON.parse('{"label":"TextOverflow","permalink":"/blog/tags/text-overflow","allTagsPath":"/blog/tags","count":1}')}}]);

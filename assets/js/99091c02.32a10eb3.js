@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[39670],{92400:a=>{a.exports=JSON.parse('{"label":"window manger","permalink":"/blog/tags/window-manger","allTagsPath":"/blog/tags","count":1}')}}]);

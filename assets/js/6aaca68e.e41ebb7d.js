@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[20678],{2999:a=>{a.exports=JSON.parse('{"label":"dart \uc0dd\uc131\uc790","permalink":"/blog/tags/dart-\uc0dd\uc131\uc790","allTagsPath":"/blog/tags","count":1}')}}]);

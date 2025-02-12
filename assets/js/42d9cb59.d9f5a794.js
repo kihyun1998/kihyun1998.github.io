@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[7182],{62956:s=>{s.exports=JSON.parse('{"label":"typedef","permalink":"/blog/tags/typedef","allTagsPath":"/blog/tags","count":1}')}}]);

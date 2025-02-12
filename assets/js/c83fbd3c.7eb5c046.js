@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[1922],{45749:s=>{s.exports=JSON.parse('{"label":"\ub2e4\uad6d\uc5b4 \uc124\uc815","permalink":"/blog/tags/\ub2e4\uad6d\uc5b4-\uc124\uc815","allTagsPath":"/blog/tags","count":1}')}}]);

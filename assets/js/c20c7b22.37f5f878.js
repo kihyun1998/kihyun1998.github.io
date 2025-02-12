@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[5772],{25528:a=>{a.exports=JSON.parse('{"label":"localization","permalink":"/blog/tags/localization","allTagsPath":"/blog/tags","count":1}')}}]);

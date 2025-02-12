@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[5140],{88329:e=>{e.exports=JSON.parse('{"label":"freezed","permalink":"/blog/tags/freezed","allTagsPath":"/blog/tags","count":1}')}}]);

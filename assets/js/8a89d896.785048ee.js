@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[109],{34347:e=>{e.exports=JSON.parse('{"label":"GestureDetector","permalink":"/blog/tags/gesture-detector","allTagsPath":"/blog/tags","count":1}')}}]);

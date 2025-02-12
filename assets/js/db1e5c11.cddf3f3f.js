@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogsaurus=self.webpackChunkblogsaurus||[]).push([[99035],{26941:a=>{a.exports=JSON.parse('{"label":"invalidate","permalink":"/blog/tags/invalidate","allTagsPath":"/blog/tags","count":1}')}}]);
