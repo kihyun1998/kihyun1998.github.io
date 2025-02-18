@@ -79,6 +79,8 @@ plt.ylabel("Tokens")
 plt.show()
 ```
 
+### 결과 이미지
+
 ![alt text](img/13/tb1.png)
 
 
@@ -106,6 +108,10 @@ plt.show()
 - ✅ 확인할 점
     - 평균 0, 분산 1로 정규화 됐는가
     - 큰 값과 작은 값이 어떻게 변화했나
+
+### 결과 이미지
+
+![alt text](img/13/tb2.png)
 
 
 ## Multi-Head Self-Attention (문장에서 중요한 단어 찾기)  
@@ -172,7 +178,9 @@ plt.show()
 - ✅ 확인할 점
     - Head1 과 Head2가 어떻게 학습 됐는지 확인하기
 
+### 결과 이미지
 
+![alt text](img/13/tb3.png)
 
 ## Residual Connection (원래 정보 유지)
 ---
@@ -198,6 +206,10 @@ plt.show()
 - ✅ 확인할 점
     - MHA를 통과 후 너무 값이 커지거나 변형됐나?
     - 특정 차원에서 값이 극단적으로 변경됐나?
+
+### 결과 이미지
+
+![alt text](img/13/tb4.png)
 
 
 ## LayerNorm (FFN 전에 정규화)  
@@ -226,7 +238,9 @@ plt.show()
     - FFN 전에 LayerNorm이 어케 적용됐나.
     - 평균 0, 분산 1인가
 
+### 결과 이미지
 
+![alt text](img/13/tb5.png)
 
 ## Feed Forward Network (FFN, Self-Attention 결과를 정제)
 ---
@@ -293,7 +307,9 @@ plt.show()
     - GELU 활성화 후 값의 변화
     - Layer 축소
 
+### 결과 이미지
 
+![alt text](img/13/tb6.png)
 
 ## Residual Connection (원래 정보 유지)
 
@@ -317,3 +333,7 @@ plt.show()
 
 - ✅ 확인할 점
     - 최종 벡터가 잘 나왔나
+
+### 결과 이미지
+
+![alt text](img/13/tb7.png)
