@@ -15,7 +15,7 @@ Transformer Block을 이해하기 위해서는 다음 개념들을 알고 있어
 
 ### 실행 흐름
 
-```test
+```text
 입력 (Token Embedding + Positional Encoding)  
     ↓  
 LayerNorm (Self-Attention 전에 정규화)  
