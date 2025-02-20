@@ -145,15 +145,15 @@ class TransformerBlock(nn.Module):
         mask = mask.masked_fill(mask == 1, float('-inf'))
         return mask
 
-    def forward(self, x):
+    def forward(self, x, mask=None):
         # 입력 시퀀스 확인
         seq_length = x.size(1)
-
-        causal_mask = self.causal_mask[:seq_length, :seq_length]
+        if mask is None:
+            mask = self._create_causal_mask(seq_length).to(x.device) 
 
         # Multi-Head Attention (Self-Attention)
         x = self.ln1(x)
-        attn_out,_ = self.attn(x,x,x,attn_mask=causal_mask,need_weights=False)
+        attn_out,_ = self.attn(x,x,x,attn_mask=mask,need_weights=False)
         x = x + attn_out # residual_connection
 
         # Feed Forward Network (FFN)
