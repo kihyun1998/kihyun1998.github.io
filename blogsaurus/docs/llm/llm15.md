@@ -10,6 +10,7 @@ sidebar_position: 15
 ---
 
 ```python
+
 class GPTModel(nn.Module):
     def __init__(self, vocab_size,d_model,num_heads, num_layers,dropout,context_length):
         super().__init__()
@@ -29,7 +30,7 @@ class GPTModel(nn.Module):
         self.ln_final = nn.LayerNorm(d_model)
         self.output_layer = nn.Linear(d_model,vocab_size)
         
-    def forward(self, input_ids, mask):
+    def forward(self, input_ids, mask=None):
         # 1. token embedding 적용
         token_embeds = self.token_embedding(input_ids)
 
@@ -48,7 +49,6 @@ class GPTModel(nn.Module):
         logits = self.output_layer(x)
 
         return logits
-    
 ```
 
 
@@ -89,19 +89,91 @@ plt.show()
 ![alt text](img/15/1.png)
 
 
+## 예측해보기
+---
+
+```python
+import torch
+import torch.nn.functional as F
+
+from embedding import GPTModel
+
+# 어휘집
+vocabulary = ["hello","world","this","is","a","test","model","GPT","language","AI"]
+vocabulary_size = len(vocabulary)
+
+# 토큰 인코딩 함수
+def encode(text):
+    return torch.tensor([vocabulary.index(word) for word in text.split() if word in vocabulary]).unsqueeze(0)
+
+# 토큰 디코딩 함수
+def decode(tokens):
+    return " ".join([vocabulary[index] for index in tokens])
+
+# 가짜 입력 문장
+input_text = "hello world this is"
+input_ids = encode(input_text)
+
+# 모델 생성
+model = GPTModel(
+    vocab_size=vocabulary_size, 
+    d_model=128,
+    num_heads=4,
+    num_layers=4,
+    dropout=0.1,
+    context_length=vocabulary_size)
+
+model.eval() # 평가 모드
+
+with torch.no_grad():
+    logits = model(input_ids)
+    next_token_logits = logits[:,-1,:]
+    next_token = torch.argmax(F.softmax(next_token_logits,dim=1),dim=-1).item()
+
+# 결과 출력
+print(f"입력 문장: {input_text}")
+print(f"예측된 다음 단어: {vocabulary[next_token]}")
+```
+
+아래 처럼 출력되는데 어차피 랜덤입니다. 왜냐하면 모델을 통해 학습이 된게 아니기 때문입니다.
+
+```text
+입력 문장: hello world this is
+예측된 다음 단어: test
+```
 
 
 
+### 여러개 예측하기
+
+```python
+def generate(model,tokenizer,start_text,max_new_tokens):
+    model.eval()
+    input_ids=encode(start_text)
+
+    for _  in range(max_new_tokens):
+        with torch.no_grad():
+            logits = model(input_ids)
+            next_token_logits = logits[:,-1,:]
+            next_token = torch.argmax(F.softmax(next_token_logits,dim=1),dim=-1).item()
+            
+            # 입력에 추가
+            input_ids = torch.cat([input_ids, torch.tensor([[next_token]])], dim=1)
+
+    return decode(input_ids.squeeze(0).tolist())
+
+# 실행
+generated_text = generate(model, encode, "hello world this is", max_new_tokens=5)
+print("🔥 생성된 문장:", generated_text)
+```
 
 
 
+```text
+🔥 생성된 문장: hello world this is a world model AI a
+```
 
-
-
-
-
-
-
+이런식으로 여러개 예측할 수 있습니다.. 학습이 된 모델이 아니기에 랜덤값입니다.
 
 
 
