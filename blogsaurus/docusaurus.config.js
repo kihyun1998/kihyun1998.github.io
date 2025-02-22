@@ -206,6 +206,7 @@ const config = {
           "typescript",
           "gradle",
           "markdown",
+          "batch",
         ],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
