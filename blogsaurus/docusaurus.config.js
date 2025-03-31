@@ -207,6 +207,7 @@ const config = {
           "gradle",
           "markdown",
           "batch",
+          "swift",
         ],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
