@@ -2,7 +2,7 @@
 sidebar_position: 53
 ---
 
-# 51. [flutter] [Windows] 앱 이름 바꾸기
+# 53. [flutter] [Windows] 앱 이름 바꾸기
 ---
 
 ## Binary name

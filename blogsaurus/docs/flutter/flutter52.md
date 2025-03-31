@@ -2,7 +2,7 @@
 sidebar_position: 52
 ---
 
-# 51. [flutter] [Windows] Flutter windows plugin 개발 시 디버깅 방법
+# 52. [flutter] [Windows] Flutter windows plugin 개발 시 디버깅 방법
 ---
 
 Flutter windows plugin 개발할 때 c++ 코드를 사용하는 경우가 있습니다.
