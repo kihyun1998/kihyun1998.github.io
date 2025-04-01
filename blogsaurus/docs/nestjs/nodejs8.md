@@ -37,6 +37,24 @@ npm install --save-dev prettier eslint-config-prettier
 }
 ```
 
+
+## .eslintrc.js
+
+`.eslintrc.js` 파일 중간에 아래 내용을 추가해준다.
+
+```js
+...
+  rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
+  },
+...
+```
+
 ## vscode extention
 
 `prettier`와 `eslint` 설치
