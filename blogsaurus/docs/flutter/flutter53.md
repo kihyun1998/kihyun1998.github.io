@@ -151,3 +151,27 @@ END
 ```
 
 그럼 이렇게 되겠죠?
+
+
+## 요약
+
+1. 실행 파일 이름는 `windows/CMakeLists.txt`에서
+
+```text
+set(BINARY_NAME "TestApp")  # .exe 파일 이름
+```
+
+2. 윈도우 타이틀은 `windows/runner/main.capp`에서 
+
+```cpp
+window.SetTitle(L"Test App");  // 사용자에게 보이는 창 타이틀
+```
+
+3. 메타정보(작업관리자, 파일 속성 등..)는 `windows/runner/Runner.rc`에서
+
+```text
+VALUE "FileDescription", "Test App"
+VALUE "ProductName", "Test App"
+VALUE "OriginalFilename", "TestApp.exe"
+VALUE "InternalName", "TestApp"
+```
