@@ -190,6 +190,7 @@ const config = {
       prism: {
         additionalLanguages: [
           "java",
+          "jsx",
           "yaml",
           "csharp",
           "go",
