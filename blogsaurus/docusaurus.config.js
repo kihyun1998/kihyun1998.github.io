@@ -88,9 +88,9 @@ const config = {
           },
           {
             type: "docSidebar",
-            sidebarId: "jsSidebar",
+            sidebarId: "feSidebar",
             position: "left",
-            label: "JavaScript",
+            label: "FrontEnd",
           },
           {
             type: "docSidebar",
