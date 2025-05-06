@@ -191,6 +191,7 @@ const config = {
         additionalLanguages: [
           "java",
           "jsx",
+          "tsx",
           "yaml",
           "csharp",
           "go",
