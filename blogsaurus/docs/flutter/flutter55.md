@@ -2,7 +2,7 @@
 sidebar_position: 55
 ---
 
-# 54. [flutter] [Macos] 오프라인 환경 개발환경 구성 - 1
+# 55. [flutter] [Macos] 오프라인 환경 개발환경 구성 - 1
 ---
 
 ## 준비물
